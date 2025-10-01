@@ -5,3 +5,4 @@ with the concepts that arrived in the last release cycle — site sets, Fluid
 components, the Schema API, record objects, Extbase action authorization and
 rate limiting, Symfony translations, the System Resource API, CSP hashes and
 more — and with every building block a Claude Code plugin can ship: skills,
+subagents, hooks, function hooks, output styles, LSP, MCP, monitors, workflows

@@ -1,0 +1,21 @@
+{
+  "name": "typo3-agentic-toolkit",
+  "owner": {
+    "name": "Hoja Mustaffa Abdul Latheef",
+    "email": "hlatheef@jweiland.net",
+    "url": "https://jweiland.net"
+  },
+  "description": "Marketplace for the TYPO3 Agentic Toolkit plugin.",
+  "plugins": [
+    {
+      "name": "typo3-agentic-toolkit",
+      "source": "./",
+      "description": "Build with TYPO3 v13/v14 concepts using skills, specialised subagents, hooks, workflows and evals.",
+      "author": {
+        "name": "Hoja Mustaffa Abdul Latheef",
+        "email": "hlatheef@jweiland.net",
+        "url": "https://jweiland.net"
+      }
+    }
+  ]
+}

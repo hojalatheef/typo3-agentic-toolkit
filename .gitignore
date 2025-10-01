@@ -1,0 +1,7 @@
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+evals/results/
+.typo3-toolkit/
+.claude-plugin/types/

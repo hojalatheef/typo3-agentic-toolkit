@@ -7,3 +7,5 @@ rate limiting, Symfony translations, the System Resource API, CSP hashes and
 more — and with every building block a Claude Code plugin can ship: skills,
 subagents, hooks, function hooks, output styles, LSP, MCP, monitors, workflows
 and evals.
+
+Every TYPO3 statement in the skills cites the core changelog entry it comes

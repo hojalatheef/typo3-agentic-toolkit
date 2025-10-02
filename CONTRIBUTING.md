@@ -9,3 +9,8 @@
   not sure, leave the sample out.
 - Keep skills short; move detail into `references/` and copy-ready files into
   `templates/`.
+
+## Adding a skill
+
+1. `skills/<name>/SKILL.md` with `name` (equal to the folder) and a
+   `description` that says what it does and when to use it.

@@ -14,3 +14,5 @@
 
 1. `skills/<name>/SKILL.md` with `name` (equal to the folder) and a
    `description` that says what it does and when to use it.
+2. Add `paths:` globs when the skill belongs to a file type, so it activates
+   by itself.

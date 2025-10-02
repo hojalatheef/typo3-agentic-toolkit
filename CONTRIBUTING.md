@@ -20,3 +20,4 @@
    (releases, generated config) so only a person can run them.
 4. List it in `CATALOG.md` and, if it shows a new Claude Code concept, in
    `docs/concepts.md`.
+5. Add an eval case under `evals/` when the behaviour can regress.

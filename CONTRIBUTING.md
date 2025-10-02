@@ -16,3 +16,5 @@
    `description` that says what it does and when to use it.
 2. Add `paths:` globs when the skill belongs to a file type, so it activates
    by itself.
+3. Add `disable-model-invocation: true` for commands with side effects
+   (releases, generated config) so only a person can run them.

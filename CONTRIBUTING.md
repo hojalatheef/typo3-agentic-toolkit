@@ -7,3 +7,5 @@
   `Deprecation-<id>`. The self-test checks that every cited ID exists.
 - Samples must match the changelog or the official documentation. If you are
   not sure, leave the sample out.
+- Keep skills short; move detail into `references/` and copy-ready files into
+  `templates/`.

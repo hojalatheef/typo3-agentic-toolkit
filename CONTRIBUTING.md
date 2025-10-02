@@ -18,3 +18,5 @@
    by itself.
 3. Add `disable-model-invocation: true` for commands with side effects
    (releases, generated config) so only a person can run them.
+4. List it in `CATALOG.md` and, if it shows a new Claude Code concept, in
+   `docs/concepts.md`.

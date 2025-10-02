@@ -21,3 +21,7 @@
 4. List it in `CATALOG.md` and, if it shows a new Claude Code concept, in
    `docs/concepts.md`.
 5. Add an eval case under `evals/` when the behaviour can regress.
+
+## Adding an agent
+
+Every agent states `model` on purpose: Haiku for sweeps, Sonnet for

@@ -39,3 +39,9 @@ decision a guard makes.
 
 TYPO3 style: `[FEATURE]`, `[BUGFIX]`, `[TASK]`, `[DOCS]`, `[RELEASE]`, subject
 in imperative mood, max 72 characters.
+
+## Before you open a pull request
+
+```bash
+npm test && npm run lint:sh && npm run validate
+```

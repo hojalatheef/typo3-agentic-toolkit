@@ -32,3 +32,4 @@ it.
 ## Hooks
 
 Hook scripts read the payload from stdin with `jq`, stay fast, and answer with
+`hookSpecificOutput`. Add a behaviour test to `scripts/selftest.sh` for every

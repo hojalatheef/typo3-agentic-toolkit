@@ -25,3 +25,4 @@
 ## Adding an agent
 
 Every agent states `model` on purpose: Haiku for sweeps, Sonnet for
+implementation, Opus for planning and adversarial review. Read-only agents

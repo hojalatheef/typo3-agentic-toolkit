@@ -38,3 +38,4 @@ decision a guard makes.
 ## Commits
 
 TYPO3 style: `[FEATURE]`, `[BUGFIX]`, `[TASK]`, `[DOCS]`, `[RELEASE]`, subject
+in imperative mood, max 72 characters.

@@ -28,3 +28,7 @@ Every agent states `model` on purpose: Haiku for sweeps, Sonnet for
 implementation, Opus for planning and adversarial review. Read-only agents
 get no `Edit`/`Write`. Give each a fixed reply format so the caller can parse
 it.
+
+## Hooks
+
+Hook scripts read the payload from stdin with `jq`, stay fast, and answer with

@@ -63,3 +63,14 @@ done
 n_skills=(skills/*/SKILL.md); n_agents=(agents/*.md); n_styles=(output-styles/*.md)
 ok "checked ${#n_skills[@]} skills, ${#n_agents[@]} agents, ${#n_styles[@]} output styles"
 
+echo "relative links"
+broken=0
+while IFS= read -r -d '' f; do
+  while IFS= read -r link; do
+    target="${link%%#*}"
+    [[ -z "$target" || "$target" =~ ^[a-z]+: ]] && continue
+    [[ -e "$(dirname "$f")/$target" ]] || { bad "$f links to missing $target"; broken=1; }
+  done < <(grep -oE '\]\([^)[:space:]]+\)' "$f" | sed -E 's/^\]\(//; s/\)$//')
+done < <(find skills agents output-styles -name '*.md' -print0 2>/dev/null)
+(( broken )) || ok "every relative link under skills/, agents/ and output-styles/ resolves"
+

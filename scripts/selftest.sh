@@ -40,3 +40,26 @@ ok "hook and monitor commands point at executable files"
 desc() { awk '/^description:/{sub(/^description: *(>-|>|\|)? */,""); d=$0; on=1; next} on && /^[[:space:]]/{d=d" "$0; next} {on=0} END{print d}' <<<"$1" | tr -s ' '; }
 long_desc() { (( $(desc "$1" | wc -c) > ${2:-40} )); }
 
+echo "frontmatter"
+for f in skills/*/SKILL.md; do
+  head -1 "$f" | grep -q '^---$' || { bad "$f: no frontmatter"; continue; }
+  meta="$(fm "$f")"
+  name="$(sed -n 's/^name: *//p' <<<"$meta" | head -1)"
+  [[ "$name" == "$(basename "$(dirname "$f")")" ]] || bad "$f: name '$name' differs from its folder"
+  long_desc "$meta" || bad "$f: description missing or shorter than 40 characters"
+done
+for f in agents/*.md; do
+  head -1 "$f" | grep -q '^---$' || { bad "$f: no frontmatter"; continue; }
+  meta="$(fm "$f")"
+  grep -q '^name: ' <<<"$meta" || bad "$f: name missing"
+  long_desc "$meta" || bad "$f: description missing or too short"
+  grep -Eq '^model: (opus|sonnet|haiku|inherit|claude-)' <<<"$meta" || bad "$f: model missing"
+  grep -Eq '^(hooks|mcpServers|permissionMode):' <<<"$meta" && bad "$f: plugin agents ignore hooks/mcpServers/permissionMode"
+done
+for f in output-styles/*.md; do
+  meta="$(fm "$f")"
+  grep -q '^name: ' <<<"$meta" && long_desc "$meta" 20 || bad "$f: name or description missing"
+done
+n_skills=(skills/*/SKILL.md); n_agents=(agents/*.md); n_styles=(output-styles/*.md)
+ok "checked ${#n_skills[@]} skills, ${#n_agents[@]} agents, ${#n_styles[@]} output styles"
+

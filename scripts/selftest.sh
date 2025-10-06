@@ -36,3 +36,7 @@ while IFS= read -r cmd; do
 done < <(jq -r '.. | objects | select(.type? == "command") | .command' hooks/hooks.json monitors/monitors.json)
 ok "hook and monitor commands point at executable files"
 
+# description text, also when written as a folded block (description: >-)
+desc() { awk '/^description:/{sub(/^description: *(>-|>|\|)? */,""); d=$0; on=1; next} on && /^[[:space:]]/{d=d" "$0; next} {on=0} END{print d}' <<<"$1" | tr -s ' '; }
+long_desc() { (( $(desc "$1" | wc -c) > ${2:-40} )); }
+

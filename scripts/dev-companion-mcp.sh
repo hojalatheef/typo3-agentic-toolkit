@@ -19,3 +19,11 @@ if [[ -z "$home" || ! -f "$server" ]]; then
   exit 1
 fi
 
+if php -r 'exit(PHP_VERSION_ID >= 80200 ? 0 : 1);' >/dev/null 2>&1; then
+  exec php "$server"
+fi
+if command -v docker >/dev/null && docker info >/dev/null 2>&1; then
+  exec docker run --rm -i -v "$home":"$home" -v "$PWD":"$PWD" -w "$PWD" php:8.4-cli php "$server"
+fi
+echo "typo3-dev-companion: needs PHP >= 8.2 on the host or a running Docker." >&2
+exit 1

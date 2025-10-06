@@ -17,3 +17,22 @@ skip() { printf '  skip  %s\n' "$1"; }
 fm()   { awk 'NR==1{next} /^---$/{exit} {print}' "$1"; }
 shopt -s nullglob
 
+echo "manifests"
+for j in .claude-plugin/plugin.json .claude-plugin/marketplace.json hooks/hooks.json monitors/monitors.json .mcp.json .lsp.json settings.json package.json; do
+  [[ -f "$j" ]] || { bad "$j missing"; continue; }
+  jq -e . "$j" >/dev/null 2>&1 && ok "$j is valid JSON" || bad "$j is not valid JSON"
+done
+v_plugin="$(jq -r .version .claude-plugin/plugin.json)"
+[[ "$(jq -r .version package.json)" == "$v_plugin" ]] && ok "package.json version matches plugin.json ($v_plugin)" || bad "package.json version differs from plugin.json"
+if [[ -f CHANGELOG.md ]]; then
+  grep -q "## \[$v_plugin\]" CHANGELOG.md && ok "CHANGELOG has $v_plugin" || bad "CHANGELOG lacks entry for $v_plugin"
+else skip "CHANGELOG.md not written yet"; fi
+for m in $(jq -r '.modules[]?' hooks/hooks.json); do
+  [[ -f "hooks/$m" ]] && ok "hooks module $m exists" || bad "hooks module $m missing"
+done
+while IFS= read -r cmd; do
+  f="${cmd//\$\{CLAUDE_PLUGIN_ROOT\}\//}"; f="${f//\"/}"; f="${f%% *}"
+  [[ -x "$f" ]] || bad "hook command $f is not an executable file"
+done < <(jq -r '.. | objects | select(.type? == "command") | .command' hooks/hooks.json monitors/monitors.json)
+ok "hook and monitor commands point at executable files"
+

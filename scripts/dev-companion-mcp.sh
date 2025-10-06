@@ -10,3 +10,5 @@
 # at their host paths. Without a checkout it explains on stderr and exits 1,
 # so /mcp shows the server as failed instead of hanging.
 
+set -euo pipefail
+

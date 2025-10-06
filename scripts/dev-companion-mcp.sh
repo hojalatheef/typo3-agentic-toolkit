@@ -12,3 +12,10 @@
 
 set -euo pipefail
 
+home="${1:-}"
+server="$home/bin/typo3-dev-companion"
+if [[ -z "$home" || ! -f "$server" ]]; then
+  echo "typo3-dev-companion: set the plugin option dev_companion_path to a checkout of github.com/TYPO3/dev-companion (after composer install)." >&2
+  exit 1
+fi
+

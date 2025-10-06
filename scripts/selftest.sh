@@ -74,3 +74,15 @@ while IFS= read -r -d '' f; do
 done < <(find skills agents output-styles -name '*.md' -print0 2>/dev/null)
 (( broken )) || ok "every relative link under skills/, agents/ and output-styles/ resolves"
 
+echo "changelog ids"
+changelog="${XDG_CACHE_HOME:-$HOME/.cache}/typo3-extension-migration/typo3-core/typo3/sysext/core/Documentation/Changelog"
+if [[ -d "$changelog" ]]; then
+  known="$(find "$changelog" -name '*.rst' -exec basename {} \; | grep -oE '^(Feature|Breaking|Deprecation|Important)-[0-9]+' | sort -u)"
+  missing=0; count=0
+  while IFS= read -r id; do
+    count=$((count + 1))
+    grep -qx "$id" <<<"$known" || { bad "cited $id has no changelog entry"; missing=1; }
+  done < <(grep -rhoE '(Feature|Breaking|Deprecation|Important)-[0-9]{5,6}' skills agents output-styles hooks docs README.md CATALOG.md evals 2>/dev/null | sort -u)
+  (( missing )) || ok "all $count cited changelog ids exist"
+else skip "no core changelog cache (run bin/t3-changelog once)"; fi
+

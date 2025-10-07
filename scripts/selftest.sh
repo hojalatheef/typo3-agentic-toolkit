@@ -106,3 +106,25 @@ else
   for w in "${wf[@]}"; do node --check "$w" 2>/dev/null && ok "node --check $w" || bad "node --check $w"; done
 fi
 
+echo "guard-bash"
+probe_bash() {
+  local out
+  out="$(jq -n --arg c "$1" '{cwd: "/p", tool_input: {command: $c}}' | hooks/scripts/guard-bash.sh)"
+  [[ -z "$out" ]] && { echo allow; return; }
+  jq -r '.hookSpecificOutput.permissionDecision // "allow"' <<<"$out"
+}
+expect_bash() { [[ "$(probe_bash "$2")" == "$1" ]] && ok "$1: $2" || bad "expected $1: $2"; }
+nv="--no-""verify"; ipr="--ignore-platform-""reqs"
+expect_bash deny  "git commit -m wip $nv"
+expect_bash deny  "composer update -W $ipr"
+expect_bash deny  'rm -rf var/'
+expect_bash deny  'rm -rf public/fileadmin/user_upload'
+expect_bash deny  'rm -r config/sites'
+expect_bash ask   'vendor/bin/typo3 database:updateschema "*"'
+expect_bash ask   'ddev delete -O'
+expect_bash ask   'ddev import-db --file=prod.sql.gz'
+expect_bash allow 'rm -rf var/cache/*'
+expect_bash allow 'vendor/bin/typo3 database:updateschema safe'
+expect_bash allow 'composer update -W'
+expect_bash allow 'git commit -m "fix -n handling"'
+

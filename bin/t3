@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# t3 — run the TYPO3 console of the current project, DDEV-aware.
+#
+# Usage: t3 [--print] <typo3 command> [args...]   e.g. t3 cache:flush
+#
+# Walks up from the working directory to the project root (the first folder
+# with vendor/bin/typo3, typo3/sysext/core/bin/typo3 or .ddev/). Inside DDEV
+# it runs `ddev exec vendor/bin/typo3 ...`, otherwise `vendor/bin/typo3 ...`
+# (or the classic-mode binary). --print only prints the command line.
+# Exit code 2 when no console binary is found.
+

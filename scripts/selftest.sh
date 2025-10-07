@@ -160,3 +160,14 @@ jq -n '{hook_event_name: "SubagentStop", session_id: "s1", agent_id: "a1", agent
 grep -qE $'\tcode-reviewer\ta1\t[0-9]+$' "$tmp/agents.log" && ok "subagent-log records agent and duration" || bad "subagent-log: $(cat "$tmp/agents.log" 2>/dev/null)"
 rm -rf "$tmp"
 
+echo "bin"
+tmp="$(mktemp -d)"; mkdir -p "$tmp/vendor/bin" "$tmp/packages/x"; touch "$tmp/vendor/bin/typo3"
+[[ "$(cd "$tmp/packages/x" && "$root/bin/t3" --print cache:flush)" == "$tmp/vendor/bin/typo3 cache:flush" ]] \
+  && ok "t3 finds vendor/bin/typo3 from a subfolder" || bad "t3 command line outside DDEV"
+(cd "$(mktemp -d)" && "$root/bin/t3" list >/dev/null 2>&1); [[ $? -eq 2 ]] && ok "t3 without a console exits 2" || bad "t3 should exit 2 without a console"
+rm -rf "$tmp"
+bin/t3-changelog >/dev/null 2>&1; [[ $? -eq 2 ]] && ok "t3-changelog without a query exits 2" || bad "t3-changelog usage exit"
+if [[ -d "$changelog" ]]; then
+  bin/t3-changelog Feature-103437 --no-fetch --list | grep -q 'Introduce site sets' && ok "t3-changelog finds Feature-103437" || bad "t3-changelog lookup"
+else skip "t3-changelog lookup (no cache)"; fi
+

@@ -97,3 +97,12 @@ if command -v shellcheck >/dev/null; then
   shellcheck -S warning "${sh_files[@]}" && ok "shellcheck" || bad "shellcheck"
 else skip "shellcheck not installed"; fi
 
+echo "workflows"
+wf=(workflows/*.js workflows/*.mjs)
+node_major="$(node -p 'process.versions.node.split(".")[0]' 2>/dev/null || echo 0)"
+if (( ${#wf[@]} == 0 )); then skip "no workflow scripts yet"
+elif (( node_major < 22 )); then skip "node --check needs Node 22+ (ES module detection); found ${node_major}, see .nvmrc"
+else
+  for w in "${wf[@]}"; do node --check "$w" 2>/dev/null && ok "node --check $w" || bad "node --check $w"; done
+fi
+

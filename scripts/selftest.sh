@@ -128,3 +128,19 @@ expect_bash allow 'vendor/bin/typo3 database:updateschema safe'
 expect_bash allow 'composer update -W'
 expect_bash allow 'git commit -m "fix -n handling"'
 
+echo "guard-files"
+probe_file() {
+  local out
+  out="$(jq -n --arg f "$2" '{cwd: "/p", tool_input: {file_path: $f}}' | env CLAUDE_PLUGIN_OPTION_strict_guard="$1" hooks/scripts/guard-files.sh)"
+  [[ -z "$out" ]] && { echo allow; return; }
+  jq -r '.hookSpecificOutput.permissionDecision // "allow"' <<<"$out"
+}
+expect_file() { [[ "$(probe_file "$2" "$3")" == "$1" ]] && ok "$1 (strict=$2): $3" || bad "expected $1 (strict=$2): $3"; }
+expect_file ask   false /p/vendor/typo3/cms-core/Classes/Foo.php
+expect_file deny  true  /p/vendor/typo3/cms-core/Classes/Foo.php
+expect_file ask   false /p/public/_assets/abc/style.css
+expect_file ask   false /p/var/cache/code/x.php
+expect_file deny  true  /p/public/typo3/index.php
+expect_file ask   true  /p/config/system/settings.php
+expect_file allow false /p/packages/site/Classes/Foo.php
+

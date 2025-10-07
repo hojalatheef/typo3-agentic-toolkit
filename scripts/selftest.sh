@@ -171,3 +171,12 @@ if [[ -d "$changelog" ]]; then
   bin/t3-changelog Feature-103437 --no-fetch --list | grep -q 'Introduce site sets' && ok "t3-changelog finds Feature-103437" || bad "t3-changelog lookup"
 else skip "t3-changelog lookup (no cache)"; fi
 
+echo "evals"
+for c in evals/*/; do
+  [[ "$c" == evals/fixtures/ || "$c" == evals/results/ ]] && continue
+  [[ -f "$c/prompt.md" ]] || bad "$c has no prompt.md"
+  g=("$c"graders/*.md); (( ${#g[@]} )) || bad "$c has no graders"
+  [[ -f "$c/case.yaml" ]] && { grep -q 'schema_version: "1.1"' "$c/case.yaml" || bad "$c/case.yaml schema_version"; }
+done
+ok "eval cases have prompt.md and graders"
+

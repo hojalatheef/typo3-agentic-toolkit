@@ -180,3 +180,6 @@ for c in evals/*/; do
 done
 ok "eval cases have prompt.md and graders"
 
+echo
+(( fail )) && { echo "SELFTEST FAILED"; exit 1; }
+echo "SELFTEST PASSED"

@@ -86,3 +86,14 @@ if [[ -d "$changelog" ]]; then
   (( missing )) || ok "all $count cited changelog ids exist"
 else skip "no core changelog cache (run bin/t3-changelog once)"; fi
 
+echo "scripts"
+sh_files=(hooks/scripts/*.sh monitors/*.sh scripts/*.sh bin/t3 bin/t3-changelog evals/*/fixture.sh)
+for s in "${sh_files[@]}"; do
+  [[ -x "$s" ]] || bad "$s is not executable"
+  bash -n "$s" || bad "bash -n $s"
+done
+ok "bash -n and executable bits (${#sh_files[@]} scripts)"
+if command -v shellcheck >/dev/null; then
+  shellcheck -S warning "${sh_files[@]}" && ok "shellcheck" || bad "shellcheck"
+else skip "shellcheck not installed"; fi
+

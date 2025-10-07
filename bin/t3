@@ -9,3 +9,5 @@
 # (or the classic-mode binary). --print only prints the command line.
 # Exit code 2 when no console binary is found.
 
+set -euo pipefail
+

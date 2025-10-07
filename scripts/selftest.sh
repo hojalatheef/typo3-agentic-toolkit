@@ -144,3 +144,19 @@ expect_file deny  true  /p/public/typo3/index.php
 expect_file ask   true  /p/config/system/settings.php
 expect_file allow false /p/packages/site/Classes/Foo.php
 
+echo "post-tool hooks"
+legacy="$(jq -n --arg f "$root/$fixture/Classes/Service/MessageSender.php" '{tool_input: {file_path: $f}}' | hooks/scripts/legacy-api-check.sh)"
+grep -q 'Breaking-107831' <<<"$legacy" && ok "legacy-api-check flags \$GLOBALS['TSFE'] with Breaking-107831" || bad "legacy-api-check missed TSFE"
+clean="$(jq -n --arg f "$root/$fixture/Classes/Controller/ContactController.php" '{tool_input: {file_path: $f}}' | hooks/scripts/legacy-api-check.sh)"
+[[ -z "$clean" ]] && ok "legacy-api-check is silent on a clean controller" || bad "legacy-api-check false positive: $clean"
+ctx="$(jq -n --arg d "$root/$fixture" '{cwd: $d, hook_event_name: "SessionStart"}' | hooks/scripts/session-context.sh)"
+grep -q '"additionalContext": "TYPO3 \^14.3 (declared) · extension' <<<"$ctx" && ok "session-context detects the v14 extension fixture" || bad "session-context: $ctx"
+[[ -z "$(jq -n '{cwd: "/"}' | hooks/scripts/session-context.sh)" ]] && ok "session-context is silent outside TYPO3" || bad "session-context printed outside TYPO3"
+tmp="$(mktemp -d)"
+jq -n --arg d "$root/$fixture" '{session_id: "s1", cwd: $d, trigger: "manual"}' | CLAUDE_PLUGIN_DATA="$tmp" hooks/scripts/precompact-notes.sh
+grep -q '## Compaction' "$tmp/notes/s1.md" && ok "precompact-notes writes notes/<session>.md" || bad "precompact-notes wrote nothing"
+jq -n '{hook_event_name: "SubagentStart", session_id: "s1", agent_id: "a1", agent_type: "code-reviewer"}' | CLAUDE_PLUGIN_DATA="$tmp" hooks/scripts/subagent-log.sh
+jq -n '{hook_event_name: "SubagentStop", session_id: "s1", agent_id: "a1", agent_type: "code-reviewer"}' | CLAUDE_PLUGIN_DATA="$tmp" hooks/scripts/subagent-log.sh
+grep -qE $'\tcode-reviewer\ta1\t[0-9]+$' "$tmp/agents.log" && ok "subagent-log records agent and duration" || bad "subagent-log: $(cat "$tmp/agents.log" 2>/dev/null)"
+rm -rf "$tmp"
+

@@ -25,3 +25,5 @@
 # older majors usually come from the cache. Exit code: 0 = found,
 # 1 = nothing found, 2 = usage or fetch error.
 
+set -euo pipefail
+

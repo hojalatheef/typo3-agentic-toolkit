@@ -34,3 +34,16 @@ list=0
 max=3
 fetch=1
 
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --path) path="$2"; shift 2 ;;
+    --version) version="$2"; shift 2 ;;
+    --list) list=1; shift ;;
+    --max) max="$2"; shift 2 ;;
+    --no-fetch) fetch=0; shift ;;
+    -h|--help) sed -n '2,27p' "$0"; exit 0 ;;
+    -*) echo "unknown argument: $1" >&2; exit 2 ;;
+    *) [[ -z "$query" ]] || { echo "only one query allowed" >&2; exit 2; }; query="$1"; shift ;;
+  esac
+done
+

@@ -47,3 +47,6 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+[[ -n "$query" ]] || { echo "a changelog id, issue number or keyword is required" >&2; exit 2; }
+[[ "$max" =~ ^[1-9][0-9]*$ ]] || { echo "--max must be a positive number" >&2; exit 2; }
+

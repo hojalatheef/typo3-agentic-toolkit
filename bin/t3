@@ -15,3 +15,9 @@ print=0
 [[ "${1:-}" == --print ]] && { print=1; shift; }
 [[ "${1:-}" == -h || "${1:-}" == --help ]] && { sed -n '2,11p' "$0"; exit 0; }
 
+dir="$PWD"
+while [[ "$dir" != / ]]; do
+  [[ -e "$dir/vendor/bin/typo3" || -e "$dir/typo3/sysext/core/bin/typo3" || -d "$dir/.ddev" ]] && break
+  dir="$(dirname "$dir")"
+done
+

@@ -27,3 +27,11 @@ for candidate in vendor/bin/typo3 typo3/sysext/core/bin/typo3; do
 done
 [[ -n "$bin" ]] || { echo "t3: no vendor/bin/typo3 or typo3/sysext/core/bin/typo3 above $PWD (run composer install?)" >&2; exit 2; }
 
+if [[ -d "$dir/.ddev" ]] && command -v ddev >/dev/null; then
+  cmd=(ddev exec "$bin" "$@")
+else
+  cmd=("$dir/$bin" "$@")
+fi
+if (( print )); then printf '%s\n' "${cmd[*]}"; exit 0; fi
+cd "$dir"
+exec "${cmd[@]}"

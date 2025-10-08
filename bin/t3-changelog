@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# t3-changelog — print the official TYPO3 core changelog entry for a
+# changelog id, issue number or keyword, instead of recalling it from memory.
+# (Logic shared with typo3-project-migration's changelog-lookup.sh.)
+#
+# Usage: t3-changelog <query> [--path DIR] [--version 12.0] [--list] [--max N] [--no-fetch]
+#
+#   <query>    Breaking-98443-ExtensionRecordlistMergedIntoBackend, 98443, or a
+#              keyword such as switchableControllerActions (matched in the text)
+#   --path     project root to look for vendor copies in (default: .)
+#   --version  only search one changelog folder, e.g. 12.0 or 13.4
+#   --list     only print matching files with their titles, not the full text
+#   --max      print at most N entries in full (default 3; lists show up to 10 x N)
+#   --no-fetch never clone typo3/typo3; use vendor copies and the cache only
+#
+# Sources, first one with a match wins:
+#   1. <path>/vendor/typo3/cms-core/Documentation/Changelog (Composer mode)
+#   2. <path>/typo3_src/typo3/sysext/core/... or <path>/public/typo3/sysext/core/...
+#      (classic mode)
+#   3. a sparse clone of github.com/TYPO3/typo3 (changelogs only) cached in
+#      ${XDG_CACHE_HOME:-~/.cache}/typo3-extension-migration/typo3-core (shared
+#      with the migration plugins; the typo3-project-migration clone is reused
+#      when only that one exists)
+# A vendor copy only holds the changelogs its core version ships, so ids from
+# older majors usually come from the cache. Exit code: 0 = found,
+# 1 = nothing found, 2 = usage or fetch error.
+

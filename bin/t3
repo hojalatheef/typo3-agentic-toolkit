@@ -21,3 +21,9 @@ while [[ "$dir" != / ]]; do
   dir="$(dirname "$dir")"
 done
 
+bin=""
+for candidate in vendor/bin/typo3 typo3/sysext/core/bin/typo3; do
+  [[ -e "$dir/$candidate" ]] && { bin="$candidate"; break; }
+done
+[[ -n "$bin" ]] || { echo "t3: no vendor/bin/typo3 or typo3/sysext/core/bin/typo3 above $PWD (run composer install?)" >&2; exit 2; }
+

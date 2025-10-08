@@ -50,3 +50,9 @@ done
 [[ -n "$query" ]] || { echo "a changelog id, issue number or keyword is required" >&2; exit 2; }
 [[ "$max" =~ ^[1-9][0-9]*$ ]] || { echo "--max must be a positive number" >&2; exit 2; }
 
+cache="${XDG_CACHE_HOME:-$HOME/.cache}/typo3-extension-migration/typo3-core"
+sibling="${XDG_CACHE_HOME:-$HOME/.cache}/typo3-project-migration/typo3-core"
+# One sparse clone per machine is enough: reuse the sister plugin's if it exists.
+[[ ! -d "$cache/.git" && -d "$sibling/.git" ]] && cache="$sibling"
+cache_changelog="$cache/typo3/sysext/core/Documentation/Changelog"
+

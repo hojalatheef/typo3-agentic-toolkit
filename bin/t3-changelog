@@ -105,3 +105,14 @@ sources=("$path/vendor/typo3/cms-core/Documentation/Changelog"
          "$path/public/typo3/sysext/core/Documentation/Changelog"
          "$cache_changelog")
 
+matches=""
+source_dir=""
+for dir in "${sources[@]}"; do
+  if [[ "$dir" == "$cache_changelog" && "$fetch" == 1 ]]; then
+    fetch_cache || [[ -d "$dir" ]] || exit 2
+  fi
+  [[ -d "$dir" ]] || continue
+  matches="$(search "$dir" | sort)"
+  [[ -n "$matches" ]] && { source_dir="$dir"; break; }
+done
+

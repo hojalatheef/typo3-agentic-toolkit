@@ -100,3 +100,8 @@ search() {
   fi
 }
 
+sources=("$path/vendor/typo3/cms-core/Documentation/Changelog"
+         "$path/typo3_src/typo3/sysext/core/Documentation/Changelog"
+         "$path/public/typo3/sysext/core/Documentation/Changelog"
+         "$cache_changelog")
+

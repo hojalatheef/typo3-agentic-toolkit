@@ -125,3 +125,13 @@ fi
 total="$(printf '%s\n' "$matches" | wc -l | tr -d ' ')"
 title() { grep -m1 -E '^(Breaking|Deprecation|Feature|Important): ' "$1" || basename "$1" .rst; }
 
+echo "Source: $source_dir ($total match(es))"
+if (( list || total > max )); then
+  (( list )) || echo "Too many matches to print in full; narrow with --version or a more exact query."
+  printf '%s\n' "$matches" | head -n $((max * 10)) | while IFS= read -r f; do
+    printf '%s  %s\n' "${f#"$source_dir"/}" "$(title "$f")"
+  done
+  if (( total > max * 10 )); then echo "... $((total - max * 10)) more"; fi
+  exit 0
+fi
+

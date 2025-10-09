@@ -84,3 +84,19 @@ entries() {
     \( -name 'Breaking-*' -o -name 'Deprecation-*' -o -name 'Feature-*' -o -name 'Important-*' \)
 }
 
+search() {
+  local dir="$1"
+  if [[ "$query" =~ ^(Breaking|Deprecation|Feature|Important)-[0-9]+ ]]; then
+    # Full id: an exact file wins; otherwise match type and number, since the
+    # title part may differ in spelling or one issue may have several entries.
+    local all exact
+    all="$(entries "$dir" | grep -F "/${BASH_REMATCH[0]}-" || true)"
+    exact="$(printf '%s\n' "$all" | grep -F "/${query%.rst}.rst" || true)"
+    printf '%s\n' "${exact:-$all}" | sed '/^$/d'
+  elif [[ "$query" =~ ^#?[0-9]{4,6}$ ]]; then
+    entries "$dir" | grep -E "/[A-Za-z]+-${query#\#}-" || true
+  else
+    entries "$dir" | tr '\n' '\0' | xargs -0 grep -liF -- "$query" 2>/dev/null || true
+  fi
+}
+

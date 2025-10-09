@@ -122,3 +122,6 @@ if [[ -z "$matches" ]]; then
   exit 1
 fi
 
+total="$(printf '%s\n' "$matches" | wc -l | tr -d ' ')"
+title() { grep -m1 -E '^(Breaking|Deprecation|Feature|Important): ' "$1" || basename "$1" .rst; }
+

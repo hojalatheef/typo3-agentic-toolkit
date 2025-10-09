@@ -135,3 +135,9 @@ if (( list || total > max )); then
   exit 0
 fi
 
+printf '%s\n' "$matches" | while IFS= read -r f; do
+  echo
+  echo "===== ${f#"$source_dir"/}"
+  # Drop the rST include/anchor/index boilerplate, keep the text.
+  grep -vE '^\.\. +(include::|_[A-Za-z0-9_-]+:|index::)|^ *:tags:' "$f" | cat -s || true
+done

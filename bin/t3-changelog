@@ -116,3 +116,9 @@ for dir in "${sources[@]}"; do
   [[ -n "$matches" ]] && { source_dir="$dir"; break; }
 done
 
+if [[ -z "$matches" ]]; then
+  echo "No changelog entry matches '$query'${version:+ in $version}." >&2
+  if [[ "$fetch" == 0 ]]; then echo "Retry without --no-fetch to search every core version." >&2; fi
+  exit 1
+fi
+

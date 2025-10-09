@@ -75,3 +75,12 @@ fetch_cache() {
   fi
 }
 
+# Entry files only (Breaking-*, Deprecation-*, Feature-*, Important-*), no index pages.
+entries() {
+  local dir="$1"
+  [[ -n "$version" ]] && dir="$dir/$version"
+  [[ -d "$dir" ]] || return 0
+  find "$dir" -type f -name '*.rst' \
+    \( -name 'Breaking-*' -o -name 'Deprecation-*' -o -name 'Feature-*' -o -name 'Important-*' \)
+}
+

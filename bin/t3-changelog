@@ -56,3 +56,22 @@ sibling="${XDG_CACHE_HOME:-$HOME/.cache}/typo3-project-migration/typo3-core"
 [[ ! -d "$cache/.git" && -d "$sibling/.git" ]] && cache="$sibling"
 cache_changelog="$cache/typo3/sysext/core/Documentation/Changelog"
 
+fetch_cache() {
+  command -v git >/dev/null || { echo "git is needed to fetch the core changelogs" >&2; return 1; }
+  if [[ -d "$cache/.git" ]]; then
+    # Refresh at most once a day.
+    if [[ -n "$(find "$cache/.git/FETCH_HEAD" -mmin -1440 2>/dev/null)" ]]; then return 0; fi
+    git -C "$cache" pull --quiet --depth 1 >&2 || echo "warning: could not update $cache, using the cached copy" >&2
+  else
+    echo "fetching core changelogs into $cache (once)..." >&2
+    mkdir -p "$(dirname "$cache")"
+    if ! { git clone --quiet --depth 1 --filter=blob:none --sparse https://github.com/TYPO3/typo3.git "$cache" >&2 \
+        && git -C "$cache" sparse-checkout set typo3/sysext/core/Documentation/Changelog >&2; }; then
+      rm -rf "$cache"
+      echo "could not clone typo3/typo3" >&2
+      return 1
+    fi
+    touch "$cache/.git/FETCH_HEAD"
+  fi
+}
+

@@ -8,3 +8,5 @@
 #         config/system/additional.php or site settings)
 # Everything else passes through. Reads the hook payload on stdin.
 
+set -euo pipefail
+

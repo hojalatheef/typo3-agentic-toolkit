@@ -9,3 +9,5 @@
 #         ddev delete, ddev import-db, DROP/TRUNCATE
 # Everything else passes through. Reads the hook payload on stdin.
 
+set -euo pipefail
+

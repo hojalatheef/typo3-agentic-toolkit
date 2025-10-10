@@ -17,3 +17,10 @@ cwd="$(jq -r '.cwd // empty' <<<"$payload" 2>/dev/null || true)"
 rel="${file#"${cwd%/}"/}"
 strict="${CLAUDE_PLUGIN_OPTION_STRICT_GUARD:-${CLAUDE_PLUGIN_OPTION_strict_guard:-false}}"
 
+decide() {
+  jq -n --arg d "$1" --arg r "typo3-agentic-toolkit: $2" '{
+    hookSpecificOutput: {hookEventName: "PreToolUse", permissionDecision: $d, permissionDecisionReason: $r}
+  }'
+  exit 0
+}
+

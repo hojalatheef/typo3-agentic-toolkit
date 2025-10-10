@@ -15,3 +15,11 @@ payload="$(cat)"
 cmd="$(jq -r '.tool_input.command // empty' <<<"$payload" 2>/dev/null || true)"
 [[ -z "$cmd" ]] && exit 0
 
+decide() {
+  jq -n --arg d "$1" --arg r "typo3-agentic-toolkit: $2" '{
+    hookSpecificOutput: {hookEventName: "PreToolUse", permissionDecision: $d, permissionDecisionReason: $r}
+  }'
+  exit 0
+}
+has() { command grep -Eiq -- "$1" <<<"$cmd"; }
+

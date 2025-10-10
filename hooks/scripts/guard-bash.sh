@@ -11,3 +11,7 @@
 
 set -euo pipefail
 
+payload="$(cat)"
+cmd="$(jq -r '.tool_input.command // empty' <<<"$payload" 2>/dev/null || true)"
+[[ -z "$cmd" ]] && exit 0
+

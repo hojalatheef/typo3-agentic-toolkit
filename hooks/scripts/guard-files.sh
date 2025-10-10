@@ -10,3 +10,10 @@
 
 set -euo pipefail
 
+payload="$(cat)"
+file="$(jq -r '.tool_input.file_path // empty' <<<"$payload" 2>/dev/null || true)"
+cwd="$(jq -r '.cwd // empty' <<<"$payload" 2>/dev/null || true)"
+[[ -z "$file" ]] && exit 0
+rel="${file#"${cwd%/}"/}"
+strict="${CLAUDE_PLUGIN_OPTION_STRICT_GUARD:-${CLAUDE_PLUGIN_OPTION_strict_guard:-false}}"
+

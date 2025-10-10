@@ -24,3 +24,13 @@ decide() {
   exit 0
 }
 
+if [[ "/$rel" =~ /(vendor|var|public/typo3|public/_assets)/ ]]; then
+  where="${BASH_REMATCH[1]}/"
+  verdict=ask
+  [[ "$strict" == true ]] && verdict=deny
+  decide "$verdict" "$rel is under $where, which Composer, the cache or asset publishing regenerates. Change the source (your extension, a patch via cweagans/composer-patches, or an XCLASS/event) instead."
+fi
+if [[ "/$rel" == */config/system/settings.php ]]; then
+  decide ask "config/system/settings.php is written by the Install Tool and the backend. Prefer config/system/additional.php, site settings or a site set; confirm if you really mean this file."
+fi
+exit 0

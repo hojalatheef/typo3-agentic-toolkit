@@ -16,3 +16,6 @@ cwd="$(jq -r '.cwd // empty' <<<"$payload" 2>/dev/null || true)"
 [[ -n "$cwd" && -d "$cwd" ]] && cd "$cwd"
 runner="${CLAUDE_PLUGIN_OPTION_PHP_RUNNER:-${CLAUDE_PLUGIN_OPTION_php_runner:-auto}}"
 
+abs="$(cd "$(dirname "$file")" && pwd)/$(basename "$file")"
+ddev_root="$(d="$(dirname "$abs")"; while [[ "$d" != / && ! -d "$d/.ddev" ]]; do d="$(dirname "$d")"; done; [[ -d "$d/.ddev" ]] && echo "$d" || true)"
+

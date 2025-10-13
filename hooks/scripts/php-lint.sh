@@ -7,3 +7,5 @@
 # back to Claude (decision block + additionalContext); a clean file and a
 # missing PHP stay silent. Reads the hook payload on stdin.
 
+set -euo pipefail
+

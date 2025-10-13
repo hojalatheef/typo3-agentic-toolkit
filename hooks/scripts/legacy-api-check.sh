@@ -8,3 +8,8 @@
 
 set -euo pipefail
 
+payload="$(cat)"
+file="$(jq -r '.tool_input.file_path // empty' <<<"$payload" 2>/dev/null || true)"
+[[ -n "$file" && -f "$file" ]] || exit 0
+case "$file" in *.php|*.yaml|*.yml|*.typoscript|*.tsconfig|*.html) ;; *) exit 0 ;; esac
+

@@ -6,3 +6,5 @@
 # (read it with bin/t3-changelog <id>). Silent when nothing matches.
 # Reads the hook payload on stdin.
 
+set -euo pipefail
+

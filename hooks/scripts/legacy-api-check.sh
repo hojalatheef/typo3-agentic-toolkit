@@ -33,3 +33,7 @@ hit 'GeneralUtility::_(GP|GET|POST|GPmerged)\(' \
 hit 'GeneralUtility::makeInstance\([A-Za-z\\]*(Repository|Service|ConnectionPool|EventDispatcher|Context)::class' \
   && hints+=("makeInstance() of a DI service: prefer constructor injection (the class must be public/autowired in Configuration/Services.yaml); makeInstance is for prototypes and static contexts.")
 
+(( ${#hints[@]} )) || exit 0
+text="Legacy TYPO3 API in $(basename "$file"):"
+for h in "${hints[@]}"; do text+=$'\n'"- $h"; done
+jq -n --arg c "$text" '{hookSpecificOutput: {hookEventName: "PostToolUse", additionalContext: $c}}'

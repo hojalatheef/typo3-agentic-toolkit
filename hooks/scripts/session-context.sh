@@ -9,3 +9,5 @@
 # it is a systemMessage.
 # Prints nothing outside a TYPO3 directory. Reads the hook payload on stdin.
 
+set -euo pipefail
+

@@ -9,3 +9,9 @@
 
 set -euo pipefail
 
+payload="$(cat)"
+session="$(jq -r '.session_id // "unknown"' <<<"$payload" 2>/dev/null || echo unknown)"
+trigger="$(jq -r '.trigger // "auto"' <<<"$payload" 2>/dev/null || echo auto)"
+cwd="$(jq -r '.cwd // empty' <<<"$payload" 2>/dev/null || true)"
+[[ -n "$cwd" && -d "$cwd" ]] && cd "$cwd"
+

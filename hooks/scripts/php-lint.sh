@@ -36,3 +36,11 @@ case "$runner" in
     done ;;
 esac
 
+[[ "$out" == *"Parse error"* || "$out" == *"Fatal error"* ]] || exit 0
+msg="php -l failed for $file: $(grep -E 'error' <<<"$out" | head -3 | tr '\n' ' ')"
+jq -n --arg m "$msg" '{
+  decision: "block",
+  reason: $m,
+  hookSpecificOutput: {hookEventName: "PostToolUse", additionalContext: ($m + " Fix the syntax before continuing.")}
+}'
+exit 0

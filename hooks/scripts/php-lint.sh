@@ -24,3 +24,15 @@ lint_host()   { php -r 'exit(0);' >/dev/null 2>&1 && php -l "$abs" 2>&1; }
 lint_docker() { command -v docker >/dev/null && docker info >/dev/null 2>&1 \
                 && docker run --rm -v "$(dirname "$abs")":/w -w /w php:8.4-cli php -l "$(basename "$abs")" 2>&1; }
 
+out=""
+case "$runner" in
+  ddev)   out="$(lint_ddev)" || true ;;
+  host)   out="$(lint_host)" || true ;;
+  docker) out="$(lint_docker)" || true ;;
+  *)
+    for try in lint_ddev lint_host lint_docker; do
+      out="$($try)" || true
+      [[ "$out" == *"No syntax errors"* || "$out" == *"Parse error"* || "$out" == *"Fatal error"* ]] && break
+    done ;;
+esac
+

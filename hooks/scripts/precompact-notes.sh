@@ -19,3 +19,7 @@ dir="${CLAUDE_PLUGIN_DATA:-${XDG_DATA_HOME:-$HOME/.local/share}/typo3-agentic-to
 mkdir -p "$dir"
 notes="$dir/${session//[^A-Za-z0-9_-]/_}.md"
 
+version="$(jq -r '[.packages[]? | select(.name == "typo3/cms-core") | .version][0] // empty' composer.lock 2>/dev/null || true)"
+branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || true)"
+changed="$(git status --porcelain 2>/dev/null | head -30 | sed 's/^/    /' || true)"
+

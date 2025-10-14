@@ -7,3 +7,5 @@
 # notes survive the compaction; read them back when the summary is thin.
 # Reads the hook payload on stdin; prints nothing.
 
+set -euo pipefail
+

@@ -23,3 +23,12 @@ version="$(jq -r '[.packages[]? | select(.name == "typo3/cms-core") | .version][
 branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || true)"
 changed="$(git status --porcelain 2>/dev/null | head -30 | sed 's/^/    /' || true)"
 
+{
+  [[ -s "$notes" ]] || printf '# Session notes %s\n' "$session"
+  printf '\n## Compaction %s (%s)\n\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$trigger"
+  printf -- '- cwd: %s\n' "${cwd:-$PWD}"
+  [[ -n "$version" ]] && printf -- '- TYPO3: %s\n' "$version"
+  [[ -n "$branch" ]] && printf -- '- branch: %s\n' "$branch"
+  if [[ -n "$changed" ]]; then printf -- '- changed files:\n\n%s\n' "$changed"; fi
+} >>"$notes"
+exit 0

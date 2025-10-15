@@ -6,3 +6,5 @@
 # session, agent type, agent id, duration in seconds ("-" when the start was
 # not seen). Reads the hook payload on stdin; prints nothing.
 
+set -euo pipefail
+

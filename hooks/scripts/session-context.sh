@@ -29,3 +29,17 @@ for f in vendor/typo3/cms-core/Classes/Information/Typo3Version.php \
 done
 version="${version#v}"
 
+kind=""
+if [[ -f ext_emconf.php ]] || jq -e '.type == "typo3-cms-extension"' composer.json >/dev/null 2>&1; then
+  kind="extension"
+elif [[ -d vendor/typo3/cms-core ]] || jq -e '.require["typo3/cms-core"]' composer.json >/dev/null 2>&1; then
+  kind="composer"
+elif [[ -d typo3_src || -d typo3/sysext || -d public/typo3/sysext ]]; then
+  kind="classic"
+fi
+[[ -z "$kind" && -z "$version" ]] && exit 0
+if [[ -z "$version" ]]; then
+  declared="$(jq -r '.require["typo3/cms-core"] // empty' composer.json 2>/dev/null || true)"
+  [[ -n "$declared" ]] && version="$declared (declared)"
+fi
+

@@ -60,3 +60,10 @@ sites=""
 summary="TYPO3 ${version:-unknown version} · ${kind:-unknown mode}${ddev:+ · $ddev}${php:+ · PHP $php} · site sets: $sets${sites:+ · sites: $sites}"
 hint="Use bin/t3 for the console (DDEV-aware) and bin/t3-changelog <id|keyword> to read core changelog entries before citing them."
 
+if [[ -n "${CLAUDE_ENV_FILE:-}" && "$event" == SessionStart ]]; then
+  {
+    printf 'export TYPO3_VERSION=%q\n' "$version"
+    printf 'export TYPO3_MODE_KIND=%q\n' "$kind"
+  } >>"$CLAUDE_ENV_FILE"
+fi
+

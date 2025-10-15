@@ -11,3 +11,8 @@
 
 set -euo pipefail
 
+payload="$(cat)"
+cwd="$(jq -r '.cwd // empty' <<<"$payload" 2>/dev/null || true)"
+event="$(jq -r '.hook_event_name // "SessionStart"' <<<"$payload" 2>/dev/null || echo SessionStart)"
+[[ -n "$cwd" && -d "$cwd" ]] && cd "$cwd"
+

@@ -16,3 +16,16 @@ cwd="$(jq -r '.cwd // empty' <<<"$payload" 2>/dev/null || true)"
 event="$(jq -r '.hook_event_name // "SessionStart"' <<<"$payload" 2>/dev/null || echo SessionStart)"
 [[ -n "$cwd" && -d "$cwd" ]] && cd "$cwd"
 
+version=""
+if [[ -f composer.lock ]]; then
+  version="$(jq -r '[.packages[]? | select(.name == "typo3/cms-core") | .version][0] // empty' composer.lock 2>/dev/null || true)"
+fi
+for f in vendor/typo3/cms-core/Classes/Information/Typo3Version.php \
+         typo3_src/typo3/sysext/core/Classes/Information/Typo3Version.php \
+         public/typo3/sysext/core/Classes/Information/Typo3Version.php \
+         typo3/sysext/core/Classes/Information/Typo3Version.php; do
+  [[ -z "$version" && -f "$f" ]] || continue
+  version="$(sed -n "s/.*const VERSION = '\([^']*\)'.*/\1/p" "$f" | head -1)"
+done
+version="${version#v}"
+

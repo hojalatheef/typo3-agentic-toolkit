@@ -43,3 +43,11 @@ if [[ -z "$version" ]]; then
   [[ -n "$declared" ]] && version="$declared (declared)"
 fi
 
+php=""
+ddev=""
+if [[ -f .ddev/config.yaml ]]; then
+  ddev="ddev"
+  php="$(sed -n 's/^php_version:[[:space:]]*"\{0,1\}\([0-9.]*\)"\{0,1\}.*/\1/p' .ddev/config.yaml | head -1)"
+fi
+[[ -z "$php" ]] && php="$(jq -r '.config.platform.php // .require.php // empty' composer.json 2>/dev/null || true)"
+

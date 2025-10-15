@@ -51,3 +51,9 @@ if [[ -f .ddev/config.yaml ]]; then
 fi
 [[ -z "$php" ]] && php="$(jq -r '.config.platform.php // .require.php // empty' composer.json 2>/dev/null || true)"
 
+# Own sets only: skip installed packages and the core's system extensions.
+sets="$(find . \( -path ./vendor -o -path ./node_modules -o -path '*/sysext' -o -path ./typo3_src \) -prune -o \
+  -path '*/Configuration/Sets/*/config.yaml' -print 2>/dev/null | wc -l | tr -d ' ' || true)"
+sites=""
+[[ -d config/sites ]] && sites="$(find config/sites -maxdepth 2 -name config.yaml | wc -l | tr -d ' ')"
+

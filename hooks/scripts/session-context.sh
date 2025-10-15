@@ -67,3 +67,10 @@ if [[ -n "${CLAUDE_ENV_FILE:-}" && "$event" == SessionStart ]]; then
   } >>"$CLAUDE_ENV_FILE"
 fi
 
+if [[ "$event" == SessionStart ]]; then
+  # watchPaths makes the FileChanged hook fire when composer.lock changes.
+  jq -n --arg c "$summary. $hint" --arg w "$PWD/composer.lock" \
+    '{hookSpecificOutput: {hookEventName: "SessionStart", additionalContext: $c, watchPaths: [$w]}}'
+else
+  jq -n --arg c "composer.lock changed: $summary" '{systemMessage: $c}'
+fi

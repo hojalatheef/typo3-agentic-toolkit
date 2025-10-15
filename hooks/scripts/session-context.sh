@@ -57,3 +57,6 @@ sets="$(find . \( -path ./vendor -o -path ./node_modules -o -path '*/sysext' -o 
 sites=""
 [[ -d config/sites ]] && sites="$(find config/sites -maxdepth 2 -name config.yaml | wc -l | tr -d ' ')"
 
+summary="TYPO3 ${version:-unknown version} · ${kind:-unknown mode}${ddev:+ · $ddev}${php:+ · PHP $php} · site sets: $sets${sites:+ · sites: $sites}"
+hint="Use bin/t3 for the console (DDEV-aware) and bin/t3-changelog <id|keyword> to read core changelog entries before citing them."
+

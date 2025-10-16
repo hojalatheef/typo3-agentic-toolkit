@@ -20,3 +20,8 @@ dir="${CLAUDE_PLUGIN_DATA:-${XDG_DATA_HOME:-$HOME/.local/share}/typo3-agentic-to
 mkdir -p "$dir/agents-running"
 now="$(date -u +%s)"
 
+if [[ "$event" == SubagentStart ]]; then
+  [[ -n "$safe_id" ]] && printf '%s\n' "$now" >"$dir/agents-running/$safe_id"
+  exit 0
+fi
+

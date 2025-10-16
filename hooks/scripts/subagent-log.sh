@@ -8,3 +8,11 @@
 
 set -euo pipefail
 
+payload="$(cat)"
+field() { jq -r "$1 // empty" <<<"$payload" 2>/dev/null || true; }
+event="$(field .hook_event_name)"
+session="$(field .session_id)"
+agent="$(field .agent_type)"
+id="$(field .agent_id)"
+safe_id="${id//[^A-Za-z0-9_-]/_}"
+

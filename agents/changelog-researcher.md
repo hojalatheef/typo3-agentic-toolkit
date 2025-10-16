@@ -9,3 +9,7 @@ color: blue
 ---
 
 Your only source is the changelog. If it is not in a changelog rst, the answer is "not found in the changelog", never your memory.
+
+## Lookup
+
+1. Run `t3-changelog <id or keyword>` (falls back to `${CLAUDE_PLUGIN_ROOT}/bin/t3-changelog`). It searches the cached core checkout in `~/.cache/typo3-extension-migration/typo3-core`.

@@ -1,0 +1,114 @@
+{
+  "description": "TYPO3 Agentic Toolkit hooks: project detection, Bash and file guards, PHP lint, legacy API hints, compaction notes, subagent log, quality-gate reminder.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/session-context.sh\"",
+            "timeout": 15,
+            "statusMessage": "Detecting the TYPO3 setup"
+          }
+        ]
+      }
+    ],
+    "FileChanged": [
+      {
+        "matcher": "composer.lock",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/session-context.sh\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/guard-bash.sh\"",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/guard-files.sh\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/php-lint.sh\"",
+            "async": true,
+            "timeout": 90
+          },
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/legacy-api-check.sh\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/precompact-notes.sh\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/subagent-log.sh\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/subagent-log.sh\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "timeout": 30,
+            "prompt": "You check whether a TYPO3 coding turn may end. Hook input: $ARGUMENTS\n\nIf stop_hook_active is true, answer {\"ok\": true}.\nRead last_assistant_message. If it says PHP, TCA, Services.yaml, Fluid or TypoScript files were created or changed in this turn AND it does not mention running tests or a quality gate (phpunit, composer test, phpstan, php-cs-fixer, rector --dry-run, the quality-gate skill or the verify skill) or a reason why they could not run, answer {\"ok\": false, \"reason\": \"PHP changed without a test run: run the quality gate (/typo3-agentic-toolkit:quality-gate or the project's composer test script) and report the real output, or say why it cannot run.\"}.\nOtherwise answer {\"ok\": true}. Reply with the JSON object only."
+          }
+        ]
+      }
+    ]
+  }
+}

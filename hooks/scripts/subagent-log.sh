@@ -16,3 +16,7 @@ agent="$(field .agent_type)"
 id="$(field .agent_id)"
 safe_id="${id//[^A-Za-z0-9_-]/_}"
 
+dir="${CLAUDE_PLUGIN_DATA:-${XDG_DATA_HOME:-$HOME/.local/share}/typo3-agentic-toolkit}"
+mkdir -p "$dir/agents-running"
+now="$(date -u +%s)"
+

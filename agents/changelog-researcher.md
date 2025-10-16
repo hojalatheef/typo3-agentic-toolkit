@@ -14,3 +14,4 @@ Your only source is the changelog. If it is not in a changelog rst, the answer i
 
 1. Run `t3-changelog <id or keyword>` (falls back to `${CLAUDE_PLUGIN_ROOT}/bin/t3-changelog`). It searches the cached core checkout in `~/.cache/typo3-extension-migration/typo3-core`.
 2. If the tool is missing, search directly: `grep -rl "<keyword>" ~/.cache/typo3-extension-migration/typo3-core/typo3/sysext/core/Documentation/Changelog/1[34]*`.
+3. Read every matching rst you cite in full. The version folder (`13.1`, `14.2`, ...) is the version that introduced the change.

@@ -25,3 +25,11 @@ if [[ "$event" == SubagentStart ]]; then
   exit 0
 fi
 
+duration="-"
+start_file="$dir/agents-running/${safe_id:-none}"
+if [[ -n "$safe_id" && -f "$start_file" ]]; then
+  duration="$((now - $(cat "$start_file")))"
+  rm -f "$start_file"
+fi
+printf '%s\t%s\t%s\t%s\t%s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "${session:--}" "${agent:-unknown}" "${id:--}" "$duration" >>"$dir/agents.log"
+exit 0

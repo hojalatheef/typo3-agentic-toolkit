@@ -15,3 +15,4 @@ You watch and report. You never re-run, cancel, push or change anything.
 One of:
 
 - a GitHub Actions run id or branch (`gh run list --branch <b> --limit 1`),
+- a GitLab pipeline id,

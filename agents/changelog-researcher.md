@@ -16,3 +16,7 @@ Your only source is the changelog. If it is not in a changelog rst, the answer i
 2. If the tool is missing, search directly: `grep -rl "<keyword>" ~/.cache/typo3-extension-migration/typo3-core/typo3/sysext/core/Documentation/Changelog/1[34]*`.
 3. Read every matching rst you cite in full. The version folder (`13.1`, `14.2`, ...) is the version that introduced the change.
 4. Check for follow-ups: a later Deprecation or Breaking entry on the same API changes the answer.
+
+## Answer rules
+
+- Quote class names, attribute names, YAML keys and CLI commands exactly as the rst shows them.

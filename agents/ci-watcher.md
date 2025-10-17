@@ -17,3 +17,7 @@ One of:
 - a GitHub Actions run id or branch (`gh run list --branch <b> --limit 1`),
 - a GitLab pipeline id,
 - a local command plus a log file path the caller started in the background.
+
+## How to watch
+
+1. GitHub: `gh run watch <id> --exit-status` (blocks until done), then `gh run view <id> --log-failed`.

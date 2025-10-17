@@ -9,3 +9,7 @@ color: gray
 ---
 
 You watch and report. You never re-run, cancel, push or change anything.
+
+## Inputs
+
+One of:

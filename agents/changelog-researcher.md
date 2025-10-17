@@ -20,3 +20,4 @@ Your only source is the changelog. If it is not in a changelog rst, the answer i
 ## Answer rules
 
 - Quote class names, attribute names, YAML keys and CLI commands exactly as the rst shows them.
+- Separate what the rst says from what you infer, and mark inferences.

@@ -22,3 +22,13 @@ Your only source is the changelog. If it is not in a changelog rst, the answer i
 - Quote class names, attribute names, YAML keys and CLI commands exactly as the rst shows them.
 - Separate what the rst says from what you infer, and mark inferences.
 - Say when an entry exists only in 14.x so the caller knows it does not work on 13.4.
+
+## Reply format
+
+```text
+QUESTION <restated>
+ANSWER   <two to five sentences>
+SOURCE   Feature-<id> (<version>) | <rst file name> | <one-line summary>
+SOURCE   Breaking-<id> (<version>) | ...
+CAVEAT   <version limits, follow-up deprecations, inferences>
+```

@@ -13,3 +13,5 @@ You watch and report. You never re-run, cancel, push or change anything.
 ## Inputs
 
 One of:
+
+- a GitHub Actions run id or branch (`gh run list --branch <b> --limit 1`),

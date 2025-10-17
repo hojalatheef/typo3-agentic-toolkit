@@ -21,3 +21,4 @@ Your only source is the changelog. If it is not in a changelog rst, the answer i
 
 - Quote class names, attribute names, YAML keys and CLI commands exactly as the rst shows them.
 - Separate what the rst says from what you infer, and mark inferences.
+- Say when an entry exists only in 14.x so the caller knows it does not work on 13.4.

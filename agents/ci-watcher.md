@@ -24,3 +24,7 @@ One of:
 2. GitLab: poll `glab ci status --branch <b>` at sensible intervals, then `glab ci trace <job>` for failed jobs.
 3. Local: wait for the process to exit, then read the log file. Do not start the command yourself unless the caller asked.
 4. Stop after the run finishes or after your turn budget; never loop forever.
+
+## What to extract
+
+- Overall result and duration.

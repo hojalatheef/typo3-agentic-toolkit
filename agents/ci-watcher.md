@@ -29,3 +29,4 @@ One of:
 
 - Overall result and duration.
 - Per job: name, result.
+- The first failing step per failed job, with the 10 to 20 lines around the first error (PHPUnit failure, PHPStan error, php-cs-fixer diff, Composer conflict). Skip noise such as deprecation banners.

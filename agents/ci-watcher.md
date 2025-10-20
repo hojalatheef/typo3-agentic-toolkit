@@ -21,3 +21,4 @@ One of:
 ## How to watch
 
 1. GitHub: `gh run watch <id> --exit-status` (blocks until done), then `gh run view <id> --log-failed`.
+2. GitLab: poll `glab ci status --branch <b>` at sensible intervals, then `glab ci trace <job>` for failed jobs.

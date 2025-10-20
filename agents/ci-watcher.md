@@ -22,3 +22,4 @@ One of:
 
 1. GitHub: `gh run watch <id> --exit-status` (blocks until done), then `gh run view <id> --log-failed`.
 2. GitLab: poll `glab ci status --branch <b>` at sensible intervals, then `glab ci trace <job>` for failed jobs.
+3. Local: wait for the process to exit, then read the log file. Do not start the command yourself unless the caller asked.

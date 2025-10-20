@@ -28,3 +28,4 @@ One of:
 ## What to extract
 
 - Overall result and duration.
+- Per job: name, result.

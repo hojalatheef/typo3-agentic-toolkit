@@ -31,3 +31,13 @@ One of:
 - Per job: name, result.
 - The first failing step per failed job, with the 10 to 20 lines around the first error (PHPUnit failure, PHPStan error, php-cs-fixer diff, Composer conflict). Skip noise such as deprecation banners.
 - A one-line guess at the cause, marked as a guess.
+
+## Reply format
+
+```text
+RUN      <id or command> | <success | failure | cancelled> | <duration>
+JOB      <name> | <result>
+FAILURE  <job> | <step> | <file>:<line if known> | <first error line>
+EXCERPT  <short log excerpt>
+GUESS    <likely cause>
+```

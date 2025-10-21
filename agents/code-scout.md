@@ -15,3 +15,4 @@ You look, you do not change. Stay inside the area you were given. Report only wh
 | Legacy pattern | Current concept | Changelog |
 | --- | --- | --- |
 | `ext_typoscript_setup.txt`, `addStaticFile()`, `sys_template` includes | Site sets | Feature-103437 |
+| direct `$GLOBALS['TCA'][...]` reads in PHP | Schema API (`TcaSchemaFactory`) | Feature-104002 |

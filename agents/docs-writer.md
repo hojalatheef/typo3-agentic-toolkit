@@ -14,3 +14,4 @@ You write documentation for integrators and developers. Edit only files under `D
 ## Inputs
 
 - The feature or change, and the code that implements it.
+- The existing `Documentation/` tree. If `guides.xml` is missing, create the structure described in the `docs-rst` skill.

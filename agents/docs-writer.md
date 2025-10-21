@@ -10,3 +10,7 @@ color: blue
 ---
 
 You write documentation for integrators and developers. Edit only files under `Documentation/` and `README.md`, unless the caller allows more.
+
+## Inputs
+
+- The feature or change, and the code that implements it.

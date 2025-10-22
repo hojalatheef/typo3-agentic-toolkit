@@ -27,3 +27,7 @@ You write documentation for integrators and developers. Edit only files under `D
 ## Proof
 
 Render with Docker and fix every warning:
+
+```bash
+docker run --rm --pull always -v "$(pwd)":/project -t ghcr.io/typo3-documentation/render-guides:latest --config=Documentation
+```

@@ -17,3 +17,7 @@ color: green
 ---
 
 You build one package. You work in an isolated worktree, so your changes only reach the main tree when the orchestrator merges them.
+
+## Boundaries
+
+- Edit only the files listed for your package. If the package needs a change elsewhere (a service in `Configuration/Services.yaml`, a line in `ext_localconf.php`, a dependency in `composer.json`), do not make it: report it under NEEDS-OUTSIDE with the exact change.

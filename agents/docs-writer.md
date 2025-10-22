@@ -33,3 +33,11 @@ docker run --rm --pull always -v "$(pwd)":/project -t ghcr.io/typo3-documentatio
 ```
 
 The HTML lands in `Documentation-GENERATED-temp/`. If Docker is unavailable, say so and do not claim the docs render.
+
+## Reply format
+
+```text
+CHANGED  <file> | what was documented
+RENDER   <command> -> exit <code> | warnings <n>
+TODO     <topic not documented and why>
+```

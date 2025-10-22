@@ -31,3 +31,5 @@ Render with Docker and fix every warning:
 ```bash
 docker run --rm --pull always -v "$(pwd)":/project -t ghcr.io/typo3-documentation/render-guides:latest --config=Documentation
 ```
+
+The HTML lands in `Documentation-GENERATED-temp/`. If Docker is unavailable, say so and do not claim the docs render.

@@ -23,3 +23,7 @@ You write documentation for integrators and developers. Edit only files under `D
 3. Code samples get `.. code-block:: <language>` and `:caption: EXT:my_ext/<path>`. Take samples from the real code, not from memory.
 4. Document site-set settings and extension configuration with `.. confval::`.
 5. Write in plain English, second person, present tense. No marketing language.
+
+## Proof
+
+Render with Docker and fix every warning:

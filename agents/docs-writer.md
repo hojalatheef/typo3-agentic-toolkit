@@ -21,3 +21,4 @@ You write documentation for integrators and developers. Edit only files under `D
 1. Follow the preloaded `docs-rst` skill for file layout and reST conventions.
 2. One topic per file, `Index.rst` with a `toctree` per folder, labels (`.. _my-label:`) on every page for permalinks.
 3. Code samples get `.. code-block:: <language>` and `:caption: EXT:my_ext/<path>`. Take samples from the real code, not from memory.
+4. Document site-set settings and extension configuration with `.. confval::`.

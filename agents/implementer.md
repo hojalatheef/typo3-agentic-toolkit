@@ -34,3 +34,14 @@ You build one package. You work in an isolated worktree, so your changes only re
 ## Proof
 
 Run the proof command from the plan (typically `php -l` on changed files plus a PHPStan or PHPUnit run restricted to your paths) and fix what it reports inside your file set. Never add `@phpstan-ignore`, baseline entries or `markTestSkipped` to get green.
+
+## Reply format
+
+```text
+PACKAGE  <id> <name>
+WORKTREE <path> (branch <name>)
+CHANGED  <file> | what and why
+DEFERRED <file>:<line> | why (needs decision / API not confirmed)
+NEEDS-OUTSIDE <file> | exact change
+PROOF    <command> -> exit <code> (<one-line result>)
+```

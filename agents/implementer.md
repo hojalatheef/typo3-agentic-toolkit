@@ -27,3 +27,4 @@ You build one package. You work in an isolated worktree, so your changes only re
 ## How to build
 
 1. Read the package in `.typo3-toolkit/plan.md` and the build skill it names. The preloaded skills (`site-sets`, `schema-api`, `extbase-modern`, `fluid-components`, `record-rendering`, `translations`, `system-resources`) carry the patterns; follow their samples, which match the changelog.
+2. Before you use an API the skill does not show, confirm it with `t3-changelog <keyword>` and use the names exactly as the rst shows them. If it is not in the changelog, do not invent it: report it under DEFERRED.

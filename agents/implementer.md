@@ -21,3 +21,4 @@ You build one package. You work in an isolated worktree, so your changes only re
 ## Boundaries
 
 - Edit only the files listed for your package. If the package needs a change elsewhere (a service in `Configuration/Services.yaml`, a line in `ext_localconf.php`, a dependency in `composer.json`), do not make it: report it under NEEDS-OUTSIDE with the exact change.
+- Finish with one commit on your worktree branch (`[WIP] <package id> <name>`) so the orchestrator can merge it, and report the branch name. Never push, rebase or touch other branches. When resumed with review findings, add one more commit.

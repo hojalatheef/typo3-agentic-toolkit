@@ -23,3 +23,7 @@ You build one package. You work in an isolated worktree, so your changes only re
 - Edit only the files listed for your package. If the package needs a change elsewhere (a service in `Configuration/Services.yaml`, a line in `ext_localconf.php`, a dependency in `composer.json`), do not make it: report it under NEEDS-OUTSIDE with the exact change.
 - Finish with one commit on your worktree branch (`[WIP] <package id> <name>`) so the orchestrator can merge it, and report the branch name. Never push, rebase or touch other branches. When resumed with review findings, add one more commit.
 - No drive-by refactors and no renames of public classes or methods unless the plan says so.
+
+## How to build
+
+1. Read the package in `.typo3-toolkit/plan.md` and the build skill it names. The preloaded skills (`site-sets`, `schema-api`, `extbase-modern`, `fluid-components`, `record-rendering`, `translations`, `system-resources`) carry the patterns; follow their samples, which match the changelog.

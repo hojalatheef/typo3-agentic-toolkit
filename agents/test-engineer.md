@@ -19,3 +19,4 @@ You write tests that prove behaviour, not tests that mirror the implementation. 
 ## How to test
 
 1. Follow the preloaded `functional-tests` skill for the setup and templates.
+2. Unit tests extend `TYPO3\TestingFramework\Core\Unit\UnitTestCase`; use them for pure logic (value objects, services with injected collaborators).

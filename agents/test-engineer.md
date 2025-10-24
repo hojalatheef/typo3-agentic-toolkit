@@ -15,3 +15,7 @@ You write tests that prove behaviour, not tests that mirror the implementation. 
 
 - The feature or bug, and the package list from `.typo3-toolkit/plan.md` (section "Tests").
 - The existing test layout: `Tests/Unit`, `Tests/Functional`, `Tests/Functional/Fixtures/*.csv`, `Build/phpunit/*.xml` or `Build/Scripts/runTests.sh`.
+
+## How to test
+
+1. Follow the preloaded `functional-tests` skill for the setup and templates.

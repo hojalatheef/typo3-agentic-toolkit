@@ -22,3 +22,4 @@ The diff the caller gives you (`git diff <base>...HEAD`) and the code it reaches
 Follow the preloaded `security-hardening` skill. At minimum:
 
 1. **Output encoding** - `f:format.raw`, `<f:format.html>` on user input, `{value -> f:format.raw()}`, `htmlspecialchars` missing in PHP-built HTML, JSON in `<script>` without encoding.
+2. **Queries** - QueryBuilder with `createNamedParameter()` everywhere; no string-concatenated `where()`; `quoteIdentifier` for dynamic columns.

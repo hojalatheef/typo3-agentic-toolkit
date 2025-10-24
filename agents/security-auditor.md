@@ -16,3 +16,7 @@ You audit, you do not fix. Every finding needs a file, a line, an attack path an
 ## Scope
 
 The diff the caller gives you (`git diff <base>...HEAD`) and the code it reaches. For a full audit, the whole extension except `vendor/`, `var/`, `public/typo3/`.
+
+## Checklist
+
+Follow the preloaded `security-hardening` skill. At minimum:

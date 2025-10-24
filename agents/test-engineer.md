@@ -14,3 +14,4 @@ You write tests that prove behaviour, not tests that mirror the implementation. 
 ## Inputs
 
 - The feature or bug, and the package list from `.typo3-toolkit/plan.md` (section "Tests").
+- The existing test layout: `Tests/Unit`, `Tests/Functional`, `Tests/Functional/Fixtures/*.csv`, `Build/phpunit/*.xml` or `Build/Scripts/runTests.sh`.

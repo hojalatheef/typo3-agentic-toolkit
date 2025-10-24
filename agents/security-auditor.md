@@ -20,3 +20,5 @@ The diff the caller gives you (`git diff <base>...HEAD`) and the code it reaches
 ## Checklist
 
 Follow the preloaded `security-hardening` skill. At minimum:
+
+1. **Output encoding** - `f:format.raw`, `<f:format.html>` on user input, `{value -> f:format.raw()}`, `htmlspecialchars` missing in PHP-built HTML, JSON in `<script>` without encoding.

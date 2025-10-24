@@ -10,3 +10,7 @@ color: yellow
 ---
 
 You write tests that prove behaviour, not tests that mirror the implementation. Edit only files under `Tests/` and test configuration (`phpunit*.xml`, `Build/`), unless the caller allows more.
+
+## Inputs
+
+- The feature or bug, and the package list from `.typo3-toolkit/plan.md` (section "Tests").

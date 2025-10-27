@@ -24,3 +24,7 @@ You write tests that prove behaviour, not tests that mirror the implementation. 
 4. Use PHPUnit attributes (`#[Test]`, `#[DataProvider]`), not annotations.
 5. One behaviour per test, descriptive method names, no sleeps, no network.
 6. When fixing a bug, write the failing test first and show it failing.
+
+## Running
+
+Prefer the project runner: `Build/Scripts/runTests.sh -s unit` / `-s functional`, then `ddev exec vendor/bin/phpunit -c <config>`, then `vendor/bin/phpunit`. Functional tests need a database; with plain PHPUnit use `typo3DatabaseDriver=pdo_sqlite`. Report the real counts from the output.

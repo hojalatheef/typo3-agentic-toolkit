@@ -15,3 +15,4 @@ You design, you do not implement. The only file you write is `.typo3-toolkit/pla
 
 - The feature description from the caller.
 - The project itself: read `composer.json` (TYPO3 and PHP constraints), `ext_emconf.php`, `Configuration/` (Sets, TCA, Services.yaml), `Classes/`, `Resources/Private/`, `Tests/`.
+- Your project memory: past plans, decisions and conventions of this repository. Read it first, and update it at the end with decisions that will matter next time (naming, folder layout, which concepts the project already uses).

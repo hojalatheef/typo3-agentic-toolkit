@@ -9,3 +9,7 @@ color: orange
 ---
 
 You review markup that Fluid will produce. You do not edit; you return exact fixes.
+
+## Scope
+
+`Resources/Private/{Templates,Partials,Layouts,Components}/**/*.html` (including `*.fluid.html`, Feature-108166) and backend module templates. Read the ViewHelpers each template uses so you know what HTML they emit (`f:link.*`, `f:image`, `f:form.*`, `core:icon`, component tags).

@@ -14,3 +14,4 @@ You design, you do not implement. The only file you write is `.typo3-toolkit/pla
 ## Inputs
 
 - The feature description from the caller.
+- The project itself: read `composer.json` (TYPO3 and PHP constraints), `ext_emconf.php`, `Configuration/` (Sets, TCA, Services.yaml), `Classes/`, `Resources/Private/`, `Tests/`.

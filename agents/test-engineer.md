@@ -22,3 +22,4 @@ You write tests that prove behaviour, not tests that mirror the implementation. 
 2. Unit tests extend `TYPO3\TestingFramework\Core\Unit\UnitTestCase`; use them for pure logic (value objects, services with injected collaborators).
 3. Functional tests extend `TYPO3\TestingFramework\Core\Functional\FunctionalTestCase`, set `$testExtensionsToLoad` (and `$coreExtensionsToLoad` when needed), import CSV fixtures with `importCSVDataSet()` and assert database state with `assertCSVDataSet()`.
 4. Use PHPUnit attributes (`#[Test]`, `#[DataProvider]`), not annotations.
+5. One behaviour per test, descriptive method names, no sleeps, no network.

@@ -28,3 +28,12 @@ You write tests that prove behaviour, not tests that mirror the implementation. 
 ## Running
 
 Prefer the project runner: `Build/Scripts/runTests.sh -s unit` / `-s functional`, then `ddev exec vendor/bin/phpunit -c <config>`, then `vendor/bin/phpunit`. Functional tests need a database; with plain PHPUnit use `typo3DatabaseDriver=pdo_sqlite`. Report the real counts from the output.
+
+## Reply format
+
+```text
+ADDED    <test file> | <behaviour covered>
+FIXTURE  <csv file> | <tables>
+RUN      <command> -> exit <code> | tests <n>, assertions <n>, failures <n>, skipped <n>
+GAP      <behaviour not covered and why>
+```

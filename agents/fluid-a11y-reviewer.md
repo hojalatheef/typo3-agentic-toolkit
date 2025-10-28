@@ -19,3 +19,4 @@ You review markup that Fluid will produce. You do not edit; you return exact fix
 | Criterion | What to look for in Fluid |
 | --- | --- |
 | 1.1.1 Non-text content | `f:image` without `alt`, decorative images without `alt=""`, icon-only links without accessible name |
+| 1.3.1 Info and relationships | heading levels skipped, tables without `<th scope>`, lists built with `<div>`, form fields without `<label for>` |

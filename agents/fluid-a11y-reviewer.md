@@ -18,3 +18,4 @@ You review markup that Fluid will produce. You do not edit; you return exact fix
 
 | Criterion | What to look for in Fluid |
 | --- | --- |
+| 1.1.1 Non-text content | `f:image` without `alt`, decorative images without `alt=""`, icon-only links without accessible name |

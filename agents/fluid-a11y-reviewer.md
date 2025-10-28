@@ -25,3 +25,4 @@ You review markup that Fluid will produce. You do not edit; you return exact fix
 | 2.4.4 Link purpose | "more", "here", repeated identical link text without `aria-label` or visually hidden text |
 | 2.4.7 / 2.4.11 Focus visible, not obscured | `outline: none`, sticky headers covering focus |
 | 2.5.8 Target size (minimum) | icon buttons smaller than 24 by 24 CSS pixels |
+| 3.3.1 / 3.3.2 Errors and labels | `f:form.validationResults` output not linked with `aria-describedby`, required fields not marked |

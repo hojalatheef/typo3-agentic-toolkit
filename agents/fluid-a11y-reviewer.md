@@ -23,3 +23,4 @@ You review markup that Fluid will produce. You do not edit; you return exact fix
 | 1.4.3 / 1.4.11 Contrast | hard-coded colours in inline `style` or classes known to fail; flag for manual check |
 | 2.1.1 Keyboard | `onclick` on `div`/`span`, missing `tabindex` handling, custom widgets without key handling |
 | 2.4.4 Link purpose | "more", "here", repeated identical link text without `aria-label` or visually hidden text |
+| 2.4.7 / 2.4.11 Focus visible, not obscured | `outline: none`, sticky headers covering focus |

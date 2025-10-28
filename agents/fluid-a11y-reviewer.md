@@ -22,3 +22,4 @@ You review markup that Fluid will produce. You do not edit; you return exact fix
 | 1.3.1 Info and relationships | heading levels skipped, tables without `<th scope>`, lists built with `<div>`, form fields without `<label for>` |
 | 1.4.3 / 1.4.11 Contrast | hard-coded colours in inline `style` or classes known to fail; flag for manual check |
 | 2.1.1 Keyboard | `onclick` on `div`/`span`, missing `tabindex` handling, custom widgets without key handling |
+| 2.4.4 Link purpose | "more", "here", repeated identical link text without `aria-label` or visually hidden text |

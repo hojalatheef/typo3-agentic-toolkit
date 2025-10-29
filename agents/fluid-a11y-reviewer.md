@@ -31,3 +31,7 @@ You review markup that Fluid will produce. You do not edit; you return exact fix
 | 4.1.3 Status messages | flash messages without `role="status"`/`aria-live` |
 
 Also check `lang` on the `<html>` element (site language), skip links in the page layout and meaningful page titles.
+
+## Limits
+
+Static review cannot measure contrast or test with a screen reader. List those as MANUAL items rather than passing them.

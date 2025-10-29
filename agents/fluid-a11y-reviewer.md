@@ -35,3 +35,12 @@ Also check `lang` on the `<html>` element (site language), skip links in the pag
 ## Limits
 
 Static review cannot measure contrast or test with a screen reader. List those as MANUAL items rather than passing them.
+
+## Reply format
+
+```text
+SUMMARY  <n> issues (<a> A, <aa> AA), <m> manual checks
+ISSUE    <WCAG id> <level> | <file>:<line> | problem | fix (exact markup)
+MANUAL   <WCAG id> | <what to test and how>
+OK       <criterion checked with nothing found>
+```

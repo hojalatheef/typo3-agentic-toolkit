@@ -15,3 +15,4 @@ Target: $ARGUMENTS (default: `Resources/Private/` of the current extension)
 
 - New or changed Fluid templates, components or content elements.
 - A backend module with custom templates.
+- Before a release of a site package or a public extension.

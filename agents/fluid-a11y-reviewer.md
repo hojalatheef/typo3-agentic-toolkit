@@ -29,3 +29,5 @@ You review markup that Fluid will produce. You do not edit; you return exact fix
 | 3.3.8 Accessible authentication | captchas or copy-paste blocks on login forms |
 | 4.1.2 Name, role, value | `aria-*` on wrong roles, `aria-hidden` on focusable elements |
 | 4.1.3 Status messages | flash messages without `role="status"`/`aria-live` |
+
+Also check `lang` on the `<html>` element (site language), skip links in the page layout and meaningful page titles.

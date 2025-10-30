@@ -39,3 +39,5 @@ Target: $ARGUMENTS (default: `Resources/Private/` of the current extension)
     or `npx --yes pa11y --standard WCAG2AA <url>`. Treat automated tools as a floor: they catch roughly a third of issues.
 
 4. **Merge.** Combine agent findings and tool output, remove duplicates by file and criterion, and sort by level (A before AA) then by file.
+
+5. **Report** in the format below. Do not fix templates unless the user asks; then fix A issues first.

@@ -16,3 +16,4 @@ Target: $ARGUMENTS (default: `Resources/Private/` of the current extension)
 - New or changed Fluid templates, components or content elements.
 - A backend module with custom templates.
 - Before a release of a site package or a public extension.
+- When an agency or public-sector client asks for WCAG 2.2 AA or BITV 2.0 evidence.

@@ -21,3 +21,7 @@ Target: $ARGUMENTS (default: `Resources/Private/` of the current extension)
 ## Steps
 
 1. **Inventory.** List the templates to audit:
+
+    ```bash
+    find Resources/Private -type f \( -name '*.html' -o -name '*.fluid.html' \) | sort
+    ```

@@ -25,3 +25,5 @@ Target: $ARGUMENTS (default: `Resources/Private/` of the current extension)
     ```bash
     find Resources/Private -type f \( -name '*.html' -o -name '*.fluid.html' \) | sort
     ```
+
+    Group them by folder (Layouts, Templates, Partials, Components, Backend).

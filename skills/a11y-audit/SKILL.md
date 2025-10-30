@@ -29,3 +29,5 @@ Target: $ARGUMENTS (default: `Resources/Private/` of the current extension)
     Group them by folder (Layouts, Templates, Partials, Components, Backend).
 
 2. **Template review.** Delegate to `fluid-a11y-reviewer`, one agent per group when there are more than about 30 templates, all in one message so they run in parallel. Pass the file list and whether it is frontend or backend output.
+
+3. **Rendered check (optional).** If a URL is given or the DDEV site runs (`ddev describe`), check the real output:

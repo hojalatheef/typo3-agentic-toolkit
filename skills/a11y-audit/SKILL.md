@@ -35,3 +35,5 @@ Target: $ARGUMENTS (default: `Resources/Private/` of the current extension)
     ```bash
     npx --yes @axe-core/cli <url> --tags wcag2a,wcag2aa,wcag21a,wcag21aa,wcag22aa
     ```
+
+    or `npx --yes pa11y --standard WCAG2AA <url>`. Treat automated tools as a floor: they catch roughly a third of issues.

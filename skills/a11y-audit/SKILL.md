@@ -41,3 +41,7 @@ Target: $ARGUMENTS (default: `Resources/Private/` of the current extension)
 4. **Merge.** Combine agent findings and tool output, remove duplicates by file and criterion, and sort by level (A before AA) then by file.
 
 5. **Report** in the format below. Do not fix templates unless the user asks; then fix A issues first.
+
+## Checklist
+
+The reviewer covers these; use them to sanity-check its reply. Details and Fluid fixes are in [references/wcag-fluid.md](references/wcag-fluid.md).

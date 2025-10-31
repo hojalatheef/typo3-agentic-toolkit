@@ -50,3 +50,4 @@ The reviewer covers these; use them to sanity-check its reply. Details and Fluid
 - [ ] Headings in order, one `h1` per page, content element headers respect the chosen layout level.
 - [ ] Forms: every field has a label, errors are linked with `aria-describedby`, required fields marked.
 - [ ] Links and buttons have a discernible name; no `div` with click handlers.
+- [ ] Focus visible and not hidden behind sticky elements (2.4.11, new in 2.2).

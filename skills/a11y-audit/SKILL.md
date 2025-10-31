@@ -51,3 +51,4 @@ The reviewer covers these; use them to sanity-check its reply. Details and Fluid
 - [ ] Forms: every field has a label, errors are linked with `aria-describedby`, required fields marked.
 - [ ] Links and buttons have a discernible name; no `div` with click handlers.
 - [ ] Focus visible and not hidden behind sticky elements (2.4.11, new in 2.2).
+- [ ] Target size at least 24 by 24 CSS pixels (2.5.8, new in 2.2).

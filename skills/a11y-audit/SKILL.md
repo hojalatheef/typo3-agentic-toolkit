@@ -49,3 +49,4 @@ The reviewer covers these; use them to sanity-check its reply. Details and Fluid
 - [ ] Images: `alt` from the file reference (`{file.alternative}`), `alt=""` for decorative images.
 - [ ] Headings in order, one `h1` per page, content element headers respect the chosen layout level.
 - [ ] Forms: every field has a label, errors are linked with `aria-describedby`, required fields marked.
+- [ ] Links and buttons have a discernible name; no `div` with click handlers.

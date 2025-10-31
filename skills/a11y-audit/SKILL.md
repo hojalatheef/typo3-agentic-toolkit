@@ -53,3 +53,4 @@ The reviewer covers these; use them to sanity-check its reply. Details and Fluid
 - [ ] Focus visible and not hidden behind sticky elements (2.4.11, new in 2.2).
 - [ ] Target size at least 24 by 24 CSS pixels (2.5.8, new in 2.2).
 - [ ] No cognitive tests in authentication (3.3.8, new in 2.2).
+- [ ] Status messages announced (`role="status"`).

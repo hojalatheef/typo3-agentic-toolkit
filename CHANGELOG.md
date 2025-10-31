@@ -1,0 +1,45 @@
+# Changelog
+
+All notable changes to this project are documented here. The format follows
+[Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
+[Semantic Versioning](https://semver.org/).
+
+## [0.1.0] - 2025-10-31
+
+### Added
+
+- `t3` command
+- `t3-changelog` command
+- `guard-bash.sh` hook
+- `guard-files.sh` hook
+- `legacy-api-check.sh` hook
+- `php-lint.sh` hook
+- `precompact-notes.sh` hook
+- `session-context.sh` hook
+- `subagent-log.sh` hook
+- `hooks.json` hook
+- `changelog-researcher` agent
+- `ci-watcher` agent
+- `code-reviewer` agent
+- `code-scout` agent
+- `docs-writer` agent
+- `fluid-a11y-reviewer` agent
+- `implementer` agent
+- `security-auditor` agent
+- `test-engineer` agent
+- `typo3-architect` agent
+- `a11y-audit` skill
+
+### Changed
+
+- `a11y-audit` skill: more guidance
+- `changelog-researcher` agent: more guidance
+- `ci-watcher` agent: more guidance
+- `code-reviewer` agent: more guidance
+- `code-scout` agent: more guidance
+- `docs-writer` agent: more guidance
+- `fluid-a11y-reviewer` agent: more guidance
+- `implementer` agent: more guidance
+- `security-auditor` agent: more guidance
+- `test-engineer` agent: more guidance
+- `typo3-architect` agent: more guidance

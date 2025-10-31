@@ -47,3 +47,4 @@ Target: $ARGUMENTS (default: `Resources/Private/` of the current extension)
 The reviewer covers these; use them to sanity-check its reply. Details and Fluid fixes are in [references/wcag-fluid.md](references/wcag-fluid.md).
 
 - [ ] Images: `alt` from the file reference (`{file.alternative}`), `alt=""` for decorative images.
+- [ ] Headings in order, one `h1` per page, content element headers respect the chosen layout level.

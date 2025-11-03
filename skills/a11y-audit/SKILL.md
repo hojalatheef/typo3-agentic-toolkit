@@ -55,3 +55,11 @@ The reviewer covers these; use them to sanity-check its reply. Details and Fluid
 - [ ] No cognitive tests in authentication (3.3.8, new in 2.2).
 - [ ] Status messages announced (`role="status"`).
 - [ ] `lang` on `<html>` from the site language; language changes inside content marked with `lang`.
+
+## Report
+
+```text
+A11Y   <n> issues: <a> level A, <aa> level AA | <m> manual checks | rendered check: yes/no
+ISSUE  1.1.1 A  | Resources/Private/Partials/Teaser.fluid.html:12 | image without alt | add alt="{image.alternative}"
+MANUAL 1.4.3    | contrast of .btn-secondary on #f5f5f5 | measure in browser devtools
+```

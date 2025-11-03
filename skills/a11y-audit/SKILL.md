@@ -68,3 +68,4 @@ MANUAL 1.4.3    | contrast of .btn-secondary on #f5f5f5 | measure in browser dev
 
 - [references/wcag-fluid.md](references/wcag-fluid.md) - WCAG 2.2 AA criteria mapped to Fluid patterns and fixes.
 - Agent `fluid-a11y-reviewer` - the template reviewer.
+- Skill `fluid-components` - build accessible components once and reuse them.

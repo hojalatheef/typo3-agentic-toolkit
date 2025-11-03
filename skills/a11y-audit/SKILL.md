@@ -63,3 +63,7 @@ A11Y   <n> issues: <a> level A, <aa> level AA | <m> manual checks | rendered che
 ISSUE  1.1.1 A  | Resources/Private/Partials/Teaser.fluid.html:12 | image without alt | add alt="{image.alternative}"
 MANUAL 1.4.3    | contrast of .btn-secondary on #f5f5f5 | measure in browser devtools
 ```
+
+## References
+
+- [references/wcag-fluid.md](references/wcag-fluid.md) - WCAG 2.2 AA criteria mapped to Fluid patterns and fixes.

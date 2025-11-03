@@ -7,3 +7,5 @@ Problem: `f:image` without `alt`, or a hard-coded `alt` that ignores the editor'
 ```html
 <f:image image="{file}" alt="{file.alternative}" width="800" />
 ```
+
+For decorative images pass `alt=""`. For linked images the `alt` describes the link target, not the picture. Videos need captions (1.2.2) and, for prerecorded content, an audio description or media alternative (1.2.5).

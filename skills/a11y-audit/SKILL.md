@@ -54,3 +54,4 @@ The reviewer covers these; use them to sanity-check its reply. Details and Fluid
 - [ ] Target size at least 24 by 24 CSS pixels (2.5.8, new in 2.2).
 - [ ] No cognitive tests in authentication (3.3.8, new in 2.2).
 - [ ] Status messages announced (`role="status"`).
+- [ ] `lang` on `<html>` from the site language; language changes inside content marked with `lang`.

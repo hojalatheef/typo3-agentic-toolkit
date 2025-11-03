@@ -3,3 +3,7 @@
 ## Images and media
 
 Problem: `f:image` without `alt`, or a hard-coded `alt` that ignores the editor's metadata.
+
+```html
+<f:image image="{file}" alt="{file.alternative}" width="800" />
+```

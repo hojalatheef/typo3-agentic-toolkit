@@ -15,3 +15,4 @@ For decorative images pass `alt=""`. For linked images the `alt` describes the l
 | Criterion | Pattern | Fix |
 | --- | --- | --- |
 | 1.3.1 | heading level hard-coded in a partial | pass the level in: `<f:render partial="Header" arguments="{level: 2}" />` |
+| 1.3.1 | `<div>` rows for tabular data | `<table>` with `<caption>` and `<th scope="col">` |

@@ -11,3 +11,7 @@ allowed-tools: Read, Grep, Glob, Write, Bash(ls:*), Bash(git log:*), Bash(t3-cha
 Decision: $ARGUMENTS
 
 You run in a forked context. Gather what you need, write one ADR file, and reply with its path and a summary.
+
+## Existing records
+
+!`ls Documentation/Decisions/ 2>/dev/null | tail -20 || echo "no Documentation/Decisions/ yet"`

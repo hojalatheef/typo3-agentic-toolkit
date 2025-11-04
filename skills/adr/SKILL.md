@@ -19,3 +19,4 @@ You run in a forked context. Gather what you need, write one ADR file, and reply
 ## Steps
 
 1. Pick the next number: highest existing `NNNN-*.rst` plus one, four digits, starting at `0001`.
+2. Collect context from the conversation, `.typo3-toolkit/plan.md` (section "Risks and decisions") and the code. Ask nothing; mark unknowns as "to be confirmed".

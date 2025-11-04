@@ -9,3 +9,5 @@ allowed-tools: Read, Grep, Glob, Write, Bash(ls:*), Bash(git log:*), Bash(t3-cha
 # Architecture Decision Record
 
 Decision: $ARGUMENTS
+
+You run in a forked context. Gather what you need, write one ADR file, and reply with its path and a summary.

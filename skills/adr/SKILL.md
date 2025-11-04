@@ -15,3 +15,7 @@ You run in a forked context. Gather what you need, write one ADR file, and reply
 ## Existing records
 
 !`ls Documentation/Decisions/ 2>/dev/null | tail -20 || echo "no Documentation/Decisions/ yet"`
+
+## Steps
+
+1. Pick the next number: highest existing `NNNN-*.rst` plus one, four digits, starting at `0001`.

@@ -22,3 +22,4 @@ You run in a forked context. Gather what you need, write one ADR file, and reply
 2. Collect context from the conversation, `.typo3-toolkit/plan.md` (section "Risks and decisions") and the code. Ask nothing; mark unknowns as "to be confirmed".
 3. If a TYPO3 core concept is involved, read its changelog entry with `t3-changelog <id or keyword>` and cite it as `Feature-<id>` with version. Do not describe core behaviour that the entry does not state.
 4. List at least two real options, including "keep the current approach" when there is one.
+5. Write `Documentation/Decisions/NNNN-<kebab-title>.rst` from the template in [references/adr-template.md](references/adr-template.md).

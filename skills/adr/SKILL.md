@@ -31,3 +31,4 @@ You run in a forked context. Gather what you need, write one ADR file, and reply
 - Status is one of: Proposed, Accepted, Superseded by NNNN, Deprecated.
 - Consequences list both the good and the bad, including upgrade cost (for example "requires TYPO3 14.2 or later").
 - No code beyond short snippets that make the decision concrete.
+- Existing records are immutable: to change a decision, write a new record and set the old one's status to "Superseded by NNNN" (the only edit allowed on old records).

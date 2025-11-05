@@ -24,3 +24,7 @@ You run in a forked context. Gather what you need, write one ADR file, and reply
 4. List at least two real options, including "keep the current approach" when there is one.
 5. Write `Documentation/Decisions/NNNN-<kebab-title>.rst` from the template in [references/adr-template.md](references/adr-template.md).
 6. If `Documentation/Decisions/Index.rst` does not exist, create it with a `toctree` using `:glob:` and `*`. If `Documentation/Index.rst` exists and does not reference `Decisions/Index`, report that it must be added (do not edit it).
+
+## Writing rules
+
+- One decision per record. Split if the title contains "and".

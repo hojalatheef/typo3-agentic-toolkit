@@ -30,3 +30,4 @@ You run in a forked context. Gather what you need, write one ADR file, and reply
 - One decision per record. Split if the title contains "and".
 - Status is one of: Proposed, Accepted, Superseded by NNNN, Deprecated.
 - Consequences list both the good and the bad, including upgrade cost (for example "requires TYPO3 14.2 or later").
+- No code beyond short snippets that make the decision concrete.

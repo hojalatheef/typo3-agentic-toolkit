@@ -32,3 +32,13 @@ You run in a forked context. Gather what you need, write one ADR file, and reply
 - Consequences list both the good and the bad, including upgrade cost (for example "requires TYPO3 14.2 or later").
 - No code beyond short snippets that make the decision concrete.
 - Existing records are immutable: to change a decision, write a new record and set the old one's status to "Superseded by NNNN" (the only edit allowed on old records).
+
+## Reply format
+
+```text
+ADR      Documentation/Decisions/NNNN-<title>.rst
+STATUS   Proposed
+DECISION <one sentence>
+SOURCES  Feature-<id> (<version>), ...
+TODO     <unknowns marked "to be confirmed"> | none
+```

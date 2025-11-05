@@ -28,3 +28,4 @@ You run in a forked context. Gather what you need, write one ADR file, and reply
 ## Writing rules
 
 - One decision per record. Split if the title contains "and".
+- Status is one of: Proposed, Accepted, Superseded by NNNN, Deprecated.

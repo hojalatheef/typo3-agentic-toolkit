@@ -17,4 +17,7 @@ ADR 0003: Configure the news listing through a site set
 
 Context
 =======
+
+What problem forces a decision now. Facts, constraints (TYPO3 and PHP
+versions, hosting, team skills), and links to issues.
 ```

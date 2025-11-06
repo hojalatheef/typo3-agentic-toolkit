@@ -26,4 +26,9 @@ Options
 
 Option A: <name>
 ----------------
+
+Short description. Pros. Cons.
+
+Option B: <name>
+----------------
 ```

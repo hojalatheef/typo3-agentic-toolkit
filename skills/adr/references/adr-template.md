@@ -48,4 +48,7 @@ Consequences
 
 References
 ==========
+
+*   Site sets: Feature-103437 (TYPO3 13.1)
+*   <issue, plan, documentation links>
 ```

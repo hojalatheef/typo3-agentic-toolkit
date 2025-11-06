@@ -31,4 +31,9 @@ Short description. Pros. Cons.
 
 Option B: <name>
 ----------------
+
+Short description. Pros. Cons.
+
+Decision
+========
 ```

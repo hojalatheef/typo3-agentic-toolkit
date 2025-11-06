@@ -23,4 +23,7 @@ versions, hosting, team skills), and links to issues.
 
 Options
 =======
+
+Option A: <name>
+----------------
 ```

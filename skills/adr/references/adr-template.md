@@ -20,4 +20,7 @@ Context
 
 What problem forces a decision now. Facts, constraints (TYPO3 and PHP
 versions, hosting, team skills), and links to issues.
+
+Options
+=======
 ```

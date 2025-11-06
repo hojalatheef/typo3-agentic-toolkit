@@ -36,4 +36,9 @@ Short description. Pros. Cons.
 
 Decision
 ========
+
+We choose option <X> because <reasons tied to the context>.
+
+Consequences
+============
 ```

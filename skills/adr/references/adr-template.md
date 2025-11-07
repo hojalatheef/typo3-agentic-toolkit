@@ -57,4 +57,10 @@ References
 
 ```rst
 ..  include:: /Includes.rst.txt
+
+..  _decisions:
+
+=========
+Decisions
+=========
 ```

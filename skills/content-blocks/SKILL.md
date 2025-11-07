@@ -10,3 +10,4 @@ paths:
 # Content Blocks
 
 Content Blocks is a **community extension**, `friendsoftypo3/content-blocks`,
+maintained by the TYPO3 Structured Content Initiative. It is **not part of

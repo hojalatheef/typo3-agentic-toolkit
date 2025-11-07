@@ -74,3 +74,4 @@ Decisions
 ## Notes
 
 - The `_adr-NNNN` label allows `:ref:` links from other pages.
+- If the project has no `Documentation/Includes.rst.txt`, drop the include line; the `docs-rst` skill sets the documentation up.

@@ -63,4 +63,8 @@ References
 =========
 Decisions
 =========
+
+..  toctree::
+    :titlesonly:
+    :glob:
 ```

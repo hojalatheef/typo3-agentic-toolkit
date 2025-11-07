@@ -1,0 +1,16 @@
+---
+name: backend-modules
+description: >-
+  Register and build TYPO3 v14 backend modules - the renamed module tree (content, media, admin, system, records, content_status, integrations), showSubmoduleOverview cards, appearance.dependsOnSubmodules, custom module access gates (#[AsModuleAccessGate]), #[AsController], ComponentFactory buttons, automatic reload/shortcut buttons via setShortcutContext(), the DocHeader language selector and BeforeBackendPageRenderEvent. Use when writing Configuration/Backend/Modules.php or a backend controller, or when the user asks to "add a backend module", "group modules", "restrict a module" or fix deprecated ButtonBar::make* / manual shortcut buttons.
+argument-hint: "[module name] [parent, e.g. content|admin|system|integrations]"
+allowed-tools: Read, Grep, Glob, Edit, Write
+paths:
+  - "**/Configuration/Backend/Modules.php"
+  - "**/Classes/Controller/Backend/**/*.php"
+  - "**/Classes/Backend/**/*.php"
+  - "**/Classes/Module/**/*.php"
+---
+
+# Backend modules (TYPO3 v14)
+
+Arguments: `$ARGUMENTS`.

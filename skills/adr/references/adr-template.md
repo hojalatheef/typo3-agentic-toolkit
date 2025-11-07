@@ -70,3 +70,7 @@ Decisions
 
     *
 ```
+
+## Notes
+
+- The `_adr-NNNN` label allows `:ref:` links from other pages.

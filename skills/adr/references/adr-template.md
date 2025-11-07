@@ -67,4 +67,6 @@ Decisions
 ..  toctree::
     :titlesonly:
     :glob:
+
+    *
 ```

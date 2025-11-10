@@ -12,3 +12,4 @@ paths:
 Content Blocks is a **community extension**, `friendsoftypo3/content-blocks`,
 maintained by the TYPO3 Structured Content Initiative. It is **not part of
 TYPO3 core**. It generates TCA, database fields, the new content element
+wizard entry, labels and the frontend/backend template wiring from one YAML

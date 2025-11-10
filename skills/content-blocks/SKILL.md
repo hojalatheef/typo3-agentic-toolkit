@@ -20,3 +20,4 @@ Arguments: `$ARGUMENTS` - optional element name and extension path.
 The YAML keys, field types and folder names below are the stable basics.
 Anything version-dependent is marked; **check the extension documentation for
 your installed version** (`composer show friendsoftypo3/content-blocks`)
+before relying on it.

@@ -18,3 +18,4 @@ file per element.
 Arguments: `$ARGUMENTS` - optional element name and extension path.
 
 The YAML keys, field types and folder names below are the stable basics.
+Anything version-dependent is marked; **check the extension documentation for

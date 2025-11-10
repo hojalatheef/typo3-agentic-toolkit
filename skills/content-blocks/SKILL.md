@@ -25,3 +25,6 @@ before relying on it.
 ## When to use
 
 Choose Content Blocks when:
+
+- A project needs many simple content elements, records or page types and the
+  team prefers YAML over TCA arrays.

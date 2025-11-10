@@ -14,3 +14,5 @@ maintained by the TYPO3 Structured Content Initiative. It is **not part of
 TYPO3 core**. It generates TCA, database fields, the new content element
 wizard entry, labels and the frontend/backend template wiring from one YAML
 file per element.
+
+Arguments: `$ARGUMENTS` - optional element name and extension path.

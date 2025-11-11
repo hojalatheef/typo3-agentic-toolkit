@@ -38,3 +38,4 @@ Choose plain TCA + site sets (see the `schema-api`, `record-rendering` and
 - The extension is distributed and should not add a dependency.
 - Fields need TCA features the extension does not expose, custom FormEngine
   elements or `itemsProcessors`.
+- You need full control over database columns and migrations.

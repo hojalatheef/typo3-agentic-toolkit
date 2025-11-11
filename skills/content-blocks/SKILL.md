@@ -42,3 +42,4 @@ Choose plain TCA + site sets (see the `schema-api`, `record-rendering` and
 - The element is used by Extbase domain models with their own tables.
 
 The comparison table is in
+[references/decision-guide.md](references/decision-guide.md).

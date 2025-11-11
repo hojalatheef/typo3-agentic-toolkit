@@ -39,3 +39,4 @@ Choose plain TCA + site sets (see the `schema-api`, `record-rendering` and
 - Fields need TCA features the extension does not expose, custom FormEngine
   elements or `itemsProcessors`.
 - You need full control over database columns and migrations.
+- The element is used by Extbase domain models with their own tables.

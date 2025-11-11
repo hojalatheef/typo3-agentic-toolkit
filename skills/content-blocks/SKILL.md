@@ -34,3 +34,5 @@ Choose Content Blocks when:
 
 Choose plain TCA + site sets (see the `schema-api`, `record-rendering` and
 `site-sets` skills) when:
+
+- The extension is distributed and should not add a dependency.

@@ -33,3 +33,4 @@ Choose Content Blocks when:
   projects.
 
 Choose plain TCA + site sets (see the `schema-api`, `record-rendering` and
+`site-sets` skills) when:

@@ -29,3 +29,5 @@ Choose Content Blocks when:
 - A project needs many simple content elements, records or page types and the
   team prefers YAML over TCA arrays.
 - Integrators (not PHP developers) maintain the element catalogue.
+- Elements should be self-contained folders that can be copied between
+  projects.

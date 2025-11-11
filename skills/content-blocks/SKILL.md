@@ -31,3 +31,5 @@ Choose Content Blocks when:
 - Integrators (not PHP developers) maintain the element catalogue.
 - Elements should be self-contained folders that can be copied between
   projects.
+
+Choose plain TCA + site sets (see the `schema-api`, `record-rendering` and

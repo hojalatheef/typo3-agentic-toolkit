@@ -36,3 +36,5 @@ Choose plain TCA + site sets (see the `schema-api`, `record-rendering` and
 `site-sets` skills) when:
 
 - The extension is distributed and should not add a dependency.
+- Fields need TCA features the extension does not expose, custom FormEngine
+  elements or `itemsProcessors`.

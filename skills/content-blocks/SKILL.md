@@ -56,3 +56,5 @@ The comparison table is in
    See [references/config-basics.md](references/config-basics.md) and
    [templates/config.yaml](templates/config.yaml).
 4. Write the frontend template; the element's data is available as `{data}`.
+5. Run the database analyzer (Admin Tools > Maintenance > Analyze Database
+   Structure) to add the new columns, then flush caches.

@@ -60,3 +60,7 @@ The comparison table is in
    Structure) to add the new columns, then flush caches.
 6. Add the element to a page and check frontend, backend preview and the new
    content element wizard.
+
+## Checklist
+
+- [ ] Extension version matches the TYPO3 major (check its `composer.json`).

@@ -51,3 +51,7 @@ The comparison table is in
 2. Scaffold: `vendor/bin/typo3 make:content-block` and answer the prompts
    (type, vendor, name, target extension). The command creates the folder
    below `ContentBlocks/` in the chosen extension.
+3. Edit `config.yaml`: reuse core fields (`header`, `bodytext`) with
+   `useExistingField: true`; add own fields with an `identifier` and `type`.
+   See [references/config-basics.md](references/config-basics.md) and
+   [templates/config.yaml](templates/config.yaml).

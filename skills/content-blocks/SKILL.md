@@ -66,3 +66,4 @@ The comparison table is in
 - [ ] Extension version matches the TYPO3 major (check its `composer.json`).
 - [ ] `name` is `vendor/element-name`, vendor matches the host extension.
 - [ ] Core fields reused with `useExistingField: true` instead of duplicates.
+- [ ] Labels live in the element's language file, not in YAML.

@@ -58,3 +58,5 @@ The comparison table is in
 4. Write the frontend template; the element's data is available as `{data}`.
 5. Run the database analyzer (Admin Tools > Maintenance > Analyze Database
    Structure) to add the new columns, then flush caches.
+6. Add the element to a page and check frontend, backend preview and the new
+   content element wizard.

@@ -48,3 +48,6 @@ The comparison table is in
 
 1. Install: `composer require friendsoftypo3/content-blocks`. Pick the version
    whose constraint matches your TYPO3 core.
+2. Scaffold: `vendor/bin/typo3 make:content-block` and answer the prompts
+   (type, vendor, name, target extension). The command creates the folder
+   below `ContentBlocks/` in the chosen extension.

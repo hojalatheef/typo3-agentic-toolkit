@@ -43,3 +43,8 @@ Choose plain TCA + site sets (see the `schema-api`, `record-rendering` and
 
 The comparison table is in
 [references/decision-guide.md](references/decision-guide.md).
+
+## Steps
+
+1. Install: `composer require friendsoftypo3/content-blocks`. Pick the version
+   whose constraint matches your TYPO3 core.

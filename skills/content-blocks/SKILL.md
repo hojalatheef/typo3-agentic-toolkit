@@ -64,3 +64,4 @@ The comparison table is in
 ## Checklist
 
 - [ ] Extension version matches the TYPO3 major (check its `composer.json`).
+- [ ] `name` is `vendor/element-name`, vendor matches the host extension.

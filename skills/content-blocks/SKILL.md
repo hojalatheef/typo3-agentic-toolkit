@@ -55,3 +55,4 @@ The comparison table is in
    `useExistingField: true`; add own fields with an `identifier` and `type`.
    See [references/config-basics.md](references/config-basics.md) and
    [templates/config.yaml](templates/config.yaml).
+4. Write the frontend template; the element's data is available as `{data}`.

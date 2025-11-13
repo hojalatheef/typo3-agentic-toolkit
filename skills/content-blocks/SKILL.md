@@ -68,3 +68,4 @@ The comparison table is in
 - [ ] Core fields reused with `useExistingField: true` instead of duplicates.
 - [ ] Labels live in the element's language file, not in YAML.
 - [ ] Database compare run after every `config.yaml` change.
+- [ ] Frontend template escapes plain text and renders rich text with `f:format.html`.

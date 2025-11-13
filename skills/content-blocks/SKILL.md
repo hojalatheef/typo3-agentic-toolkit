@@ -70,3 +70,7 @@ The comparison table is in
 - [ ] Database compare run after every `config.yaml` change.
 - [ ] Frontend template escapes plain text and renders rich text with `f:format.html`.
 - [ ] The site package's site set includes the TypoScript/CSS the elements need.
+
+## References
+
+- [references/decision-guide.md](references/decision-guide.md) - Content Blocks vs. TCA + site sets, migration paths.

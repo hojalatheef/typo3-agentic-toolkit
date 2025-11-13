@@ -74,3 +74,4 @@ The comparison table is in
 ## References
 
 - [references/decision-guide.md](references/decision-guide.md) - Content Blocks vs. TCA + site sets, migration paths.
+- [references/config-basics.md](references/config-basics.md) - folder layout, `config.yaml` keys, field types, templates.

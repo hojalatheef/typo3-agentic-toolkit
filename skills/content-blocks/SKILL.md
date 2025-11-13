@@ -67,3 +67,4 @@ The comparison table is in
 - [ ] `name` is `vendor/element-name`, vendor matches the host extension.
 - [ ] Core fields reused with `useExistingField: true` instead of duplicates.
 - [ ] Labels live in the element's language file, not in YAML.
+- [ ] Database compare run after every `config.yaml` change.

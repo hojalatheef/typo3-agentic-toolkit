@@ -69,3 +69,4 @@ The comparison table is in
 - [ ] Labels live in the element's language file, not in YAML.
 - [ ] Database compare run after every `config.yaml` change.
 - [ ] Frontend template escapes plain text and renders rich text with `f:format.html`.
+- [ ] The site package's site set includes the TypoScript/CSS the elements need.

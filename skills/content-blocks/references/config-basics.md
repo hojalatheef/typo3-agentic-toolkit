@@ -30,3 +30,8 @@ Folder names `ContentElements`, `PageTypes`, `RecordTypes`, `assets`,
 `language` and `templates` are conventions read by the extension. Content
 Blocks 0.x used different names (for example `Source/` and `Assets/`); its
 upgrade wizard renames them.
+
+## config.yaml keys
+
+| Key | Meaning |
+| --- | --- |

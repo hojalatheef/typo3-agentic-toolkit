@@ -35,3 +35,4 @@ upgrade wizard renames them.
 
 | Key | Meaning |
 | --- | --- |
+| `name` | `vendor/element-name`, unique |

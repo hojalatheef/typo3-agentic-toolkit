@@ -15,4 +15,11 @@ my_sitepackage/
     │   └── teaser/
     │       ├── config.yaml
     │       ├── assets/
+    │       │   ├── icon.svg
+    │       │   └── frontend.css        (optional)
+    │       ├── language/
+    │       │   └── labels.xlf
+    │       └── templates/
+    │           ├── frontend.html
+    │           └── backend-preview.html  (optional)
 ```

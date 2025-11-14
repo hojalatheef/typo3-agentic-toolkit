@@ -22,4 +22,6 @@ my_sitepackage/
     │       └── templates/
     │           ├── frontend.html
     │           └── backend-preview.html  (optional)
+    ├── PageTypes/
+    └── RecordTypes/
 ```

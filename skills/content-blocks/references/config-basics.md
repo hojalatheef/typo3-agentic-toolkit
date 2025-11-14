@@ -25,3 +25,5 @@ my_sitepackage/
     ├── PageTypes/
     └── RecordTypes/
 ```
+
+Folder names `ContentElements`, `PageTypes`, `RecordTypes`, `assets`,

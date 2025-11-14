@@ -27,3 +27,4 @@ my_sitepackage/
 ```
 
 Folder names `ContentElements`, `PageTypes`, `RecordTypes`, `assets`,
+`language` and `templates` are conventions read by the extension. Content

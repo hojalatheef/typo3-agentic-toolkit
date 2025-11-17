@@ -45,3 +45,4 @@ Each field has an `identifier` and either `useExistingField: true` (reuse a
 core column such as `header` or `bodytext`) or a `type`. Field types available
 in 1.x include `Text`, `Textarea`, `Number`, `Email`, `Link`, `Select`,
 `Radio`, `Checkbox`, `Color`, `DateTime`, `File`, `Folder`, `Relation`,
+`Category`, `Collection`, `FlexForm`, `Json`, `Slug`, `Uuid`, `Password`,

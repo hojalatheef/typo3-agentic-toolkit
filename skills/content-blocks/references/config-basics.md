@@ -42,3 +42,4 @@ upgrade wizard renames them.
 | `fields` | list of fields |
 
 Each field has an `identifier` and either `useExistingField: true` (reuse a
+core column such as `header` or `bodytext`) or a `type`. Field types available

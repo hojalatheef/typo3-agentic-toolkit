@@ -39,3 +39,4 @@ upgrade wizard renames them.
 | `typeName` | optional CType value; derived from `name` if omitted |
 | `group` | optional wizard group |
 | `prefixFields`, `prefixType` | optional column prefixing; default prefixes columns with vendor and name - check the docs |
+| `fields` | list of fields |

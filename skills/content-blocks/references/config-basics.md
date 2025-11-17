@@ -37,3 +37,4 @@ upgrade wizard renames them.
 | --- | --- |
 | `name` | `vendor/element-name`, unique |
 | `typeName` | optional CType value; derived from `name` if omitted |
+| `group` | optional wizard group |

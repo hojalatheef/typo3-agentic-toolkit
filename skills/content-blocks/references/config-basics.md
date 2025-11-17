@@ -40,3 +40,5 @@ upgrade wizard renames them.
 | `group` | optional wizard group |
 | `prefixFields`, `prefixType` | optional column prefixing; default prefixes columns with vendor and name - check the docs |
 | `fields` | list of fields |
+
+Each field has an `identifier` and either `useExistingField: true` (reuse a

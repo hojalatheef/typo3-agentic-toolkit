@@ -76,3 +76,5 @@ vendor/bin/typo3 make:content-block \
   --name=teaser \
   --extension=my_sitepackage
 ```
+
+The value format of `--content-type` is version-dependent; run the command

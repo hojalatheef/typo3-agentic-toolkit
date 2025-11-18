@@ -49,3 +49,10 @@ in 1.x include `Text`, `Textarea`, `Number`, `Email`, `Link`, `Select`,
 `Pass`, `Language`, plus layout types `Palette`, `Tab` and `Linebreak`.
 Most other keys are passed through to the matching TCA type, so `required`,
 `default`, `items` and `allowedTypes` behave as in TCA.
+
+## Templates and command
+
+- `templates/frontend.html` receives the element as `{data}`. Reused core
+  fields are available by their name (`{data.header}`); for your own fields
+  check the docs of your version for whether to use the identifier or the
+  prefixed column name.

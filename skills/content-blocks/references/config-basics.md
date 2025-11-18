@@ -62,3 +62,7 @@ Most other keys are passed through to the matching TCA type, so `required`,
 - `{cb:assetPath()}` points to the element's published `assets/` folder for
   `f:asset.css` / `f:asset.script`.
 - `templates/backend-preview.html` replaces the default page module preview.
+- Commands in 1.x: `make:content-block` (alias `content-blocks:create`) with
+  options `--content-type`, `--vendor`, `--name`, `--title`, `--type-name`,
+  `--extension`; `content-blocks:list`; `content-blocks:language:generate`
+  creates or updates `labels.xlf` from `config.yaml`.

@@ -68,3 +68,11 @@ Most other keys are passed through to the matching TCA type, so `required`,
   creates or updates `labels.xlf` from `config.yaml`.
 
 Example non-interactive call:
+
+```bash
+vendor/bin/typo3 make:content-block \
+  --content-type=content-element \
+  --vendor=my-vendor \
+  --name=teaser \
+  --extension=my_sitepackage
+```

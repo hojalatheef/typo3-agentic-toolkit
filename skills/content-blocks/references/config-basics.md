@@ -47,3 +47,4 @@ in 1.x include `Text`, `Textarea`, `Number`, `Email`, `Link`, `Select`,
 `Radio`, `Checkbox`, `Color`, `DateTime`, `File`, `Folder`, `Relation`,
 `Category`, `Collection`, `FlexForm`, `Json`, `Slug`, `Uuid`, `Password`,
 `Pass`, `Language`, plus layout types `Palette`, `Tab` and `Linebreak`.
+Most other keys are passed through to the matching TCA type, so `required`,

@@ -61,3 +61,4 @@ Most other keys are passed through to the matching TCA type, so `required`,
   `record-rendering` skill).
 - `{cb:assetPath()}` points to the element's published `assets/` folder for
   `f:asset.css` / `f:asset.script`.
+- `templates/backend-preview.html` replaces the default page module preview.

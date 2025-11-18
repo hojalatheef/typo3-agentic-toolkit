@@ -56,3 +56,6 @@ Most other keys are passed through to the matching TCA type, so `required`,
   fields are available by their name (`{data.header}`); for your own fields
   check the docs of your version for whether to use the identifier or the
   prefixed column name.
+- In 1.x `{data}` is a `ContentBlockData` object that implements the core
+  `RecordInterface`, so record-aware core ViewHelpers can take it (see the
+  `record-rendering` skill).

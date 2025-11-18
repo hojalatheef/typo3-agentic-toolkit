@@ -66,3 +66,5 @@ Most other keys are passed through to the matching TCA type, so `required`,
   options `--content-type`, `--vendor`, `--name`, `--title`, `--type-name`,
   `--extension`; `content-blocks:list`; `content-blocks:language:generate`
   creates or updates `labels.xlf` from `config.yaml`.
+
+Example non-interactive call:

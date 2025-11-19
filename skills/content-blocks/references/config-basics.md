@@ -78,3 +78,4 @@ vendor/bin/typo3 make:content-block \
 ```
 
 The value format of `--content-type` is version-dependent; run the command
+interactively once if unsure.

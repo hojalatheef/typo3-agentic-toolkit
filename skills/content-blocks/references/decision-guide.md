@@ -9,3 +9,4 @@ and a site set for TypoScript.
 
 | Aspect | Content Blocks | TCA + site set |
 | --- | --- | --- |
+| Source of truth | one `config.yaml` per element | TCA PHP arrays, TypoScript, templates |

@@ -12,3 +12,4 @@ and a site set for TypoScript.
 | Source of truth | one `config.yaml` per element | TCA PHP arrays, TypoScript, templates |
 | Dependency | community extension, versioned separately | core only |
 | Database columns | generated from YAML | generated from TCA (core auto-creates most columns) |
+| Labels | conventional language file in the element folder | your own XLIFF files |

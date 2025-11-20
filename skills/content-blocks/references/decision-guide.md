@@ -18,3 +18,8 @@ and a site set for TypoScript.
 | Advanced TCA (custom renderType, itemsProcessors, complex displayCond) | limited; check docs | everything |
 | Learning curve for integrators | low | medium |
 | Portability between projects | copy one folder | copy several files |
+
+## Decision rules
+
+1. Building a distributable extension for TER/Packagist: use TCA. Do not force
+   a Content Blocks dependency on your users.

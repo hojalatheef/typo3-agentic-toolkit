@@ -17,3 +17,4 @@ and a site set for TypoScript.
 | Wizard entry, icon | from YAML and the element folder | `addRecordType()` |
 | Advanced TCA (custom renderType, itemsProcessors, complex displayCond) | limited; check docs | everything |
 | Learning curve for integrators | low | medium |
+| Portability between projects | copy one folder | copy several files |

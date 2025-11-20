@@ -16,3 +16,4 @@ and a site set for TypoScript.
 | Templates | conventional files in the element folder | any path you configure |
 | Wizard entry, icon | from YAML and the element folder | `addRecordType()` |
 | Advanced TCA (custom renderType, itemsProcessors, complex displayCond) | limited; check docs | everything |
+| Learning curve for integrators | low | medium |

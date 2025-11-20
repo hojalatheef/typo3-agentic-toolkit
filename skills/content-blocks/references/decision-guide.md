@@ -13,3 +13,4 @@ and a site set for TypoScript.
 | Dependency | community extension, versioned separately | core only |
 | Database columns | generated from YAML | generated from TCA (core auto-creates most columns) |
 | Labels | conventional language file in the element folder | your own XLIFF files |
+| Templates | conventional files in the element folder | any path you configure |

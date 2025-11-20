@@ -15,3 +15,4 @@ and a site set for TypoScript.
 | Labels | conventional language file in the element folder | your own XLIFF files |
 | Templates | conventional files in the element folder | any path you configure |
 | Wizard entry, icon | from YAML and the element folder | `addRecordType()` |
+| Advanced TCA (custom renderType, itemsProcessors, complex displayCond) | limited; check docs | everything |

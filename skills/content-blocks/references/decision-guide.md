@@ -29,3 +29,9 @@ and a site set for TypoScript.
 4. A team without PHP experience maintains elements: Content Blocks.
 5. Mixed is fine: a site package can use Content Blocks for most elements and
    plain TCA for the few that need more.
+
+## Migration paths
+
+- From plain TCA to Content Blocks: reuse existing columns with
+  `useExistingField` where possible; otherwise migrate data with an upgrade
+  wizard. Plan this per element; do not convert everything at once.

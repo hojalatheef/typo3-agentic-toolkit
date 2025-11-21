@@ -38,3 +38,6 @@ and a site set for TypoScript.
 - From Content Blocks to plain TCA: inspect the generated TCA in the backend
   "Configuration" module, copy it into `Configuration/TCA/Overrides/`, keep
   the column names, then remove the element folder.
+- Check the extension documentation for your version for its own migration
+  notes between major versions of Content Blocks - folder and file names have
+  changed between its releases.

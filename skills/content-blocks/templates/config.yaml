@@ -1,0 +1,27 @@
+# ContentBlocks/ContentElements/teaser/config.yaml
+# friendsoftypo3/content-blocks 1.x (extension, NOT TYPO3 core).
+# Check the extension docs for your installed version before adding keys.
+name: my-vendor/teaser
+fields:
+  - identifier: header
+    useExistingField: true
+  - identifier: bodytext
+    useExistingField: true
+  - identifier: image
+    type: File
+    allowed: common-image-types
+    maxitems: 1
+  - identifier: link
+    type: Link
+    allowedTypes:
+      - page
+      - url
+  - identifier: variant
+    type: Select
+    renderType: selectSingle
+    default: primary
+    items:
+      - label: 'Primary'
+        value: primary
+      - label: 'Secondary'
+        value: secondary

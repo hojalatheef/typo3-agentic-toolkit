@@ -1,0 +1,18 @@
+<f:comment>
+    ContentBlocks/ContentElements/teaser/templates/frontend.html
+    friendsoftypo3/content-blocks 1.x. {data} holds the element.
+    Own fields: check your version's docs whether to use the identifier
+    (data.image) or the prefixed column name.
+</f:comment>
+<f:asset.css identifier="content-block-my-vendor-teaser" href="{cb:assetPath()}/frontend.css" />
+
+<article class="teaser teaser--{data.variant}">
+    <h2>{data.header}</h2>
+    <f:for each="{data.image}" as="image">
+        <f:image image="{image}" width="800" />
+    </f:for>
+    <f:format.html>{data.bodytext}</f:format.html>
+    <f:if condition="{data.link}">
+        <f:link.typolink parameter="{data.link}">Read more</f:link.typolink>
+    </f:if>
+</article>

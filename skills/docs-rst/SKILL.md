@@ -16,3 +16,4 @@ Request: $ARGUMENTS
 ## When to use
 
 - A new extension has no `Documentation/` yet.
+- A feature changed and its settings, site-set options or usage must be documented.

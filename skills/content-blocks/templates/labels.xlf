@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ContentBlocks/ContentElements/teaser/language/labels.xlf
+  Regenerate keys with: vendor/bin/typo3 content-blocks:language:generate
+  (friendsoftypo3/content-blocks 1.x). Key names are version-dependent;
+  prefer generating over writing by hand.
+-->
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="plaintext" original="labels.xlf" source-language="en" product-name="my-vendor/teaser">
+    <header/>
+    <body>
+      <trans-unit id="title">
+        <source>Teaser</source>
+      </trans-unit>
+      <trans-unit id="description">
+        <source>Image, text and a link.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

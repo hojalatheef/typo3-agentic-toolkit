@@ -35,3 +35,6 @@ and a site set for TypoScript.
 - From plain TCA to Content Blocks: reuse existing columns with
   `useExistingField` where possible; otherwise migrate data with an upgrade
   wizard. Plan this per element; do not convert everything at once.
+- From Content Blocks to plain TCA: inspect the generated TCA in the backend
+  "Configuration" module, copy it into `Configuration/TCA/Overrides/`, keep
+  the column names, then remove the element folder.

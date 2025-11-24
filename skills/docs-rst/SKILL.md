@@ -36,3 +36,5 @@ Documentation/
   Usage/Index.rst
   Decisions/Index.rst      (optional, see the adr skill)
 ```
+
+Templates for `guides.xml`, `Index.rst` and the common directives are in [references/rst-cheatsheet.md](references/rst-cheatsheet.md).

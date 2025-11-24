@@ -21,3 +21,14 @@ Request: $ARGUMENTS
 - Before a release, to prove the docs render without warnings.
 
 For more than two or three pages of new content, delegate to the `docs-writer` agent with the topic list and let it render and report.
+
+## Layout
+
+```text
+Documentation/
+  guides.xml
+  Includes.rst.txt
+  Index.rst
+  Introduction/Index.rst
+  Installation/Index.rst
+```

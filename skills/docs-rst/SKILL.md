@@ -38,3 +38,7 @@ Documentation/
 ```
 
 Templates for `guides.xml`, `Index.rst` and the common directives are in [references/rst-cheatsheet.md](references/rst-cheatsheet.md).
+
+## Steps
+
+1. **Set up or migrate.** No `Documentation/`: create the layout above. `Settings.cfg` present: run the migration and review the generated `guides.xml`:

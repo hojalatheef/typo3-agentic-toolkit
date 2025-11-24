@@ -31,4 +31,8 @@ Documentation/
   Index.rst
   Introduction/Index.rst
   Installation/Index.rst
+  Configuration/Index.rst
+  Configuration/SiteSet.rst
+  Usage/Index.rst
+  Decisions/Index.rst      (optional, see the adr skill)
 ```

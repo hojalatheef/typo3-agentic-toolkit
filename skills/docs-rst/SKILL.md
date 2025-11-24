@@ -18,3 +18,4 @@ Request: $ARGUMENTS
 - A new extension has no `Documentation/` yet.
 - A feature changed and its settings, site-set options or usage must be documented.
 - `Documentation/Settings.cfg` exists: migrate it to `guides.xml`.
+- Before a release, to prove the docs render without warnings.

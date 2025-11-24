@@ -42,3 +42,7 @@ Templates for `guides.xml`, `Index.rst` and the common directives are in [refere
 ## Steps
 
 1. **Set up or migrate.** No `Documentation/`: create the layout above. `Settings.cfg` present: run the migration and review the generated `guides.xml`:
+
+    ```bash
+    docker run --rm --pull always -v "$(pwd)":/project ghcr.io/typo3-documentation/render-guides:latest migrate Documentation
+    ```

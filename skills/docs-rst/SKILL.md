@@ -62,3 +62,4 @@ Templates for `guides.xml`, `Index.rst` and the common directives are in [refere
 ## Checklist
 
 - [ ] `guides.xml` has `project` title, `version` and `release`, and the `extension` element with repository and issue links.
+- [ ] Every folder has `Index.rst` with a `toctree`.

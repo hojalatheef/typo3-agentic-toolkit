@@ -49,3 +49,7 @@ Templates for `guides.xml`, `Index.rst` and the common directives are in [refere
 
 2. **Write.** One topic per page, each with a label (`..  _configuration-site-set:`) so others can link with `:ref:`. Document site-set settings (from `settings.definitions.yaml`, Feature-103437) and extension configuration with `..  confval::`. Take code samples from the real files and add `:caption: EXT:my_ext/<path>`.
 3. **Render.**
+
+    ```bash
+    docker run --rm --pull always -v "$(pwd)":/project -t ghcr.io/typo3-documentation/render-guides:latest --config=Documentation
+    ```

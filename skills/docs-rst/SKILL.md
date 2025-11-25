@@ -55,3 +55,5 @@ Templates for `guides.xml`, `Index.rst` and the common directives are in [refere
     ```
 
     Output goes to `Documentation-GENERATED-temp/Index.html`. Add that folder to `.gitignore`.
+
+4. **Fix warnings.** Treat every warning as an error: broken `:ref:`, unknown directive, wrong indentation, missing toctree entry. Re-render until clean.

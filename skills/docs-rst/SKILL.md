@@ -58,3 +58,7 @@ Templates for `guides.xml`, `Index.rst` and the common directives are in [refere
 
 4. **Fix warnings.** Treat every warning as an error: broken `:ref:`, unknown directive, wrong indentation, missing toctree entry. Re-render until clean.
 5. **Report** with the format below.
+
+## Checklist
+
+- [ ] `guides.xml` has `project` title, `version` and `release`, and the `extension` element with repository and issue links.

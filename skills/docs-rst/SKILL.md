@@ -53,3 +53,5 @@ Templates for `guides.xml`, `Index.rst` and the common directives are in [refere
     ```bash
     docker run --rm --pull always -v "$(pwd)":/project -t ghcr.io/typo3-documentation/render-guides:latest --config=Documentation
     ```
+
+    Output goes to `Documentation-GENERATED-temp/Index.html`. Add that folder to `.gitignore`.

@@ -64,3 +64,4 @@ Templates for `guides.xml`, `Index.rst` and the common directives are in [refere
 - [ ] `guides.xml` has `project` title, `version` and `release`, and the `extension` element with repository and issue links.
 - [ ] Every folder has `Index.rst` with a `toctree`.
 - [ ] Every page starts with `..  include:: /Includes.rst.txt` and has a label.
+- [ ] Code blocks name their language; captions use `EXT:` paths.

@@ -66,3 +66,4 @@ Templates for `guides.xml`, `Index.rst` and the common directives are in [refere
 - [ ] Every page starts with `..  include:: /Includes.rst.txt` and has a label.
 - [ ] Code blocks name their language; captions use `EXT:` paths.
 - [ ] Settings are documented with `confval`, including type and default.
+- [ ] Render exits 0 with zero warnings.

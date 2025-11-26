@@ -23,3 +23,9 @@
     <inventory id="t3coreapi" url="https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/"/>
 </guides>
 ```
+
+## Page skeleton
+
+```rst
+..  include:: /Includes.rst.txt
+```

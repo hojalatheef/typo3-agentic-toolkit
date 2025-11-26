@@ -68,3 +68,11 @@ Templates for `guides.xml`, `Index.rst` and the common directives are in [refere
 - [ ] Settings are documented with `confval`, including type and default.
 - [ ] Render exits 0 with zero warnings.
 - [ ] Screenshots have alt text (`:alt:`) and live in `Documentation/Images/`.
+
+## Report
+
+```text
+DOCS     <n> pages changed (<list>)
+RENDER   docker render-guides -> exit <code> | warnings <n>
+OUTPUT   Documentation-GENERATED-temp/Index.html
+```

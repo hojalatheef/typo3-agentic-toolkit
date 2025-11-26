@@ -67,3 +67,4 @@ Templates for `guides.xml`, `Index.rst` and the common directives are in [refere
 - [ ] Code blocks name their language; captions use `EXT:` paths.
 - [ ] Settings are documented with `confval`, including type and default.
 - [ ] Render exits 0 with zero warnings.
+- [ ] Screenshots have alt text (`:alt:`) and live in `Documentation/Images/`.

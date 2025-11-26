@@ -16,4 +16,10 @@
                edit-on-github="my-vendor/my-ext"
                edit-on-github-branch="main"
                typo3-core-preferred="stable"/>
+    <project title="My extension"
+             version="1.0"
+             release="1.0.0"
+             copyright="since 2026 by My Company"/>
+    <inventory id="t3coreapi" url="https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/"/>
+</guides>
 ```

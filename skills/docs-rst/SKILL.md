@@ -80,3 +80,4 @@ OUTPUT   Documentation-GENERATED-temp/Index.html
 ## References
 
 - [references/rst-cheatsheet.md](references/rst-cheatsheet.md) - guides.xml, Index.rst and directive templates.
+- Agent `docs-writer` - delegate larger documentation jobs.

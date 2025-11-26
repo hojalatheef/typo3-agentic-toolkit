@@ -76,3 +76,7 @@ DOCS     <n> pages changed (<list>)
 RENDER   docker render-guides -> exit <code> | warnings <n>
 OUTPUT   Documentation-GENERATED-temp/Index.html
 ```
+
+## References
+
+- [references/rst-cheatsheet.md](references/rst-cheatsheet.md) - guides.xml, Index.rst and directive templates.

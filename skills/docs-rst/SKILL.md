@@ -81,3 +81,4 @@ OUTPUT   Documentation-GENERATED-temp/Index.html
 
 - [references/rst-cheatsheet.md](references/rst-cheatsheet.md) - guides.xml, Index.rst and directive templates.
 - Agent `docs-writer` - delegate larger documentation jobs.
+- Skill `adr` - decision records under `Documentation/Decisions/`.

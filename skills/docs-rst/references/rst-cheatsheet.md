@@ -37,4 +37,7 @@ Configuration
 
 ..  toctree::
     :titlesonly:
+
+    SiteSet
+    ExtensionConfiguration
 ```

@@ -34,4 +34,7 @@
 =============
 Configuration
 =============
+
+..  toctree::
+    :titlesonly:
 ```

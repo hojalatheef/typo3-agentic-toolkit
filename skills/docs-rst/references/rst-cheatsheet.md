@@ -50,3 +50,4 @@ Configuration
 | --- | --- |
 | Code sample | `..  code-block:: php` with `:caption: EXT:my_ext/Classes/Foo.php` |
 | Setting | `..  confval:: myExt.itemsPerPage` with `:type: int` and `:default: 10` |
+| Note or warning | `..  note::`, `..  warning::`, `..  tip::` |

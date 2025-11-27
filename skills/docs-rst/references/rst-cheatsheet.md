@@ -53,3 +53,4 @@ Configuration
 | Note or warning | `..  note::`, `..  warning::`, `..  tip::` |
 | Image | `..  figure:: /Images/Module.png` with `:alt:` and `:class: with-shadow` |
 | Tabs | `..  tabs::` and `..  group-tab:: Composer` |
+| Link to own label | ``:ref:`configuration` `` |

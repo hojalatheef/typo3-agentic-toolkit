@@ -43,3 +43,8 @@ Configuration
 ```
 
 `Includes.rst.txt` holds shared substitutions and default roles, for example `..  highlight:: php`.
+
+## Directives
+
+| Need | Directive |
+| --- | --- |

@@ -57,3 +57,8 @@ Configuration
 | Link to core docs | ``:ref:`t3coreapi:<label>` `` (needs the inventory in `guides.xml`) |
 
 Write two spaces after `..` and indent directive options and content by four spaces, as the TYPO3 documentation does.
+
+## Common warnings
+
+| Warning | Fix |
+| --- | --- |

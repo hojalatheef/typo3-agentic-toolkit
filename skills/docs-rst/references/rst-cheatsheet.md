@@ -62,3 +62,4 @@ Write two spaces after `..` and indent directive options and content by four spa
 
 | Warning | Fix |
 | --- | --- |
+| `Reference ... could not be resolved` | wrong label or missing inventory in `guides.xml` |

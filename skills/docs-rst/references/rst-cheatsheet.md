@@ -55,3 +55,5 @@ Configuration
 | Tabs | `..  tabs::` and `..  group-tab:: Composer` |
 | Link to own label | ``:ref:`configuration` `` |
 | Link to core docs | ``:ref:`t3coreapi:<label>` `` (needs the inventory in `guides.xml`) |
+
+Write two spaces after `..` and indent directive options and content by four spaces, as the TYPO3 documentation does.

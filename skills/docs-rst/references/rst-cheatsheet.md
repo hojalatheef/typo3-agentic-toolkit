@@ -54,3 +54,4 @@ Configuration
 | Image | `..  figure:: /Images/Module.png` with `:alt:` and `:class: with-shadow` |
 | Tabs | `..  tabs::` and `..  group-tab:: Composer` |
 | Link to own label | ``:ref:`configuration` `` |
+| Link to core docs | ``:ref:`t3coreapi:<label>` `` (needs the inventory in `guides.xml`) |

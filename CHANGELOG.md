@@ -4,6 +4,29 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [0.2.0] - 2025-11-28
+
+### Added
+
+- `adr` skill
+- `backend-modules` skill
+- `content-blocks` skill
+- `docs-rst` skill
+- `extbase-modern` skill
+
+### Changed
+
+- `a11y-audit/wcag-fluid` reference: more guidance
+- `a11y-audit` skill: more guidance
+- `adr/adr-template` reference: more guidance
+- `adr` skill: more guidance
+- `content-blocks/config-basics` reference: more guidance
+- `content-blocks/decision-guide` reference: more guidance
+- `content-blocks` skill: more guidance
+- `docs-rst/rst-cheatsheet` reference: more guidance
+- `docs-rst` skill: more guidance
+- `extbase-modern` skill: more guidance
+
 ## [0.1.0] - 2025-10-31
 
 ### Added

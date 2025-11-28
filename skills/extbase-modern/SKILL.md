@@ -14,3 +14,5 @@ paths:
 # Modern Extbase (TYPO3 v14)
 
 Arguments: `$ARGUMENTS`. A path, if given, is the class to work on; a keyword narrows the feature.
+
+Extbase in v14 moved most cross-cutting concerns (access control, throttling, validation, uploads, audit trail)

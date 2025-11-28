@@ -63,3 +63,4 @@ Write two spaces after `..` and indent directive options and content by four spa
 | Warning | Fix |
 | --- | --- |
 | `Reference ... could not be resolved` | wrong label or missing inventory in `guides.xml` |
+| `Document ... is not included in any toctree` | add it to the folder's `Index.rst` toctree, or mark it `:orphan:` |

@@ -32,3 +32,6 @@ integration, a checkout of the TYPO3 Dev Companion for the MCP server.
 ## Configure
 
 `/plugin configure typo3-agentic-toolkit` (or `claude plugin configure`) sets:
+
+| Option | Default | Effect |
+| --- | --- | --- |

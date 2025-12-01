@@ -24,3 +24,5 @@ For local development:
 ```bash
 claude --plugin-dir ~/Developer/claude-playground/typo3-agentic-toolkit
 ```
+
+Requirements: `jq` and `git`. Optional: DDEV or Docker (PHP for hooks and

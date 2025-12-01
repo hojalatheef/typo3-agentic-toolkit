@@ -26,3 +26,4 @@ claude --plugin-dir ~/Developer/claude-playground/typo3-agentic-toolkit
 ```
 
 Requirements: `jq` and `git`. Optional: DDEV or Docker (PHP for hooks and
+gates when the host has no working PHP), `intelephense` on `PATH` for the LSP

@@ -10,3 +10,4 @@ and evals.
 
 Every TYPO3 statement in the skills cites the core changelog entry it comes
 from (`Feature-108508`, `Feature-104002`, …). Look one up with
+`t3-changelog <id>`.

@@ -18,3 +18,5 @@ from (`Feature-108508`, `Feature-104002`, …). Look one up with
 /plugin marketplace add hojalatheef/typo3-agentic-toolkit
 /plugin install typo3-agentic-toolkit@typo3-agentic-toolkit
 ```
+
+For local development:

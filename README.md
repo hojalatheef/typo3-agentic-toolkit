@@ -20,3 +20,7 @@ from (`Feature-108508`, `Feature-104002`, …). Look one up with
 ```
 
 For local development:
+
+```bash
+claude --plugin-dir ~/Developer/claude-playground/typo3-agentic-toolkit
+```

@@ -9,3 +9,4 @@ subagents, hooks, function hooks, output styles, LSP, MCP, monitors, workflows
 and evals.
 
 Every TYPO3 statement in the skills cites the core changelog entry it comes
+from (`Feature-108508`, `Feature-104002`, …). Look one up with

@@ -46,3 +46,4 @@ that is expected and harmless.
 ## What is inside
 
 See [CATALOG.md](CATALOG.md) for the categorised list and
+[docs/concepts.md](docs/concepts.md) for which Claude Code concept each

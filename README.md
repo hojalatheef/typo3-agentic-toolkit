@@ -36,3 +36,4 @@ integration, a checkout of the TYPO3 Dev Companion for the MCP server.
 | Option | Default | Effect |
 | --- | --- | --- |
 | `php_runner` | `auto` | How hooks and gates run PHP: DDEV, host, then Docker |
+| `strict_guard` | `false` | Deny instead of ask for edits to `vendor/`, `var/`, `public/typo3/` |

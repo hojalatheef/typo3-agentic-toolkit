@@ -48,3 +48,6 @@ that is expected and harmless.
 See [CATALOG.md](CATALOG.md) for the categorised list and
 [docs/concepts.md](docs/concepts.md) for which Claude Code concept each
 component demonstrates.
+
+| Category | Count | Examples |
+| --- | --- | --- |

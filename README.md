@@ -40,3 +40,4 @@ integration, a checkout of the TYPO3 Dev Companion for the MCP server.
 | `dev_companion_path` | unset | Starts the TYPO3 Dev Companion MCP server from this checkout |
 
 The LSP integration needs `npm install -g intelephense`. Until
+`dev_companion_path` is set, `/mcp` lists `typo3-dev-companion` as failed;

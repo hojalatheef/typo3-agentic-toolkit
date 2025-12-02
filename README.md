@@ -38,3 +38,5 @@ integration, a checkout of the TYPO3 Dev Companion for the MCP server.
 | `php_runner` | `auto` | How hooks and gates run PHP: DDEV, host, then Docker |
 | `strict_guard` | `false` | Deny instead of ask for edits to `vendor/`, `var/`, `public/typo3/` |
 | `dev_companion_path` | unset | Starts the TYPO3 Dev Companion MCP server from this checkout |
+
+The LSP integration needs `npm install -g intelephense`. Until

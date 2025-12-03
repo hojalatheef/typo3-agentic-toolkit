@@ -52,3 +52,4 @@ component demonstrates.
 | Category | Count | Examples |
 | --- | --- | --- |
 | Build skills (TYPO3 concepts) | 13 | `site-sets`, `fluid-components`, `schema-api`, `extbase-modern` |
+| Quality skills | 4 | `quality-gate`, `functional-tests`, `a11y-audit`, `review` |

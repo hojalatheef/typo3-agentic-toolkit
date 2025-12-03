@@ -62,3 +62,7 @@ component demonstrates.
 ## Typical sessions
 
 Build a feature with a team of agents:
+
+```text
+/typo3-agentic-toolkit:feature-team Add a "events" site set with a Fluid component for event teasers
+```

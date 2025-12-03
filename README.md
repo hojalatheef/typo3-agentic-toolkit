@@ -55,3 +55,4 @@ component demonstrates.
 | Quality skills | 4 | `quality-gate`, `functional-tests`, `a11y-audit`, `review` |
 | Orchestration and command skills | 6 | `feature-team`, `onboard`, `release`, `adr` |
 | Subagents | 10 | `typo3-architect` (Opus), `implementer` (worktree), `code-scout` (Haiku) |
+| Hooks | 9 events | guards, PHP lint, legacy API hints, session context, Stop check |

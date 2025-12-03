@@ -58,3 +58,7 @@ component demonstrates.
 | Hooks | 9 events | guards, PHP lint, legacy API hints, session context, Stop check |
 | Output styles | 2 | `typo3-mentor`, `core-reviewer` |
 | Workflows | 2 | `feature-pipeline`, `extension-audit` |
+
+## Typical sessions
+
+Build a feature with a team of agents:

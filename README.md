@@ -66,3 +66,5 @@ Build a feature with a team of agents:
 ```text
 /typo3-agentic-toolkit:feature-team Add a "events" site set with a Fluid component for event teasers
 ```
+
+Turn a static TypoScript template into a site set — just open the files; the

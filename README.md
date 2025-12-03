@@ -57,3 +57,4 @@ component demonstrates.
 | Subagents | 10 | `typo3-architect` (Opus), `implementer` (worktree), `code-scout` (Haiku) |
 | Hooks | 9 events | guards, PHP lint, legacy API hints, session context, Stop check |
 | Output styles | 2 | `typo3-mentor`, `core-reviewer` |
+| Workflows | 2 | `feature-pipeline`, `extension-audit` |

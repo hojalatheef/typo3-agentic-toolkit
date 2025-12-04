@@ -92,3 +92,4 @@ The hooks keep the usual footguns visible:
   (or are denied with `strict_guard`), `config/system/settings.php` always asks;
 - `git … --no-verify`, `composer … --ignore-platform-req(s)` and `rm -rf` of
   `var/`, `config/` or `fileadmin/` are denied;
+- destructive schema updates and `ddev delete` / `ddev import-db` ask;

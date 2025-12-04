@@ -83,3 +83,7 @@ Prove it before you commit:
 /typo3-agentic-toolkit:quality-gate
 /typo3-agentic-toolkit:review
 ```
+
+## Safety
+
+The hooks keep the usual footguns visible:

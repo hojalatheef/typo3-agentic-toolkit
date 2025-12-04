@@ -72,3 +72,7 @@ Turn a static TypoScript template into a site set — just open the files; the
 `Configuration/TypoScript/**`.
 
 Ask why something changed:
+
+```text
+/typo3-agentic-toolkit:explain-change Fluid components
+```

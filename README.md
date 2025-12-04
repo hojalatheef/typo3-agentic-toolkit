@@ -69,3 +69,4 @@ Build a feature with a team of agents:
 
 Turn a static TypoScript template into a site set — just open the files; the
 `site-sets` skill activates on `Configuration/Sets/**` and
+`Configuration/TypoScript/**`.

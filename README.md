@@ -90,3 +90,5 @@ The hooks keep the usual footguns visible:
 
 - edits to `vendor/`, `var/`, `public/typo3/`, `public/_assets/` ask first
   (or are denied with `strict_guard`), `config/system/settings.php` always asks;
+- `git … --no-verify`, `composer … --ignore-platform-req(s)` and `rm -rf` of
+  `var/`, `config/` or `fileadmin/` are denied;

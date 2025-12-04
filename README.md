@@ -76,3 +76,5 @@ Ask why something changed:
 ```text
 /typo3-agentic-toolkit:explain-change Fluid components
 ```
+
+Prove it before you commit:

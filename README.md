@@ -78,3 +78,8 @@ Ask why something changed:
 ```
 
 Prove it before you commit:
+
+```text
+/typo3-agentic-toolkit:quality-gate
+/typo3-agentic-toolkit:review
+```

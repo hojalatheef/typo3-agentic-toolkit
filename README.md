@@ -114,3 +114,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 - [typo3-extension-migration](https://github.com/hojalatheef/typo3-extension-migration) — move extension code between LTS lines.
 - [typo3-project-migration](https://github.com/hojalatheef/typo3-project-migration) — upgrade whole installations.
+
+This plugin starts where those end: building new things on v14.

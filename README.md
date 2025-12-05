@@ -96,3 +96,14 @@ The hooks keep the usual footguns visible:
 - after every PHP edit the file is linted and checked for APIs removed in
   v13/v14, with the changelog ID of the replacement;
 - the session stops with a reminder when PHP changed but no test or gate ran.
+
+## Development
+
+```bash
+npm ci
+npm test            # self-test + markdownlint
+npm run lint:sh     # shellcheck
+npm run validate    # claude plugin validate --strict .
+claude plugin test . # function hook tests
+claude plugin eval .  # eval suite (needs --trust-plugin for scaffolds)
+```

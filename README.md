@@ -93,3 +93,5 @@ The hooks keep the usual footguns visible:
 - `git … --no-verify`, `composer … --ignore-platform-req(s)` and `rm -rf` of
   `var/`, `config/` or `fileadmin/` are denied;
 - destructive schema updates and `ddev delete` / `ddev import-db` ask;
+- after every PHP edit the file is linted and checked for APIs removed in
+  v13/v14, with the changelog ID of the replacement;

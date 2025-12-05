@@ -107,3 +107,5 @@ npm run validate    # claude plugin validate --strict .
 claude plugin test . # function hook tests
 claude plugin eval .  # eval suite (needs --trust-plugin for scaffolds)
 ```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).

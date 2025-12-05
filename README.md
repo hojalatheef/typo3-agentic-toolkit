@@ -116,3 +116,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [typo3-project-migration](https://github.com/hojalatheef/typo3-project-migration) — upgrade whole installations.
 
 This plugin starts where those end: building new things on v14.
+
+## License
+
+MIT, see [LICENSE](LICENSE).

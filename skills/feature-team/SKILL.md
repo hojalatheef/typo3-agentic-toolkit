@@ -17,3 +17,7 @@ Feature: $ARGUMENTS
 - The user wants a reviewed, tested result rather than a quick edit.
 
 For a one-file change, skip the team and use the matching build skill directly (`extbase-modern`, `fluid-components`, `site-sets`, ...).
+
+## Preconditions
+
+1. The project is a git repository with a clean working tree (`git status --porcelain` is empty). Worktree isolation needs it. If not clean, ask the user to commit or stash first.

@@ -14,3 +14,4 @@ Feature: $ARGUMENTS
 ## When to use
 
 - A feature that spans several layers (TCA + Extbase + Fluid + site set, or a backend module plus a command) and benefits from parallel work.
+- The user wants a reviewed, tested result rather than a quick edit.

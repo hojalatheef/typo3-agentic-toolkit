@@ -15,3 +15,5 @@ Feature: $ARGUMENTS
 
 - A feature that spans several layers (TCA + Extbase + Fluid + site set, or a backend module plus a command) and benefits from parallel work.
 - The user wants a reviewed, tested result rather than a quick edit.
+
+For a one-file change, skip the team and use the matching build skill directly (`extbase-modern`, `fluid-components`, `site-sets`, ...).

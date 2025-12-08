@@ -10,3 +10,7 @@ allowed-tools: Read, Grep, Glob, Bash, Agent, SendMessage
 You are the orchestrator. You do not write feature code yourself; you plan with the architect, fan out to implementers, merge their worktrees, and loop review findings back until the change is clean.
 
 Feature: $ARGUMENTS
+
+## When to use
+
+- A feature that spans several layers (TCA + Extbase + Fluid + site set, or a backend module plus a command) and benefits from parallel work.

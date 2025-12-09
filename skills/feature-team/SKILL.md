@@ -38,3 +38,4 @@ For each package in the first parallel group, start one `implementer` in the sam
 
 - the package id and its exact file set,
 - the build skill named in the plan,
+- the proof command,

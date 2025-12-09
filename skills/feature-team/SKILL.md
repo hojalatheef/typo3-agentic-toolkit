@@ -40,3 +40,5 @@ For each package in the first parallel group, start one `implementer` in the sam
 - the build skill named in the plan,
 - the proof command,
 - the instruction to end with one `[WIP]` commit on its worktree branch.
+
+When they return, collect NEEDS-OUTSIDE items. They belong to the wiring package; pass them to that package's implementer. Merge each worktree branch into the feature branch in plan order (`git merge --no-ff <branch>`); squash the `[WIP]` commits before the final commit, and stop on conflicts: disjoint packages should never conflict, so a conflict means the plan was wrong. Send it back to the architect.

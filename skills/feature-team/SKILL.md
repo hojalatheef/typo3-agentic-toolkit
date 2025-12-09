@@ -29,3 +29,5 @@ For a one-file change, skip the team and use the matching build skill directly (
 ### 1. Plan
 
 Delegate to `typo3-architect` with the feature text and the base ref. It writes `.typo3-toolkit/plan.md`. Read it and show the user the package list and every open decision. Stop and ask if the plan lists decisions; otherwise continue.
+
+If the area is large or unfamiliar, first send two to four `code-scout` agents in parallel (one per area: `Classes/`, `Configuration/`, `Resources/Private/`, `Tests/`) and pass their reports to the architect.

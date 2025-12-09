@@ -37,3 +37,4 @@ If the area is large or unfamiliar, first send two to four `code-scout` agents i
 For each package in the first parallel group, start one `implementer` in the same message so they run concurrently. Each implementer runs in its own worktree (`isolation: worktree` in its definition). Give each one:
 
 - the package id and its exact file set,
+- the build skill named in the plan,

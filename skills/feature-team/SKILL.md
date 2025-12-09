@@ -23,3 +23,9 @@ For a one-file change, skip the team and use the matching build skill directly (
 1. The project is a git repository with a clean working tree (`git status --porcelain` is empty). Worktree isolation needs it. If not clean, ask the user to commit or stash first.
 2. Note the base: `git rev-parse HEAD`. All reviews diff against it.
 3. Check the TYPO3 constraint in `composer.json`. Tell the architect if `^13.4` must still be supported.
+
+## Steps
+
+### 1. Plan
+
+Delegate to `typo3-architect` with the feature text and the base ref. It writes `.typo3-toolkit/plan.md`. Read it and show the user the package list and every open decision. Stop and ask if the plan lists decisions; otherwise continue.

@@ -56,3 +56,7 @@ Start `code-reviewer` and `security-auditor` in one message, both with the base 
 ### 5. Fix loop
 
 For each BLOCKER or MAJOR finding, find the package that owns the file and resume that implementer with `SendMessage` (by its agent name or id) so it keeps its context. Send only the findings for its files. After fixes, re-run step 3 for affected tests and step 4 with only the reviewer that raised the finding. Stop after three rounds and report what is left.
+
+### 6. Gate and report
+
+Run the `quality-gate` skill. Report with the format below.

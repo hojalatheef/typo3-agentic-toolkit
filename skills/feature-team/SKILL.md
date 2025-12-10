@@ -52,3 +52,7 @@ Delegate to `test-engineer` with the plan's "Tests" section and the merged diff.
 ### 4. Review in parallel
 
 Start `code-reviewer` and `security-auditor` in one message, both with the base ref. If the feature touches Fluid templates or backend modules, add `fluid-a11y-reviewer` to the same message.
+
+### 5. Fix loop
+
+For each BLOCKER or MAJOR finding, find the package that owns the file and resume that implementer with `SendMessage` (by its agent name or id) so it keeps its context. Send only the findings for its files. After fixes, re-run step 3 for affected tests and step 4 with only the reviewer that raised the finding. Stop after three rounds and report what is left.

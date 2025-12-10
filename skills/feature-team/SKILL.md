@@ -82,4 +82,5 @@ PACKAGES  P1 merged | P2 merged | P3 deferred (reason)
 TESTS     unit <n>/<n>, functional <n>/<n>
 REVIEW    code-reviewer: approve | security-auditor: risk low | a11y: 0 AA issues
 GATE      PASSED | FAILED (<step>)
+OPEN      <decisions or findings left for the user>
 ```

@@ -68,3 +68,7 @@ Inside this plugin the subagent types are namespaced: `typo3-agentic-toolkit:typ
 ## Agent teams mode
 
 When `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` is set, you may run the same roles as a team: the implementers become teammates who message each other about the wiring package and claim tasks from a shared list. See [references/agent-teams.md](references/agent-teams.md). Without the variable, use the subagent flow above.
+
+## Workflow script
+
+For a deterministic, resumable run, the same pipeline exists as a workflow: `${CLAUDE_PLUGIN_ROOT}/workflows/feature-pipeline.js` (architect plan, parallel implementers per package, tests, parallel review and security audit, summary). Run it with the feature text as `args`, only when the user opted into workflows.

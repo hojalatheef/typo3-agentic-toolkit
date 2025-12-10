@@ -72,3 +72,14 @@ When `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` is set, you may run the same roles
 ## Workflow script
 
 For a deterministic, resumable run, the same pipeline exists as a workflow: `${CLAUDE_PLUGIN_ROOT}/workflows/feature-pipeline.js` (architect plan, parallel implementers per package, tests, parallel review and security audit, summary). Run it with the feature text as `args`, only when the user opted into workflows.
+
+## Report
+
+```text
+FEATURE   <one line>
+PLAN      .typo3-toolkit/plan.md (<n> packages)
+PACKAGES  P1 merged | P2 merged | P3 deferred (reason)
+TESTS     unit <n>/<n>, functional <n>/<n>
+REVIEW    code-reviewer: approve | security-auditor: risk low | a11y: 0 AA issues
+GATE      PASSED | FAILED (<step>)
+```

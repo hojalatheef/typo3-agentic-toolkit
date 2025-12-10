@@ -48,3 +48,7 @@ Run dependent package groups the same way after their dependencies are merged.
 ### 3. Test
 
 Delegate to `test-engineer` with the plan's "Tests" section and the merged diff. It adds unit and functional tests and runs them.
+
+### 4. Review in parallel
+
+Start `code-reviewer` and `security-auditor` in one message, both with the base ref. If the feature touches Fluid templates or backend modules, add `fluid-a11y-reviewer` to the same message.

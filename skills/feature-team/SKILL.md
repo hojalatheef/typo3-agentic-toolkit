@@ -64,3 +64,7 @@ Run the `quality-gate` skill. Report with the format below.
 ## Agent names
 
 Inside this plugin the subagent types are namespaced: `typo3-agentic-toolkit:typo3-architect`, `typo3-agentic-toolkit:implementer`, and so on. Use the namespaced name when the short name is not found.
+
+## Agent teams mode
+
+When `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` is set, you may run the same roles as a team: the implementers become teammates who message each other about the wiring package and claim tasks from a shared list. See [references/agent-teams.md](references/agent-teams.md). Without the variable, use the subagent flow above.

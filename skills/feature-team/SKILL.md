@@ -84,3 +84,7 @@ REVIEW    code-reviewer: approve | security-auditor: risk low | a11y: 0 AA issue
 GATE      PASSED | FAILED (<step>)
 OPEN      <decisions or findings left for the user>
 ```
+
+## References
+
+- [references/agent-teams.md](references/agent-teams.md) - team mode setup and messaging rules.

@@ -20,3 +20,4 @@ Without it, the `feature-team` skill uses plain subagents.
 
 | Teammate | Agent definition | Owns |
 | --- | --- | --- |
+| lead | the main session | plan approval, merges, final gate |

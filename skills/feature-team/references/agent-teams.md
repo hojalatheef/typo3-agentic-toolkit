@@ -5,3 +5,11 @@ Agent teams are an experimental Claude Code feature. Teammates are full sessions
 ## Enable
 
 Set the variable before starting Claude Code, for example in the project `.claude/settings.json`:
+
+```json
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  }
+}
+```

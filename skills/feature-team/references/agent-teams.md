@@ -13,3 +13,5 @@ Set the variable before starting Claude Code, for example in the project `.claud
   }
 }
 ```
+
+Without it, the `feature-team` skill uses plain subagents.

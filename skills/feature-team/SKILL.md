@@ -88,3 +88,4 @@ OPEN      <decisions or findings left for the user>
 ## References
 
 - [references/agent-teams.md](references/agent-teams.md) - team mode setup and messaging rules.
+- [references/package-cutting.md](references/package-cutting.md) - how to cut disjoint packages for TYPO3 extensions.

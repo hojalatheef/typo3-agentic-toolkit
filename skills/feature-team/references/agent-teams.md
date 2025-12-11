@@ -21,3 +21,4 @@ Without it, the `feature-team` skill uses plain subagents.
 | Teammate | Agent definition | Owns |
 | --- | --- | --- |
 | lead | the main session | plan approval, merges, final gate |
+| architect | `typo3-architect` | `.typo3-toolkit/plan.md` |

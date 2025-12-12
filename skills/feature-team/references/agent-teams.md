@@ -26,3 +26,5 @@ Without it, the `feature-team` skill uses plain subagents.
 | tester | `test-engineer` | `Tests/` |
 | reviewer | `code-reviewer` | findings only |
 | auditor | `security-auditor` | findings only |
+
+Keep the team at six teammates or fewer. More teammates mean more merge work and more token use, not a faster result.

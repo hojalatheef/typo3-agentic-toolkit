@@ -28,3 +28,7 @@ Without it, the `feature-team` skill uses plain subagents.
 | auditor | `security-auditor` | findings only |
 
 Keep the team at six teammates or fewer. More teammates mean more merge work and more token use, not a faster result.
+
+## Messaging rules
+
+1. Builders message the owner of the wiring package with NEEDS-OUTSIDE changes instead of editing shared files.

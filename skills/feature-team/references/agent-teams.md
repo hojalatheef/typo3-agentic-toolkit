@@ -24,3 +24,4 @@ Without it, the `feature-team` skill uses plain subagents.
 | architect | `typo3-architect` | `.typo3-toolkit/plan.md` |
 | builder-N | `implementer` | one package from the plan |
 | tester | `test-engineer` | `Tests/` |
+| reviewer | `code-reviewer` | findings only |

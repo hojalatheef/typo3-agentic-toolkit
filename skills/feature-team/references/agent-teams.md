@@ -39,3 +39,4 @@ Keep the team at six teammates or fewer. More teammates mean more merge work and
 ## When not to use it
 
 - The feature fits in one or two packages.
+- The repository has no tests: teammates cannot prove their slices, and the extra coordination buys nothing.

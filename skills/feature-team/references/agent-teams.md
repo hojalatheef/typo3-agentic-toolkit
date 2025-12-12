@@ -34,3 +34,4 @@ Keep the team at six teammates or fewer. More teammates mean more merge work and
 1. Builders message the owner of the wiring package with NEEDS-OUTSIDE changes instead of editing shared files.
 2. Reviewer and auditor message the builder that owns a file, with the finding line from their reply format.
 3. The lead resumes a quiet teammate with `SendMessage` by name rather than spawning a new one, so its context is kept.
+4. Nobody commits except the lead.

@@ -25,3 +25,4 @@ Without it, the `feature-team` skill uses plain subagents.
 | builder-N | `implementer` | one package from the plan |
 | tester | `test-engineer` | `Tests/` |
 | reviewer | `code-reviewer` | findings only |
+| auditor | `security-auditor` | findings only |

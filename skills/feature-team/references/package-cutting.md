@@ -13,3 +13,4 @@ Parallel implementers only work when no two of them touch the same file. These c
 | Labels | `Resources/Private/Language/**` | `translations` |
 | Backend | `Classes/Backend/**`, `Configuration/Backend/*.php` | `backend-modules` |
 | CLI | `Classes/Command/**` | `scheduler-console` |
+| Wiring | `ext_localconf.php`, `ext_tables.php`, `Configuration/Services.yaml`, `Configuration/Sets/**`, `composer.json` | `site-sets` |

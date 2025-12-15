@@ -10,3 +10,4 @@ Parallel implementers only work when no two of them touch the same file. These c
 | Domain | `Classes/Domain/**` | `extbase-modern` |
 | Controller | `Classes/Controller/**` | `extbase-modern` |
 | Rendering | `Resources/Private/**`, `Configuration/Fluid/ComponentCollections.php` | `fluid-components`, `record-rendering` |
+| Labels | `Resources/Private/Language/**` | `translations` |

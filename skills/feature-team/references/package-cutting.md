@@ -7,3 +7,4 @@ Parallel implementers only work when no two of them touch the same file. These c
 | Package | Files | Build skill |
 | --- | --- | --- |
 | Schema | `Configuration/TCA/*.php`, `Configuration/TCA/Overrides/*.php`, `ext_tables.sql` | `schema-api`, `content-blocks` |
+| Domain | `Classes/Domain/**` | `extbase-modern` |

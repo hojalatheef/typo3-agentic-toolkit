@@ -11,3 +11,4 @@ Parallel implementers only work when no two of them touch the same file. These c
 | Controller | `Classes/Controller/**` | `extbase-modern` |
 | Rendering | `Resources/Private/**`, `Configuration/Fluid/ComponentCollections.php` | `fluid-components`, `record-rendering` |
 | Labels | `Resources/Private/Language/**` | `translations` |
+| Backend | `Classes/Backend/**`, `Configuration/Backend/*.php` | `backend-modules` |

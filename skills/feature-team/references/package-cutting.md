@@ -27,3 +27,5 @@ Parallel implementers only work when no two of them touch the same file. These c
 - Two implementers report NEEDS-OUTSIDE for the same file with different changes.
 - A merge conflicts.
 - An implementer has to read another package's unfinished code to proceed.
+
+Any of these means the plan needs another pass by `typo3-architect`.

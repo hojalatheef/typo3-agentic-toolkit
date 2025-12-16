@@ -14,3 +14,7 @@ Parallel implementers only work when no two of them touch the same file. These c
 | Backend | `Classes/Backend/**`, `Configuration/Backend/*.php` | `backend-modules` |
 | CLI | `Classes/Command/**` | `scheduler-console` |
 | Wiring | `ext_localconf.php`, `ext_tables.php`, `Configuration/Services.yaml`, `Configuration/Sets/**`, `composer.json` | `site-sets` |
+
+## Rules
+
+1. Every shared registration file goes to the Wiring package, which runs after the others are merged.

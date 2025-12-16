@@ -1,0 +1,15 @@
+---
+name: fluid-components
+description: Build Fluid components and a component-based design system in TYPO3 v14 - ComponentCollections.php, Namespaces.php, f:argument and f:slot, *.fluid.html files, union types, CDATA syntax, XSD autocomplete, fluid:analyze, fluid:namespaces and cache warmup. Use when the user asks to "create a Fluid component", "set up a component library / design system", "register a global ViewHelper namespace", "get autocomplete for components", "lint Fluid templates" or edits files under Resources/Private/Components or Configuration/Fluid/.
+argument-hint: "[component path, e.g. molecule.teaserCard] [extension path]"
+allowed-tools: Read, Grep, Glob, Edit, Write, Bash(vendor/bin/typo3 fluid:*), Bash(ddev exec vendor/bin/typo3 fluid:*), Bash(vendor/bin/typo3 cache:warmup*)
+paths:
+  - "**/Resources/Private/Components/**"
+  - "**/Configuration/Fluid/ComponentCollections.php"
+  - "**/Configuration/Fluid/Namespaces.php"
+  - "**/*.fluid.html"
+---
+
+# Fluid components
+
+Fluid components are template files with a declared API (`<f:argument>`,

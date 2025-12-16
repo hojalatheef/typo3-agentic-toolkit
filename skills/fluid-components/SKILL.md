@@ -13,3 +13,4 @@ paths:
 # Fluid components
 
 Fluid components are template files with a declared API (`<f:argument>`,
+`<f:slot>`) that are called like ViewHelpers: `<my:molecule.teaserCard />`.

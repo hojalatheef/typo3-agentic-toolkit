@@ -25,3 +25,4 @@ Parallel implementers only work when no two of them touch the same file. These c
 ## Signs of a bad cut
 
 - Two implementers report NEEDS-OUTSIDE for the same file with different changes.
+- A merge conflicts.

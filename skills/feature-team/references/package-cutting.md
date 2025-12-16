@@ -18,3 +18,4 @@ Parallel implementers only work when no two of them touch the same file. These c
 ## Rules
 
 1. Every shared registration file goes to the Wiring package, which runs after the others are merged.
+2. A new class and the template that renders it may sit in different packages, but the plan must fix the contract between them (variable names, component arguments, action names) before the fan-out.

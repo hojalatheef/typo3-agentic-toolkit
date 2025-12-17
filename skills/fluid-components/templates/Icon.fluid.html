@@ -1,0 +1,13 @@
+<html data-namespace-typo3-fluid="true">
+<f:comment>
+    Resources/Private/Components/Atom/Icon/Icon.fluid.html
+    Usage: <my:atom.icon identifier="typo3" />
+</f:comment>
+
+<f:argument name="identifier" type="string" />
+<f:argument name="label" type="string" optional="{true}" />
+
+<span class="icon icon--{identifier}" aria-hidden="{f:if(condition: label, then: 'false', else: 'true')}">
+    <f:if condition="{label}"><span class="visually-hidden">{label}</span></f:if>
+</span>
+</html>

@@ -14,3 +14,5 @@ paths:
 # Form framework (TYPO3 v14)
 
 Arguments: `$ARGUMENTS`.
+
+In 14.0 every `$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['ext/form'][...]` hook was replaced by a PSR-14 event.

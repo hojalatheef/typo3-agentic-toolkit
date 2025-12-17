@@ -1,0 +1,16 @@
+---
+name: form-framework
+description: >-
+  Extend the TYPO3 v14 form framework (EXT:form) - form sets auto-discovered from Configuration/Form/<Set>/config.yaml, database storage of form definitions (form_definition, form:definition:transfer), custom form elements without JavaScript, custom finishers, the PSR-14 form events that replaced all ext/form hooks, multiple file uploads, RTE in the form editor and password hashing in SaveToDatabase. Use when adding a form element, finisher, validator or form event listener, when migrating yamlConfigurations TypoScript, ext/form hooks or file-mount forms, or when the user asks to "add a custom form field", "write a form finisher" or "store forms in the database".
+argument-hint: "[element|finisher|event|migrate] [extension path]"
+allowed-tools: Read, Grep, Glob, Edit, Write, Bash(*/bin/typo3 form:definition:transfer*--dry-run*)
+paths:
+  - "**/Configuration/Form/**/*.yaml"
+  - "**/*.form.yaml"
+  - "**/Classes/Domain/Finishers/**/*.php"
+  - "**/Classes/**/Form/**/*.php"
+---
+
+# Form framework (TYPO3 v14)
+
+Arguments: `$ARGUMENTS`.

@@ -1,0 +1,21 @@
+<html
+    xmlns:my="http://typo3.org/ns/MyVendor/MyExtension/Components"
+    data-namespace-typo3-fluid="true"
+>
+<f:comment>
+    Resources/Private/Components/Molecule/TeaserCard/TeaserCard.fluid.html
+    Usage: <my:molecule.teaserCard title="TYPO3" link="https://typo3.org/" icon="typo3">Text</my:molecule.teaserCard>
+</f:comment>
+
+<f:argument name="title" type="string" />
+<f:argument name="link" type="string" />
+<f:argument name="icon" type="string" optional="{true}" />
+
+<a href="{link}" class="teaserCard">
+    <f:if condition="{icon}">
+        <my:atom.icon identifier="{icon}" />
+    </f:if>
+    <div class="teaserCard__title">{title}</div>
+    <div class="teaserCard__content"><f:slot /></div>
+</a>
+</html>

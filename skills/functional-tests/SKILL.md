@@ -21,3 +21,7 @@ Target: $ARGUMENTS
 | Unit | `TYPO3\TestingFramework\Core\Unit\UnitTestCase` | pure logic, value objects, services with mocked collaborators |
 | Functional | `TYPO3\TestingFramework\Core\Functional\FunctionalTestCase` | repositories, DataHandler hooks, TCA, services that use the database or DI container |
 | Functional request | `FunctionalTestCase` with `executeFrontendSubRequest()` | rendered frontend output of plugins, content elements, site sets |
+
+## Setup
+
+1. Require the framework and PHPUnit in dev:

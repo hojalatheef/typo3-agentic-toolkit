@@ -19,3 +19,4 @@ Target: $ARGUMENTS
 | Test type | Base class | Use for |
 | --- | --- | --- |
 | Unit | `TYPO3\TestingFramework\Core\Unit\UnitTestCase` | pure logic, value objects, services with mocked collaborators |
+| Functional | `TYPO3\TestingFramework\Core\Functional\FunctionalTestCase` | repositories, DataHandler hooks, TCA, services that use the database or DI container |

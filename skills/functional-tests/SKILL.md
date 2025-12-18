@@ -29,3 +29,5 @@ Target: $ARGUMENTS
     ```bash
     composer require --dev typo3/testing-framework phpunit/phpunit
     ```
+
+    Pick the testing-framework major that supports the project's TYPO3 line; read its README for the matrix.

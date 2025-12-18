@@ -18,3 +18,4 @@ Target: $ARGUMENTS
 
 | Test type | Base class | Use for |
 | --- | --- | --- |
+| Unit | `TYPO3\TestingFramework\Core\Unit\UnitTestCase` | pure logic, value objects, services with mocked collaborators |

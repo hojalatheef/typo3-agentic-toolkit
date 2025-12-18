@@ -13,3 +13,8 @@ paths:
 Tests prove behaviour against a real TYPO3 instance that the testing framework builds per test case: core and extension code loaded, a fresh database, your CSV fixtures imported.
 
 Target: $ARGUMENTS
+
+## When to use
+
+| Test type | Base class | Use for |
+| --- | --- | --- |

@@ -31,3 +31,6 @@ Target: $ARGUMENTS
     ```
 
     Pick the testing-framework major that supports the project's TYPO3 line; read its README for the matrix.
+
+2. Copy the PHPUnit configs from [templates/](templates/) to `Build/phpunit/`:
+   [UnitTests.xml](templates/UnitTests.xml), [FunctionalTests.xml](templates/FunctionalTests.xml). They use the bootstraps shipped by the framework.

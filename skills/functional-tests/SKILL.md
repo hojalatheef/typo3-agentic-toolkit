@@ -11,3 +11,5 @@ paths:
 # Functional tests with typo3/testing-framework
 
 Tests prove behaviour against a real TYPO3 instance that the testing framework builds per test case: core and extension code loaded, a fresh database, your CSV fixtures imported.
+
+Target: $ARGUMENTS

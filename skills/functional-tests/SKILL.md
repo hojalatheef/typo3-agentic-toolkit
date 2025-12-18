@@ -25,3 +25,7 @@ Target: $ARGUMENTS
 ## Setup
 
 1. Require the framework and PHPUnit in dev:
+
+    ```bash
+    composer require --dev typo3/testing-framework phpunit/phpunit
+    ```

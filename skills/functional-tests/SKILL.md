@@ -48,3 +48,4 @@ Target: $ARGUMENTS
 ## Steps
 
 1. Pick the test type from the table above.
+2. Start from a template: [templates/RepositoryTest.php](templates/RepositoryTest.php) for Extbase repositories, [templates/FrontendRenderingTest.php](templates/FrontendRenderingTest.php) for request tests, [templates/pages.csv](templates/pages.csv) for fixtures.

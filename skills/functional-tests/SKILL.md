@@ -44,3 +44,7 @@ Target: $ARGUMENTS
         ...Test.php
         Fixtures/*.csv
     ```
+
+## Steps
+
+1. Pick the test type from the table above.

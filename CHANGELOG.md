@@ -4,6 +4,27 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [0.3.0] - 2025-12-19
+
+### Added
+
+- `feature-team` skill
+- `fluid-components` skill
+- `form-framework` skill
+- `functional-tests` skill
+
+### Changed
+
+- `extbase-modern/attributes` reference: more guidance
+- `extbase-modern` skill: more guidance
+- `feature-team/agent-teams` reference: more guidance
+- `feature-team/package-cutting` reference: more guidance
+- `feature-team` skill: more guidance
+- `fluid-components` skill: more guidance
+- `form-framework/events` reference: more guidance
+- `form-framework` skill: more guidance
+- `functional-tests` skill: more guidance
+
 ## [0.2.0] - 2025-11-28
 
 ### Added

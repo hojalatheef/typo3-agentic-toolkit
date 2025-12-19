@@ -1,7 +1,7 @@
 {
   "name": "typo3-agentic-toolkit",
   "displayName": "TYPO3 Agentic Toolkit",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Build TYPO3 v13/v14 extensions and site packages with the concepts of the last year (site sets, Fluid components, Schema API, record objects, Extbase authorization and rate limiting, Symfony translations, system resources, CSP hashes) using skills, a team of specialised subagents, guard hooks, output styles, LSP, MCP, monitors, workflows and evals.",
   "author": {
     "name": "Hoja Mustaffa Abdul Latheef",

@@ -34,3 +34,4 @@ Target: $ARGUMENTS
 
 2. Copy the PHPUnit configs from [templates/](templates/) to `Build/phpunit/`:
    [UnitTests.xml](templates/UnitTests.xml), [FunctionalTests.xml](templates/FunctionalTests.xml). They use the bootstraps shipped by the framework.
+3. Add the autoload-dev mapping to `composer.json`: `"MyVendor\\MyExtension\\Tests\\": "Tests/"`, then `composer dump-autoload`.

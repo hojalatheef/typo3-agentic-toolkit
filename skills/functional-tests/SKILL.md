@@ -50,3 +50,4 @@ Target: $ARGUMENTS
 1. Pick the test type from the table above.
 2. Start from a template: [templates/RepositoryTest.php](templates/RepositoryTest.php) for Extbase repositories, [templates/FrontendRenderingTest.php](templates/FrontendRenderingTest.php) for request tests, [templates/pages.csv](templates/pages.csv) for fixtures.
 3. Set `$testExtensionsToLoad` to your extension (by composer name or extension key) and `$coreExtensionsToLoad` to core extensions you need beyond the defaults.
+4. Write fixtures as CSV: one block per table, first line the table name, second line the columns starting with an empty cell. See [references/csv-datasets.md](references/csv-datasets.md).

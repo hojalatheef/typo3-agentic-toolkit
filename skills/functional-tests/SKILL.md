@@ -54,3 +54,8 @@ Target: $ARGUMENTS
 5. Assert database state after writes with `$this->assertCSVDataSet(__DIR__ . '/Fixtures/Expected.csv')`, not with hand-written queries.
 6. Use PHPUnit attributes: `#[Test]`, `#[DataProvider('provider')]`, `#[CoversClass(...)]`.
 7. Run and report real numbers.
+
+## Running
+
+| Environment | Command |
+| --- | --- |

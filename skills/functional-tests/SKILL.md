@@ -61,3 +61,4 @@ Target: $ARGUMENTS
 | --- | --- |
 | Core-style runner | `Build/Scripts/runTests.sh -s functional -d sqlite` |
 | DDEV | `ddev exec typo3DatabaseDriver=pdo_sqlite vendor/bin/phpunit -c Build/phpunit/FunctionalTests.xml` |
+| Host or Docker | `typo3DatabaseDriver=pdo_sqlite vendor/bin/phpunit -c Build/phpunit/FunctionalTests.xml` |

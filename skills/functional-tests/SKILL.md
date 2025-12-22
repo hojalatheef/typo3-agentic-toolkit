@@ -64,3 +64,7 @@ Target: $ARGUMENTS
 | Host or Docker | `typo3DatabaseDriver=pdo_sqlite vendor/bin/phpunit -c Build/phpunit/FunctionalTests.xml` |
 
 SQLite is the quickest; run MariaDB, MySQL or PostgreSQL in CI when the code uses database-specific SQL. Use the `quality-gate` skill to run tests together with the other checks.
+
+## Checklist
+
+- [ ] Each test asserts one behaviour and has a descriptive name.

@@ -53,3 +53,4 @@ Target: $ARGUMENTS
 4. Write fixtures as CSV: one block per table, first line the table name, second line the columns starting with an empty cell. See [references/csv-datasets.md](references/csv-datasets.md).
 5. Assert database state after writes with `$this->assertCSVDataSet(__DIR__ . '/Fixtures/Expected.csv')`, not with hand-written queries.
 6. Use PHPUnit attributes: `#[Test]`, `#[DataProvider('provider')]`, `#[CoversClass(...)]`.
+7. Run and report real numbers.

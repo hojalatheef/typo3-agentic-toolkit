@@ -68,3 +68,4 @@ SQLite is the quickest; run MariaDB, MySQL or PostgreSQL in CI when the code use
 ## Checklist
 
 - [ ] Each test asserts one behaviour and has a descriptive name.
+- [ ] Fixtures contain only the columns the test needs.

@@ -59,3 +59,4 @@ Target: $ARGUMENTS
 
 | Environment | Command |
 | --- | --- |
+| Core-style runner | `Build/Scripts/runTests.sh -s functional -d sqlite` |

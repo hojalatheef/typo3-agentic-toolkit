@@ -11,4 +11,5 @@ The testing framework imports and asserts database state from CSV files. They ar
 ,2,1,"Storage","/storage"
 "tx_myext_domain_model_item"
 ,"uid","pid","title"
+,1,2,"First"
 ```

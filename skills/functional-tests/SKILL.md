@@ -78,3 +78,4 @@ SQLite is the quickest; run MariaDB, MySQL or PostgreSQL in CI when the code use
 
 - [references/csv-datasets.md](references/csv-datasets.md) - CSV fixture format and assertions.
 - [references/request-tests.md](references/request-tests.md) - frontend request tests, site configuration, Extbase plugin output.
+- Agent `test-engineer` - delegate test writing for a whole feature.

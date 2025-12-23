@@ -15,3 +15,4 @@ The testing framework imports and asserts database state from CSV files. They ar
 ```
 
 - A line with only a table name starts a block.
+- The next line lists the columns; it starts with an empty cell.

@@ -13,3 +13,5 @@ The testing framework imports and asserts database state from CSV files. They ar
 ,"uid","pid","title"
 ,1,2,"First"
 ```
+
+- A line with only a table name starts a block.

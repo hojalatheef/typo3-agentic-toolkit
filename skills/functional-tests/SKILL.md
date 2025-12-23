@@ -71,3 +71,4 @@ SQLite is the quickest; run MariaDB, MySQL or PostgreSQL in CI when the code use
 - [ ] Fixtures contain only the columns the test needs.
 - [ ] No test depends on another test's state or order.
 - [ ] Bug fixes come with a test that failed before the fix.
+- [ ] No `markTestSkipped` without a ticket reference.

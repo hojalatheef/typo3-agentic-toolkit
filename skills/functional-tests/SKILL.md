@@ -73,3 +73,7 @@ SQLite is the quickest; run MariaDB, MySQL or PostgreSQL in CI when the code use
 - [ ] Bug fixes come with a test that failed before the fix.
 - [ ] No `markTestSkipped` without a ticket reference.
 - [ ] Frontend tests set up a site configuration and a root page with TypoScript.
+
+## References
+
+- [references/csv-datasets.md](references/csv-datasets.md) - CSV fixture format and assertions.

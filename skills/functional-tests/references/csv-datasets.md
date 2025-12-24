@@ -38,3 +38,5 @@ Tests/Functional/
     Expected/
       AddPersistsRecord.csv   one per assertion, named after the test
 ```
+
+- Share a base dataset; put per-test variations into small extra files imported after it.

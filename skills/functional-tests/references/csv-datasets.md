@@ -19,3 +19,8 @@ The testing framework imports and asserts database state from CSV files. They ar
 - Each data row also starts with an empty cell.
 - Several tables can live in one file.
 - Quote strings that contain commas or quotes; double a quote inside a quoted string.
+
+## Import and assert
+
+| Method | Purpose |
+| --- | --- |

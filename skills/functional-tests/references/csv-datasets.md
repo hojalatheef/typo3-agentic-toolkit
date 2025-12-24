@@ -40,3 +40,4 @@ Tests/Functional/
 ```
 
 - Share a base dataset; put per-test variations into small extra files imported after it.
+- Name expected files after the test method.

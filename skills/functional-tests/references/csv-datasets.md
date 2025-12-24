@@ -18,3 +18,4 @@ The testing framework imports and asserts database state from CSV files. They ar
 - The next line lists the columns; it starts with an empty cell.
 - Each data row also starts with an empty cell.
 - Several tables can live in one file.
+- Quote strings that contain commas or quotes; double a quote inside a quoted string.

@@ -24,3 +24,4 @@ The testing framework imports and asserts database state from CSV files. They ar
 
 | Method | Purpose |
 | --- | --- |
+| `$this->importCSVDataSet($path)` | insert the rows before the test |

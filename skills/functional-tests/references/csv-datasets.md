@@ -28,3 +28,13 @@ The testing framework imports and asserts database state from CSV files. They ar
 | `$this->assertCSVDataSet($path)` | compare the listed tables and columns with the database |
 
 `assertCSVDataSet()` only checks the columns present in the file, so keep expected files narrow: `uid`, `pid`, the fields the test changes, and `deleted`/`hidden` when relevant. Rows missing from the file but present in the database make the assertion fail, which catches unwanted inserts.
+
+## Organisation
+
+```text
+Tests/Functional/
+  Fixtures/
+    pages.csv                 shared base
+    Expected/
+      AddPersistsRecord.csv   one per assertion, named after the test
+```

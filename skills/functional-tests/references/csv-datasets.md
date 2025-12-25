@@ -41,3 +41,4 @@ Tests/Functional/
 
 - Share a base dataset; put per-test variations into small extra files imported after it.
 - Name expected files after the test method.
+- Do not store generated values (timestamps, hashes) in expected files; leave those columns out.

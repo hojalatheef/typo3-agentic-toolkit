@@ -8,3 +8,7 @@ Request tests send an internal request through the full frontend middleware stac
 2. A site configuration for that root page. The testing framework instance is not composer-based, so the configuration lives under `Environment::getConfigPath() . '/sites/<identifier>/config.yaml'`. The template [FrontendRenderingTest.php](../templates/FrontendRenderingTest.php) writes it with Symfony YAML in `setUp()`.
 3. TypoScript for the root page: `$this->setUpFrontendRootPage(1, ['EXT:my_extension/Tests/Functional/Fixtures/Frontend/setup.typoscript'])`.
 4. The request: `$this->executeFrontendSubRequest((new InternalRequest('https://website.local/'))->withPageId(1))`.
+
+## Testing site sets and plugins
+
+- To test a site set, add `dependencies: [my-vendor/my-set]` to the site configuration array and keep the root TypoScript minimal; the set provides the rest (site sets: Feature-103437).

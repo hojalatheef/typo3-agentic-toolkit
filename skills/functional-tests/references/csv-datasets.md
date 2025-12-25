@@ -42,3 +42,4 @@ Tests/Functional/
 - Share a base dataset; put per-test variations into small extra files imported after it.
 - Name expected files after the test method.
 - Do not store generated values (timestamps, hashes) in expected files; leave those columns out.
+- For DataHandler tests, include `sys_language_uid`, `l10n_parent` and `t3ver_*` columns only when the test is about localisation or workspaces.

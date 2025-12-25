@@ -12,3 +12,4 @@ Request tests send an internal request through the full frontend middleware stac
 ## Testing site sets and plugins
 
 - To test a site set, add `dependencies: [my-vendor/my-set]` to the site configuration array and keep the root TypoScript minimal; the set provides the rest (site sets: Feature-103437).
+- To render an Extbase plugin, put a `tt_content` row with the plugin's `CType` on the page in the CSV, and include the plugin TypoScript.

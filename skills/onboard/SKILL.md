@@ -19,3 +19,5 @@ Project type and TYPO3 version:
 Installed core version (from composer.lock):
 
 !`[ -f composer.lock ] && jq -r '.packages[] | select(.name=="typo3/cms-core") | "typo3/cms-core \(.version)"' composer.lock 2>/dev/null || echo "no composer.lock"`
+
+Tooling present:

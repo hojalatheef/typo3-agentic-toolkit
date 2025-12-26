@@ -15,3 +15,5 @@ Create two files that make every later session faster and safer: `CLAUDE.md` (wh
 Project type and TYPO3 version:
 
 !`[ -f composer.json ] && jq -r '"type: \(.type // "project")\nname: \(.name // "-")\ncore constraint: \(.require["typo3/cms-core"] // "-")\nphp constraint: \(.require.php // "-")"' composer.json 2>/dev/null || echo "no composer.json"`
+
+Installed core version (from composer.lock):

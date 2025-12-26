@@ -17,3 +17,5 @@ Project type and TYPO3 version:
 !`[ -f composer.json ] && jq -r '"type: \(.type // "project")\nname: \(.name // "-")\ncore constraint: \(.require["typo3/cms-core"] // "-")\nphp constraint: \(.require.php // "-")"' composer.json 2>/dev/null || echo "no composer.json"`
 
 Installed core version (from composer.lock):
+
+!`[ -f composer.lock ] && jq -r '.packages[] | select(.name=="typo3/cms-core") | "typo3/cms-core \(.version)"' composer.lock 2>/dev/null || echo "no composer.lock"`

@@ -9,3 +9,7 @@ allowed-tools: Read, Grep, Glob, Write, Edit, Bash(ls:*), Bash(cat:*), Bash(jq:*
 # Onboard a TYPO3 repository
 
 Create two files that make every later session faster and safer: `CLAUDE.md` (what this project is and how to work in it) and `.claude/settings.json` (which commands may run without asking). With `--dry-run` in `$ARGUMENTS`, print both files instead of writing them.
+
+## Detected facts
+
+Project type and TYPO3 version:

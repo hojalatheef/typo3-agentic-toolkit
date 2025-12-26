@@ -1,0 +1,9 @@
+"pages"
+,"uid","pid","title","slug","doktype","hidden","deleted"
+,1,0,"Root","/",1,0,0
+,2,1,"Records storage","/storage",254,0,0
+"tx_myext_domain_model_item"
+,"uid","pid","title","hidden","deleted"
+,1,2,"Visible item",0,0
+,2,2,"Hidden item",1,0
+,3,2,"Deleted item",0,1

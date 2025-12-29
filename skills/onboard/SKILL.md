@@ -21,3 +21,5 @@ Installed core version (from composer.lock):
 !`[ -f composer.lock ] && jq -r '.packages[] | select(.name=="typo3/cms-core") | "typo3/cms-core \(.version)"' composer.lock 2>/dev/null || echo "no composer.lock"`
 
 Tooling present:
+
+!`for f in .ddev/config.yaml Build/Scripts/runTests.sh phpstan.neon phpstan.neon.dist rector.php fractor.php .php-cs-fixer.dist.php Documentation/guides.xml ext_emconf.php config/sites CLAUDE.md .claude/settings.json; do [ -e "$f" ] && echo "present: $f"; done 2>/dev/null || true`

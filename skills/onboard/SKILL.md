@@ -35,3 +35,4 @@ DDEV project:
 3. Find which v13/v14 concepts the code already uses so the CLAUDE.md can say "follow this": `Configuration/Sets/*/config.yaml` (site sets), `Configuration/Fluid/ComponentCollections.php` (Fluid components), `#[Authorize]`, `#[RateLimit]`, `*.fluid.html`.
 4. Write `CLAUDE.md` from [references/claude-md-template.md](references/claude-md-template.md). Keep it under 120 lines; every command in it must exist in this repository.
 5. Write `.claude/settings.json` from [references/settings-template.md](references/settings-template.md), dropping rules for tools the project does not have.
+6. Show the user both diffs and a three-line summary. Do not commit.

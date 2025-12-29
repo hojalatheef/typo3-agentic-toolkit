@@ -23,3 +23,5 @@ Installed core version (from composer.lock):
 Tooling present:
 
 !`for f in .ddev/config.yaml Build/Scripts/runTests.sh phpstan.neon phpstan.neon.dist rector.php fractor.php .php-cs-fixer.dist.php Documentation/guides.xml ext_emconf.php config/sites CLAUDE.md .claude/settings.json; do [ -e "$f" ] && echo "present: $f"; done 2>/dev/null || true`
+
+DDEV project:

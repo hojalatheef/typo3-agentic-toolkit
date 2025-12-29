@@ -36,3 +36,7 @@ DDEV project:
 4. Write `CLAUDE.md` from [references/claude-md-template.md](references/claude-md-template.md). Keep it under 120 lines; every command in it must exist in this repository.
 5. Write `.claude/settings.json` from [references/settings-template.md](references/settings-template.md), dropping rules for tools the project does not have.
 6. Show the user both diffs and a three-line summary. Do not commit.
+
+## Rules
+
+- Allow read-only and local, reversible commands. Ask for anything that changes shared state: `git push`, `composer update`, `ddev delete`, database imports, `typo3 database:updateschema` with destructive types.

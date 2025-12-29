@@ -33,3 +33,4 @@ DDEV project:
 1. If `CLAUDE.md` or `.claude/settings.json` already exist, read them and merge: keep the user's content, add only missing sections and rules. Never delete existing allow or deny rules.
 2. Read `composer.json` scripts, `Build/Scripts/runTests.sh -h` (if present) and the folder layout (`packages/`, `Classes/`, `Configuration/Sets/`) to fill in real commands.
 3. Find which v13/v14 concepts the code already uses so the CLAUDE.md can say "follow this": `Configuration/Sets/*/config.yaml` (site sets), `Configuration/Fluid/ComponentCollections.php` (Fluid components), `#[Authorize]`, `#[RateLimit]`, `*.fluid.html`.
+4. Write `CLAUDE.md` from [references/claude-md-template.md](references/claude-md-template.md). Keep it under 120 lines; every command in it must exist in this repository.

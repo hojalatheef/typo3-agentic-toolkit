@@ -27,3 +27,7 @@ Tooling present:
 DDEV project:
 
 !`[ -f .ddev/config.yaml ] && grep -E '^(name|type|php_version|database|docroot):' .ddev/config.yaml 2>/dev/null || echo "no ddev"`
+
+## Steps
+
+1. If `CLAUDE.md` or `.claude/settings.json` already exist, read them and merge: keep the user's content, add only missing sections and rules. Never delete existing allow or deny rules.

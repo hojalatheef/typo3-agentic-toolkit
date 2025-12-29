@@ -31,3 +31,4 @@ DDEV project:
 ## Steps
 
 1. If `CLAUDE.md` or `.claude/settings.json` already exist, read them and merge: keep the user's content, add only missing sections and rules. Never delete existing allow or deny rules.
+2. Read `composer.json` scripts, `Build/Scripts/runTests.sh -h` (if present) and the folder layout (`packages/`, `Classes/`, `Configuration/Sets/`) to fill in real commands.

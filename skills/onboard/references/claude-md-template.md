@@ -14,4 +14,12 @@ Fill every placeholder from the repository. Remove sections that do not apply. K
 - TYPO3 <installed version> (constraint `<constraint>`), PHP <version>
 - <Composer project with DDEV | Extension `<vendor/package>`, extension key `<key>`>
 - Database: <MariaDB 10.11 | MySQL 8 | PostgreSQL | SQLite in tests>
+
+## Commands
+
+| Task | Command |
+| --- | --- |
+| Install | `ddev composer install` |
+| Clear caches | `ddev typo3 cache:flush` |
+| Lint YAML | `ddev typo3 lint:yaml config/ packages/` |
 ````

@@ -6,4 +6,8 @@ Fill every placeholder from the repository. Remove sections that do not apply. K
 
 ````markdown
 # <Project or extension name>
+
+<One sentence: what it is and who uses it.>
+
+## Stack
 ````

@@ -22,4 +22,9 @@ Fill every placeholder from the repository. Remove sections that do not apply. K
 | Install | `ddev composer install` |
 | Clear caches | `ddev typo3 cache:flush` |
 | Lint YAML | `ddev typo3 lint:yaml config/ packages/` |
+| Analyse Fluid | `ddev typo3 fluid:analyze` |
+| PHPStan | `ddev exec vendor/bin/phpstan analyse` |
+| Coding standards | `ddev exec vendor/bin/php-cs-fixer fix --dry-run --diff` |
+| Unit tests | `Build/Scripts/runTests.sh -s unit` |
+| Functional tests | `Build/Scripts/runTests.sh -s functional -d sqlite` |
 ````

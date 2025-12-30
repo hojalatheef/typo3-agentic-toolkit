@@ -41,3 +41,4 @@ DDEV project:
 
 - Allow read-only and local, reversible commands. Ask for anything that changes shared state: `git push`, `composer update`, `ddev delete`, database imports, `typo3 database:updateschema` with destructive types.
 - Deny reading secrets: `.env`, `config/system/settings.php` credentials, `auth.json`.
+- Use the TYPO3 binary path the project really has: `vendor/bin/typo3` for composer projects, `ddev typo3` or `ddev exec vendor/bin/typo3` under DDEV.

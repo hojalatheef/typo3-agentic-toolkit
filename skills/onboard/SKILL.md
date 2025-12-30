@@ -43,3 +43,12 @@ DDEV project:
 - Deny reading secrets: `.env`, `config/system/settings.php` credentials, `auth.json`.
 - Use the TYPO3 binary path the project really has: `vendor/bin/typo3` for composer projects, `ddev typo3` or `ddev exec vendor/bin/typo3` under DDEV.
 - Do not add plugin-specific instructions to CLAUDE.md; the toolkit's skills load on their own.
+
+## Output
+
+```text
+ONBOARD  TYPO3 <version> | <project | extension> | ddev: <yes|no>
+WROTE    CLAUDE.md (<n> lines)
+WROTE    .claude/settings.json (<a> allow, <k> ask, <d> deny)
+NEXT     review both files, then commit them
+```

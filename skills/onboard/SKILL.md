@@ -40,3 +40,4 @@ DDEV project:
 ## Rules
 
 - Allow read-only and local, reversible commands. Ask for anything that changes shared state: `git push`, `composer update`, `ddev delete`, database imports, `typo3 database:updateschema` with destructive types.
+- Deny reading secrets: `.env`, `config/system/settings.php` credentials, `auth.json`.

@@ -27,4 +27,10 @@ Fill every placeholder from the repository. Remove sections that do not apply. K
 | Coding standards | `ddev exec vendor/bin/php-cs-fixer fix --dry-run --diff` |
 | Unit tests | `Build/Scripts/runTests.sh -s unit` |
 | Functional tests | `Build/Scripts/runTests.sh -s functional -d sqlite` |
+
+## Layout
+
+- `packages/<sitepackage>/` - site package (site set `<vendor/set>`)
+- `config/sites/<site>/config.yaml` - site configuration
+- <other important folders>
 ````

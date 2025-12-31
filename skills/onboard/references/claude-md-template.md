@@ -43,4 +43,7 @@ Fill every placeholder from the repository. Remove sections that do not apply. K
 - Commit messages: `[TASK]`, `[FEATURE]`, `[BUGFIX]`, `[DOCS]` prefixes.
 
 ## Do not
+
+- Edit `vendor/`, `public/typo3/`, `var/` or generated files.
+- Run `composer update` without being asked.
 ````

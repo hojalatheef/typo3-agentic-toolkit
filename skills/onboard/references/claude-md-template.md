@@ -56,3 +56,7 @@ Fill every placeholder from the repository. Remove sections that do not apply. K
 | Commands | `composer.json` scripts, `Build/Scripts/runTests.sh`, presence of config files |
 | Layout | `packages/`, `config/sites/`, `Configuration/Sets/` |
 | Conventions | existing code, `git log --oneline -30` for commit prefixes |
+
+## Version-dependent lines
+
+- Include `lint:yaml` only for TYPO3 13.3 and later (Feature-104973).

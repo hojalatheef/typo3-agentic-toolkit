@@ -53,3 +53,4 @@ Fill every placeholder from the repository. Remove sections that do not apply. K
 | Section | Source |
 | --- | --- |
 | Stack | `composer.lock`, `.ddev/config.yaml`, `ext_emconf.php` |
+| Commands | `composer.json` scripts, `Build/Scripts/runTests.sh`, presence of config files |

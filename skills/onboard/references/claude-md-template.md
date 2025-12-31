@@ -47,3 +47,8 @@ Fill every placeholder from the repository. Remove sections that do not apply. K
 - Edit `vendor/`, `public/typo3/`, `var/` or generated files.
 - Run `composer update` without being asked.
 ````
+
+## What to detect for each section
+
+| Section | Source |
+| --- | --- |

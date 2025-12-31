@@ -41,4 +41,6 @@ Fill every placeholder from the repository. Remove sections that do not apply. K
 - <Templates use the `*.fluid.html` extension>
 - Tests: CSV fixtures in `Tests/Functional/Fixtures/`.
 - Commit messages: `[TASK]`, `[FEATURE]`, `[BUGFIX]`, `[DOCS]` prefixes.
+
+## Do not
 ````

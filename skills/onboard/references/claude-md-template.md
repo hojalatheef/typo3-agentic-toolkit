@@ -33,4 +33,12 @@ Fill every placeholder from the repository. Remove sections that do not apply. K
 - `packages/<sitepackage>/` - site package (site set `<vendor/set>`)
 - `config/sites/<site>/config.yaml` - site configuration
 - <other important folders>
+
+## Conventions
+
+- Target TYPO3 v14 APIs. Configuration goes into site sets, not static TypoScript includes.
+- <Fluid components live in ...>
+- <Templates use the `*.fluid.html` extension>
+- Tests: CSV fixtures in `Tests/Functional/Fixtures/`.
+- Commit messages: `[TASK]`, `[FEATURE]`, `[BUGFIX]`, `[DOCS]` prefixes.
 ````

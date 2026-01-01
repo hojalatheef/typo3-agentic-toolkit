@@ -32,4 +32,11 @@ Permission rules use the `Tool(specifier)` syntax. `allow` runs without asking, 
       "Bash(ddev import-db:*)",
       "Bash(git push:*)",
       "Bash(git commit:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./auth.json)",
+      "Edit(./vendor/**)",
+      "Edit(./public/typo3/**)",
 ```

@@ -39,4 +39,8 @@ Permission rules use the `Tool(specifier)` syntax. `allow` runs without asking, 
       "Read(./auth.json)",
       "Edit(./vendor/**)",
       "Edit(./public/typo3/**)",
+      "Bash(ddev delete:*)"
+    ]
+  }
+}
 ```

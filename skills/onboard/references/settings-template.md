@@ -44,3 +44,7 @@ Permission rules use the `Tool(specifier)` syntax. `allow` runs without asking, 
   }
 }
 ```
+
+## Without DDEV
+
+Replace the `ddev ...` rules with host equivalents:

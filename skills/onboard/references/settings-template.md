@@ -51,3 +51,4 @@ Replace the `ddev ...` rules with host equivalents:
 
 | DDEV rule | Host rule |
 | --- | --- |
+| `Bash(ddev composer validate:*)` | `Bash(composer validate:*)` |

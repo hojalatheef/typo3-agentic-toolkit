@@ -25,4 +25,11 @@ Permission rules use the `Tool(specifier)` syntax. `allow` runs without asking, 
       "Bash(git diff:*)",
       "Bash(git log:*)"
     ],
+    "ask": [
+      "Bash(ddev composer require:*)",
+      "Bash(ddev composer update:*)",
+      "Bash(ddev typo3 database:updateschema:*)",
+      "Bash(ddev import-db:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
 ```

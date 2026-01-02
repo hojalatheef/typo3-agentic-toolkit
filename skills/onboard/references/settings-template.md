@@ -56,3 +56,7 @@ Replace the `ddev ...` rules with host equivalents:
 | `Bash(ddev exec vendor/bin/phpstan:*)` | `Bash(vendor/bin/phpstan:*)` |
 
 For an extension repository (no TYPO3 instance), keep composer, PHPStan, php-cs-fixer, Rector, PHPUnit and git rules; drop the `typo3` console rules unless `vendor/bin/typo3` exists.
+
+## Merging with existing settings
+
+1. Parse the existing file with `jq`; abort and show the error if it is not valid JSON.

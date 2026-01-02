@@ -54,3 +54,5 @@ Replace the `ddev ...` rules with host equivalents:
 | `Bash(ddev composer validate:*)` | `Bash(composer validate:*)` |
 | `Bash(ddev typo3 cache:flush:*)` | `Bash(vendor/bin/typo3 cache:flush:*)` |
 | `Bash(ddev exec vendor/bin/phpstan:*)` | `Bash(vendor/bin/phpstan:*)` |
+
+For an extension repository (no TYPO3 instance), keep composer, PHPStan, php-cs-fixer, Rector, PHPUnit and git rules; drop the `typo3` console rules unless `vendor/bin/typo3` exists.

@@ -53,3 +53,4 @@ Replace the `ddev ...` rules with host equivalents:
 | --- | --- |
 | `Bash(ddev composer validate:*)` | `Bash(composer validate:*)` |
 | `Bash(ddev typo3 cache:flush:*)` | `Bash(vendor/bin/typo3 cache:flush:*)` |
+| `Bash(ddev exec vendor/bin/phpstan:*)` | `Bash(vendor/bin/phpstan:*)` |

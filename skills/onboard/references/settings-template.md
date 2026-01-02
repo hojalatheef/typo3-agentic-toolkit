@@ -52,3 +52,4 @@ Replace the `ddev ...` rules with host equivalents:
 | DDEV rule | Host rule |
 | --- | --- |
 | `Bash(ddev composer validate:*)` | `Bash(composer validate:*)` |
+| `Bash(ddev typo3 cache:flush:*)` | `Bash(vendor/bin/typo3 cache:flush:*)` |

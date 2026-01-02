@@ -60,3 +60,4 @@ For an extension repository (no TYPO3 instance), keep composer, PHPStan, php-cs-
 ## Merging with existing settings
 
 1. Parse the existing file with `jq`; abort and show the error if it is not valid JSON.
+2. Add missing rules to each list; never remove or reorder the user's rules.

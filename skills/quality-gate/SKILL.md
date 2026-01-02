@@ -10,3 +10,7 @@ allowed-tools: Read, Grep, Glob, Bash
 A step passes only when its command ran and exited 0 here, now. A step that could not run is SKIPPED, never PASSED. Numbers in the report come from the output, never from memory.
 
 Target: $ARGUMENTS (default: the current directory). With `--fast`, run steps 1 to 6 only and say so in the report.
+
+## Environment
+
+Detected tools:

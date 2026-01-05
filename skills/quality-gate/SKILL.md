@@ -30,3 +30,4 @@ Run each step even if an earlier one failed, unless it depends on Composer insta
 
 | # | Step | Command | Pass when |
 | --- | --- | --- | --- |
+| 1 | Composer | `composer validate --strict` | exit 0 |

@@ -21,3 +21,4 @@ Pick the runner once and use it for every step:
 
 1. `.ddev/` exists and `ddev describe` works: prefix commands with `ddev exec` (TYPO3 CLI via `t3`, which is DDEV-aware).
 2. Host `php` works (`php -v` exits 0): run directly.
+3. Docker: `docker run --rm -v "$PWD":/app -w /app php:8.4-cli <command>` (no database, so functional tests become SKIPPED unless they use SQLite).

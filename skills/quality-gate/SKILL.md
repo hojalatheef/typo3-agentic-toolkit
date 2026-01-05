@@ -23,3 +23,7 @@ Pick the runner once and use it for every step:
 2. Host `php` works (`php -v` exits 0): run directly.
 3. Docker: `docker run --rm -v "$PWD":/app -w /app php:8.4-cli <command>` (no database, so functional tests become SKIPPED unless they use SQLite).
 4. None: every PHP step is SKIPPED. Say so at the top of the report.
+
+## Steps
+
+Run each step even if an earlier one failed, unless it depends on Composer install succeeding. Save each output to `.typo3-toolkit/gate/<step>.log` so the report can quote it.

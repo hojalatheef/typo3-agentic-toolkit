@@ -27,3 +27,6 @@ Pick the runner once and use it for every step:
 ## Steps
 
 Run each step even if an earlier one failed, unless it depends on Composer install succeeding. Save each output to `.typo3-toolkit/gate/<step>.log` so the report can quote it.
+
+| # | Step | Command | Pass when |
+| --- | --- | --- | --- |

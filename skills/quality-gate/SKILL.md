@@ -14,3 +14,5 @@ Target: $ARGUMENTS (default: the current directory). With `--fast`, run steps 1 
 ## Environment
 
 Detected tools:
+
+!`for t in ddev composer php docker; do printf '%s: ' "$t"; command -v "$t" >/dev/null 2>&1 && echo yes || echo no; done; ls vendor/bin 2>/dev/null | grep -E '^(php-cs-fixer|phpstan|rector|phpunit|typo3)$' | tr '\n' ' ' || true`

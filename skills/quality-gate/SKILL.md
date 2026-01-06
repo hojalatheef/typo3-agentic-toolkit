@@ -39,3 +39,5 @@ Run each step even if an earlier one failed, unless it depends on Composer insta
 | 7 | Fluid analyse | `t3 fluid:analyze` | exit 0 |
 | 8 | Unit tests | `vendor/bin/phpunit -c Build/phpunit/UnitTests.xml` or `Build/Scripts/runTests.sh -s unit` | exit 0 |
 | 9 | Functional tests | `vendor/bin/phpunit -c Build/phpunit/FunctionalTests.xml` or `Build/Scripts/runTests.sh -s functional` | exit 0 |
+
+Details, configuration files and fallbacks per step are in [references/steps.md](references/steps.md).

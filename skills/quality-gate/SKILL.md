@@ -41,3 +41,7 @@ Run each step even if an earlier one failed, unless it depends on Composer insta
 | 9 | Functional tests | `vendor/bin/phpunit -c Build/phpunit/FunctionalTests.xml` or `Build/Scripts/runTests.sh -s functional` | exit 0 |
 
 Details, configuration files and fallbacks per step are in [references/steps.md](references/steps.md).
+
+## TYPO3 CLI steps
+
+- `lint:yaml` arrived in TYPO3 13.3 (Feature-104973). It takes files or directories and `--exclude=<file>`. On older cores the command does not exist: mark the step SKIPPED (core too old), not FAILED.

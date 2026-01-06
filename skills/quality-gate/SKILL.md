@@ -36,3 +36,4 @@ Run each step even if an earlier one failed, unless it depends on Composer insta
 | 4 | PHPStan | `vendor/bin/phpstan analyse --no-progress --error-format=table` | exit 0 |
 | 5 | Rector | `vendor/bin/rector process --dry-run --no-progress-bar` | exit 0 and no file diffs |
 | 6 | YAML lint | `t3 lint:yaml Configuration/` | exit 0 |
+| 7 | Fluid analyse | `t3 fluid:analyze` | exit 0 |

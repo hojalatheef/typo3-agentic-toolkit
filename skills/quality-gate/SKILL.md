@@ -37,3 +37,4 @@ Run each step even if an earlier one failed, unless it depends on Composer insta
 | 5 | Rector | `vendor/bin/rector process --dry-run --no-progress-bar` | exit 0 and no file diffs |
 | 6 | YAML lint | `t3 lint:yaml Configuration/` | exit 0 |
 | 7 | Fluid analyse | `t3 fluid:analyze` | exit 0 |
+| 8 | Unit tests | `vendor/bin/phpunit -c Build/phpunit/UnitTests.xml` or `Build/Scripts/runTests.sh -s unit` | exit 0 |

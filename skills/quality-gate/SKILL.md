@@ -35,3 +35,4 @@ Run each step even if an earlier one failed, unless it depends on Composer insta
 | 3 | Coding standards | `vendor/bin/php-cs-fixer fix --dry-run --diff` | exit 0 |
 | 4 | PHPStan | `vendor/bin/phpstan analyse --no-progress --error-format=table` | exit 0 |
 | 5 | Rector | `vendor/bin/rector process --dry-run --no-progress-bar` | exit 0 and no file diffs |
+| 6 | YAML lint | `t3 lint:yaml Configuration/` | exit 0 |

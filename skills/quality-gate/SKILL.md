@@ -33,3 +33,4 @@ Run each step even if an earlier one failed, unless it depends on Composer insta
 | 1 | Composer | `composer validate --strict` | exit 0 |
 | 2 | PHP lint | `find . -name '*.php' -not -path './vendor/*' -not -path './var/*' -not -path './public/*' -print0 \| xargs -0 -n1 -P4 php -l` | no "Errors parsing" |
 | 3 | Coding standards | `vendor/bin/php-cs-fixer fix --dry-run --diff` | exit 0 |
+| 4 | PHPStan | `vendor/bin/phpstan analyse --no-progress --error-format=table` | exit 0 |

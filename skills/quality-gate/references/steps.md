@@ -16,3 +16,7 @@ vendor/bin/typo3-coding-standards setup extension   # or: project
 ```
 
 That writes `.php-cs-fixer.dist.php` and `.editorconfig`. The config builds on `TYPO3\CodingStandards\CsFixerConfig::create()`; keep custom rules to a minimum. Run `vendor/bin/php-cs-fixer fix --dry-run --diff` in the gate and `vendor/bin/php-cs-fixer fix` to apply.
+
+## Static analysis and Rector
+
+- PHPStan for TYPO3 projects usually adds `saschaegerer/phpstan-typo3`. Do not raise or lower the level in the gate run, and treat any new `ignoreErrors` or baseline entry as a failure to explain.

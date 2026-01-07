@@ -9,3 +9,8 @@
 ## Coding standards
 
 The TYPO3 coding standards come from `typo3/coding-standards`:
+
+```bash
+composer require --dev typo3/coding-standards
+vendor/bin/typo3-coding-standards setup extension   # or: project
+```

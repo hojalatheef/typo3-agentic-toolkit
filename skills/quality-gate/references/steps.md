@@ -14,3 +14,5 @@ The TYPO3 coding standards come from `typo3/coding-standards`:
 composer require --dev typo3/coding-standards
 vendor/bin/typo3-coding-standards setup extension   # or: project
 ```
+
+That writes `.php-cs-fixer.dist.php` and `.editorconfig`. The config builds on `TYPO3\CodingStandards\CsFixerConfig::create()`; keep custom rules to a minimum. Run `vendor/bin/php-cs-fixer fix --dry-run --diff` in the gate and `vendor/bin/php-cs-fixer fix` to apply.

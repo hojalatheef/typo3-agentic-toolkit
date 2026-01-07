@@ -27,3 +27,4 @@ That writes `.php-cs-fixer.dist.php` and `.editorconfig`. The config builds on `
 
 | Command | Since | Changelog | Notes |
 | --- | --- | --- | --- |
+| `typo3 lint:yaml <paths>` | 13.3 | Feature-104973 | Directories are linted recursively; `--exclude=<file>` repeats |

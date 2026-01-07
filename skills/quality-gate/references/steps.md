@@ -21,3 +21,4 @@ That writes `.php-cs-fixer.dist.php` and `.editorconfig`. The config builds on `
 
 - PHPStan for TYPO3 projects usually adds `saschaegerer/phpstan-typo3`. Do not raise or lower the level in the gate run, and treat any new `ignoreErrors` or baseline entry as a failure to explain.
 - Rector uses `ssch/typo3-rector`. A dry-run with changes means the code still uses something the configured rule sets would modernise. Report the rule names from the output.
+- Fractor (`a9f/typo3-fractor`) covers TypoScript, FlexForm, Fluid and YAML. If `fractor.php` exists, add `vendor/bin/fractor process --dry-run` as step 5b.

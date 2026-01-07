@@ -5,3 +5,7 @@
 - `composer validate --strict` fails on warnings too (missing license, unbound constraints). Fix them; do not drop `--strict`.
 - An extension's `composer.json` needs `extra.typo3/cms.extension-key`, and its `typo3/cms-core` constraint must agree with `ext_emconf.php`.
 - `php -l` must run with the lowest PHP version the extension supports, because newer syntax lints fine on a newer PHP only.
+
+## Coding standards
+
+The TYPO3 coding standards come from `typo3/coding-standards`:

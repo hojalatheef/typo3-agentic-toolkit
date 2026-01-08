@@ -14,3 +14,4 @@ paths:
 # Record rendering
 
 Since TYPO3 v13 content is rendered from `Record` objects
+(`TYPO3\CMS\Core\Domain\Record`): TCA-aware, type-specific, with relations,

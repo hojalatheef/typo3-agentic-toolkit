@@ -26,3 +26,4 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 - A new content element or page template is being written for v13.4 or v14.
 - A template uses `FilesProcessor`, `DatabaseQueryProcessor` + `f:cObject`
   loops, or `<f:format.html>` on raw fields.
+- Content of one `colPos` must render differently depending on its area.

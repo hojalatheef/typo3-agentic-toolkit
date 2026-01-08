@@ -27,3 +27,4 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 - A template uses `FilesProcessor`, `DatabaseQueryProcessor` + `f:cObject`
   loops, or `<f:format.html>` on raw fields.
 - Content of one `colPos` must render differently depending on its area.
+- A backend preview for a custom CType is needed.

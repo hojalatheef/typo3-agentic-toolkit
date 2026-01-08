@@ -18,3 +18,5 @@ Since TYPO3 v13 content is rendered from `Record` objects
 files, dates, links and FlexForms already resolved. TYPO3 v14.2 adds
 ViewHelpers that render content areas, records and text fields with event
 hooks for other extensions.
+
+Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.

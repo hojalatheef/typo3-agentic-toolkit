@@ -17,3 +17,4 @@ Since TYPO3 v13 content is rendered from `Record` objects
 (`TYPO3\CMS\Core\Domain\Record`): TCA-aware, type-specific, with relations,
 files, dates, links and FlexForms already resolved. TYPO3 v14.2 adds
 ViewHelpers that render content areas, records and text fields with event
+hooks for other extensions.

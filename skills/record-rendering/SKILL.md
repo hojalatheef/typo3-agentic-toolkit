@@ -20,3 +20,7 @@ ViewHelpers that render content areas, records and text fields with event
 hooks for other extensions.
 
 Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
+
+## When to use
+
+- A new content element or page template is being written for v13.4 or v14.

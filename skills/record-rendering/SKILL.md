@@ -34,3 +34,4 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 
 | Layer | Feature | Since |
 | --- | --- | --- |
+| `record-transformation` data processor creates `{record}` | Feature-103783 | 13.2 |

@@ -28,3 +28,4 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
   loops, or `<f:format.html>` on raw fields.
 - Content of one `colPos` must render differently depending on its area.
 - A backend preview for a custom CType is needed.
+- An Extbase detail view must set the page title or meta tags.

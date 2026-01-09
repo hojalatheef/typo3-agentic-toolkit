@@ -29,3 +29,8 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 - Content of one `colPos` must render differently depending on its area.
 - A backend preview for a custom CType is needed.
 - An Extbase detail view must set the page title or meta tags.
+
+## How the pieces fit
+
+| Layer | Feature | Since |
+| --- | --- | --- |

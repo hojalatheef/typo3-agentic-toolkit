@@ -36,3 +36,4 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 | --- | --- | --- |
 | `record-transformation` data processor creates `{record}` | Feature-103783 | 13.2 |
 | Relations, files, datetime, link, json, flex resolved lazily | Feature-103581 | 13.3 |
+| `RecordCreationEvent` for custom field transformation | Feature-104846 | 13.3 |

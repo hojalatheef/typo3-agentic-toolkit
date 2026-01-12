@@ -12,3 +12,7 @@ allowed-tools: Read, Edit, Grep, Glob, Bash
 Version to release: $ARGUMENTS
 
 You prepare everything locally. `git push`, `git push --tags`, TER uploads and Packagist updates happen only after the user types an explicit yes to the exact command you show.
+
+## Current state
+
+!`git describe --tags --abbrev=0 2>/dev/null || echo "no tags"`

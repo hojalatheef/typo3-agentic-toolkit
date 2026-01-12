@@ -24,3 +24,4 @@ You prepare everything locally. `git push`, `git push --tags`, TER uploads and P
 ## Preconditions
 
 1. The version argument is valid SemVer and greater than the last tag. Stop otherwise.
+2. The working tree is clean and on the release branch (usually `main`). Stop otherwise.

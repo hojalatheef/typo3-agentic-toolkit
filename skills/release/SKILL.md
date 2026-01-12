@@ -16,3 +16,5 @@ You prepare everything locally. `git push`, `git push --tags`, TER uploads and P
 ## Current state
 
 !`git describe --tags --abbrev=0 2>/dev/null || echo "no tags"`
+
+!`git status --short 2>/dev/null | head -20 || true`

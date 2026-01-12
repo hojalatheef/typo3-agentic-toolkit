@@ -18,3 +18,5 @@ You prepare everything locally. `git push`, `git push --tags`, TER uploads and P
 !`git describe --tags --abbrev=0 2>/dev/null || echo "no tags"`
 
 !`git status --short 2>/dev/null | head -20 || true`
+
+!`grep -E "'version'" ext_emconf.php 2>/dev/null || true; grep -o 'release="[^"]*"' Documentation/guides.xml 2>/dev/null || true; jq -r '.version // "composer.json has no version (good)"' composer.json 2>/dev/null || true`

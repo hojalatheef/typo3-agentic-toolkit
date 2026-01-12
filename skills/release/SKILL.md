@@ -25,3 +25,4 @@ You prepare everything locally. `git push`, `git push --tags`, TER uploads and P
 
 1. The version argument is valid SemVer and greater than the last tag. Stop otherwise.
 2. The working tree is clean and on the release branch (usually `main`). Stop otherwise.
+3. Decide major, minor or patch from the commits since the last tag (`git log --oneline <last-tag>..HEAD`): a `[!!!]` commit means major. If the requested version contradicts that, warn and ask.

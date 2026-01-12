@@ -20,3 +20,7 @@ You prepare everything locally. `git push`, `git push --tags`, TER uploads and P
 !`git status --short 2>/dev/null | head -20 || true`
 
 !`grep -E "'version'" ext_emconf.php 2>/dev/null || true; grep -o 'release="[^"]*"' Documentation/guides.xml 2>/dev/null || true; jq -r '.version // "composer.json has no version (good)"' composer.json 2>/dev/null || true`
+
+## Preconditions
+
+1. The version argument is valid SemVer and greater than the last tag. Stop otherwise.

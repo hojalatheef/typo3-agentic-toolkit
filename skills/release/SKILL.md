@@ -26,3 +26,11 @@ You prepare everything locally. `git push`, `git push --tags`, TER uploads and P
 1. The version argument is valid SemVer and greater than the last tag. Stop otherwise.
 2. The working tree is clean and on the release branch (usually `main`). Stop otherwise.
 3. Decide major, minor or patch from the commits since the last tag (`git log --oneline <last-tag>..HEAD`): a `[!!!]` commit means major. If the requested version contradicts that, warn and ask.
+
+## Steps
+
+1. **Bump versions** - see [references/version-files.md](references/version-files.md):
+    - `ext_emconf.php`: `'version' => '<version>'`.
+    - `Documentation/guides.xml`: `<project ... version="<major.minor>" release="<version>"/>`.
+    - `composer.json`: only if it already has a `version` key (Packagist reads tags; a `version` key is discouraged).
+    - Check that the `typo3/cms-core` constraints in `composer.json` and `ext_emconf.php` agree.

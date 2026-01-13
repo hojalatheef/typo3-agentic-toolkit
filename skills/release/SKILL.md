@@ -34,3 +34,4 @@ You prepare everything locally. `git push`, `git push --tags`, TER uploads and P
     - `Documentation/guides.xml`: `<project ... version="<major.minor>" release="<version>"/>`.
     - `composer.json`: only if it already has a `version` key (Packagist reads tags; a `version` key is discouraged).
     - Check that the `typo3/cms-core` constraints in `composer.json` and `ext_emconf.php` agree.
+2. **CHANGELOG** - add a section at the top of `CHANGELOG.md` grouped by commit prefix (`[!!!]` breaking first, then `[FEATURE]`, `[BUGFIX]`, `[TASK]`, `[DOCS]`). Write for integrators; drop pure CI noise.

@@ -44,3 +44,5 @@ You prepare everything locally. `git push`, `git push --tags`, TER uploads and P
 ## Publish checklist
 
 Show this, filled in, and run nothing from it without confirmation:
+
+- [ ] `git push origin <branch>` and `git push origin <version>`

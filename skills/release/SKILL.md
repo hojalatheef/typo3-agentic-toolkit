@@ -40,3 +40,7 @@ You prepare everything locally. `git push`, `git push --tags`, TER uploads and P
 5. **Commit** - `git commit -am "[RELEASE] Release of version <version>"`.
 6. **Tag** - `git tag -a <version> -m "Release <version>"`. TYPO3 extensions conventionally tag without a `v` prefix; follow the existing tags if they differ.
 7. **Stop and confirm** - print the push commands and the checklist below, and wait.
+
+## Publish checklist
+
+Show this, filled in, and run nothing from it without confirmation:

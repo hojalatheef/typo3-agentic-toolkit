@@ -37,3 +37,4 @@ You prepare everything locally. `git push`, `git push --tags`, TER uploads and P
 2. **CHANGELOG** - add a section at the top of `CHANGELOG.md` grouped by commit prefix (`[!!!]` breaking first, then `[FEATURE]`, `[BUGFIX]`, `[TASK]`, `[DOCS]`). Write for integrators; drop pure CI noise.
 3. **Gate** - run the `quality-gate` skill. Any FAIL stops the release.
 4. **Docs** - if `Documentation/` exists, render it (`docs-rst` skill). Warnings stop the release.
+5. **Commit** - `git commit -am "[RELEASE] Release of version <version>"`.

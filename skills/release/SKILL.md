@@ -46,3 +46,4 @@ You prepare everything locally. `git push`, `git push --tags`, TER uploads and P
 Show this, filled in, and run nothing from it without confirmation:
 
 - [ ] `git push origin <branch>` and `git push origin <version>`
+- [ ] Packagist: updated by the GitHub/GitLab webhook; check the package page shows `<version>`

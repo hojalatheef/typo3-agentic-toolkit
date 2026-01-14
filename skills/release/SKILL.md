@@ -50,3 +50,4 @@ Show this, filled in, and run nothing from it without confirmation:
 - [ ] TER: upload via the tag-triggered CI job or `tailor ter:publish <version>` (needs `TYPO3_API_TOKEN`); TER requires the ext_emconf version to equal the tag
 - [ ] Documentation: docs.typo3.org rebuilds from the webhook; check the new version appears
 - [ ] Release notes on GitHub/GitLab from the CHANGELOG section
+- [ ] Announce breaking changes (`[!!!]`) to users

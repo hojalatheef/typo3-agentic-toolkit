@@ -51,3 +51,13 @@ Show this, filled in, and run nothing from it without confirmation:
 - [ ] Documentation: docs.typo3.org rebuilds from the webhook; check the new version appears
 - [ ] Release notes on GitHub/GitLab from the CHANGELOG section
 - [ ] Announce breaking changes (`[!!!]`) to users
+
+## Report
+
+```text
+RELEASE  <version> (<major|minor|patch>) | previous <tag>
+BUMPED   ext_emconf.php, Documentation/guides.xml[, composer.json]
+GATE     PASSED
+TAG      <version> (local, not pushed)
+WAITING  confirmation for: git push origin main && git push origin <version>
+```

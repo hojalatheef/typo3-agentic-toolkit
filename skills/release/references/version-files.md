@@ -1,0 +1,12 @@
+# Version files of a TYPO3 extension
+
+## ext_emconf.php
+
+```php
+$EM_CONF[$_EXTKEY] = [
+    'title' => 'My extension',
+    'version' => '3.2.0',
+    'state' => 'stable',
+    'constraints' => [
+        'depends' => [
+```

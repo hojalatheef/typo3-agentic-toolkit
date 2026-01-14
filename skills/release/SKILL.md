@@ -61,3 +61,7 @@ GATE     PASSED
 TAG      <version> (local, not pushed)
 WAITING  confirmation for: git push origin main && git push origin <version>
 ```
+
+## References
+
+- [references/version-files.md](references/version-files.md) - where versions live and how they must agree.

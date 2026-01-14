@@ -47,3 +47,4 @@ Show this, filled in, and run nothing from it without confirmation:
 
 - [ ] `git push origin <branch>` and `git push origin <version>`
 - [ ] Packagist: updated by the GitHub/GitLab webhook; check the package page shows `<version>`
+- [ ] TER: upload via the tag-triggered CI job or `tailor ter:publish <version>` (needs `TYPO3_API_TOKEN`); TER requires the ext_emconf version to equal the tag

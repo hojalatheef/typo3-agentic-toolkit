@@ -14,3 +14,5 @@ $EM_CONF[$_EXTKEY] = [
     ],
 ];
 ```
+
+- TER rejects an upload whose `version` differs from the tag.

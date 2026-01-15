@@ -24,3 +24,12 @@ $EM_CONF[$_EXTKEY] = [
 - Packagist takes the version from the git tag. Leave out the `version` key; if it is present, keep it in sync or remove it in a separate commit.
 - `extra.typo3/cms.extension-key` must be set.
 - Raise `require.php` only in a major release.
+
+## Documentation/guides.xml
+
+```xml
+<project title="My extension"
+         version="3.2"
+         release="3.2.0"
+         copyright="since 2020 by My Company"/>
+```

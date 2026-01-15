@@ -15,3 +15,5 @@ Review the change below as `code-reviewer`. You run in a forked context: the use
 ## Change under review
 
 Base ref argument (empty means: merge base with `main`, else `master`): $ARGUMENTS
+
+Working tree status:

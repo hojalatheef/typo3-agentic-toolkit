@@ -33,3 +33,5 @@ $EM_CONF[$_EXTKEY] = [
          release="3.2.0"
          copyright="since 2020 by My Company"/>
 ```
+
+`version` is major.minor, `release` the full version. Older documentation uses `Documentation/Settings.cfg` instead; migrate it with the `docs-rst` skill rather than updating both.

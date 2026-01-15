@@ -35,3 +35,12 @@ $EM_CONF[$_EXTKEY] = [
 ```
 
 `version` is major.minor, `release` the full version. Older documentation uses `Documentation/Settings.cfg` instead; migrate it with the `docs-rst` skill rather than updating both.
+
+## Consistency check
+
+```bash
+v=3.2.0
+grep -q "'version' => '$v'" ext_emconf.php && echo "ext_emconf ok"
+grep -q "release=\"$v\"" Documentation/guides.xml && echo "guides.xml ok"
+jq -e --arg v "$v" '.version == null or .version == $v' composer.json >/dev/null && echo "composer.json ok"
+```

@@ -11,3 +11,7 @@ allowed-tools: Read, Grep, Glob, Bash(git diff:*), Bash(git log:*), Bash(git sta
 # Review the current change
 
 Review the change below as `code-reviewer`. You run in a forked context: the user sees only your final reply, so put everything in it.
+
+## Change under review
+
+Base ref argument (empty means: merge base with `main`, else `master`): $ARGUMENTS

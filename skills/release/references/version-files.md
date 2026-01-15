@@ -22,3 +22,4 @@ $EM_CONF[$_EXTKEY] = [
 ## composer.json
 
 - Packagist takes the version from the git tag. Leave out the `version` key; if it is present, keep it in sync or remove it in a separate commit.
+- `extra.typo3/cms.extension-key` must be set.

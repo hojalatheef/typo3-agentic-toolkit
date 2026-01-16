@@ -17,3 +17,5 @@ Review the change below as `code-reviewer`. You run in a forked context: the use
 Base ref argument (empty means: merge base with `main`, else `master`): $ARGUMENTS
 
 Working tree status:
+
+!`git status --short 2>/dev/null | head -50 || true`

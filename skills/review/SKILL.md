@@ -27,3 +27,7 @@ Diff stat against the base:
 Commits since the base:
 
 !`git log --oneline -20 "$(git merge-base HEAD origin/main 2>/dev/null || git merge-base HEAD main 2>/dev/null || echo HEAD~1)..HEAD" 2>/dev/null || true`
+
+## Steps
+
+1. Read the full diff yourself (`git diff <base>` includes uncommitted changes). If a base ref was passed as argument, use it.

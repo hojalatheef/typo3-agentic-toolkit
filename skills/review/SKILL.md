@@ -21,3 +21,5 @@ Working tree status:
 !`git status --short 2>/dev/null | head -50 || true`
 
 Diff stat against the base:
+
+!`b="$(git merge-base HEAD origin/main 2>/dev/null || git merge-base HEAD main 2>/dev/null || git merge-base HEAD master 2>/dev/null || echo HEAD)"; echo "base: $b"; git diff --stat "$b" 2>/dev/null | tail -40 || true`

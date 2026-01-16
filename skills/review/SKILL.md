@@ -25,3 +25,5 @@ Diff stat against the base:
 !`b="$(git merge-base HEAD origin/main 2>/dev/null || git merge-base HEAD main 2>/dev/null || git merge-base HEAD master 2>/dev/null || echo HEAD)"; echo "base: $b"; git diff --stat "$b" 2>/dev/null | tail -40 || true`
 
 Commits since the base:
+
+!`git log --oneline -20 "$(git merge-base HEAD origin/main 2>/dev/null || git merge-base HEAD main 2>/dev/null || echo HEAD~1)..HEAD" 2>/dev/null || true`

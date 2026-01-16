@@ -19,3 +19,5 @@ Base ref argument (empty means: merge base with `main`, else `master`): $ARGUMEN
 Working tree status:
 
 !`git status --short 2>/dev/null | head -50 || true`
+
+Diff stat against the base:

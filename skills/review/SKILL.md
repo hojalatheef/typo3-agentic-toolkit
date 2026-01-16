@@ -31,3 +31,4 @@ Commits since the base:
 ## Steps
 
 1. Read the full diff yourself (`git diff <base>` includes uncommitted changes). If a base ref was passed as argument, use it.
+2. Read the surrounding code of every changed hunk, not only the hunk.

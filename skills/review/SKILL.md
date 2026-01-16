@@ -32,3 +32,4 @@ Commits since the base:
 
 1. Read the full diff yourself (`git diff <base>` includes uncommitted changes). If a base ref was passed as argument, use it.
 2. Read the surrounding code of every changed hunk, not only the hunk.
+3. If `.typo3-toolkit/plan.md` exists, check the change against it.

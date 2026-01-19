@@ -12,3 +12,4 @@ paths:
 # TCA and the Schema API
 
 TCA is still written as PHP arrays in `Configuration/TCA/` and
+`Configuration/TCA/Overrides/`. Since TYPO3 v13 the core derives columns,

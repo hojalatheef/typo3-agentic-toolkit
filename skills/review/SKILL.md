@@ -40,3 +40,4 @@ Commits since the base:
 
 | Prefer | Over | Changelog |
 | --- | --- | --- |
+| Site sets with `settings.definitions.yaml` | static TypoScript includes | Feature-103437 |

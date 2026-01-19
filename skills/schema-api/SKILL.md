@@ -14,3 +14,4 @@ paths:
 TCA is still written as PHP arrays in `Configuration/TCA/` and
 `Configuration/TCA/Overrides/`. Since TYPO3 v13 the core derives columns,
 database fields and form tabs from it, and code reads it through the immutable
+Schema API instead of `$GLOBALS['TCA']`. TYPO3 v14 moved more options into

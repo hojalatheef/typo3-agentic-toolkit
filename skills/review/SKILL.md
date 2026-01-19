@@ -41,3 +41,4 @@ Commits since the base:
 | Prefer | Over | Changelog |
 | --- | --- | --- |
 | Site sets with `settings.definitions.yaml` | static TypoScript includes | Feature-103437 |
+| Schema API | `$GLOBALS['TCA']` reads | Feature-104002 |

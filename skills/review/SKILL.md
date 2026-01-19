@@ -35,3 +35,8 @@ Commits since the base:
 3. If `.typo3-toolkit/plan.md` exists, check the change against it.
 4. Work through your checklist: correctness, security, v14 practice, silenced checks, public surface, tests.
 5. For every "use the v14 concept instead" finding, confirm the changelog entry with `t3-changelog <id>` and cite it.
+
+## v14 practice reminders
+
+| Prefer | Over | Changelog |
+| --- | --- | --- |

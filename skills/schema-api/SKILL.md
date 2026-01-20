@@ -22,3 +22,4 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
 ## When to use
 
 - A new table, field or record type (CType, doktype, `record_type`) is added.
+- `ext_tables.sql` repeats what TCA already says.

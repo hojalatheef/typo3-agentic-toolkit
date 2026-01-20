@@ -24,3 +24,5 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
 - A new table, field or record type (CType, doktype, `record_type`) is added.
 - `ext_tables.sql` repeats what TCA already says.
 - TCA `columns` copy boilerplate for `hidden`, `starttime`, `sys_language_uid`.
+- PHP code reads `$GLOBALS['TCA']` or calls deprecated `BackendUtility`
+  helpers like `isTableLocalizable()`.

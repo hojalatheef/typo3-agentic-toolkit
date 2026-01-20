@@ -26,3 +26,5 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
 - TCA `columns` copy boilerplate for `hidden`, `starttime`, `sys_language_uid`.
 - PHP code reads `$GLOBALS['TCA']` or calls deprecated `BackendUtility`
   helpers like `isTableLocalizable()`.
+- `itemsProcFunc`, `ctrl.searchFields`, `addPiFlexFormValue()` or
+  `PageDoktypeRegistry->add()` are in use.

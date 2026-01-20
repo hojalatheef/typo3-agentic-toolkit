@@ -36,3 +36,5 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
       auto-created (Feature-104311, 13.3). Do not add capabilities in Overrides.
 - [ ] No `ext_tables.sql` entries for plain TCA columns; keep only special
       definitions (Feature-101553, 13.0). Use `dbFieldLength` on `select`.
+- [ ] Content types list only their own fields in `showitem`; system tabs are
+      added automatically (Feature-104814, 13.3).

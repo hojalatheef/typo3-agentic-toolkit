@@ -16,3 +16,5 @@ TCA is still written as PHP arrays in `Configuration/TCA/` and
 database fields and form tabs from it, and code reads it through the immutable
 Schema API instead of `$GLOBALS['TCA']`. TYPO3 v14 moved more options into
 `types` so each record type can have its own title, label and defaults.
+
+Arguments: `$ARGUMENTS` - optional table name and extension path.

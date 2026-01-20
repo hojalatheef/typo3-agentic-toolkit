@@ -28,3 +28,9 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
   helpers like `isTableLocalizable()`.
 - `itemsProcFunc`, `ctrl.searchFields`, `addPiFlexFormValue()` or
   `PageDoktypeRegistry->add()` are in use.
+
+## Write TCA for v14 - checklist
+
+- [ ] `ctrl` lists capabilities (`enablecolumns`, `languageField`, `editlock`,
+      `descriptionColumn`, ...) in the base file; their `columns` are
+      auto-created (Feature-104311, 13.3). Do not add capabilities in Overrides.

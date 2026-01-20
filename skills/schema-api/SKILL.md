@@ -18,3 +18,7 @@ Schema API instead of `$GLOBALS['TCA']`. TYPO3 v14 moved more options into
 `types` so each record type can have its own title, label and defaults.
 
 Arguments: `$ARGUMENTS` - optional table name and extension path.
+
+## When to use
+
+- A new table, field or record type (CType, doktype, `record_type`) is added.

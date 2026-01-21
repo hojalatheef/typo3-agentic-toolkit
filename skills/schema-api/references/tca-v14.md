@@ -13,3 +13,4 @@ only; the core adds `columns` for:
 | --- | --- |
 | `enablecolumns.disabled` | check toggle |
 | `enablecolumns.starttime` / `endtime` | `datetime` |
+| `enablecolumns.fe_group` | select of `fe_groups` |

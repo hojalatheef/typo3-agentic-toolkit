@@ -11,3 +11,4 @@ only; the core adds `columns` for:
 
 | `ctrl` key | Column created |
 | --- | --- |
+| `enablecolumns.disabled` | check toggle |

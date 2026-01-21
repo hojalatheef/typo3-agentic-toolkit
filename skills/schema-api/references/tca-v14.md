@@ -8,3 +8,6 @@ translation-domain syntax where the changelog does (`my_extension.db:...`);
 
 Auto-created columns from `ctrl` (Feature-104311, 13.3). Set in the base file
 only; the core adds `columns` for:
+
+| `ctrl` key | Column created |
+| --- | --- |

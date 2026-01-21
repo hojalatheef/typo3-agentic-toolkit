@@ -2,3 +2,4 @@
 
 Every snippet follows the cited changelog entry. Labels use the v14 short
 translation-domain syntax where the changelog does (`my_extension.db:...`);
+`LLL:EXT:...xlf:key` keeps working.

@@ -24,3 +24,5 @@ Load order: base files, then auto-created columns, then Overrides, then
 migrations. To change a default, override single properties in
 `Configuration/TCA/Overrides/` - for example
 `$GLOBALS['TCA']['pages']['columns']['hidden']['config']['default'] = 1;`.
+
+Auto-created DB fields (Feature-101553, 13.0): fields of nearly every TCA type

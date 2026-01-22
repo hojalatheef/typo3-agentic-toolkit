@@ -19,3 +19,5 @@ only; the core adds `columns` for:
 | `languageField` (+ `transOrigPointerField`, defaults to `l10n_parent`) | `language` + parent select |
 | `transOrigDiffSourceField` | `passthrough` |
 | `translationSource` | `passthrough` |
+
+Load order: base files, then auto-created columns, then Overrides, then

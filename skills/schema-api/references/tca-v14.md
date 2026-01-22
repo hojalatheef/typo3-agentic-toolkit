@@ -15,3 +15,4 @@ only; the core adds `columns` for:
 | `enablecolumns.starttime` / `endtime` | `datetime` |
 | `enablecolumns.fe_group` | select of `fe_groups` |
 | `editlock` | check toggle, admins only |
+| `descriptionColumn` | `text` |

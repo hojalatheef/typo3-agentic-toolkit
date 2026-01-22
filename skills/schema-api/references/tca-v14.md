@@ -21,3 +21,4 @@ only; the core adds `columns` for:
 | `translationSource` | `passthrough` |
 
 Load order: base files, then auto-created columns, then Overrides, then
+migrations. To change a default, override single properties in

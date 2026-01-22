@@ -16,3 +16,4 @@ only; the core adds `columns` for:
 | `enablecolumns.fe_group` | select of `fe_groups` |
 | `editlock` | check toggle, admins only |
 | `descriptionColumn` | `text` |
+| `languageField` (+ `transOrigPointerField`, defaults to `l10n_parent`) | `language` + parent select |

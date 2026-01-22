@@ -17,3 +17,4 @@ only; the core adds `columns` for:
 | `editlock` | check toggle, admins only |
 | `descriptionColumn` | `text` |
 | `languageField` (+ `transOrigPointerField`, defaults to `l10n_parent`) | `language` + parent select |
+| `transOrigDiffSourceField` | `passthrough` |

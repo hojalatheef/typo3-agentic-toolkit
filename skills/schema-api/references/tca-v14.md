@@ -18,3 +18,4 @@ only; the core adds `columns` for:
 | `descriptionColumn` | `text` |
 | `languageField` (+ `transOrigPointerField`, defaults to `l10n_parent`) | `language` + parent select |
 | `transOrigDiffSourceField` | `passthrough` |
+| `translationSource` | `passthrough` |

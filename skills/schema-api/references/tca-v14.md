@@ -22,3 +22,4 @@ only; the core adds `columns` for:
 
 Load order: base files, then auto-created columns, then Overrides, then
 migrations. To change a default, override single properties in
+`Configuration/TCA/Overrides/` - for example

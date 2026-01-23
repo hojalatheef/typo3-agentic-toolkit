@@ -30,3 +30,4 @@ Auto-created DB fields (Feature-101553, 13.0): fields of nearly every TCA type
 `number`, `email`, `color`, `flex`, ...) get a database column without
 `ext_tables.sql`. Explicit SQL still wins. Before removing SQL lines, make
 sure `nullable` in TCA matches the data; the core wizard "Migrate NULL field
+values to DEFAULT values" fixes rows.

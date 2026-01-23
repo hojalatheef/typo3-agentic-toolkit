@@ -33,3 +33,4 @@ sure `nullable` in TCA matches the data; the core wizard "Migrate NULL field
 values to DEFAULT values" fixes rows.
 
 System tabs for content types (Feature-104814, 13.3): `General`, `Language`,
+`Access` and `Notes` are added from `ctrl`; `showitem` lists only your fields.

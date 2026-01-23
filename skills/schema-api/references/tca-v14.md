@@ -28,3 +28,4 @@ migrations. To change a default, override single properties in
 Auto-created DB fields (Feature-101553, 13.0): fields of nearly every TCA type
 (`input`, `text`, `check`, `select`, `group`, `inline`, `file`, `link`,
 `number`, `email`, `color`, `flex`, ...) get a database column without
+`ext_tables.sql`. Explicit SQL still wins. Before removing SQL lines, make

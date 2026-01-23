@@ -26,3 +26,4 @@ migrations. To change a default, override single properties in
 `$GLOBALS['TCA']['pages']['columns']['hidden']['config']['default'] = 1;`.
 
 Auto-created DB fields (Feature-101553, 13.0): fields of nearly every TCA type
+(`input`, `text`, `check`, `select`, `group`, `inline`, `file`, `link`,

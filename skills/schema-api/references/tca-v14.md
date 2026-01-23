@@ -31,3 +31,5 @@ Auto-created DB fields (Feature-101553, 13.0): fields of nearly every TCA type
 `ext_tables.sql`. Explicit SQL still wins. Before removing SQL lines, make
 sure `nullable` in TCA matches the data; the core wizard "Migrate NULL field
 values to DEFAULT values" fixes rows.
+
+System tabs for content types (Feature-104814, 13.3): `General`, `Language`,

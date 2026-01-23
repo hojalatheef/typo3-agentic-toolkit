@@ -35,3 +35,4 @@ values to DEFAULT values" fixes rows.
 System tabs for content types (Feature-104814, 13.3): `General`, `Language`,
 `Access` and `Notes` are added from `ctrl`; `showitem` lists only your fields.
 Start with `--div--` to omit the General tab. Custom labels for system fields
+are no longer preserved.

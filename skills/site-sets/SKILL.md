@@ -17,3 +17,4 @@ paths:
 Site sets ship settings, TypoScript, page TSconfig and route enhancers as one
 composable unit that a site lists under `dependencies`. They replace
 `sys_template` records, `static_file_include` and global
+`ext_typoscript_*.typoscript` files for new work.

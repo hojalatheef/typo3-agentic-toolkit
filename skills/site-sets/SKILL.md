@@ -15,3 +15,4 @@ paths:
 # Site sets
 
 Site sets ship settings, TypoScript, page TSconfig and route enhancers as one
+composable unit that a site lists under `dependencies`. They replace

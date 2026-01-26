@@ -14,3 +14,4 @@ paths:
 # Security hardening (TYPO3 v14)
 
 Arguments: `$ARGUMENTS`. With `review` (default when a path is given), run the
+[extension security review](references/review-checklist.md) and report findings; change nothing unless asked.

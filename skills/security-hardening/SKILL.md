@@ -15,3 +15,5 @@ paths:
 
 Arguments: `$ARGUMENTS`. With `review` (default when a path is given), run the
 [extension security review](references/review-checklist.md) and report findings; change nothing unless asked.
+
+TYPO3 14 ships primitives that replace most hand-rolled security code: authenticated encryption

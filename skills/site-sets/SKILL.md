@@ -31,3 +31,4 @@ changelog ID is given.
 - TypoScript constants should become editable settings in the backend.
 - An extension still relies on `ext_typoscript_setup.typoscript` or a static
   template registered with `ExtensionManagementUtility::addStaticFile()`.
+- A site needs route enhancers that belong to an extension (v14.1+).

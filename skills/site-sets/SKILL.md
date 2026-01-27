@@ -34,3 +34,4 @@ changelog ID is given.
 - A site needs route enhancers that belong to an extension (v14.1+).
 
 Do not use it for global, backend-only TypoScript (for example
+`module.tx_form` YAML registration) - that stays global (Feature-103439).

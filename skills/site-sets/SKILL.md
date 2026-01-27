@@ -32,3 +32,5 @@ changelog ID is given.
 - An extension still relies on `ext_typoscript_setup.typoscript` or a static
   template registered with `ExtensionManagementUtility::addStaticFile()`.
 - A site needs route enhancers that belong to an extension (v14.1+).
+
+Do not use it for global, backend-only TypoScript (for example

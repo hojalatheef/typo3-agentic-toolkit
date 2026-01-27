@@ -24,3 +24,7 @@ extension path (default: current directory).
 
 Target: TYPO3 v14 LTS. Everything below exists since v13.1 unless a newer
 changelog ID is given.
+
+## When to use
+
+- An extension or site package needs to ship TypoScript, TSconfig or settings.

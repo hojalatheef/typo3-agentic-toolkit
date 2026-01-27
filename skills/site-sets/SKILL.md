@@ -29,3 +29,5 @@ changelog ID is given.
 
 - An extension or site package needs to ship TypoScript, TSconfig or settings.
 - TypoScript constants should become editable settings in the backend.
+- An extension still relies on `ext_typoscript_setup.typoscript` or a static
+  template registered with `ExtensionManagementUtility::addStaticFile()`.

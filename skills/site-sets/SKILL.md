@@ -28,3 +28,4 @@ changelog ID is given.
 ## When to use
 
 - An extension or site package needs to ship TypoScript, TSconfig or settings.
+- TypoScript constants should become editable settings in the backend.

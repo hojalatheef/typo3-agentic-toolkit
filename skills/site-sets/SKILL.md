@@ -20,3 +20,4 @@ composable unit that a site lists under `dependencies`. They replace
 `ext_typoscript_*.typoscript` files for new work.
 
 Arguments: `$ARGUMENTS` - an optional set name (`vendor/name`) and an optional
+extension path (default: current directory).

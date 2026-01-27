@@ -23,3 +23,4 @@ Arguments: `$ARGUMENTS` - an optional set name (`vendor/name`) and an optional
 extension path (default: current directory).
 
 Target: TYPO3 v14 LTS. Everything below exists since v13.1 unless a newer
+changelog ID is given.

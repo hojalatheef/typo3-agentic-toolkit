@@ -40,3 +40,6 @@ Do not use it for global, backend-only TypoScript (for example
 
 One folder per set below `Configuration/Sets/`. The folder name is arbitrary,
 the `name` in `config.yaml` is what sites reference (Feature-103437, 13.1).
+
+| File | Purpose | Since |
+| --- | --- | --- |

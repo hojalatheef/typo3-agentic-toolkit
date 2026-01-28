@@ -44,3 +44,4 @@ the `name` in `config.yaml` is what sites reference (Feature-103437, 13.1).
 | File | Purpose | Since |
 | --- | --- | --- |
 | `config.yaml` | `name`, `label`, `dependencies`, optional `optionalDependencies`, `hidden` | Feature-103437, 13.1 (`optionalDependencies`: core source, no changelog) |
+| `settings.definitions.yaml` | typed settings with `label`, `description`, `category`, `default`, `readonly`, `enum` | Feature-103437, 13.1 / Feature-104794, 13.3 |

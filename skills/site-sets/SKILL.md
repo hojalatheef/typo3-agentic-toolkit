@@ -35,3 +35,7 @@ changelog ID is given.
 
 Do not use it for global, backend-only TypoScript (for example
 `module.tx_form` YAML registration) - that stays global (Feature-103439).
+
+## Files of a set
+
+One folder per set below `Configuration/Sets/`. The folder name is arbitrary,

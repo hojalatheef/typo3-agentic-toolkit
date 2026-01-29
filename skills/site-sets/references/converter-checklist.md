@@ -18,3 +18,6 @@ ls Configuration/page.tsconfig Configuration/user.tsconfig 2>/dev/null
 ```
 
 Classify each piece:
+
+| Piece | Goes to |
+| --- | --- |

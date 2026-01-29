@@ -8,3 +8,11 @@ Use this when an extension or site package still ships TypoScript through
 ## Inventory
 
 Run these from the extension root and note every hit:
+
+```bash
+grep -rn "addStaticFile" Configuration/ ext_*.php
+ls ext_typoscript_setup.typoscript ext_typoscript_constants.typoscript 2>/dev/null
+grep -rn "@import\|INCLUDE_TYPOSCRIPT" Configuration/ ext_*.typoscript
+grep -rn "addPageTSConfig\|addUserTSConfig" ext_localconf.php ext_tables.php
+ls Configuration/page.tsconfig Configuration/user.tsconfig 2>/dev/null
+```

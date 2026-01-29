@@ -16,3 +16,5 @@ grep -rn "@import\|INCLUDE_TYPOSCRIPT" Configuration/ ext_*.typoscript
 grep -rn "addPageTSConfig\|addUserTSConfig" ext_localconf.php ext_tables.php
 ls Configuration/page.tsconfig Configuration/user.tsconfig 2>/dev/null
 ```
+
+Classify each piece:

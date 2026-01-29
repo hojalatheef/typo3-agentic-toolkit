@@ -22,3 +22,4 @@ Classify each piece:
 | Piece | Goes to |
 | --- | --- |
 | Frontend TypoScript (`plugin.tx_*`, `lib.*`, `page`) | set `setup.typoscript` |
+| Constants that integrators change | set `settings.definitions.yaml` |

@@ -24,3 +24,4 @@ Classify each piece:
 | Frontend TypoScript (`plugin.tx_*`, `lib.*`, `page`) | set `setup.typoscript` |
 | Constants that integrators change | set `settings.definitions.yaml` |
 | Constants that are internal | set `constants.typoscript` |
+| Site-specific page TSconfig (backend layouts, TCEFORM for this site) | set `page.tsconfig` |

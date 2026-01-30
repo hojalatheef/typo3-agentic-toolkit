@@ -26,3 +26,4 @@ Classify each piece:
 | Constants that are internal | set `constants.typoscript` |
 | Site-specific page TSconfig (backend layouts, TCEFORM for this site) | set `page.tsconfig` |
 | Backend-module TypoScript (`module.tx_*`) | stays global |
+| User TSconfig | stays in `Configuration/user.tsconfig` |

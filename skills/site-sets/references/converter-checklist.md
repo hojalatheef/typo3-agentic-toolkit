@@ -36,3 +36,12 @@ Classify each piece:
 2. Copy setup TypoScript into `setup.typoscript`. Replace cross-extension
    `@import` with a `dependencies` entry for the other extension's set.
 3. For every constant an editor or integrator changes, add a definition:
+
+   ```yaml
+   settings:
+     plugin.tx_myext.itemsPerPage:
+       label: 'Items per page'
+       category: myext
+       type: int
+       default: 10
+   ```

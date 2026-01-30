@@ -45,3 +45,7 @@ Classify each piece:
        type: int
        default: 10
    ```
+
+   Keep the constant identifier as the setting identifier so `{$...}`
+   references in `setup.typoscript` keep working: site settings overrule set
+   constants of the same name.

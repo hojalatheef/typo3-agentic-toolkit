@@ -28,3 +28,8 @@ Classify each piece:
 | Backend-module TypoScript (`module.tx_*`) | stays global |
 | User TSconfig | stays in `Configuration/user.tsconfig` |
 | Route enhancers the extension needs | set `route-enhancers.yaml` (v14.1+) |
+
+## Conversion steps
+
+1. Create one set per former static template. Keep the old static template
+   while v12 (or `sys_template`-based) sites must still work.

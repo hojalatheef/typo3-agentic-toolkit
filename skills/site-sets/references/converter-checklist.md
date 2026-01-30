@@ -35,3 +35,4 @@ Classify each piece:
    while v12 (or `sys_template`-based) sites must still work.
 2. Copy setup TypoScript into `setup.typoscript`. Replace cross-extension
    `@import` with a `dependencies` entry for the other extension's set.
+3. For every constant an editor or integrator changes, add a definition:

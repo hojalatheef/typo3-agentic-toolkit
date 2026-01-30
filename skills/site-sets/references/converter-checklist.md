@@ -49,3 +49,5 @@ Classify each piece:
    Keep the constant identifier as the setting identifier so `{$...}`
    references in `setup.typoscript` keep working: site settings overrule set
    constants of the same name.
+4. When renaming a constant, bridge the old name with
+   `{$old.name ?? $new.name}` (Feature-103671).

@@ -4,6 +4,42 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [0.4.0] - 2026-01-30
+
+### Added
+
+- `onboard` skill
+- `quality-gate` skill
+- `record-rendering` skill
+- `release` skill
+- `review` skill
+- `scheduler-console` skill
+- `schema-api` skill
+- `security-hardening` skill
+- `site-sets` skill
+
+### Changed
+
+- `functional-tests/csv-datasets` reference: more guidance
+- `functional-tests/request-tests` reference: more guidance
+- `functional-tests` skill: more guidance
+- `onboard/claude-md-template` reference: more guidance
+- `onboard/settings-template` reference: more guidance
+- `onboard` skill: more guidance
+- `quality-gate/steps` reference: more guidance
+- `quality-gate` skill: more guidance
+- `record-rendering/end-to-end-example` reference: more guidance
+- `record-rendering` skill: more guidance
+- `release/version-files` reference: more guidance
+- `release` skill: more guidance
+- `review` skill: more guidance
+- `schema-api/tca-v14` reference: more guidance
+- `schema-api` skill: more guidance
+- `security-hardening/review-checklist` reference: more guidance
+- `security-hardening` skill: more guidance
+- `site-sets/converter-checklist` reference: more guidance
+- `site-sets` skill: more guidance
+
 ## [0.3.0] - 2025-12-19
 
 ### Added

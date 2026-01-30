@@ -27,3 +27,4 @@ Classify each piece:
 | Site-specific page TSconfig (backend layouts, TCEFORM for this site) | set `page.tsconfig` |
 | Backend-module TypoScript (`module.tx_*`) | stays global |
 | User TSconfig | stays in `Configuration/user.tsconfig` |
+| Route enhancers the extension needs | set `route-enhancers.yaml` (v14.1+) |

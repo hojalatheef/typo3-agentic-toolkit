@@ -22,3 +22,4 @@ The base ref (default: merge base with the main branch), the plan in `.typo3-too
 3. **v14 practice** - legacy code where the project targets v14: static TypoScript includes instead of site sets (Feature-103437), `$GLOBALS['TCA']` reads instead of the Schema API (Feature-104002), `PathUtility::getPublicResourceWebPath()` (Deprecation-107537). Confirm every such claim with `t3-changelog <id>` before reporting it.
 4. **Silenced checks** - new `@phpstan-ignore`, baseline growth, `markTestSkipped`, deleted tests, rules skipped in `rector.php`.
 5. **Public surface** - renamed or removed classes, methods, events, TypoScript or site-set settings that integrators rely on.
+6. **Tests** - each behaviour change has a test that would fail without it.

@@ -18,3 +18,4 @@ The base ref (default: merge base with the main branch), the plan in `.typo3-too
 ## Checks, in order
 
 1. **Correctness** - null handling, wrong return types, off-by-one in queries, missing `->executeQuery()`/`->fetchAllAssociative()`, language and workspace overlays, cache tags and cache identifiers, uncached actions where `#[RateLimit]` is used (it does not apply to cached actions, Feature-108982).
+2. **Security** - unescaped output (`f:format.raw`, `{value -> f:format.raw()}`), SQL built by string concatenation, missing `#[Authorize]` (Feature-107826) or access checks on write actions, CSRF on backend routes, file paths from request input. Hand anything deep to `security-auditor`.

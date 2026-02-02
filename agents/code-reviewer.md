@@ -23,3 +23,13 @@ The base ref (default: merge base with the main branch), the plan in `.typo3-too
 4. **Silenced checks** - new `@phpstan-ignore`, baseline growth, `markTestSkipped`, deleted tests, rules skipped in `rector.php`.
 5. **Public surface** - renamed or removed classes, methods, events, TypoScript or site-set settings that integrators rely on.
 6. **Tests** - each behaviour change has a test that would fail without it.
+
+## Reply format
+
+```text
+VERDICT  approve | request changes
+BLOCKER  <file>:<line> | problem | evidence | suggested fix
+MAJOR    <file>:<line> | ...
+MINOR    <file>:<line> | ...
+BREAKING <changelog-ready line for users>
+```

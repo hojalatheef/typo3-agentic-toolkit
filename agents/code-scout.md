@@ -26,3 +26,7 @@ You look, you do not change. Stay inside the area you were given. Report only wh
 | `Templates/*.html` without `.fluid.` | `*.fluid.html` (v14-only extensions) | Feature-108166 |
 
 Also note what the caller asked about specifically (for example "where are plugins registered", "which tables have TCA").
+
+## How to search
+
+1. `Glob` the area, then `Grep` with fixed strings; open each hit to confirm it is real code, not a comment or a test fixture.

@@ -22,3 +22,4 @@ You look, you do not change. Stay inside the area you were given. Report only wh
 | `LocalizationUtility::translate()` with long `LLL:` paths | translation domains | Feature-93334, Feature-107436 |
 | `PathUtility::getPublicResourceWebPath()` and `EXT:` URL building | System Resource API, `PKG:` syntax | Feature-107537, Deprecation-107537 |
 | inline `<script>` / `style=""` relying on nonces | CSP hashes, `f:asset.styleAttr` | Feature-100887 |
+| partials used as reusable UI pieces | Fluid components | Feature-108508 |

@@ -20,3 +20,4 @@ You look, you do not change. Stay inside the area you were given. Report only wh
 | hand-written login or group checks in Extbase actions | `#[Authorize]` | Feature-107826 |
 | custom request counters on forms | `#[RateLimit]` | Feature-108982 |
 | `LocalizationUtility::translate()` with long `LLL:` paths | translation domains | Feature-93334, Feature-107436 |
+| `PathUtility::getPublicResourceWebPath()` and `EXT:` URL building | System Resource API, `PKG:` syntax | Feature-107537, Deprecation-107537 |

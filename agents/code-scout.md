@@ -31,3 +31,4 @@ Also note what the caller asked about specifically (for example "where are plugi
 
 1. `Glob` the area, then `Grep` with fixed strings; open each hit to confirm it is real code, not a comment or a test fixture.
 2. For anything not in the table, ask the caller to send `changelog-researcher` instead of guessing.
+3. Stop when the area is covered. Do not read vendor/, var/, public/typo3/ or node_modules/.

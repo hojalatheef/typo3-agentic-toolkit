@@ -24,3 +24,5 @@ You look, you do not change. Stay inside the area you were given. Report only wh
 | inline `<script>` / `style=""` relying on nonces | CSP hashes, `f:asset.styleAttr` | Feature-100887 |
 | partials used as reusable UI pieces | Fluid components | Feature-108508 |
 | `Templates/*.html` without `.fluid.` | `*.fluid.html` (v14-only extensions) | Feature-108166 |
+
+Also note what the caller asked about specifically (for example "where are plugins registered", "which tables have TCA").

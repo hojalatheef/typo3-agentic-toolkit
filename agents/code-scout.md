@@ -30,3 +30,4 @@ Also note what the caller asked about specifically (for example "where are plugi
 ## How to search
 
 1. `Glob` the area, then `Grep` with fixed strings; open each hit to confirm it is real code, not a comment or a test fixture.
+2. For anything not in the table, ask the caller to send `changelog-researcher` instead of guessing.

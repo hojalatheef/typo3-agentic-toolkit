@@ -27,3 +27,5 @@ Follow the preloaded `security-hardening` skill. At minimum:
 4. **Abuse** - public forms and login-like actions without `#[RateLimit]` (Feature-108982); remember it only protects uncached actions.
 5. **CSP** - inline scripts and styles; prefer CSP hashes via `csp.yaml` `behavior.useHash` (Feature-100887) or external assets.
 6. **Files and secrets** - paths from request input, uploads without type checks, secrets in `composer.json`, `ext_conf_template.txt`, site configuration or committed `.env`.
+
+Confirm every TYPO3 API you recommend with `t3-changelog <id>`.

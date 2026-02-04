@@ -24,3 +24,4 @@ Follow the preloaded `security-hardening` skill. At minimum:
 1. **Output encoding** - `f:format.raw`, `<f:format.html>` on user input, `{value -> f:format.raw()}`, `htmlspecialchars` missing in PHP-built HTML, JSON in `<script>` without encoding.
 2. **Queries** - QueryBuilder with `createNamedParameter()` everywhere; no string-concatenated `where()`; `quoteIdentifier` for dynamic columns.
 3. **Access control** - Extbase write actions without `#[Authorize]` (Feature-107826) or an equivalent check; backend modules and AJAX routes without access configuration; record access without `BackendUserAuthentication::check()`/`recordEditAccessInternals()`.
+4. **Abuse** - public forms and login-like actions without `#[RateLimit]` (Feature-108982); remember it only protects uncached actions.

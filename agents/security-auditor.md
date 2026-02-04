@@ -25,3 +25,4 @@ Follow the preloaded `security-hardening` skill. At minimum:
 2. **Queries** - QueryBuilder with `createNamedParameter()` everywhere; no string-concatenated `where()`; `quoteIdentifier` for dynamic columns.
 3. **Access control** - Extbase write actions without `#[Authorize]` (Feature-107826) or an equivalent check; backend modules and AJAX routes without access configuration; record access without `BackendUserAuthentication::check()`/`recordEditAccessInternals()`.
 4. **Abuse** - public forms and login-like actions without `#[RateLimit]` (Feature-108982); remember it only protects uncached actions.
+5. **CSP** - inline scripts and styles; prefer CSP hashes via `csp.yaml` `behavior.useHash` (Feature-100887) or external assets.

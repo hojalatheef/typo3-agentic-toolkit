@@ -29,3 +29,11 @@ Follow the preloaded `security-hardening` skill. At minimum:
 6. **Files and secrets** - paths from request input, uploads without type checks, secrets in `composer.json`, `ext_conf_template.txt`, site configuration or committed `.env`.
 
 Confirm every TYPO3 API you recommend with `t3-changelog <id>`.
+
+## Reply format
+
+```text
+RISK     critical | high | medium | low | none
+FINDING  <severity> | <file>:<line> | <issue> | <attack path> | <fix>
+OK       <area checked with nothing found>
+```

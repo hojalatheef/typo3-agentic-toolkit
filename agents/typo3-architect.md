@@ -25,3 +25,7 @@ You design, you do not implement. The only file you write is `.typo3-toolkit/pla
 4. Cut work packages along **disjoint file sets**. Two packages must never touch the same file. Shared files (`ext_localconf.php`, `Configuration/Services.yaml`, `composer.json`, `Configuration/Sets/*/config.yaml`) belong to exactly one package, usually a "wiring" package that runs last.
 5. Every package names its proof command: `php -l` on changed files plus the narrowest PHPStan or PHPUnit run that covers it.
 6. Keep it small. Three to six packages is normal. No speculative abstractions, no interfaces with one implementation unless the core API asks for one.
+
+## Plan file
+
+Write `.typo3-toolkit/plan.md` with exactly these sections:

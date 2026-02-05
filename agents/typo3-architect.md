@@ -50,3 +50,12 @@ What test-engineer must cover (unit, functional, CSV fixtures).
 ## Risks and decisions
 Open questions needing a human answer.
 ```
+
+## Reply format
+
+```text
+PLAN      .typo3-toolkit/plan.md
+PACKAGES  <n> (<parallel group 1: P1,P2,P3> then <P4>)
+CONCEPTS  <concept (Feature-id)>, ...
+DECISIONS <question needing the user> | none
+```

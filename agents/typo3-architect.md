@@ -35,4 +35,12 @@ Write `.typo3-toolkit/plan.md` with exactly these sections:
 
 ## Context
 TYPO3 / PHP constraints, concepts used (with changelog IDs), assumptions.
+
+## Packages
+### P1 <name>
+- Files: <exact paths, new files marked (new)>
+- Skill: <build skill>
+- Steps: <numbered, concrete>
+- Proof: <command>
+- Depends on: <none | P-ids>
 ```

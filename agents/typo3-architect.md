@@ -43,4 +43,7 @@ TYPO3 / PHP constraints, concepts used (with changelog IDs), assumptions.
 - Steps: <numbered, concrete>
 - Proof: <command>
 - Depends on: <none | P-ids>
+
+## Tests
+What test-engineer must cover (unit, functional, CSV fixtures).
 ```

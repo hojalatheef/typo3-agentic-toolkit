@@ -51,3 +51,5 @@ Classify each piece:
    constants of the same name.
 4. When renaming a constant, bridge the old name with
    `{$old.name ?? $new.name}` (Feature-103671).
+5. Move site-specific page TSconfig into `page.tsconfig` (Feature-103522) and
+   drop the global registration if it was only there for this site.

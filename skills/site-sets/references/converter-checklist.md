@@ -53,3 +53,6 @@ Classify each piece:
    `{$old.name ?? $new.name}` (Feature-103671).
 5. Move site-specific page TSconfig into `page.tsconfig` (Feature-103522) and
    drop the global registration if it was only there for this site.
+6. Decide on `ext_typoscript_setup.typoscript`: it is not loaded for
+   set-based sites. Keep it only for legacy `sys_template` setups; never rely
+   on it for new ones.

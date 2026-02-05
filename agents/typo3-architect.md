@@ -29,3 +29,7 @@ You design, you do not implement. The only file you write is `.typo3-toolkit/pla
 ## Plan file
 
 Write `.typo3-toolkit/plan.md` with exactly these sections:
+
+```markdown
+# Plan: <feature>
+```

@@ -46,4 +46,7 @@ TYPO3 / PHP constraints, concepts used (with changelog IDs), assumptions.
 
 ## Tests
 What test-engineer must cover (unit, functional, CSV fixtures).
+
+## Risks and decisions
+Open questions needing a human answer.
 ```

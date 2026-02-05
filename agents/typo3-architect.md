@@ -32,4 +32,7 @@ Write `.typo3-toolkit/plan.md` with exactly these sections:
 
 ```markdown
 # Plan: <feature>
+
+## Context
+TYPO3 / PHP constraints, concepts used (with changelog IDs), assumptions.
 ```

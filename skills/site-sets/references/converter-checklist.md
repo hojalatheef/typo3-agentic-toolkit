@@ -66,3 +66,5 @@ Classify each piece:
   `sys_template` record renders the same frontend as before.
 - "Site Management > Settings" shows every converted constant with label,
   category and default.
+- The TypoScript backend module (or "Active TypoScript") shows the set's
+  TypoScript once, not twice - duplicates hint at a leftover static include.

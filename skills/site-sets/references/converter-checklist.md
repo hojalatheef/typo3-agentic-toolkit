@@ -74,3 +74,4 @@ Classify each piece:
 
 - Defaults in `settings.yaml` instead of `settings.definitions.yaml`: the
   editor cannot reset them, and they apply only when your set is loaded.
+- Nested trees in `settings.yaml`: use the flat map (Important-106894).

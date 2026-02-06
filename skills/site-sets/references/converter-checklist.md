@@ -69,3 +69,8 @@ Classify each piece:
 - The TypoScript backend module (or "Active TypoScript") shows the set's
   TypoScript once, not twice - duplicates hint at a leftover static include.
 - Remove the `sys_template` record from the test site; output must not change.
+
+## Pitfalls
+
+- Defaults in `settings.yaml` instead of `settings.definitions.yaml`: the
+  editor cannot reset them, and they apply only when your set is loaded.

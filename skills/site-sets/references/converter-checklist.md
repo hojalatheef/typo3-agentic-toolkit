@@ -64,3 +64,5 @@ Classify each piece:
 - `vendor/bin/typo3 site:sets:list` lists the new set with its label.
 - A test site with only `dependencies: [my-vendor/my-set]` and no
   `sys_template` record renders the same frontend as before.
+- "Site Management > Settings" shows every converted constant with label,
+  category and default.

@@ -62,3 +62,5 @@ Classify each piece:
 ## Verification
 
 - `vendor/bin/typo3 site:sets:list` lists the new set with its label.
+- A test site with only `dependencies: [my-vendor/my-set]` and no
+  `sys_template` record renders the same frontend as before.

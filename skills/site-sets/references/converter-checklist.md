@@ -58,3 +58,7 @@ Classify each piece:
    on it for new ones.
 7. Register `hidden: true` helper sets for pieces that should only be pulled
    in as dependencies.
+
+## Verification
+
+- `vendor/bin/typo3 site:sets:list` lists the new set with its label.

@@ -56,3 +56,5 @@ Classify each piece:
 6. Decide on `ext_typoscript_setup.typoscript`: it is not loaded for
    set-based sites. Keep it only for legacy `sys_template` setups; never rely
    on it for new ones.
+7. Register `hidden: true` helper sets for pieces that should only be pulled
+   in as dependencies.

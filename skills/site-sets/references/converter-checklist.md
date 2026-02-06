@@ -77,3 +77,5 @@ Classify each piece:
 - Nested trees in `settings.yaml`: use the flat map (Important-106894).
 - Keeping both a static include and the set on one site loads TypoScript
   twice.
+- Global `addTypoScriptSetup()` for frontend TypoScript defeats per-site
+  scoping. Reserve it for backend-module needs.

@@ -68,3 +68,4 @@ Classify each piece:
   category and default.
 - The TypoScript backend module (or "Active TypoScript") shows the set's
   TypoScript once, not twice - duplicates hint at a leftover static include.
+- Remove the `sys_template` record from the test site; output must not change.

@@ -20,3 +20,4 @@ dependencies:
 
 - `name` - `vendor/name`; this is what sites list. Folder name does not matter.
 - `label` - shown in the backend set selection.
+- `dependencies` - sets loaded first, recursively, ordered and deduplicated.

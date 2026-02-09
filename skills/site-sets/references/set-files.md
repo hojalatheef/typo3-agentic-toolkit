@@ -7,3 +7,8 @@ Handling documentation for your exact version before using it.
 ## config.yaml
 
 Source: Feature-103437 (13.1).
+
+```yaml
+name: my-vendor/my-set
+label: My Set
+```

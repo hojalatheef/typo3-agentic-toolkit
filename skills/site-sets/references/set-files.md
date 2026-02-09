@@ -17,3 +17,5 @@ dependencies:
   - some-namespace/slider
   - other-namespace/fancy-carousel
 ```
+
+- `name` - `vendor/name`; this is what sites list. Folder name does not matter.

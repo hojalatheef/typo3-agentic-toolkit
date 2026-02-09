@@ -11,4 +11,9 @@ Source: Feature-103437 (13.1).
 ```yaml
 name: my-vendor/my-set
 label: My Set
+
+# Load TypoScript, TSconfig and settings from dependencies
+dependencies:
+  - some-namespace/slider
+  - other-namespace/fancy-carousel
 ```

@@ -21,3 +21,6 @@ dependencies:
 - `name` - `vendor/name`; this is what sites list. Folder name does not matter.
 - `label` - shown in the backend set selection.
 - `dependencies` - sets loaded first, recursively, ordered and deduplicated.
+- `hidden: true` - hides a helper set from the backend selection and
+  `site:sets:list`. A hidden set that is already applied stays visible in the
+  site's list of active sets.

@@ -45,3 +45,4 @@ dependencies:
 only if they are installed, and a missing one is not an error. Use it for
 integrations with extensions that may be absent (for example an optional
 SEO or news set). Check the Site Handling documentation for your version
+before relying on details.

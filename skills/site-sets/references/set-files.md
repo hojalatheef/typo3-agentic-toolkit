@@ -30,3 +30,5 @@ Integrators can hide sets for editors in user TSconfig:
 ```typoscript
 options.sites.hideSets := addToList(typo3/fluid-styled-content)
 ```
+
+A site applies sets in `config/sites/<site>/config.yaml`:

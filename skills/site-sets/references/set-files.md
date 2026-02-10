@@ -43,3 +43,4 @@ dependencies:
 `optionalDependencies` has no changelog entry, but the v13 core
 `SetDefinition`/`SetRegistry` read it: listed sets are ordered before yours
 only if they are installed, and a missing one is not an error. Use it for
+integrations with extensions that may be absent (for example an optional

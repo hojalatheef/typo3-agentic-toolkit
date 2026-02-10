@@ -32,3 +32,10 @@ options.sites.hideSets := addToList(typo3/fluid-styled-content)
 ```
 
 A site applies sets in `config/sites/<site>/config.yaml`:
+
+```yaml
+base: 'http://example.com/'
+rootPageId: 1
+dependencies:
+  - my-vendor/my-set
+```

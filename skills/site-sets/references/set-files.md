@@ -26,3 +26,7 @@ dependencies:
   site's list of active sets.
 
 Integrators can hide sets for editors in user TSconfig:
+
+```typoscript
+options.sites.hideSets := addToList(typo3/fluid-styled-content)
+```

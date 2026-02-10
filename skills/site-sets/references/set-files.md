@@ -41,3 +41,4 @@ dependencies:
 ```
 
 `optionalDependencies` has no changelog entry, but the v13 core
+`SetDefinition`/`SetRegistry` read it: listed sets are ordered before yours

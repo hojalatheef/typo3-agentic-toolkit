@@ -39,3 +39,5 @@ rootPageId: 1
 dependencies:
   - my-vendor/my-set
 ```
+
+`optionalDependencies` has no changelog entry, but the v13 core

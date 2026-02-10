@@ -24,3 +24,5 @@ dependencies:
 - `hidden: true` - hides a helper set from the backend selection and
   `site:sets:list`. A hidden set that is already applied stays visible in the
   site's list of active sets.
+
+Integrators can hide sets for editors in user TSconfig:

@@ -55,3 +55,7 @@ dependencies:
 optionalDependencies:
   - typo3/seo-sitemap
 ```
+
+## settings.definitions.yaml and settings.yaml
+
+Sources: Feature-103437 (13.1), Feature-104794 (13.3), Important-106894

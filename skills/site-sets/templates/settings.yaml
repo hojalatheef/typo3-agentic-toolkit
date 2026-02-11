@@ -1,0 +1,4 @@
+# EXT:my_extension/Configuration/Sets/MySet/settings.yaml
+# Values for settings of DEPENDENCIES only. Own defaults belong in
+# settings.definitions.yaml. Flat map form (Important-106894).
+styles.content.defaultHeaderType: 2

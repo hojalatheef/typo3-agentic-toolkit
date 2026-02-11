@@ -1,0 +1,5 @@
+# EXT:my_extension/Configuration/Sets/MySet/config.yaml
+# Feature-103437 (13.1). Replace my-vendor/my-set with your vendor/name.
+name: my-vendor/my-set
+label: My Set
+

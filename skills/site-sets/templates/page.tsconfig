@@ -1,0 +1,3 @@
+# EXT:my_extension/Configuration/Sets/MySet/page.tsconfig
+# Scoped to pages of sites using this set (Feature-103522).
+TCEFORM.tt_content.header_layout.removeItems = 1

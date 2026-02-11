@@ -1,0 +1,10 @@
+# EXT:my_extension/Configuration/Sets/MySet/setup.typoscript
+# Loaded like a static include for every site that depends on this set
+# (Feature-103439). Site settings are available as constants.
+plugin.tx_myextension {
+  settings {
+    itemsPerPage = {$myExtension.itemsPerPage}
+    showTeaser = {$myExtension.showTeaser}
+    layout = {$myExtension.layout}
+  }
+}

@@ -7,3 +7,5 @@ label: My Set
 dependencies:
   - typo3/fluid-styled-content
 
+# Uncomment for helper sets that should only be used as a dependency.
+# hidden: true

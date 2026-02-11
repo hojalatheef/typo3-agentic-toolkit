@@ -12,3 +12,4 @@ paths:
 # Site package for TYPO3 v14
 
 A v14 site package is a normal extension whose site set is the single entry
+point: the site lists the set under `dependencies`, the set ships TypoScript,

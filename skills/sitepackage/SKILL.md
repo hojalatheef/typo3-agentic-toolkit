@@ -18,3 +18,7 @@ page templates by backend-layout name. No `sys_template` record, no
 `FLUIDTEMPLATE` path juggling.
 
 Arguments: `$ARGUMENTS` - optional Composer name and target directory.
+
+## When to use
+
+- Starting a new TYPO3 v14 project or a fresh theme.

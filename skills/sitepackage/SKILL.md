@@ -16,3 +16,5 @@ point: the site lists the set under `dependencies`, the set ships TypoScript,
 page TSconfig (backend layouts) and settings, and `PAGEVIEW` renders Fluid
 page templates by backend-layout name. No `sys_template` record, no
 `FLUIDTEMPLATE` path juggling.
+
+Arguments: `$ARGUMENTS` - optional Composer name and target directory.

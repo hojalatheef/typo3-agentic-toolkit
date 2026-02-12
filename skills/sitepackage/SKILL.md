@@ -22,3 +22,7 @@ Arguments: `$ARGUMENTS` - optional Composer name and target directory.
 ## When to use
 
 - Starting a new TYPO3 v14 project or a fresh theme.
+- An existing site package still uses `sys_template` records,
+  `ext_typoscript_setup.typoscript`, `FLUIDTEMPLATE` with
+  `templateName` from `backend_layout`, or TypoScript `page.meta`/`headerData`
+  for things Fluid can now do.

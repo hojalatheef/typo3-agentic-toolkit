@@ -28,3 +28,7 @@ Arguments: `$ARGUMENTS` - optional Composer name and target directory.
   for things Fluid can now do.
 - Someone asks whether to build a site package at all: for a quick standard
   site, Camino may be enough (see below).
+
+## Camino or own site package
+
+TYPO3 v14.1 ships the default theme **Camino** (`typo3/theme-camino`,

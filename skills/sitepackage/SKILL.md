@@ -26,3 +26,5 @@ Arguments: `$ARGUMENTS` - optional Composer name and target directory.
   `ext_typoscript_setup.typoscript`, `FLUIDTEMPLATE` with
   `templateName` from `backend_layout`, or TypoScript `page.meta`/`headerData`
   for things Fluid can now do.
+- Someone asks whether to build a site package at all: for a quick standard
+  site, Camino may be enough (see below).

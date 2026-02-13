@@ -1,0 +1,6 @@
+# Site set = entry point of the site package (Feature-103437).
+# Name matches the Composer package because the package ships one set.
+name: my-vendor/my-sitepackage
+label: 'My Sitepackage'
+dependencies:
+  - typo3/fluid-styled-content

@@ -1,0 +1,12 @@
+<header class="page__header">
+    <a class="page__brand" href="/">{brandName}</a>
+    <nav aria-label="Main">
+        <ul>
+            <f:for each="{mainMenu}" as="item">
+                <li class="{f:if(condition: item.active, then: 'is-active')}">
+                    <a href="{item.link}">{item.title}</a>
+                </li>
+            </f:for>
+        </ul>
+    </nav>
+</header>

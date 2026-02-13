@@ -3,3 +3,19 @@ categories:
   sitepackage:
     label: 'Site package'
 
+settings:
+  sitepackage.brandName:
+    label: 'Brand name'
+    description: 'Shown in the header next to the logo.'
+    category: sitepackage
+    type: string
+    default: 'My Site'
+
+  sitepackage.colorScheme:
+    label: 'Color scheme'
+    category: sitepackage
+    type: string
+    default: light
+    enum:
+      light: 'Light'
+      dark: 'Dark'

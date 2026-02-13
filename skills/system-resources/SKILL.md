@@ -14,3 +14,5 @@ paths:
 # System resources and public assets (TYPO3 v14)
 
 Arguments: `$ARGUMENTS`.
+
+A *system resource* is a file or folder of the project: a package file, a FAL file, an app file or a URI. Since

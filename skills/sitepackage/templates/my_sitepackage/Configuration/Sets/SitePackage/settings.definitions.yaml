@@ -1,0 +1,5 @@
+# Editable in Site Management > Settings (Feature-104794).
+categories:
+  sitepackage:
+    label: 'Site package'
+

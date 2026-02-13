@@ -1,0 +1,22 @@
+# Loaded for every site depending on my-vendor/my-sitepackage (Feature-103439).
+# Site settings are available as constants.
+
+page = PAGE
+page {
+  # Feature-103504: template is chosen by backend layout name,
+  # e.g. "default" -> PageView/Pages/Default.fluid.html
+  10 = PAGEVIEW
+  10 {
+    paths.10 = EXT:my_sitepackage/Resources/Private/PageView/
+    variables {
+      brandName = TEXT
+      brandName.value = {$sitepackage.brandName}
+      colorScheme = TEXT
+      colorScheme.value = {$sitepackage.colorScheme}
+    }
+    dataProcessing {
+      10 = menu
+      10.as = mainMenu
+    }
+  }
+}

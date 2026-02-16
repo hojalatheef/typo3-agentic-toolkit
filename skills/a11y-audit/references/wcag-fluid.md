@@ -19,3 +19,14 @@ For decorative images pass `alt=""`. For linked images the `alt` describes the l
 | 2.4.1 | no skip link | first focusable element in the layout: `<a class="visually-hidden-focusable" href="#main">` |
 | 2.4.2 | generic page title | set it per record in detail views with `<f:page.title>{item.title}</f:page.title>` (Feature-107358, 14.0) |
 | 3.1.1 | missing or wrong `lang` | let the page renderer write `<html lang>` from the site language; do not hard-code `<html>` in page templates |
+
+## Forms
+
+```html
+<label for="email"><f:translate key="form.email" /></label>
+<f:form.textfield id="email" property="email" type="email"
+    additionalAttributes="{aria-describedby: 'email-error', autocomplete: 'email'}" required="true" />
+<f:form.validationResults for="item.email">
+    <f:if condition="{validationResults.flattenedErrors}">
+        <p id="email-error" role="alert">...</p>
+```

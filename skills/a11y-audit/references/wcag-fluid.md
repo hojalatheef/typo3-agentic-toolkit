@@ -32,3 +32,5 @@ For decorative images pass `alt=""`. For linked images the `alt` describes the l
     </f:if>
 </f:form.validationResults>
 ```
+
+- 1.3.5: add `autocomplete` tokens to personal data fields.

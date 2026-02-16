@@ -29,4 +29,6 @@ For decorative images pass `alt=""`. For linked images the `alt` describes the l
 <f:form.validationResults for="item.email">
     <f:if condition="{validationResults.flattenedErrors}">
         <p id="email-error" role="alert">...</p>
+    </f:if>
+</f:form.validationResults>
 ```

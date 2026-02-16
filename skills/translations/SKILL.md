@@ -1,0 +1,16 @@
+---
+name: translations
+description: >-
+  Write and modernise TYPO3 v14 labels - translation domains (my_extension.messages:key) instead of LLL:EXT paths, the f:translate domain attribute, XLIFF 2.0 files, ICU MessageFormat plurals and selects, the generic TranslatorInterface, labels as JavaScript modules (~labels/...), localized enum labels in site settings and the Symfony translation loader configuration under TYPO3_CONF_VARS[LANG]. Use when creating or editing .xlf files, f:translate calls, LanguageService/LocalizationUtility code, or when the user asks to "pluralize a label", "switch to translation domains", "use XLIFF 2" or "migrate LLL paths".
+argument-hint: "[extension path or .xlf file] [migrate|plural|xliff2|js]"
+allowed-tools: Read, Grep, Glob, Edit, Write, Bash(*/bin/typo3 language:domain:*), Bash(ddev exec*language:domain:*)
+paths:
+  - "**/Resources/Private/Language/**/*.xlf"
+  - "**/Configuration/Sets/**/labels.xlf"
+  - "**/Configuration/Sets/**/settings.definitions.yaml"
+  - "**/Resources/Private/**/*.html"
+---
+
+# Translations in TYPO3 v14
+
+Arguments: `$ARGUMENTS`.

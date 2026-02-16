@@ -1,0 +1,12 @@
+# Excerpt for config/sites/<site>/config.yaml
+# Static routes to extension assets (Feature-101472, TYPO3 ^13.3):
+# per-site favicon and web manifest without copying files to the document root.
+routes:
+  -
+    route: favicon.ico
+    type: asset
+    asset: 'EXT:my_sitepackage/Resources/Public/Icons/favicon.ico'
+  -
+    route: site.webmanifest
+    type: asset
+    asset: 'EXT:my_sitepackage/Resources/Public/site.webmanifest'

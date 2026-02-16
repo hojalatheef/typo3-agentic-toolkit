@@ -18,3 +18,4 @@ For decorative images pass `alt=""`. For linked images the `alt` describes the l
 | 1.3.1 | `<div>` rows for tabular data | `<table>` with `<caption>` and `<th scope="col">` |
 | 2.4.1 | no skip link | first focusable element in the layout: `<a class="visually-hidden-focusable" href="#main">` |
 | 2.4.2 | generic page title | set it per record in detail views with `<f:page.title>{item.title}</f:page.title>` (Feature-107358, 14.0) |
+| 3.1.1 | missing or wrong `lang` | let the page renderer write `<html lang>` from the site language; do not hard-code `<html>` in page templates |

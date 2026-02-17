@@ -36,3 +36,4 @@ For decorative images pass `alt=""`. For linked images the `alt` describes the l
 - 1.3.5: add `autocomplete` tokens to personal data fields.
 - 3.3.1 and 3.3.3: errors in text, next to the field, with a suggestion.
 - 3.3.7 (new in 2.2): do not ask for the same information twice in one process.
+- 3.3.8 (new in 2.2): no puzzle captchas or paste blocking on login forms.

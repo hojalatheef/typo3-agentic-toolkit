@@ -14,3 +14,5 @@ paths:
 # Backend modules (TYPO3 v14)
 
 Arguments: `$ARGUMENTS`.
+
+TYPO3 14.0 renamed the module tree (Feature-107628), added card overviews for container modules

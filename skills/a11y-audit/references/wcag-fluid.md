@@ -37,3 +37,7 @@ For decorative images pass `alt=""`. For linked images the `alt` describes the l
 - 3.3.1 and 3.3.3: errors in text, next to the field, with a suggestion.
 - 3.3.7 (new in 2.2): do not ask for the same information twice in one process.
 - 3.3.8 (new in 2.2): no puzzle captchas or paste blocking on login forms.
+
+## Interaction
+
+- 2.1.1: use `<button type="button">` for actions and `<a href>` for navigation; never `onclick` on non-interactive elements.

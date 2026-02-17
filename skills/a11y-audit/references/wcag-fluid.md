@@ -43,3 +43,4 @@ For decorative images pass `alt=""`. For linked images the `alt` describes the l
 - 2.1.1: use `<button type="button">` for actions and `<a href>` for navigation; never `onclick` on non-interactive elements.
 - 2.4.7 and 2.4.11 (new in 2.2): keep a visible focus outline and add `scroll-padding-top` when a sticky header exists.
 - 2.5.8 (new in 2.2): icon buttons at least 24 by 24 CSS pixels including padding.
+- 4.1.2: custom widgets (tabs, accordions, comboboxes) need correct roles and states. Build them once as Fluid components and test them with a keyboard.

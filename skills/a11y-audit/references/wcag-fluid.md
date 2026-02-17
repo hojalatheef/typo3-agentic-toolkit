@@ -45,3 +45,7 @@ For decorative images pass `alt=""`. For linked images the `alt` describes the l
 - 2.5.8 (new in 2.2): icon buttons at least 24 by 24 CSS pixels including padding.
 - 4.1.2: custom widgets (tabs, accordions, comboboxes) need correct roles and states. Build them once as Fluid components and test them with a keyboard.
 - 4.1.3: flash messages rendered with `role="status"` (success) or `role="alert"` (errors).
+
+## Backend modules
+
+Backend modules should use the core's own components and ViewHelpers (`be:` and `core:` namespaces, module templates, core form elements) instead of custom markup, because they follow the core's accessibility work. Custom tables need headers, icon-only buttons need `title` and a visually hidden label.

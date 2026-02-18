@@ -9,3 +9,4 @@ Inject `TYPO3\CMS\Backend\Template\Components\ComponentFactory` and create every
 | --- | --- |
 | `createBackButton(string\|UriInterface $returnUrl)` | "Go back" link button. |
 | `createCloseButton(string\|UriInterface $closeUrl)` | Close button. |
+| `createSaveButton(string $formName = '')` | Save button for a form. |

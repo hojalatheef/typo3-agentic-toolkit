@@ -14,3 +14,5 @@ Inject `TYPO3\CMS\Backend\Template\Components\ComponentFactory` and create every
 | `createViewButton(array $previewDataAttributes = [])` | Frontend preview button. |
 | `createLinkButton()`, `createInputButton()`, `createGenericButton()`, `createSplitButton()`, `createDropDownButton()`, `createFullyRenderedButton()`, `createShortcutButton()`, `createDropDownDivider()`, `createDropDownItem()` | Empty instances for fluent configuration. |
 | `createMenu()`, `createMenuItem()` | Menu components. |
+
+Pre-configured buttons are mutable (`setDataAttributes()`, `setClasses()`, `setIcon()`); `AbstractButton`

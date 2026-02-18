@@ -12,3 +12,4 @@ Inject `TYPO3\CMS\Backend\Template\Components\ComponentFactory` and create every
 | `createSaveButton(string $formName = '')` | Save button for a form. |
 | `createReloadButton(string\|UriInterface $requestUri)` | Reload (normally automatic, see below). |
 | `createViewButton(array $previewDataAttributes = [])` | Frontend preview button. |
+| `createLinkButton()`, `createInputButton()`, `createGenericButton()`, `createSplitButton()`, `createDropDownButton()`, `createFullyRenderedButton()`, `createShortcutButton()`, `createDropDownDivider()`, `createDropDownItem()` | Empty instances for fluent configuration. |

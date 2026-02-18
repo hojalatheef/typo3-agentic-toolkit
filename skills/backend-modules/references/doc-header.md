@@ -13,3 +13,4 @@ Inject `TYPO3\CMS\Backend\Template\Components\ComponentFactory` and create every
 | `createReloadButton(string\|UriInterface $requestUri)` | Reload (normally automatic, see below). |
 | `createViewButton(array $previewDataAttributes = [])` | Frontend preview button. |
 | `createLinkButton()`, `createInputButton()`, `createGenericButton()`, `createSplitButton()`, `createDropDownButton()`, `createFullyRenderedButton()`, `createShortcutButton()`, `createDropDownDivider()`, `createDropDownItem()` | Empty instances for fluent configuration. |
+| `createMenu()`, `createMenuItem()` | Menu components. |

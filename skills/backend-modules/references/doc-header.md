@@ -19,3 +19,12 @@ Pre-configured buttons are mutable (`setDataAttributes()`, `setClasses()`, `setI
 subclasses accept `setAttributes()`. `LinkButton`, `GenericButton` and `DropDownButton` support
 `setSize(ButtonSize::...)`. `ButtonBar::addButton()`, `Menu::addMenuItem()`, `MenuRegistry::addMenu()` are
 fluent now.
+
+```php
+$this->moduleTemplate->addButtonToButtonBar(
+    $this->componentFactory->createBackButton($returnUrl),
+    ButtonBar::BUTTON_POSITION_LEFT,
+    1
+);
+$buttonBar
+```

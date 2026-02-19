@@ -16,3 +16,4 @@ Inject `TYPO3\CMS\Backend\Template\Components\ComponentFactory` and create every
 | `createMenu()`, `createMenuItem()` | Menu components. |
 
 Pre-configured buttons are mutable (`setDataAttributes()`, `setClasses()`, `setIcon()`); `AbstractButton`
+subclasses accept `setAttributes()`. `LinkButton`, `GenericButton` and `DropDownButton` support

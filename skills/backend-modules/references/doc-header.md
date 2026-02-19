@@ -38,3 +38,4 @@ covered here).
 ## Reload and shortcut buttons (Feature-108008, 14.0)
 
 Both are added automatically on the right side, as the last two buttons, before `ModifyButtonBarEvent`. Only
+provide the shortcut data:

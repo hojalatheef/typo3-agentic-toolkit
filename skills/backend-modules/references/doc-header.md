@@ -32,3 +32,4 @@ $buttonBar
 ```
 
 Record list and file list action buttons use `ActionGroup` / `ComponentGroup` enums; listeners of
+`ModifyRecordListRecordActionsEvent` and `ProcessFileListActionsEvent` changed with it (Breaking-107884, not

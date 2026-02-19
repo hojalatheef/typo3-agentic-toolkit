@@ -27,4 +27,6 @@ $this->moduleTemplate->addButtonToButtonBar(
     1
 );
 $buttonBar
+    ->addButton($backButton, ButtonBar::BUTTON_POSITION_LEFT, 1)
+    ->addButton($saveButton, ButtonBar::BUTTON_POSITION_LEFT, 2);
 ```

@@ -18,3 +18,4 @@ Inject `TYPO3\CMS\Backend\Template\Components\ComponentFactory` and create every
 Pre-configured buttons are mutable (`setDataAttributes()`, `setClasses()`, `setIcon()`); `AbstractButton`
 subclasses accept `setAttributes()`. `LinkButton`, `GenericButton` and `DropDownButton` support
 `setSize(ButtonSize::...)`. `ButtonBar::addButton()`, `Menu::addMenuItem()`, `MenuRegistry::addMenu()` are
+fluent now.

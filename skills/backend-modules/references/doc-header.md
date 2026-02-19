@@ -34,3 +34,7 @@ $buttonBar
 Record list and file list action buttons use `ActionGroup` / `ComponentGroup` enums; listeners of
 `ModifyRecordListRecordActionsEvent` and `ProcessFileListActionsEvent` changed with it (Breaking-107884, not
 covered here).
+
+## Reload and shortcut buttons (Feature-108008, 14.0)
+
+Both are added automatically on the right side, as the last two buttons, before `ModifyButtonBarEvent`. Only

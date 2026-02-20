@@ -39,3 +39,11 @@ covered here).
 
 Both are added automatically on the right side, as the last two buttons, before `ModifyButtonBarEvent`. Only
 provide the shortcut data:
+
+```php
+$view->getDocHeaderComponent()->setShortcutContext(
+    routeIdentifier: 'my_module',
+    displayName: 'My Module',
+    arguments: ['id' => $pageId]
+);
+```

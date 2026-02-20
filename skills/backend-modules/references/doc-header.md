@@ -47,3 +47,5 @@ $view->getDocHeaderComponent()->setShortcutContext(
     arguments: ['id' => $pageId]
 );
 ```
+
+Opt out with `disableAutomaticReloadButton()` / `disableAutomaticShortcutButton()` on the

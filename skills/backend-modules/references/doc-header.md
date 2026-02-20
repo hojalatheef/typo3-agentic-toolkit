@@ -49,3 +49,4 @@ $view->getDocHeaderComponent()->setShortcutContext(
 ```
 
 Opt out with `disableAutomaticReloadButton()` / `disableAutomaticShortcutButton()` on the
+`DocHeaderComponent`. Manually created `ShortcutButton` instances trigger a deprecation (Deprecation-108008).

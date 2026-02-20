@@ -58,3 +58,8 @@ in left group 0, action buttons in left groups 1+, functional buttons (reload, b
 right.
 
 Module actions dropdown from the module configuration:
+
+```php
+$view = $this->moduleTemplateFactory->create($request);
+$view->makeDocHeaderModuleMenu();
+```

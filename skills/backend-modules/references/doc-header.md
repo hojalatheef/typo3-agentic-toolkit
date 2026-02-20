@@ -65,3 +65,5 @@ $view->makeDocHeaderModuleMenu();
 ```
 
 It is hidden when only one action exists. MenuRegistry menus are converted automatically.
+
+Language selector:

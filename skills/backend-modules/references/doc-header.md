@@ -54,3 +54,4 @@ Opt out with `disableAutomaticReloadButton()` / `disableAutomaticShortcutButton(
 ## DocHeader layout and language selector (Feature-107875, 14.0)
 
 Layout: top row has breadcrumb (left) and language selector (right); button bar has the module actions dropdown
+in left group 0, action buttons in left groups 1+, functional buttons (reload, bookmark, clear cache) on the

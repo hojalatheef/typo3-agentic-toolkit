@@ -50,3 +50,7 @@ $view->getDocHeaderComponent()->setShortcutContext(
 
 Opt out with `disableAutomaticReloadButton()` / `disableAutomaticShortcutButton()` on the
 `DocHeaderComponent`. Manually created `ShortcutButton` instances trigger a deprecation (Deprecation-108008).
+
+## DocHeader layout and language selector (Feature-107875, 14.0)
+
+Layout: top row has breadcrumb (left) and language selector (right); button bar has the module actions dropdown

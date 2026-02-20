@@ -63,3 +63,5 @@ Module actions dropdown from the module configuration:
 $view = $this->moduleTemplateFactory->create($request);
 $view->makeDocHeaderModuleMenu();
 ```
+
+It is hidden when only one action exists. MenuRegistry menus are converted automatically.

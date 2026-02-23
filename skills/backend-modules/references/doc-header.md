@@ -73,4 +73,12 @@ $languageDropdown = $this->componentFactory->createDropDownButton()
     ->setLabel($languageService->sL('core.core:labels.language'))
     ->setShowLabelText(true)
     ->setShowActiveLabelText(true);
+
+foreach ($siteLanguages as $siteLanguage) {
+    $languageDropdown->addItem(
+        $this->componentFactory->createDropDownRadio()
+            ->setHref((string)$this->uriBuilder->buildUriFromRoute('my_module', [
+                'id' => $pageId,
+                'language' => $siteLanguage->getLanguageId(),
+            ]))
 ```

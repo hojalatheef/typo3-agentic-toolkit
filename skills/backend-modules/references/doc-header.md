@@ -81,4 +81,10 @@ foreach ($siteLanguages as $siteLanguage) {
                 'id' => $pageId,
                 'language' => $siteLanguage->getLanguageId(),
             ]))
+            ->setLabel($siteLanguage->getTitle())
+            ->setIcon($this->iconFactory->getIcon($siteLanguage->getFlagIdentifier()))
+            ->setActive($currentLanguageId === $siteLanguage->getLanguageId())
+    );
+}
+$view->getDocHeaderComponent()->setLanguageSelector($languageDropdown);
 ```

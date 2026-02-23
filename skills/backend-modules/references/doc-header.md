@@ -67,3 +67,10 @@ $view->makeDocHeaderModuleMenu();
 It is hidden when only one action exists. MenuRegistry menus are converted automatically.
 
 Language selector:
+
+```php
+$languageDropdown = $this->componentFactory->createDropDownButton()
+    ->setLabel($languageService->sL('core.core:labels.language'))
+    ->setShowLabelText(true)
+    ->setShowActiveLabelText(true);
+```

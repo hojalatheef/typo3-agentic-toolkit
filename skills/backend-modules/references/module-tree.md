@@ -1,0 +1,5 @@
+# Module tree, container modules and access gates
+
+## Renamed modules (Feature-107628, 14.0)
+
+All old identifiers stay as aliases. Use the new ones in `parent`, `position` and `buildUriFromRoute()`.

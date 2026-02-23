@@ -6,3 +6,4 @@ All old identifiers stay as aliases. Use the new ones in `parent`, `position` an
 
 | Label in v14 (was) | Identifier (was) | Notes |
 | --- | --- | --- |
+| Content (Web) | `content` (`web`) | Top level. |

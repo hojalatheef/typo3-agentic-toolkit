@@ -88,3 +88,5 @@ foreach ($siteLanguages as $siteLanguage) {
 }
 $view->getDocHeaderComponent()->setLanguageSelector($languageDropdown);
 ```
+
+`setShowLabelText(true)` + `setShowActiveLabelText(true)` renders the label visually hidden and the active item

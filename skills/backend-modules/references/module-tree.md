@@ -14,3 +14,4 @@ All old identifiers stay as aliases. Use the new ones in `parent`, `position` an
 | Content > Layout (Page) | unchanged | Rename only. |
 | Content > Records (List) | `records` (`web_list`) | |
 | Content > Preview (View) | `page_preview` | Moved after Records. |
+| Content > Publish (Workspaces) | `workspaces_publish` (`workspaces_admin`) | Only visible inside a workspace. |

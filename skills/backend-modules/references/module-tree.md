@@ -12,3 +12,4 @@ All old identifiers stay as aliases. Use the new ones in `parent`, `position` an
 | Administration (System) | `admin` (`system`) | Top level for backend administrators: users, scheduler, integrations. |
 | System (Admin Tools) | `system` (`tools`) | Top level for system maintainers / DevOps. |
 | Content > Layout (Page) | unchanged | Rename only. |
+| Content > Records (List) | `records` (`web_list`) | |

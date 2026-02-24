@@ -13,3 +13,4 @@ All old identifiers stay as aliases. Use the new ones in `parent`, `position` an
 | System (Admin Tools) | `system` (`tools`) | Top level for system maintainers / DevOps. |
 | Content > Layout (Page) | unchanged | Rename only. |
 | Content > Records (List) | `records` (`web_list`) | |
+| Content > Preview (View) | `page_preview` | Moved after Records. |

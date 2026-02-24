@@ -11,3 +11,4 @@ All old identifiers stay as aliases. Use the new ones in `parent`, `position` an
 | Sites (Site Management) | `site` | Top level, identifier unchanged. |
 | Administration (System) | `admin` (`system`) | Top level for backend administrators: users, scheduler, integrations. |
 | System (Admin Tools) | `system` (`tools`) | Top level for system maintainers / DevOps. |
+| Content > Layout (Page) | unchanged | Rename only. |

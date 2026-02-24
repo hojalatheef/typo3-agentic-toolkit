@@ -15,3 +15,4 @@ All old identifiers stay as aliases. Use the new ones in `parent`, `position` an
 | Content > Records (List) | `records` (`web_list`) | |
 | Content > Preview (View) | `page_preview` | Moved after Records. |
 | Content > Publish (Workspaces) | `workspaces_publish` (`workspaces_admin`) | Only visible inside a workspace. |
+| Content > Status (Info) | `content_status` (`web_info`) | Moved to EXT:backend; third-level modules no longer need `typo3/cms-info`. |

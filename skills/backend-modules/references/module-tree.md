@@ -8,3 +8,4 @@ All old identifiers stay as aliases. Use the new ones in `parent`, `position` an
 | --- | --- | --- |
 | Content (Web) | `content` (`web`) | Top level. |
 | Media (File) | `media` (`file`) | Top level. |
+| Sites (Site Management) | `site` | Top level, identifier unchanged. |

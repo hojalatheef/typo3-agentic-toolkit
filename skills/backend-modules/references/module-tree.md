@@ -17,3 +17,4 @@ All old identifiers stay as aliases. Use the new ones in `parent`, `position` an
 | Content > Publish (Workspaces) | `workspaces_publish` (`workspaces_admin`) | Only visible inside a workspace. |
 | Content > Status (Info) | `content_status` (`web_info`) | Moved to EXT:backend; third-level modules no longer need `typo3/cms-info`. |
 | Media > Media (Filelist) | `media_management` | Rename only. |
+| Sites > Setup (Sites + Settings) | `site_configuration` | `site_settings` removed; actions `editSettings`, `saveSettings`, `dumpSettings`. |

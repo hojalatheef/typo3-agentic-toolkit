@@ -24,3 +24,12 @@ All old identifiers stay as aliases. Use the new ones in `parent`, `position` an
 | Administration > Integrations | `integrations` | Webhooks `integrations_webhooks` (`webhooks_management`), Reactions `integrations_reactions` (`system_reactions`) (Feature-107795). |
 
 Placement rule from the changelog:
+
+```php
+return [
+    'my_administration_module' => [
+        'parent' => 'admin',  // previously 'system'
+        'access' => 'admin',
+    ],
+    'my_maintainer_module' => [
+```

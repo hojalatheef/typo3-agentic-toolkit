@@ -39,3 +39,4 @@ return [
 ```
 
 The `integrations` identifier was taken from the core `Modules.php` files (`EXT:core`, `EXT:webhooks`,
+`EXT:reactions`); the changelog itself only names the module and its children.

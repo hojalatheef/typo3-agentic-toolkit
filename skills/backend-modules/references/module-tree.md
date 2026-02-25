@@ -22,3 +22,5 @@ All old identifiers stay as aliases. Use the new ones in `parent`, `position` an
 | Administration > Users (Backend Users) | `backend_user_management` | Unchanged identifier. |
 | System > Database (DB Check) | `system_database` (`system_dbint`) | |
 | Administration > Integrations | `integrations` | Webhooks `integrations_webhooks` (`webhooks_management`), Reactions `integrations_reactions` (`system_reactions`) (Feature-107795). |
+
+Placement rule from the changelog:

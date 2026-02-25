@@ -40,3 +40,14 @@ return [
 
 The `integrations` identifier was taken from the core `Modules.php` files (`EXT:core`, `EXT:webhooks`,
 `EXT:reactions`); the changelog itself only names the module and its children.
+
+## Container modules (Feature-107712, Feature-107663, 14.0)
+
+```php
+'my_extension_tools' => [
+    'parent' => 'content',
+    'access' => 'user',
+    'path' => '/module/content/my-tools',
+    'iconIdentifier' => 'my-extension-module',
+    'labels' => 'my_extension.modules.tools',
+```

@@ -37,3 +37,5 @@ return [
     ],
 ];
 ```
+
+The `integrations` identifier was taken from the core `Modules.php` files (`EXT:core`, `EXT:webhooks`,

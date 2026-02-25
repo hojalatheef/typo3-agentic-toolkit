@@ -21,3 +21,4 @@ All old identifiers stay as aliases. Use the new ones in `parent`, `position` an
 | Sites > Link Management > Redirects | `redirects` (`site_redirects`) | New second-level parent with QR Codes. |
 | Administration > Users (Backend Users) | `backend_user_management` | Unchanged identifier. |
 | System > Database (DB Check) | `system_database` (`system_dbint`) | |
+| Administration > Integrations | `integrations` | Webhooks `integrations_webhooks` (`webhooks_management`), Reactions `integrations_reactions` (`system_reactions`) (Feature-107795). |

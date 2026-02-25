@@ -32,4 +32,8 @@ return [
         'access' => 'admin',
     ],
     'my_maintainer_module' => [
+        'parent' => 'system', // previously 'tools'
+        'access' => 'systemMaintainer',
+    ],
+];
 ```

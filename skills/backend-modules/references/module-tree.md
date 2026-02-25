@@ -19,3 +19,4 @@ All old identifiers stay as aliases. Use the new ones in `parent`, `position` an
 | Media > Media (Filelist) | `media_management` | Rename only. |
 | Sites > Setup (Sites + Settings) | `site_configuration` | `site_settings` removed; actions `editSettings`, `saveSettings`, `dumpSettings`. |
 | Sites > Link Management > Redirects | `redirects` (`site_redirects`) | New second-level parent with QR Codes. |
+| Administration > Users (Backend Users) | `backend_user_management` | Unchanged identifier. |

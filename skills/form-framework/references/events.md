@@ -9,3 +9,4 @@ same numbers). Register listeners with `#[AsEventListener('vendor/identifier')]`
 | --- | --- | --- | --- |
 | `BeforeFormIsCreatedEvent` | `beforeFormCreate` | `$form` (array), `$formPersistenceIdentifier` | Feature-107343 |
 | `BeforeFormIsDuplicatedEvent` | `beforeFormDuplicate` | `$form` (array), `$formPersistenceIdentifier` | Feature-107380 |
+| `BeforeFormIsDeletedEvent` | `beforeFormDelete` | `$formPersistenceIdentifier` (read-only), `$preventDeletion` (stoppable) | Feature-107382 |

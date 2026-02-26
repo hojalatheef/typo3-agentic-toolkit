@@ -67,3 +67,5 @@ The `integrations` identifier was taken from the core `Modules.php` files (`EXT:
   accessible submodule (icon, title, description, "Open module"). `BackendModuleValidator` skips the redirect to
   the first submodule. `ModuleTemplate` adds a "Module Overview" entry to the submodule dropdown. No accessible
   submodule: an info message instead of an empty page.
+- `appearance.dependsOnSubmodules`: hide the container in the menu if no submodule is available (missing
+  permission, extension not installed).

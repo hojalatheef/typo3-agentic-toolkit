@@ -7,3 +7,4 @@ same numbers). Register listeners with `#[AsEventListener('vendor/identifier')]`
 
 | Event | Replaces hook | Public properties | Changelog |
 | --- | --- | --- | --- |
+| `BeforeFormIsCreatedEvent` | `beforeFormCreate` | `$form` (array), `$formPersistenceIdentifier` | Feature-107343 |

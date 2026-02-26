@@ -50,4 +50,11 @@ The `integrations` identifier was taken from the core `Modules.php` files (`EXT:
     'path' => '/module/content/my-tools',
     'iconIdentifier' => 'my-extension-module',
     'labels' => 'my_extension.modules.tools',
+    'showSubmoduleOverview' => true,
+    'appearance' => [
+        'dependsOnSubmodules' => true,
+    ],
+],
+'my_extension_tools_report' => [
+    'parent' => 'my_extension_tools',
 ```

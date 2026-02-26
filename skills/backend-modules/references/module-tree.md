@@ -57,4 +57,8 @@ The `integrations` identifier was taken from the core `Modules.php` files (`EXT:
 ],
 'my_extension_tools_report' => [
     'parent' => 'my_extension_tools',
+    'access' => 'user',
+    'path' => '/module/content/my-tools/report',
+    // ...
+],
 ```

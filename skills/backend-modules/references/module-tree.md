@@ -69,3 +69,5 @@ The `integrations` identifier was taken from the core `Modules.php` files (`EXT:
   submodule: an info message instead of an empty page.
 - `appearance.dependsOnSubmodules`: hide the container in the menu if no submodule is available (missing
   permission, extension not installed).
+- Custom `ModuleInterface` implementations need `hasSubmoduleOverview(): bool` (Breaking-107712); `Module` and
+  `BaseModule` already have it.

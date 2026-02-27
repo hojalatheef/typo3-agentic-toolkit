@@ -11,3 +11,11 @@ same numbers). Register listeners with `#[AsEventListener('vendor/identifier')]`
 | `BeforeFormIsDuplicatedEvent` | `beforeFormDuplicate` | `$form` (array), `$formPersistenceIdentifier` | Feature-107380 |
 | `BeforeFormIsDeletedEvent` | `beforeFormDelete` | `$formPersistenceIdentifier` (read-only), `$preventDeletion` (stoppable) | Feature-107382 |
 | `BeforeFormIsSavedEvent` | `beforeFormSave` | `$form` (array), `$formPersistenceIdentifier` | Feature-107388 |
+
+```php
+#[AsEventListener('my-extension/before-form-is-saved')]
+public function __invoke(BeforeFormIsSavedEvent $event): void
+{
+    $event->form['label'] = trim($event->form['label'] ?? '');
+}
+```

@@ -4,6 +4,31 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [0.5.0] - 2026-02-27
+
+### Added
+
+- `sitepackage` skill
+- `system-resources` skill
+- `translations` skill
+
+### Changed
+
+- `a11y-audit/wcag-fluid` reference: more guidance
+- `backend-modules/doc-header` reference: more guidance
+- `backend-modules/module-tree` reference: more guidance
+- `backend-modules` skill: more guidance
+- `code-reviewer` agent: more guidance
+- `code-scout` agent: more guidance
+- `form-framework/events` reference: more guidance
+- `security-auditor` agent: more guidance
+- `site-sets/converter-checklist` reference: more guidance
+- `site-sets/set-files` reference: more guidance
+- `sitepackage/page-rendering` reference: more guidance
+- `sitepackage` skill: more guidance
+- `system-resources` skill: more guidance
+- `typo3-architect` agent: more guidance
+
 ## [0.4.0] - 2026-01-30
 
 ### Added

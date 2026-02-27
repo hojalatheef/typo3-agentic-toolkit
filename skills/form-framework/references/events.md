@@ -29,3 +29,5 @@ public function __invoke(BeforeFormIsSavedEvent $event): void
 | `AfterFormIsBuiltEvent` | `afterBuildingFinished` | `$form` | Feature-98239 |
 | `BeforeRenderableIsValidatedEvent` | `afterSubmit` | `$value` (writable), `$formRuntime`, `$renderable`, `$request` (read-only) | Feature-107568 |
 | `BeforeRenderableIsRenderedEvent` | `beforeRendering` | `$renderable`, `$formRuntime` | Feature-107569 |
+
+`BeforeRenderableIsValidatedEvent` runs before core validation: normalise `$event->value` or add errors to the

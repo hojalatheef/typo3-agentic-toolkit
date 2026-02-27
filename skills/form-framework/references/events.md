@@ -19,3 +19,8 @@ public function __invoke(BeforeFormIsSavedEvent $event): void
     $event->form['label'] = trim($event->form['label'] ?? '');
 }
 ```
+
+## Runtime events (building, validating, rendering)
+
+| Event | Replaces hook | Public properties | Changelog |
+| --- | --- | --- | --- |

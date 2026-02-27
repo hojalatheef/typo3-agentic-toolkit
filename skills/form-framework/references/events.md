@@ -26,3 +26,4 @@ public function __invoke(BeforeFormIsSavedEvent $event): void
 | --- | --- | --- | --- |
 | `BeforeRenderableIsAddedToFormEvent` | `initializeFormElement` | `$renderable` | Feature-107518 |
 | `BeforeRenderableIsRemovedFromFormEvent` | `beforeRemoveFromParentRenderable` | `$renderable` (read-only), `$preventRemoval` (stoppable) | Feature-107528 |
+| `AfterFormIsBuiltEvent` | `afterBuildingFinished` | `$form` | Feature-98239 |

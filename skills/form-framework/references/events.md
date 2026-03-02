@@ -48,3 +48,4 @@ $processingRule->getProcessingMessages()->addError(new Error('Passwords do not m
 3. Move the logic into an invokable listener class; take data from the event properties instead of method
    arguments.
 4. `afterSubmit` returned the new value - now assign `$event->value`.
+5. To stop a deletion or removal, set `$event->preventDeletion` / `$event->preventRemoval` to `true`.

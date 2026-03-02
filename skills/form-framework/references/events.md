@@ -31,3 +31,4 @@ public function __invoke(BeforeFormIsSavedEvent $event): void
 | `BeforeRenderableIsRenderedEvent` | `beforeRendering` | `$renderable`, `$formRuntime` | Feature-107569 |
 
 `BeforeRenderableIsValidatedEvent` runs before core validation: normalise `$event->value` or add errors to the
+processing rule (`Error` is `TYPO3\CMS\Core\Error\Error` in the changelog example):

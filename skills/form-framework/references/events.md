@@ -37,3 +37,5 @@ processing rule (`Error` is `TYPO3\CMS\Core\Error\Error` in the changelog exampl
 $processingRule = $event->renderable->getRootForm()->getProcessingRule($event->renderable->getIdentifier());
 $processingRule->getProcessingMessages()->addError(new Error('Passwords do not match', 1700000001));
 ```
+
+`BeforeRenderableIsRenderedEvent` can rewrite runtime values for display, e.g. format a `DateTime`:

@@ -32,3 +32,8 @@ public function __invoke(BeforeFormIsSavedEvent $event): void
 
 `BeforeRenderableIsValidatedEvent` runs before core validation: normalise `$event->value` or add errors to the
 processing rule (`Error` is `TYPO3\CMS\Core\Error\Error` in the changelog example):
+
+```php
+$processingRule = $event->renderable->getRootForm()->getProcessingRule($event->renderable->getIdentifier());
+$processingRule->getProcessingMessages()->addError(new Error('Passwords do not match', 1700000001));
+```

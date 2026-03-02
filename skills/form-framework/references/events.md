@@ -39,3 +39,4 @@ $processingRule->getProcessingMessages()->addError(new Error('Passwords do not m
 ```
 
 `BeforeRenderableIsRenderedEvent` can rewrite runtime values for display, e.g. format a `DateTime`:
+`$event->formRuntime[$identifier] = $date->format('Y-m-d');`.

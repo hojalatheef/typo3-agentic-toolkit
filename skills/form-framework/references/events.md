@@ -49,3 +49,5 @@ $processingRule->getProcessingMessages()->addError(new Error('Passwords do not m
    arguments.
 4. `afterSubmit` returned the new value - now assign `$event->value`.
 5. To stop a deletion or removal, set `$event->preventDeletion` / `$event->preventRemoval` to `true`.
+6. Delete the `ext_localconf.php` registration. Extensions that still support 13.4 need both the hook (13.4) and
+   the listener (14); test listener registration on both cores, because the event classes do not exist in 13.4.

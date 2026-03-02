@@ -44,3 +44,4 @@ $processingRule->getProcessingMessages()->addError(new Error('Passwords do not m
 ## Migration from hooks
 
 1. Find registrations: `grep -rn "SC_OPTIONS\]\['ext/form'\]" ext_localconf.php Classes`.
+2. Map each hook to the event in the tables above.

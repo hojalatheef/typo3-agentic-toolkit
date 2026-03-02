@@ -40,3 +40,7 @@ $processingRule->getProcessingMessages()->addError(new Error('Passwords do not m
 
 `BeforeRenderableIsRenderedEvent` can rewrite runtime values for display, e.g. format a `DateTime`:
 `$event->formRuntime[$identifier] = $date->format('Y-m-d');`.
+
+## Migration from hooks
+
+1. Find registrations: `grep -rn "SC_OPTIONS\]\['ext/form'\]" ext_localconf.php Classes`.

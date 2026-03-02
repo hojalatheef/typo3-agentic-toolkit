@@ -45,3 +45,5 @@ $processingRule->getProcessingMessages()->addError(new Error('Passwords do not m
 
 1. Find registrations: `grep -rn "SC_OPTIONS\]\['ext/form'\]" ext_localconf.php Classes`.
 2. Map each hook to the event in the tables above.
+3. Move the logic into an invokable listener class; take data from the event properties instead of method
+   arguments.

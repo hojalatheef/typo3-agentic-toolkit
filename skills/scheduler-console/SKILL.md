@@ -16,3 +16,4 @@ paths:
 Arguments: `$ARGUMENTS`.
 
 In v14 the scheduler stores tasks as a normal TCA table (Feature-106739, 14.0). A task with its own fields is a
+TCA *record type* of `tx_scheduler_task` (Feature-107526, 14.0); FormEngine and DataHandler do validation and

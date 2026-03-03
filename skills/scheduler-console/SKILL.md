@@ -27,3 +27,4 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
   write an `AbstractTask` subclass registered as a TCA record type.
 - An existing task uses `AdditionalFieldProviderInterface`, a serialized task object
   or `$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['frequencyOptions']` (removed, Breaking-107488).
+- A command must never be scheduled (interactive, destructive, long-running import): `#[AsNonSchedulableCommand]`.

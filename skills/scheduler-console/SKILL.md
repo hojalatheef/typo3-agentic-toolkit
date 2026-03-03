@@ -25,3 +25,5 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
   automatically offered by the scheduler as "Execute console commands".
 - A task needs typed configuration fields edited in the backend that a command argument cannot express well:
   write an `AbstractTask` subclass registered as a TCA record type.
+- An existing task uses `AdditionalFieldProviderInterface`, a serialized task object
+  or `$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['frequencyOptions']` (removed, Breaking-107488).

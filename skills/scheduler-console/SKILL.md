@@ -23,3 +23,5 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
 
 - Batch work that an admin should run on a schedule: prefer a Symfony command (`#[AsCommand]`). It is
   automatically offered by the scheduler as "Execute console commands".
+- A task needs typed configuration fields edited in the backend that a command argument cannot express well:
+  write an `AbstractTask` subclass registered as a TCA record type.

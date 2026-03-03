@@ -14,3 +14,5 @@ paths:
 # Console commands, scheduler tasks and messages (TYPO3 v14)
 
 Arguments: `$ARGUMENTS`.
+
+In v14 the scheduler stores tasks as a normal TCA table (Feature-106739, 14.0). A task with its own fields is a

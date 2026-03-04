@@ -19,3 +19,10 @@ final class ImportCommand extends Command {}
 ## Shell completion (Feature-106839, 14.0)
 
 `vendor/bin/typo3 completion` comes from `symfony/console`; shells: bash, fish, zsh.
+
+```bash
+# static
+vendor/bin/typo3 completion bash | sudo tee /etc/bash_completion.d/typo3
+# dynamic, in ~/.bashrc
+eval "$(/var/www/html/vendor/bin/typo3 completion bash)"
+```

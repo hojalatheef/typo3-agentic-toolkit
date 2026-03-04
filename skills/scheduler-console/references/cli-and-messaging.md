@@ -13,3 +13,4 @@ final class ImportCommand extends Command {}
 ```
 
 - `#[AsCommand]` alone: registered and schedulable.
+- `#[AsNonSchedulableCommand]` (empty attribute) on top: the scheduler registry ignores the command.

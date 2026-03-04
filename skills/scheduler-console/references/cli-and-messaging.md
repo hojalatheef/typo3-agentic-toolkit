@@ -37,4 +37,7 @@ $this->addArgument(
     'Who do you want to greet?',
     null,
     function (CompletionInput $input): array {
+        return ['jane', 'jon'];
+    }
+);
 ```

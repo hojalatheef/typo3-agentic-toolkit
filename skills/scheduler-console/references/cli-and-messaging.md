@@ -26,3 +26,5 @@ vendor/bin/typo3 completion bash | sudo tee /etc/bash_completion.d/typo3
 # dynamic, in ~/.bashrc
 eval "$(/var/www/html/vendor/bin/typo3 completion bash)"
 ```
+
+Custom commands get value completion by passing a callback as the fifth argument of `addArgument()` /

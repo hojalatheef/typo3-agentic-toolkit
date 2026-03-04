@@ -14,3 +14,4 @@ final class ImportCommand extends Command {}
 
 - `#[AsCommand]` alone: registered and schedulable.
 - `#[AsNonSchedulableCommand]` (empty attribute) on top: the scheduler registry ignores the command.
+- Replaces the `schedulable: false` tag attribute in `Services.yaml` / `Services.php` (still needed on 13.4).

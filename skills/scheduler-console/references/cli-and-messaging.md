@@ -28,3 +28,4 @@ eval "$(/var/www/html/vendor/bin/typo3 completion bash)"
 ```
 
 Custom commands get value completion by passing a callback as the fifth argument of `addArgument()` /
+`addOption()`:

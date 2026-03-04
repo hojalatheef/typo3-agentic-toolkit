@@ -11,3 +11,5 @@ use TYPO3\CMS\Core\Attribute\AsNonSchedulableCommand;
 #[AsNonSchedulableCommand]
 final class ImportCommand extends Command {}
 ```
+
+- `#[AsCommand]` alone: registered and schedulable.

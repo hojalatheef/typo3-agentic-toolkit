@@ -6,3 +6,4 @@
 
 - `tasktype` - the task class name or the CLI command name,
 - `parameters` - a `json` column for tasks without own columns,
+- `execution_details` - a `json` field holding the timing (Feature-107488),

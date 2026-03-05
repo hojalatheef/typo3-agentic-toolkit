@@ -43,3 +43,4 @@ $this->addArgument(
 ```
 
 Core commands with argument completion: `redirects:cleanup`, `redirects:checkintegrity`,
+`styleguide:generate`.

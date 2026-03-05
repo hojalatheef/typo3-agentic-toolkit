@@ -38,3 +38,4 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
       definitions (Feature-101553, 13.0). Use `dbFieldLength` on `select`.
 - [ ] Content types list only their own fields in `showitem`; system tabs are
       added automatically (Feature-104814, 13.3).
+- [ ] Type-specific `title` and `previewRenderer` in `types` (Feature-108027, 14.0).

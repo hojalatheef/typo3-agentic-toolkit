@@ -8,3 +8,4 @@ here, which the core itself documents as migration targets.
 ## Design in one paragraph
 
 `TcaSchemaFactory` builds one immutable, cached schema per table from the
+final TCA. A table with a type field (`tt_content.CType`) has sub-schemata

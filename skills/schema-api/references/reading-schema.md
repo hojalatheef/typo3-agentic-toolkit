@@ -13,3 +13,4 @@ final TCA. A table with a type field (`tt_content.CType`) has sub-schemata
 `columnsOverrides` applied. Capabilities (localization, workspaces,
 soft-delete, enable fields) are objects, not array lookups. Relations are
 known both ways: active (this field points to X) and passive (who points to
+me, `getPassiveRelations()`). The schema is not available during bootstrap

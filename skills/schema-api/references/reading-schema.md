@@ -35,4 +35,12 @@ final class TableInfo
             return [];
         }
         $schema = $this->tcaSchemaFactory->get($table);
+
+        return [
+            'localizable' => $schema->hasCapability(TcaSchemaCapability::Language),
+            'workspaces' => $schema->hasCapability(TcaSchemaCapability::Workspace),
+            'hasTypes' => $schema->supportsSubSchema(),
+            'articleTitle' => $schema->hasSubSchema('article')
+                ? $schema->getSubSchema('article')->getTitle()
+                : null,
 ```

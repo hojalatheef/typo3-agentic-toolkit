@@ -22,4 +22,10 @@ be rebuilt - so don't change TCA at runtime.
 ```php
 use TYPO3\CMS\Core\Schema\Capability\TcaSchemaCapability;
 use TYPO3\CMS\Core\Schema\TcaSchemaFactory;
+
+final class TableInfo
+{
+    public function __construct(
+        private readonly TcaSchemaFactory $tcaSchemaFactory,
+    ) {}
 ```

@@ -55,3 +55,5 @@ Type-specific values (Feature-108027): the sub-schema merges `types[<type>]`
 over `ctrl`, so `$schema->getSubSchema('article')->getTitle()` returns the
 type title when one is set. `getTitle()` returns the raw label reference;
 translate it yourself.
+
+Method names beyond the changelog (`hasSubSchema()`, `getSubSchema()`,

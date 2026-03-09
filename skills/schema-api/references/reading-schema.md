@@ -43,4 +43,10 @@ final class TableInfo
             'articleTitle' => $schema->hasSubSchema('article')
                 ? $schema->getSubSchema('article')->getTitle()
                 : null,
+            'titleLabel' => $schema->hasField('title')
+                ? $schema->getField('title')->getLabel()
+                : null,
+        ];
+    }
+}
 ```

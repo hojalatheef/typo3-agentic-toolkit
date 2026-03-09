@@ -16,3 +16,10 @@ known both ways: active (this field points to X) and passive (who points to
 me, `getPassiveRelations()`). The schema is not available during bootstrap
 (`ext_localconf.php`, TCA files). If TCA changes at runtime, the schema must
 be rebuilt - so don't change TCA at runtime.
+
+## Common lookups
+
+```php
+use TYPO3\CMS\Core\Schema\Capability\TcaSchemaCapability;
+use TYPO3\CMS\Core\Schema\TcaSchemaFactory;
+```

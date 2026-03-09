@@ -52,3 +52,4 @@ final class TableInfo
 ```
 
 Type-specific values (Feature-108027): the sub-schema merges `types[<type>]`
+over `ctrl`, so `$schema->getSubSchema('article')->getTitle()` returns the

@@ -28,4 +28,11 @@ final class TableInfo
     public function __construct(
         private readonly TcaSchemaFactory $tcaSchemaFactory,
     ) {}
+
+    public function describe(string $table): array
+    {
+        if (!$this->tcaSchemaFactory->has($table)) {
+            return [];
+        }
+        $schema = $this->tcaSchemaFactory->get($table);
 ```

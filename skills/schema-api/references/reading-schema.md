@@ -70,3 +70,4 @@ were checked against the v13.4 and v14.3 core source. The changelog sample's
 | `BackendUtility::isTableLocalizable($table)` | `->hasCapability(TcaSchemaCapability::Language)` |
 | `BackendUtility::isTableWorkspaceEnabled($table)` | `->hasCapability(TcaSchemaCapability::Workspace)` |
 | `BackendUtility::isRootLevelRestrictionIgnored($table)` | `->getCapability(TcaSchemaCapability::RestrictionRootLevel)->shallIgnoreRootLevelRestriction()` |
+| `BackendUtility::isWebMountRestrictionIgnored($table)` | `->hasCapability(TcaSchemaCapability::RestrictionWebMount)` |

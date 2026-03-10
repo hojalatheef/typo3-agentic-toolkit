@@ -67,3 +67,4 @@ were checked against the v13.4 and v14.3 core source. The changelog sample's
 | --- | --- |
 | `BackendUtility::getTcaFieldConfiguration($table, $field)` | `$factory->get($table)->getField($field)->getConfiguration()` |
 | `BackendUtility::getItemLabel($table, $field)` | `$factory->get($table)->getField($field)->getLabel()` (check `hasField()` first) |
+| `BackendUtility::isTableLocalizable($table)` | `->hasCapability(TcaSchemaCapability::Language)` |

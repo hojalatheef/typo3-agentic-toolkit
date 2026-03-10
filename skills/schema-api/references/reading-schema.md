@@ -57,3 +57,4 @@ type title when one is set. `getTitle()` returns the raw label reference;
 translate it yourself.
 
 Method names beyond the changelog (`hasSubSchema()`, `getSubSchema()`,
+`supportsSubSchema()`, `getSubSchemata()` returning a `SchemaCollection`)

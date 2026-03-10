@@ -69,3 +69,4 @@ were checked against the v13.4 and v14.3 core source. The changelog sample's
 | `BackendUtility::getItemLabel($table, $field)` | `$factory->get($table)->getField($field)->getLabel()` (check `hasField()` first) |
 | `BackendUtility::isTableLocalizable($table)` | `->hasCapability(TcaSchemaCapability::Language)` |
 | `BackendUtility::isTableWorkspaceEnabled($table)` | `->hasCapability(TcaSchemaCapability::Workspace)` |
+| `BackendUtility::isRootLevelRestrictionIgnored($table)` | `->getCapability(TcaSchemaCapability::RestrictionRootLevel)->shallIgnoreRootLevelRestriction()` |

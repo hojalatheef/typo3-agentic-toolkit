@@ -60,3 +60,8 @@ Method names beyond the changelog (`hasSubSchema()`, `getSubSchema()`,
 `supportsSubSchema()`, `getSubSchemata()` returning a `SchemaCollection`)
 were checked against the v13.4 and v14.3 core source. The changelog sample's
 `isLocalizable()` does not exist in either - use the `Language` capability.
+
+## Replacing BackendUtility and $GLOBALS['TCA'] reads
+
+| Before | After |
+| --- | --- |

@@ -72,3 +72,5 @@ were checked against the v13.4 and v14.3 core source. The changelog sample's
 | `BackendUtility::isRootLevelRestrictionIgnored($table)` | `->getCapability(TcaSchemaCapability::RestrictionRootLevel)->shallIgnoreRootLevelRestriction()` |
 | `BackendUtility::isWebMountRestrictionIgnored($table)` | `->hasCapability(TcaSchemaCapability::RestrictionWebMount)` |
 | `isset($GLOBALS['TCA'][$table])` | `$factory->has($table)` |
+
+Always guard with `has($table)` before `get($table)`. For code that must also

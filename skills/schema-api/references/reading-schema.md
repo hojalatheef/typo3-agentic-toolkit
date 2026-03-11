@@ -78,3 +78,7 @@ run on v12, keep reading `$GLOBALS['TCA']` directly (Deprecation-104304).
 
 Keep writing TCA as arrays in `Configuration/TCA/` and `Overrides/` - the
 Schema API only reads.
+
+## FlexForms and the schema
+
+`FlexFormTools` (Feature-107047, 14.0) no longer reads `$GLOBALS['TCA']`.

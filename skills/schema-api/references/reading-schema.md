@@ -85,3 +85,12 @@ Schema API only reads.
 `getDataStructureIdentifier()`, `parseDataStructureByIdentifier()` and
 `cleanFlexFormXML()` take a schema argument - a `TcaSchema` in normal code, a
 raw TCA array while the schema is being built:
+
+```php
+$tcaSchema = $tcaSchemaFactory->get('tt_content');
+$identifier = $flexFormTools->getDataStructureIdentifier(
+    $fieldTca,
+    'tt_content',
+    'pi_flexform',
+    $row,
+```

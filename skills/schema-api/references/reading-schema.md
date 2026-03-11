@@ -82,3 +82,4 @@ Schema API only reads.
 ## FlexForms and the schema
 
 `FlexFormTools` (Feature-107047, 14.0) no longer reads `$GLOBALS['TCA']`.
+`getDataStructureIdentifier()`, `parseDataStructureByIdentifier()` and

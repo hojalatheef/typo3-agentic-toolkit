@@ -77,3 +77,4 @@ Always guard with `has($table)` before `get($table)`. For code that must also
 run on v12, keep reading `$GLOBALS['TCA']` directly (Deprecation-104304).
 
 Keep writing TCA as arrays in `Configuration/TCA/` and `Overrides/` - the
+Schema API only reads.

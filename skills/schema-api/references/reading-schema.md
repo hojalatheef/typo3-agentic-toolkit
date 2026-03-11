@@ -83,3 +83,4 @@ Schema API only reads.
 
 `FlexFormTools` (Feature-107047, 14.0) no longer reads `$GLOBALS['TCA']`.
 `getDataStructureIdentifier()`, `parseDataStructureByIdentifier()` and
+`cleanFlexFormXML()` take a schema argument - a `TcaSchema` in normal code, a

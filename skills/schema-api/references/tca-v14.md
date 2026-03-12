@@ -52,3 +52,12 @@ are no longer preserved.
 ## Per-type configuration
 
 Type-specific `title` and `previewRenderer` (Feature-108027, 14.0):
+
+```php
+'types' => [
+    'article' => [
+        'title' => 'my_extension.db:tx_my_table.type.article',
+        'showitem' => 'title, content, author',
+    ],
+    'event' => [
+```

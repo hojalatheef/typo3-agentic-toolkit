@@ -106,3 +106,4 @@ resolving (Feature-104002).
 - No `renderType` getter and no execution of `itemsProcFunc` - those are
   FormEngine runtime concerns.
 - No user permissions.
+- No custom field types yet.

@@ -93,4 +93,6 @@ $identifier = $flexFormTools->getDataStructureIdentifier(
     'tt_content',
     'pi_flexform',
     $row,
+    $tcaSchema
+);
 ```

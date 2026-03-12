@@ -48,3 +48,7 @@ are no longer preserved.
     ',
 ],
 ```
+
+## Per-type configuration
+
+Type-specific `title` and `previewRenderer` (Feature-108027, 14.0):

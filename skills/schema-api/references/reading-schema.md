@@ -98,3 +98,4 @@ $identifier = $flexFormTools->getDataStructureIdentifier(
 ```
 
 The Schema API parses all FlexForm data structures, so a flex field exposes
+its possible FlexForm schemata (sheets, fields, sections) for relation

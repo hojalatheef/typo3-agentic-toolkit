@@ -96,3 +96,5 @@ $identifier = $flexFormTools->getDataStructureIdentifier(
     $tcaSchema
 );
 ```
+
+The Schema API parses all FlexForm data structures, so a flex field exposes

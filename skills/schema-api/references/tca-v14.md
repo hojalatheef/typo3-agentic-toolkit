@@ -60,4 +60,8 @@ Type-specific `title` and `previewRenderer` (Feature-108027, 14.0):
         'showitem' => 'title, content, author',
     ],
     'event' => [
+        // falls back to ctrl['title']
+        'showitem' => 'title, content, event_date',
+    ],
+],
 ```

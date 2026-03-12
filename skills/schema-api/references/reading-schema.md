@@ -100,3 +100,8 @@ $identifier = $flexFormTools->getDataStructureIdentifier(
 The Schema API parses all FlexForm data structures, so a flex field exposes
 its possible FlexForm schemata (sheets, fields, sections) for relation
 resolving (Feature-104002).
+
+## What the Schema API does not do
+
+- No `renderType` getter and no execution of `itemsProcFunc` - those are
+  FormEngine runtime concerns.

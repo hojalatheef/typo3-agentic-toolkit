@@ -11,3 +11,4 @@ Both services are autoconfigured; inject them.
 | `KeyFactory::createSharedKeyFromString(string $key)` | Key from outside, e.g. `getenv('MY_APP_KEY')`. |
 | `KeyFactory::generateSharedKey()` | Random key. |
 | `CipherService::encrypt(string $plainText, SharedKey $key, string $additionalData = '')` | Returns `CipherValue`; `(string)` gives a base64url JSON with nonce and ciphertext. |
+| `CipherService::decrypt(CipherValue $value, SharedKey $key, string $additionalData = '')` | Throws `CipherDecryptionFailedException` on wrong key, tampering or bad format. |

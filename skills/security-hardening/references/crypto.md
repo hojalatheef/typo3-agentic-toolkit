@@ -8,3 +8,4 @@ Both services are autoconfigured; inject them.
 | API | Purpose |
 | --- | --- |
 | `KeyFactory::deriveSharedKeyFromEncryptionKey(string $seed, int $subKeyId = 1)` | Key derived from `$GLOBALS['TYPO3_CONF_VARS']['SYS']['encryptionKey']`; one seed per purpose. |
+| `KeyFactory::createSharedKeyFromString(string $key)` | Key from outside, e.g. `getenv('MY_APP_KEY')`. |

@@ -15,3 +15,4 @@ Both services are autoconfigured; inject them.
 | `CipherValue::fromSerialized(string $value)` | Parse the stored string. |
 
 The `$additionalData` parameter was read from the core source, not from the changelog. Use it to bind a ciphertext
+to its context (e.g. table + uid) so it cannot be copied to another record.

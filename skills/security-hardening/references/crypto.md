@@ -29,3 +29,7 @@ Rules:
 - Changing `encryptionKey` makes derived-key data undecryptable. Document this in the extension README.
 - Ciphertexts are non-deterministic; you cannot `WHERE token = ...`. Store an HMAC next to it for lookups.
 - Treat decrypted values as sensitive: no logging, no `DebuggerUtility::var_dump()`.
+
+## HashService (Feature-102761, 13.0; Breaking-106307, 14.0)
+
+`TYPO3\CMS\Core\Crypto\HashService` replaces `GeneralUtility::hmac()` (deprecated 13.1, Deprecation-102762, removed

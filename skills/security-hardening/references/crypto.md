@@ -28,3 +28,4 @@ Rules:
 
 - Changing `encryptionKey` makes derived-key data undecryptable. Document this in the extension README.
 - Ciphertexts are non-deterministic; you cannot `WHERE token = ...`. Store an HMAC next to it for lookups.
+- Treat decrypted values as sensitive: no logging, no `DebuggerUtility::var_dump()`.

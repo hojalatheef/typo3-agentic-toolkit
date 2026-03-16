@@ -13,3 +13,5 @@ Both services are autoconfigured; inject them.
 | `CipherService::encrypt(string $plainText, SharedKey $key, string $additionalData = '')` | Returns `CipherValue`; `(string)` gives a base64url JSON with nonce and ciphertext. |
 | `CipherService::decrypt(CipherValue $value, SharedKey $key, string $additionalData = '')` | Throws `CipherDecryptionFailedException` on wrong key, tampering or bad format. |
 | `CipherValue::fromSerialized(string $value)` | Parse the stored string. |
+
+The `$additionalData` parameter was read from the core source, not from the changelog. Use it to bind a ciphertext

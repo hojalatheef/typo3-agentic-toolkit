@@ -16,3 +16,8 @@ Both services are autoconfigured; inject them.
 
 The `$additionalData` parameter was read from the core source, not from the changelog. Use it to bind a ciphertext
 to its context (e.g. table + uid) so it cannot be copied to another record.
+
+```php
+$key = $this->keyFactory->deriveSharedKeyFromEncryptionKey('my-extension-api-tokens');
+$stored = (string)$this->cipherService->encrypt($apiToken, $key);
+```

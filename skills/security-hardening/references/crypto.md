@@ -25,3 +25,5 @@ $plain = $this->cipherService->decrypt(CipherValue::fromSerialized($stored), $ke
 ```
 
 Rules:
+
+- Changing `encryptionKey` makes derived-key data undecryptable. Document this in the extension README.

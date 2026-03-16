@@ -20,4 +20,6 @@ to its context (e.g. table + uid) so it cannot be copied to another record.
 ```php
 $key = $this->keyFactory->deriveSharedKeyFromEncryptionKey('my-extension-api-tokens');
 $stored = (string)$this->cipherService->encrypt($apiToken, $key);
+
+$plain = $this->cipherService->decrypt(CipherValue::fromSerialized($stored), $key);
 ```

@@ -23,3 +23,5 @@ $stored = (string)$this->cipherService->encrypt($apiToken, $key);
 
 $plain = $this->cipherService->decrypt(CipherValue::fromSerialized($stored), $key);
 ```
+
+Rules:

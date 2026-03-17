@@ -44,3 +44,4 @@ an HMAC for one purpose cannot be replayed for another.
 | `validateAndStripHmac(string $string, string $additionalSecret, HashAlgo $algo = ...)` | Check and strip, throws on failure. |
 
 Signatures are from the core source. Core moved its own HMACs (cHash, password recovery, file dump, show image,
+form protection, Extbase/form request attributes, session backends) to SHA3-256 in 14.0 (Breaking-106307). The

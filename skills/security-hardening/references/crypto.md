@@ -41,3 +41,4 @@ an HMAC for one purpose cannot be replayed for another.
 | `hmac(string $input, string $additionalSecret, HashAlgo $algo = HashAlgo::SHA1)` | Create an HMAC. |
 | `appendHmac(string $string, string $additionalSecret, HashAlgo $algo = ...)` | Return string + HMAC. |
 | `validateHmac(string $string, string $additionalSecret, string $hmac, HashAlgo $algo = ...)` | Constant-time check. |
+| `validateAndStripHmac(string $string, string $additionalSecret, HashAlgo $algo = ...)` | Check and strip, throws on failure. |

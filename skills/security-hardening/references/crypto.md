@@ -35,3 +35,6 @@ Rules:
 `TYPO3\CMS\Core\Crypto\HashService` replaces `GeneralUtility::hmac()` (deprecated 13.1, Deprecation-102762, removed
 14.0) and the Extbase `HashService` (Deprecation-102763, removed 14.0). Every call needs an additional secret so
 an HMAC for one purpose cannot be replayed for another.
+
+| Method | Purpose |
+| --- | --- |

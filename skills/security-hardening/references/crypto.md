@@ -39,3 +39,4 @@ an HMAC for one purpose cannot be replayed for another.
 | Method | Purpose |
 | --- | --- |
 | `hmac(string $input, string $additionalSecret, HashAlgo $algo = HashAlgo::SHA1)` | Create an HMAC. |
+| `appendHmac(string $string, string $additionalSecret, HashAlgo $algo = ...)` | Return string + HMAC. |

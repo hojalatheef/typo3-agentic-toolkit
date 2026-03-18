@@ -52,3 +52,7 @@ use TYPO3\CMS\Core\Crypto\HashAlgo;
 
 $hash = $this->hashService->hmac($data, 'my-extension-download-link', HashAlgo::SHA3_256);
 ```
+
+## Password hashing in form finishers (Feature-106752, 14.0)
+
+`SaveToDatabaseFinisher` hashes a field with the default frontend password hashing when `hashed: true`:

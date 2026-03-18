@@ -69,3 +69,4 @@ finishers:
 ```
 
 In PHP code use `PasswordHashFactory` (`getDefaultHashInstance('FE')`) - never `md5()`/`sha1()`/`password_hash()`
+with custom options.

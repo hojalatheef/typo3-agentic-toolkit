@@ -49,4 +49,6 @@ method default is still SHA1; pass `HashAlgo::SHA3_256` for new code:
 
 ```php
 use TYPO3\CMS\Core\Crypto\HashAlgo;
+
+$hash = $this->hashService->hmac($data, 'my-extension-download-link', HashAlgo::SHA3_256);
 ```

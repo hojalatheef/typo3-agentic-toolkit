@@ -46,3 +46,7 @@ an HMAC for one purpose cannot be replayed for another.
 Signatures are from the core source. Core moved its own HMACs (cHash, password recovery, file dump, show image,
 form protection, Extbase/form request attributes, session backends) to SHA3-256 in 14.0 (Breaking-106307). The
 method default is still SHA1; pass `HashAlgo::SHA3_256` for new code:
+
+```php
+use TYPO3\CMS\Core\Crypto\HashAlgo;
+```

@@ -56,3 +56,12 @@ $hash = $this->hashService->hmac($data, 'my-extension-download-link', HashAlgo::
 ## Password hashing in form finishers (Feature-106752, 14.0)
 
 `SaveToDatabaseFinisher` hashes a field with the default frontend password hashing when `hashed: true`:
+
+```yaml
+finishers:
+  - identifier: SaveToDatabase
+    options:
+      table: 'fe_users'
+      elements:
+        password:
+```

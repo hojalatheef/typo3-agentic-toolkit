@@ -64,4 +64,6 @@ finishers:
       table: 'fe_users'
       elements:
         password:
+          mapOnDatabaseColumn: 'password'
+          hashed: true
 ```

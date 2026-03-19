@@ -9,3 +9,4 @@ stops.
 | Identifier | Example | Notes |
 | --- | --- | --- |
 | Package resource | `PKG:my-vendor/my-sitepackage:Resources/Public/Css/main.css` | Composer name; recommended for new projects |
+| Extension resource | `EXT:my_sitepackage/Resources/Public/Css/main.css` | still supported, not deprecated |

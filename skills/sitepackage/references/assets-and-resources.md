@@ -12,3 +12,4 @@ stops.
 | Extension resource | `EXT:my_sitepackage/Resources/Public/Css/main.css` | still supported, not deprecated |
 | App resource | `PKG:typo3/app:public/_assets/style.css` | only `public/_assets`, `public/typo3temp/assets`, `public/uploads` unless `FE.addAllowedPaths` allows more |
 | FAL resource | `FAL:1:/templates/css/main.css` | storage uid + identifier |
+| URI | `https://cdn.example.com/x.css` or `URI:/path/x.css` | `URI:` value must be a valid URI |

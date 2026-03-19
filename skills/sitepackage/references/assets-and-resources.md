@@ -10,3 +10,4 @@ stops.
 | --- | --- | --- |
 | Package resource | `PKG:my-vendor/my-sitepackage:Resources/Public/Css/main.css` | Composer name; recommended for new projects |
 | Extension resource | `EXT:my_sitepackage/Resources/Public/Css/main.css` | still supported, not deprecated |
+| App resource | `PKG:typo3/app:public/_assets/style.css` | only `public/_assets`, `public/typo3temp/assets`, `public/uploads` unless `FE.addAllowedPaths` allows more |

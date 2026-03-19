@@ -15,3 +15,4 @@ stops.
 | URI | `https://cdn.example.com/x.css` or `URI:/path/x.css` | `URI:` value must be a valid URI |
 
 Deprecated forms: `fileadmin/...`, `typo3temp/assets/...`, `_assets/...`
+relative paths. `typo3conf/ext/...` paths no longer work consistently -

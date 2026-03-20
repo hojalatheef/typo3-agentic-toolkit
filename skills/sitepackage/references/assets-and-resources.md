@@ -36,3 +36,5 @@ TypoScript:
 ```typoscript
 page.includeCSS.main = PKG:my-vendor/my-sitepackage:Resources/Public/Css/main.css
 ```
+
+PHP: inject `TYPO3\CMS\Core\SystemResource\SystemResourceFactory` and

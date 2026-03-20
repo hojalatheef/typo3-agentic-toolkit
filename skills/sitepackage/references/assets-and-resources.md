@@ -17,3 +17,5 @@ stops.
 Deprecated forms: `fileadmin/...`, `typo3temp/assets/...`, `_assets/...`
 relative paths. `typo3conf/ext/...` paths no longer work consistently -
 replace them with `EXT:` or `PKG:`.
+
+All core places that generate URLs from these identifiers apply cache busting

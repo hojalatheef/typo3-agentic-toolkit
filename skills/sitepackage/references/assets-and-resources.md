@@ -24,3 +24,9 @@ automatically.
 ## Using them
 
 Fluid:
+
+```html
+<f:asset.css identifier="main" href="PKG:my-vendor/my-sitepackage:Resources/Public/Css/main.css" />
+<f:asset.script identifier="main" src="PKG:my-vendor/my-sitepackage:Resources/Public/JavaScript/main.js" />
+<link href="{f:resource(identifier: 'PKG:my-vendor/my-sitepackage:Resources/Public/Css/print.css') -> f:uri.resource()}" rel="stylesheet" media="print" />
+```

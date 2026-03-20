@@ -38,3 +38,4 @@ page.includeCSS.main = PKG:my-vendor/my-sitepackage:Resources/Public/Css/main.cs
 ```
 
 PHP: inject `TYPO3\CMS\Core\SystemResource\SystemResourceFactory` and
+`TYPO3\CMS\Core\SystemResource\Publishing\SystemResourcePublisherInterface`,

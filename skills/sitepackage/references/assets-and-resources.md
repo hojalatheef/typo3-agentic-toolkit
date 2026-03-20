@@ -32,3 +32,7 @@ Fluid:
 ```
 
 TypoScript:
+
+```typoscript
+page.includeCSS.main = PKG:my-vendor/my-sitepackage:Resources/Public/Css/main.css
+```

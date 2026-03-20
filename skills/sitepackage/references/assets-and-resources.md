@@ -20,3 +20,7 @@ replace them with `EXT:` or `PKG:`.
 
 All core places that generate URLs from these identifiers apply cache busting
 automatically.
+
+## Using them
+
+Fluid:

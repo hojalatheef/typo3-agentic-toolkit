@@ -48,3 +48,4 @@ mode). For a site package that must run on v13.4, keep `EXT:`.
 ## Build tools (Vite, webpack)
 
 Feature-107537 does not add a bundler integration; it only lists
+`_assets/vite/foo.css` as a deprecated *legacy* path form. So:

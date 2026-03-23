@@ -58,3 +58,5 @@ Feature-107537 does not add a bundler integration; it only lists
   Core cache busting handles invalidation.
 - Commit either the build output or a CI build step - never rely on
   developers building locally before deploy.
+
+Fluid components can add their own CSS through `RenderComponentEvent`

@@ -49,3 +49,7 @@ mode). For a site package that must run on v13.4, keep `EXT:`.
 
 Feature-107537 does not add a bundler integration; it only lists
 `_assets/vite/foo.css` as a deprecated *legacy* path form. So:
+
+- Core has no Vite manifest reader. If you want Vite, use a community
+  extension and check that it supports v14 - this is outside core and not
+  covered by this skill.

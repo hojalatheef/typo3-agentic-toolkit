@@ -60,3 +60,4 @@ Feature-107537 does not add a bundler integration; it only lists
   developers building locally before deploy.
 
 Fluid components can add their own CSS through `RenderComponentEvent`
+(see the `fluid-components` skill), which keeps per-component assets next to

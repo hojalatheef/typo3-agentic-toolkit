@@ -44,3 +44,7 @@ new UriGenerationOptions(absoluteUri: true))`.
 
 The `PKG:` syntax needs a `composer.json` in the package (also in classic
 mode). For a site package that must run on v13.4, keep `EXT:`.
+
+## Build tools (Vite, webpack)
+
+Feature-107537 does not add a bundler integration; it only lists

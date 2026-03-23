@@ -53,3 +53,6 @@ Feature-107537 does not add a bundler integration; it only lists
 - Core has no Vite manifest reader. If you want Vite, use a community
   extension and check that it supports v14 - this is outside core and not
   covered by this skill.
+- Without an integration, build into `Resources/Public/` of the site package
+  (fixed file names, no hash) and reference the result with `PKG:` or `EXT:`.
+  Core cache busting handles invalidation.

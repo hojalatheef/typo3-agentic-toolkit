@@ -56,3 +56,5 @@ Feature-107537 does not add a bundler integration; it only lists
 - Without an integration, build into `Resources/Public/` of the site package
   (fixed file names, no hash) and reference the result with `PKG:` or `EXT:`.
   Core cache busting handles invalidation.
+- Commit either the build output or a CI build step - never rely on
+  developers building locally before deploy.

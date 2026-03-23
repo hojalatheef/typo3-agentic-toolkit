@@ -41,3 +41,5 @@ PHP: inject `TYPO3\CMS\Core\SystemResource\SystemResourceFactory` and
 `TYPO3\CMS\Core\SystemResource\Publishing\SystemResourcePublisherInterface`,
 call `createPublicResource($identifier)` and `generateUri($resource, $request,
 new UriGenerationOptions(absoluteUri: true))`.
+
+The `PKG:` syntax needs a `composer.json` in the package (also in classic

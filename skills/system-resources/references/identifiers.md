@@ -4,3 +4,4 @@
 
 | Type | Identifier | Notes |
 | --- | --- | --- |
+| Package resource | `PKG:my-vendor/my-extension:Resources/Public/Icons/Extension.svg` | Composer name + path. Recommended for new code. |

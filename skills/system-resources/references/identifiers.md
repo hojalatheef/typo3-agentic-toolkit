@@ -11,3 +11,4 @@
 | URI resource | `https://www.example.com/my/image.svg`, `URI:/path/to/image.svg` | `URI:` value must be a valid URI or an exception is thrown. |
 
 Deprecated legacy strings: `fileadmin/...` (default storage only), `typo3temp/assets/...`, `_assets/vite/...`.
+Paths like `typo3conf/ext/my_ext/Resources/Public/Image.svg` no longer work consistently.

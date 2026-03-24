@@ -1,0 +1,18 @@
+<f:comment>
+    Wired automatically by PAGEVIEW (Feature-103504).
+    PKG: resource identifiers: Feature-107537 (14.0).
+</f:comment>
+<f:asset.css identifier="sitepackage-main" href="PKG:my-vendor/my-sitepackage:Resources/Public/Css/main.css" />
+
+<f:page.meta property="og:site_name">{brandName}</f:page.meta>
+<f:page.headerData>
+    <meta name="color-scheme" content="{colorScheme}">
+</f:page.headerData>
+
+<div class="page page--{colorScheme}">
+    <f:render partial="Header" arguments="{brandName: brandName, mainMenu: mainMenu}" />
+    <f:render section="Main" />
+    <footer class="page__footer">
+        <p>&copy; {brandName}</p>
+    </footer>
+</div>

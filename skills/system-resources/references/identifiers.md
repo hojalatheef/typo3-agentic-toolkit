@@ -9,3 +9,5 @@
 | App resource | `PKG:typo3/app:public/typo3temp/assets/style.css` | Use the real public dir name (`web`, `htdocs`, ...). |
 | FAL resource | `FAL:1:/templates/css/main.css` | Storage UID + identifier. |
 | URI resource | `https://www.example.com/my/image.svg`, `URI:/path/to/image.svg` | `URI:` value must be a valid URI or an exception is thrown. |
+
+Deprecated legacy strings: `fileadmin/...` (default storage only), `typo3temp/assets/...`, `_assets/vite/...`.

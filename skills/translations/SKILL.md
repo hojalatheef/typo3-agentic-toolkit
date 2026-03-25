@@ -19,3 +19,7 @@ TYPO3 14 reads label files through the Symfony Translation component (Feature-10
 short reference syntax, the *translation domain*: `<extension_key>.<resource>:<identifier>`
 (Feature-93334, 14.0). `LLL:EXT:` paths keep working "for a long time" without deprecation, so adopt
 domains incrementally.
+
+## When to use
+
+- New labels in an extension targeting 14.x: use domains in TCA, Fluid, PHP and `Modules.php`.

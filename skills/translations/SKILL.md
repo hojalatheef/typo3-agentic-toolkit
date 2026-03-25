@@ -14,3 +14,5 @@ paths:
 # Translations in TYPO3 v14
 
 Arguments: `$ARGUMENTS`.
+
+TYPO3 14 reads label files through the Symfony Translation component (Feature-107436, 14.0) and adds a

@@ -21,3 +21,5 @@ Domain names are generated from the files below `Resources/Private/Language/`:
 | `Configuration/Sets/Felogin/labels.xlf` | `<ext>.sets.felogin` |
 | `SudoMode.xlf` | `<ext>.sudo_mode` (UpperCamelCase to snake_case) |
 | `de.locallang.xlf` | `<ext>.messages`, German translation |
+
+Rules:

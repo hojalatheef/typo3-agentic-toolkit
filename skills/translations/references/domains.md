@@ -17,3 +17,4 @@ Domain names are generated from the files below `Resources/Private/Language/`:
 | `locallang.xlf` or `messages.xlf` | `<ext>.messages` |
 | `locallang_toolbar.xlf` | `<ext>.toolbar` |
 | `locallang_sudo_mode.xlf` | `<ext>.sudo_mode` |
+| `Form/locallang_tabs.xlf` | `<ext>.form.tabs` |

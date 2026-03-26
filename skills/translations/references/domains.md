@@ -15,3 +15,4 @@ Domain names are generated from the files below `Resources/Private/Language/`:
 | File | Domain |
 | --- | --- |
 | `locallang.xlf` or `messages.xlf` | `<ext>.messages` |
+| `locallang_toolbar.xlf` | `<ext>.toolbar` |

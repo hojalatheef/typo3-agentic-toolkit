@@ -11,3 +11,6 @@ $languageService->sL('LLL:EXT:backend/Resources/Private/Language/locallang_toolb
 ```
 
 Domain names are generated from the files below `Resources/Private/Language/`:
+
+| File | Domain |
+| --- | --- |

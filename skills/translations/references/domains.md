@@ -19,3 +19,4 @@ Domain names are generated from the files below `Resources/Private/Language/`:
 | `locallang_sudo_mode.xlf` | `<ext>.sudo_mode` |
 | `Form/locallang_tabs.xlf` | `<ext>.form.tabs` |
 | `Configuration/Sets/Felogin/labels.xlf` | `<ext>.sets.felogin` |
+| `SudoMode.xlf` | `<ext>.sudo_mode` (UpperCamelCase to snake_case) |

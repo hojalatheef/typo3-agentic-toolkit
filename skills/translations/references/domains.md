@@ -9,3 +9,5 @@ $languageService->sL('backend.toolbar:save');
 // same as
 $languageService->sL('LLL:EXT:backend/Resources/Private/Language/locallang_toolbar.xlf:save');
 ```
+
+Domain names are generated from the files below `Resources/Private/Language/`:

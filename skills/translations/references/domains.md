@@ -25,3 +25,4 @@ Domain names are generated from the files below `Resources/Private/Language/`:
 Rules:
 
 - The mapping is built once per package by scanning the directory and cached in `cache.l10n`.
+- `locallang_db.xlf` and `db.xlf` together: `locallang_db.xlf` is ignored.

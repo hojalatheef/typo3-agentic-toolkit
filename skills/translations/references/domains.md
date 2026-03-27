@@ -27,3 +27,6 @@ Rules:
 - The mapping is built once per package by scanning the directory and cached in `cache.l10n`.
 - `locallang_db.xlf` and `db.xlf` together: `locallang_db.xlf` is ignored.
 - `messages.xlf` present: `locallang.xlf` is never used for `messages`. No merging.
+- Override the mapping with the PSR-14 event
+  `TYPO3\CMS\Core\Localization\Event\BeforeLabelResourceResolvedEvent` (`$event->packageKey` read-only,
+  `$event->domains` array domain => file, writable).

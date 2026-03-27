@@ -33,3 +33,4 @@ Rules:
 - CLI (EXT:lowlevel): `bin/typo3 language:domain:list [--extension=<key>]`, `bin/typo3 language:domain:search`.
 
 Backend module labels (Feature-93334): one file per module with ids `title`, `short_description`,
+`description`, referenced as `'labels' => 'my_extension.modules.my_module'` (several modules, file

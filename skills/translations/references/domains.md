@@ -23,3 +23,5 @@ Domain names are generated from the files below `Resources/Private/Language/`:
 | `de.locallang.xlf` | `<ext>.messages`, German translation |
 
 Rules:
+
+- The mapping is built once per package by scanning the directory and cached in `cache.l10n`.

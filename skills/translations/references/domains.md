@@ -26,3 +26,4 @@ Rules:
 
 - The mapping is built once per package by scanning the directory and cached in `cache.l10n`.
 - `locallang_db.xlf` and `db.xlf` together: `locallang_db.xlf` is ignored.
+- `messages.xlf` present: `locallang.xlf` is never used for `messages`. No merging.

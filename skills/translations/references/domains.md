@@ -35,3 +35,4 @@ Rules:
 Backend module labels (Feature-93334): one file per module with ids `title`, `short_description`,
 `description`, referenced as `'labels' => 'my_extension.modules.my_module'` (several modules, file
 `Resources/Private/Language/Modules/my_module.xlf`) or `'labels' => 'my_extension.module'` (single module,
+file `module.xlf`).

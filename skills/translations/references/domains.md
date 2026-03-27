@@ -30,3 +30,4 @@ Rules:
 - Override the mapping with the PSR-14 event
   `TYPO3\CMS\Core\Localization\Event\BeforeLabelResourceResolvedEvent` (`$event->packageKey` read-only,
   `$event->domains` array domain => file, writable).
+- CLI (EXT:lowlevel): `bin/typo3 language:domain:list [--extension=<key>]`, `bin/typo3 language:domain:search`.

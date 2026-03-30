@@ -7,3 +7,6 @@ references are not deprecated (Feature-93334), so this migration is about readab
 
 1. List current files and their domains:
    `bin/typo3 language:domain:list --extension=my_extension`.
+2. Find collisions before renaming anything:
+   - `locallang.xlf` next to `messages.xlf` - merge into one file.
+   - `locallang_x.xlf` next to `x.xlf` - `locallang_x.xlf` is ignored; merge.

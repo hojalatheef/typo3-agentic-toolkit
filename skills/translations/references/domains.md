@@ -47,3 +47,5 @@ file `module.xlf`).
 <f:translate key="users" domain="backend.messages" arguments="{0: count}" default="No users found" />
 <f:translate key="label.title" domain="{myDomain}" />
 ```
+
+`domain` wins over `extensionName`. Without either, the ViewHelper uses the Extbase extension name, then a

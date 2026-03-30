@@ -23,3 +23,4 @@ grep -rn "LLL:EXT:my_extension/" Classes Configuration Resources ext_*.php
 
 | Location | Before | After |
 | --- | --- | --- |
+| Fluid | `<f:translate key="LLL:EXT:my_extension/Resources/Private/Language/locallang_form.xlf:legend" />` | `<f:translate key="my_extension.form:legend" />` |

@@ -18,3 +18,8 @@ references are not deprecated (Feature-93334), so this migration is about readab
 ```bash
 grep -rn "LLL:EXT:my_extension/" Classes Configuration Resources ext_*.php
 ```
+
+## Replace references
+
+| Location | Before | After |
+| --- | --- | --- |

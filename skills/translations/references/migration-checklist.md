@@ -14,3 +14,7 @@ references are not deprecated (Feature-93334), so this migration is about readab
    Rename the translated files too (`de.locallang.xlf` -> `de.messages.xlf`). The domain stays the same
    (`my_extension.messages`, `my_extension.db`), so references written in domain syntax survive the rename.
 4. Grep all references:
+
+```bash
+grep -rn "LLL:EXT:my_extension/" Classes Configuration Resources ext_*.php
+```

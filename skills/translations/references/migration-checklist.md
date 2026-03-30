@@ -13,3 +13,4 @@ references are not deprecated (Feature-93334), so this migration is about readab
 3. Decide on renames. Optional but clearer: `locallang.xlf` -> `messages.xlf`, `locallang_db.xlf` -> `db.xlf`.
    Rename the translated files too (`de.locallang.xlf` -> `de.messages.xlf`). The domain stays the same
    (`my_extension.messages`, `my_extension.db`), so references written in domain syntax survive the rename.
+4. Grep all references:

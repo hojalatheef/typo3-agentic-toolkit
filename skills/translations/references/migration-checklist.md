@@ -25,3 +25,4 @@ grep -rn "LLL:EXT:my_extension/" Classes Configuration Resources ext_*.php
 | --- | --- | --- |
 | Fluid | `<f:translate key="LLL:EXT:my_extension/Resources/Private/Language/locallang_form.xlf:legend" />` | `<f:translate key="my_extension.form:legend" />` |
 | Fluid | `<f:translate key="legend" extensionName="MyExtension" />` | `<f:translate key="legend" domain="my_extension.form" />` |
+| TCA | `'label' => 'LLL:EXT:my_extension/Resources/Private/Language/locallang_db.xlf:tx_my.title'` | `'label' => 'my_extension.db:tx_my.title'` |

@@ -4,6 +4,26 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [0.6.0] - 2026-03-31
+
+### Changed
+
+- `form-framework/events` reference: more guidance
+- `scheduler-console/cli-and-messaging` reference: more guidance
+- `scheduler-console/scheduler-tca` reference: more guidance
+- `scheduler-console` skill: more guidance
+- `schema-api/reading-schema` reference: more guidance
+- `schema-api/tca-v14` reference: more guidance
+- `schema-api` skill: more guidance
+- `security-hardening/crypto` reference: more guidance
+- `security-hardening` skill: more guidance
+- `sitepackage/assets-and-resources` reference: more guidance
+- `system-resources/identifiers` reference: more guidance
+- `system-resources` skill: more guidance
+- `translations/domains` reference: more guidance
+- `translations/migration-checklist` reference: more guidance
+- `translations` skill: more guidance
+
 ## [0.5.0] - 2026-02-27
 
 ### Added

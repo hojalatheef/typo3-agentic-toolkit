@@ -27,3 +27,4 @@ grep -rn "LLL:EXT:my_extension/" Classes Configuration Resources ext_*.php
 | Fluid | `<f:translate key="legend" extensionName="MyExtension" />` | `<f:translate key="legend" domain="my_extension.form" />` |
 | TCA | `'label' => 'LLL:EXT:my_extension/Resources/Private/Language/locallang_db.xlf:tx_my.title'` | `'label' => 'my_extension.db:tx_my.title'` |
 | PHP | `$languageService->sL('LLL:EXT:my_extension/Resources/Private/Language/locallang.xlf:x')` | `$translator->translate('x', 'my_extension.messages')` |
+| Modules.php | `'labels' => 'LLL:EXT:my_extension/Resources/Private/Language/locallang_mod.xlf'` | `'labels' => 'my_extension.module'` |

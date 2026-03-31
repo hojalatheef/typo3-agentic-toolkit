@@ -35,3 +35,5 @@ Notes:
 - TCA and other places that call `LanguageService::sL()` resolve domain references because the mapping is
   integrated into `LocalizationFactory` (Feature-93334 names TypoScript, Fluid, TCA and PHP as affected). Verify
   each location in the backend after migration.
+- Module label files: rename ids `mlang_tabs_tab` -> `title`, `mlang_labels_tablabel` -> `short_description`,
+  `mlang_labels_tabdescr` -> `description`.

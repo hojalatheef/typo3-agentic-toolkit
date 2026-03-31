@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Save as EXT:my_extension/Resources/Private/Language/de.messages.xlf
+    XLIFF 2.0 (Feature-107710, TYPO3 14.0). state="final" or "reviewed" counts
+    as approved; "initial" and "translated" are skipped when
+    $GLOBALS['TYPO3_CONF_VARS']['LANG']['requireApprovedLocalizations'] is set.
+-->
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en" trgLang="de">
+    <file id="f1">
+        <unit id="button.save">
+            <segment state="final">
+                <source>Save</source>
+                <target>Speichern</target>
+            </segment>
+        </unit>
+        <unit id="list.count">
+            <segment state="final">
+                <source>{count, plural, =0 {No entries} one {# entry} other {# entries}}</source>
+                <target>{count, plural, =0 {Keine Einträge} one {# Eintrag} other {# Einträge}}</target>
+            </segment>
+        </unit>
+        <unit id="greeting">
+            <segment state="translated">
+                <source>Hello {name}, you have {count, plural, one {# message} other {# messages}}.</source>
+                <target>Hallo {name}, Sie haben {count, plural, one {# Nachricht} other {# Nachrichten}}.</target>
+            </segment>
+        </unit>
+    </file>
+</xliff>

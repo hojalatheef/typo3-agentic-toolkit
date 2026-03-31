@@ -28,3 +28,4 @@ grep -rn "LLL:EXT:my_extension/" Classes Configuration Resources ext_*.php
 | TCA | `'label' => 'LLL:EXT:my_extension/Resources/Private/Language/locallang_db.xlf:tx_my.title'` | `'label' => 'my_extension.db:tx_my.title'` |
 | PHP | `$languageService->sL('LLL:EXT:my_extension/Resources/Private/Language/locallang.xlf:x')` | `$translator->translate('x', 'my_extension.messages')` |
 | Modules.php | `'labels' => 'LLL:EXT:my_extension/Resources/Private/Language/locallang_mod.xlf'` | `'labels' => 'my_extension.module'` |
+| Site set YAML | `label: 'LLL:EXT:my_extension/Configuration/Sets/Main/labels.xlf:x'` | `label: 'my_extension.sets.main:x'` |

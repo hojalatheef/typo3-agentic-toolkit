@@ -31,3 +31,7 @@ grep -rn "LLL:EXT:my_extension/" Classes Configuration Resources ext_*.php
 | Site set YAML | `label: 'LLL:EXT:my_extension/Configuration/Sets/Main/labels.xlf:x'` | `label: 'my_extension.sets.main:x'` |
 
 Notes:
+
+- TCA and other places that call `LanguageService::sL()` resolve domain references because the mapping is
+  integrated into `LocalizationFactory` (Feature-93334 names TypoScript, Fluid, TCA and PHP as affected). Verify
+  each location in the backend after migration.

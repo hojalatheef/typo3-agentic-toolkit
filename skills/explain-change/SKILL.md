@@ -33,3 +33,4 @@ Try the class short name, the ViewHelper name without namespace, or the CLI comm
 
 1. Pick the entries that actually answer the topic (usually one to three). Prefer Feature and Breaking over Important.
 2. Read each chosen rst in full.
+3. Look for later entries about the same API (a Deprecation in 14.x of a 13.x Feature, a Breaking that removes it).

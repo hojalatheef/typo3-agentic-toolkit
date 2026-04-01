@@ -18,3 +18,5 @@ Answer only from the changelog. If nothing matches, say "not found in the TYPO3 
 ## Lookup
 
 Initial search results:
+
+!`t3-changelog "$topic" 2>/dev/null | head -40 || true`

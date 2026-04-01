@@ -20,3 +20,5 @@ Answer only from the changelog. If nothing matches, say "not found in the TYPO3 
 Initial search results:
 
 !`t3-changelog "$topic" 2>/dev/null | head -40 || true`
+
+If that printed nothing (tool missing or no hit), search directly:

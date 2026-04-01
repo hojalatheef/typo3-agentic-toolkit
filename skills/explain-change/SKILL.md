@@ -14,3 +14,7 @@ allowed-tools: Read, Grep, Glob, Bash(t3-changelog:*), Bash(grep:*), Bash(ls:*)
 Topic: $topic
 
 Answer only from the changelog. If nothing matches, say "not found in the TYPO3 13/14 changelog" and suggest a better keyword; never fill the gap from memory.
+
+## Lookup
+
+Initial search results:

@@ -28,3 +28,7 @@ grep -rli "<keyword>" ~/.cache/typo3-extension-migration/typo3-core/typo3/sysext
 ```
 
 Try the class short name, the ViewHelper name without namespace, or the CLI command. A numeric topic is an issue ID: `ls .../Changelog/*/*-<id>-*.rst`.
+
+## Steps
+
+1. Pick the entries that actually answer the topic (usually one to three). Prefer Feature and Breaking over Important.

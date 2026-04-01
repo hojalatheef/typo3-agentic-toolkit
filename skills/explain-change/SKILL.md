@@ -22,3 +22,7 @@ Initial search results:
 !`t3-changelog "$topic" 2>/dev/null | head -40 || true`
 
 If that printed nothing (tool missing or no hit), search directly:
+
+```bash
+grep -rli "<keyword>" ~/.cache/typo3-extension-migration/typo3-core/typo3/sysext/core/Documentation/Changelog/1[34]* | head -30
+```

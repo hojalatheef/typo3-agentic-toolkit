@@ -1,0 +1,14 @@
+---
+name: explain-change
+description: Explain what changed in TYPO3 about a topic, API, class, ViewHelper or changelog ID, using only the official core changelog rst files and citing every entry by ID and version. Use when the user asks "what changed about X in TYPO3 14", "why is X deprecated", "explain Feature-108508", "since when does TYPO3 have X" or "is X available in 13.4".
+argument-hint: "<topic | changelog id>"
+arguments:
+  - topic
+model: haiku
+effort: low
+allowed-tools: Read, Grep, Glob, Bash(t3-changelog:*), Bash(grep:*), Bash(ls:*)
+---
+
+# Explain a TYPO3 change
+
+Topic: $topic

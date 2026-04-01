@@ -26,3 +26,5 @@ If that printed nothing (tool missing or no hit), search directly:
 ```bash
 grep -rli "<keyword>" ~/.cache/typo3-extension-migration/typo3-core/typo3/sysext/core/Documentation/Changelog/1[34]* | head -30
 ```
+
+Try the class short name, the ViewHelper name without namespace, or the CLI command. A numeric topic is an issue ID: `ls .../Changelog/*/*-<id>-*.rst`.

@@ -60,3 +60,4 @@ Sources
 - The folder name of the rst (`13.1`, `14.2`) is the version that introduced the change.
 - Quote names exactly: class names, attribute names, YAML keys, CLI commands.
 - Keep the code sample shorter than 20 lines and do not invent parts that are not in the rst.
+- For a deep dive or many related entries, suggest delegating to the `changelog-researcher` agent.

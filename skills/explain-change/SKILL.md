@@ -44,4 +44,7 @@ Try the class short name, the ViewHelper name without namespace, or the CLI comm
 What changed
 - <fact from the rst> (Feature-<id>, <version>)
 - <fact> (Deprecation-<id>, <version>)
+
+How to use it
+<one short code sample copied or trimmed from the rst, with the language fence>
 ```

@@ -50,4 +50,7 @@ How to use it
 
 Availability
 TYPO3 13.4: yes/no | TYPO3 14.x: since 14.<n>
+
+Sources
+- <version>/<rst file name>
 ```

@@ -40,4 +40,8 @@ Try the class short name, the ViewHelper name without namespace, or the CLI comm
 
 ```text
 <Topic> - short answer in one or two sentences.
+
+What changed
+- <fact from the rst> (Feature-<id>, <version>)
+- <fact> (Deprecation-<id>, <version>)
 ```

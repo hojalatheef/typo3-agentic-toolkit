@@ -54,3 +54,7 @@ TYPO3 13.4: yes/no | TYPO3 14.x: since 14.<n>
 Sources
 - <version>/<rst file name>
 ```
+
+## Rules
+
+- The folder name of the rst (`13.1`, `14.2`) is the version that introduced the change.

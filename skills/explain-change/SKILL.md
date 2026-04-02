@@ -35,3 +35,9 @@ Try the class short name, the ViewHelper name without namespace, or the CLI comm
 2. Read each chosen rst in full.
 3. Look for later entries about the same API (a Deprecation in 14.x of a 13.x Feature, a Breaking that removes it).
 4. Write the answer in the format below.
+
+## Answer format
+
+```text
+<Topic> - short answer in one or two sentences.
+```

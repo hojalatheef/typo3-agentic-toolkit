@@ -47,4 +47,7 @@ What changed
 
 How to use it
 <one short code sample copied or trimmed from the rst, with the language fence>
+
+Availability
+TYPO3 13.4: yes/no | TYPO3 14.x: since 14.<n>
 ```

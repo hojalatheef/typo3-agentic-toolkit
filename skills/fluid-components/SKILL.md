@@ -19,3 +19,8 @@ of a PHP class (Feature-108508).
 
 Arguments: `$ARGUMENTS` - optional component path in dot notation and an
 optional extension path.
+
+## When to use
+
+- A site package or extension needs reusable UI pieces (buttons, cards,
+  teasers, navigation) with a typed API.

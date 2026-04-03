@@ -18,3 +18,4 @@ TYPO3 v14.1 registers component collections with a configuration file instead
 of a PHP class (Feature-108508).
 
 Arguments: `$ARGUMENTS` - optional component path in dot notation and an
+optional extension path.

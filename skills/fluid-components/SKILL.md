@@ -32,3 +32,4 @@ optional extension path.
 
 Components via configuration need TYPO3 v14.1+. On v13 a class-based
 collection still works; both can ship side by side (see
+[references/components-in-depth.md](references/components-in-depth.md)).

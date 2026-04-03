@@ -16,3 +16,5 @@ Fluid components are template files with a declared API (`<f:argument>`,
 `<f:slot>`) that are called like ViewHelpers: `<my:molecule.teaserCard />`.
 TYPO3 v14.1 registers component collections with a configuration file instead
 of a PHP class (Feature-108508).
+
+Arguments: `$ARGUMENTS` - optional component path in dot notation and an

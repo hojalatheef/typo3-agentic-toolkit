@@ -25,3 +25,4 @@ optional extension path.
 - A site package or extension needs reusable UI pieces (buttons, cards,
   teasers, navigation) with a typed API.
 - Partials are passed `{_all}` and nobody knows which variables they need.
+- A team wants IDE autocomplete and CI checks for Fluid templates.

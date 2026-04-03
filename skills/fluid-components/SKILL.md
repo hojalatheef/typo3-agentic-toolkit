@@ -29,3 +29,5 @@ optional extension path.
 - A global ViewHelper namespace is still registered in
   `$GLOBALS['TYPO3_CONF_VARS']['SYS']['fluid']['namespaces']` (deprecated in
   14.1, Deprecation-108524).
+
+Components via configuration need TYPO3 v14.1+. On v13 a class-based

@@ -26,3 +26,6 @@ optional extension path.
   teasers, navigation) with a typed API.
 - Partials are passed `{_all}` and nobody knows which variables they need.
 - A team wants IDE autocomplete and CI checks for Fluid templates.
+- A global ViewHelper namespace is still registered in
+  `$GLOBALS['TYPO3_CONF_VARS']['SYS']['fluid']['namespaces']` (deprecated in
+  14.1, Deprecation-108524).

@@ -61,3 +61,6 @@ collection still works; both can ship side by side (see
 3. Create one folder per component. Default layout:
    `<my:molecule.teaserCard />` resolves to
    `Resources/Private/Components/Molecule/TeaserCard/TeaserCard.fluid.html`.
+4. Declare every argument with `<f:argument>` (strict API is the default) and
+   receive HTML via `<f:slot />`. Start from
+   [templates/TeaserCard.fluid.html](templates/TeaserCard.fluid.html).

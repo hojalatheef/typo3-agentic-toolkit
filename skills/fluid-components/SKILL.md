@@ -38,3 +38,12 @@ collection still works; both can ship side by side (see
 
 1. Register the collection in `Configuration/Fluid/ComponentCollections.php`
    ([templates/ComponentCollections.php](templates/ComponentCollections.php)):
+
+   ```php
+   return [
+       'MyVendor\\MyExtension\\Components' => [
+           'templatePaths' => [
+               10 => 'EXT:my_extension/Resources/Private/Components',
+           ],
+       ],
+   ```

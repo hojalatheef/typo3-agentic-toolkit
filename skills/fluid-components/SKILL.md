@@ -46,4 +46,5 @@ collection still works; both can ship side by side (see
                10 => 'EXT:my_extension/Resources/Private/Components',
            ],
        ],
+   ];
    ```

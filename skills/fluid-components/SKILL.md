@@ -51,3 +51,9 @@ collection still works; both can ship side by side (see
 
 2. Optionally make the prefix global in `Configuration/Fluid/Namespaces.php`
    (Feature-108524) so templates do not need an `xmlns:` line:
+
+   ```php
+   return [
+       'my' => ['MyVendor\\MyExtension\\Components'],
+   ];
+   ```

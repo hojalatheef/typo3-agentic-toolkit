@@ -57,3 +57,7 @@ collection still works; both can ship side by side (see
        'my' => ['MyVendor\\MyExtension\\Components'],
    ];
    ```
+
+3. Create one folder per component. Default layout:
+   `<my:molecule.teaserCard />` resolves to
+   `Resources/Private/Components/Molecule/TeaserCard/TeaserCard.fluid.html`.

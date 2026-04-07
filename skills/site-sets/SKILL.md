@@ -48,3 +48,4 @@ the `name` in `config.yaml` is what sites reference (Feature-103437, 13.1).
 | `settings.yaml` | values for settings of dependencies (not own defaults) | Feature-103437, 13.1 |
 | `setup.typoscript`, `constants.typoscript` | TypoScript inserted like a static include | Feature-103439, 13.1 |
 | `page.tsconfig` | page TSconfig scoped to the site | Feature-103522, 13.1 |
+| `route-enhancers.yaml` | route enhancers merged as presets into the site | Feature-107837, 14.1 |

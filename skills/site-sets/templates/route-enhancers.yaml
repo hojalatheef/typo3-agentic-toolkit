@@ -1,0 +1,13 @@
+# EXT:my_extension/Configuration/Sets/MySet/route-enhancers.yaml
+# TYPO3 v14.1+ only (Feature-107837). The site's own routeEnhancers win;
+# later sets in dependency order override earlier ones.
+routeEnhancers:
+  MyEnhancer:
+    type: Simple
+    routePath: '/my-path/{param}'
+    aspects:
+      param:
+        type: StaticValueMapper
+        map:
+          value1: '1'
+          value2: '2'

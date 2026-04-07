@@ -32,3 +32,4 @@ Arguments: `$ARGUMENTS` - optional Composer name and target directory.
 ## Camino or own site package
 
 TYPO3 v14.1 ships the default theme **Camino** (`typo3/theme-camino`,
+Feature-108539): site set "Theme: Camino", four color schemes in site

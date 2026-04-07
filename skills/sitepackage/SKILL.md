@@ -38,3 +38,7 @@ no dependency on `fluid_styled_content`. On classic-mode fresh installs it is
 enabled by default; in Composer mode require `typo3/theme-camino`.
 
 - Use Camino for demos, prototypes and small sites that fit its options.
+- Build your own site package for custom design and long-lived projects:
+  Camino "is not meant to evolve within TYPO3" and moves to a separate
+  repository in v15.0. Read it as a reference implementation of site sets
+  and PAGEVIEW.

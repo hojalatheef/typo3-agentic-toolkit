@@ -25,3 +25,5 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 - Several related modules: create a container module with `showSubmoduleOverview` and
   `appearance.dependsOnSubmodules`.
 - Access that is neither `user`, `admin` nor `systemMaintainer`: write a gate (14.2).
+- Controller code with `ButtonBar::make*()`, `Menu::makeMenuItem()`, `MenuRegistry::makeMenu()`, manual
+  reload/shortcut buttons or `#[Controller]`: migrate.

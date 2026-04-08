@@ -49,3 +49,6 @@ enabled by default; in Composer mode require `typo3/theme-camino`.
    to `packages/my_sitepackage/`, rename vendor, package and extension key.
 2. `composer require my-vendor/my-sitepackage:@dev` (path repository
    `packages/*`).
+3. Add the set to the site: in `config/sites/<site>/config.yaml` set
+   `dependencies: [my-vendor/my-sitepackage]` (Feature-103437). Remove the
+   `sys_template` record if there is one (Feature-103439).

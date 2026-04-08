@@ -47,3 +47,5 @@ enabled by default; in Composer mode require `typo3/theme-camino`.
 
 1. Copy the skeleton from [templates/my_sitepackage/](templates/my_sitepackage/)
    to `packages/my_sitepackage/`, rename vendor, package and extension key.
+2. `composer require my-vendor/my-sitepackage:@dev` (path repository
+   `packages/*`).

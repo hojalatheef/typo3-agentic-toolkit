@@ -18,3 +18,7 @@ Arguments: `$ARGUMENTS`.
 TYPO3 14.0 renamed the module tree (Feature-107628), added card overviews for container modules
 (Feature-107712) and moved button creation into `ComponentFactory` (Feature-107823). 14.2 adds pluggable access
 gates (Feature-109365). Old identifiers keep working as aliases, but new code uses the new ones.
+
+## When to use
+
+- Registering a module: pick the parent from the new tree; see [references/module-tree.md](references/module-tree.md).

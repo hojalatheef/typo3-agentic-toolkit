@@ -24,3 +24,4 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 - Registering a module: pick the parent from the new tree; see [references/module-tree.md](references/module-tree.md).
 - Several related modules: create a container module with `showSubmoduleOverview` and
   `appearance.dependsOnSubmodules`.
+- Access that is neither `user`, `admin` nor `systemMaintainer`: write a gate (14.2).

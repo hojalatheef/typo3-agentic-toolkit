@@ -42,3 +42,8 @@ enabled by default; in Composer mode require `typo3/theme-camino`.
   Camino "is not meant to evolve within TYPO3" and moves to a separate
   repository in v15.0. Read it as a reference implementation of site sets
   and PAGEVIEW.
+
+## Steps
+
+1. Copy the skeleton from [templates/my_sitepackage/](templates/my_sitepackage/)
+   to `packages/my_sitepackage/`, rename vendor, package and extension key.

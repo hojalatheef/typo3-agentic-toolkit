@@ -52,3 +52,6 @@ enabled by default; in Composer mode require `typo3/theme-camino`.
 3. Add the set to the site: in `config/sites/<site>/config.yaml` set
    `dependencies: [my-vendor/my-sitepackage]` (Feature-103437). Remove the
    `sys_template` record if there is one (Feature-103439).
+4. Pick the backend layout "Default" on the root page. `PAGEVIEW`
+   renders `Resources/Private/PageView/Pages/Default.fluid.html`
+   (Feature-103504).

@@ -22,3 +22,5 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 ## When to use
 
 - Registering a module: pick the parent from the new tree; see [references/module-tree.md](references/module-tree.md).
+- Several related modules: create a container module with `showSubmoduleOverview` and
+  `appearance.dependsOnSubmodules`.

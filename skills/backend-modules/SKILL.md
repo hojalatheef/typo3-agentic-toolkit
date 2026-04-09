@@ -49,3 +49,5 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
    shortcut context instead.
 6. Language-aware modules: build a `createDropDownButton()` with `createDropDownRadio()` items and pass it to
    `DocHeaderComponent::setLanguageSelector()`.
+7. Details: [references/module-tree.md](references/module-tree.md),
+   [references/doc-header.md](references/doc-header.md).

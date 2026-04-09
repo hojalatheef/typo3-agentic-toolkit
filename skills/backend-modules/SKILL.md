@@ -38,3 +38,7 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 2. Copy [templates/ReportController.php](templates/ReportController.php). It uses `#[AsController]`
    (Feature-102631, 13.0), `ModuleTemplateFactory`, `ComponentFactory`, `setShortcutContext()` and
    `makeDocHeaderModuleMenu()`.
+3. Container module: `showSubmoduleOverview => true` makes the default route render cards (icon, title,
+   description) of all accessible submodules; give each submodule a `description` / `short_description` label.
+   Add `appearance => ['dependsOnSubmodules' => true]` so the container disappears when no submodule is
+   accessible.

@@ -30,3 +30,8 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 - Global backend JavaScript in the top frame: `BeforeBackendPageRenderEvent` (Feature-109087, 14.2).
 - A module talks to external systems (webhooks, APIs, AI services): place it below `integrations`
   (Feature-107795).
+
+## Steps
+
+1. Copy [templates/Modules.php](templates/Modules.php) to `Configuration/Backend/Modules.php`. Adjust parent,
+   `access`, `path`, `iconIdentifier`, `labels` (translation domain, e.g. `my_extension.modules.overview`).

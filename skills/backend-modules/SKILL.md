@@ -56,3 +56,5 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 
 - [ ] `parent` uses new identifiers: `content` (was `web`), `media` (was `file`), `admin` (admin tasks, was
       `system`), `system` (maintainer tasks, was `tools`), `content_status` (was `web_info`).
+- [ ] Route references use `records` instead of `web_list`, `redirects` instead of `site_redirects`,
+      `system_database` instead of `system_dbint`.

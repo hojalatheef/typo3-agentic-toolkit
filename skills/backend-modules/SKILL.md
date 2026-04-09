@@ -28,3 +28,5 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 - Controller code with `ButtonBar::make*()`, `Menu::makeMenuItem()`, `MenuRegistry::makeMenu()`, manual
   reload/shortcut buttons or `#[Controller]`: migrate.
 - Global backend JavaScript in the top frame: `BeforeBackendPageRenderEvent` (Feature-109087, 14.2).
+- A module talks to external systems (webhooks, APIs, AI services): place it below `integrations`
+  (Feature-107795).

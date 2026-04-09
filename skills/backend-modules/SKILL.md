@@ -35,3 +35,6 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 
 1. Copy [templates/Modules.php](templates/Modules.php) to `Configuration/Backend/Modules.php`. Adjust parent,
    `access`, `path`, `iconIdentifier`, `labels` (translation domain, e.g. `my_extension.modules.overview`).
+2. Copy [templates/ReportController.php](templates/ReportController.php). It uses `#[AsController]`
+   (Feature-102631, 13.0), `ModuleTemplateFactory`, `ComponentFactory`, `setShortcutContext()` and
+   `makeDocHeaderModuleMenu()`.

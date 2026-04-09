@@ -42,3 +42,5 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
    description) of all accessible submodules; give each submodule a `description` / `short_description` label.
    Add `appearance => ['dependsOnSubmodules' => true]` so the container disappears when no submodule is
    accessible.
+4. Custom access: copy [templates/EditorGate.php](templates/EditorGate.php), register with
+   `#[AsModuleAccessGate(identifier: '...')]`, and use the identifier as `access` value.

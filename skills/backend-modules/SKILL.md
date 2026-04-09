@@ -44,3 +44,6 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
    accessible.
 4. Custom access: copy [templates/EditorGate.php](templates/EditorGate.php), register with
    `#[AsModuleAccessGate(identifier: '...')]`, and use the identifier as `access` value.
+5. Buttons: inject `ComponentFactory`; use `createSaveButton()`, `createBackButton()`, `createCloseButton()`,
+   `createViewButton()` or `create*Button()` + fluent setters. Do not add reload or shortcut buttons - set the
+   shortcut context instead.

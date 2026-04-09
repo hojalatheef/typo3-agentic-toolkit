@@ -51,3 +51,8 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
    `DocHeaderComponent::setLanguageSelector()`.
 7. Details: [references/module-tree.md](references/module-tree.md),
    [references/doc-header.md](references/doc-header.md).
+
+## Checklist
+
+- [ ] `parent` uses new identifiers: `content` (was `web`), `media` (was `file`), `admin` (admin tasks, was
+      `system`), `system` (maintainer tasks, was `tools`), `content_status` (was `web_info`).

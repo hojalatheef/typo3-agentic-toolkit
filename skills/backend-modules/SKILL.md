@@ -47,3 +47,5 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 5. Buttons: inject `ComponentFactory`; use `createSaveButton()`, `createBackButton()`, `createCloseButton()`,
    `createViewButton()` or `create*Button()` + fluent setters. Do not add reload or shortcut buttons - set the
    shortcut context instead.
+6. Language-aware modules: build a `createDropDownButton()` with `createDropDownRadio()` items and pass it to
+   `DocHeaderComponent::setLanguageSelector()`.

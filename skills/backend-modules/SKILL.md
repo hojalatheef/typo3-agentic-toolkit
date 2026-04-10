@@ -73,3 +73,6 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
   duplicates. Disable with `disableAutomaticReloadButton()` / `disableAutomaticShortcutButton()` if needed.
 - `admin` and `system` swapped meaning: `admin` is *Administration* (users, scheduler, integrations), `system`
   is for system maintainers (formerly *Admin Tools*).
+- The upgrade wizard "Migrate module permissions" covers the core identifier changes. When you rename your own
+  module identifiers, keep the old ones in `aliases` and plan how existing `be_groups.groupMods` /
+  `be_users.userMods` entries are updated.

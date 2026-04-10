@@ -59,3 +59,5 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 - [ ] Route references use `records` instead of `web_list`, `redirects` instead of `site_redirects`,
       `system_database` instead of `system_dbint`.
 - [ ] Labels: one XLIFF per module with `title`, `short_description`, `description` and a domain reference.
+- [ ] Controller has `#[AsController]` (`TYPO3\CMS\Backend\Attribute\AsController`), not
+      `TYPO3\CMS\Core\Attribute\Controller` and not a `backend.controller` tag.

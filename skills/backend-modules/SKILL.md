@@ -62,3 +62,5 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 - [ ] Controller has `#[AsController]` (`TYPO3\CMS\Backend\Attribute\AsController`), not
       `TYPO3\CMS\Core\Attribute\Controller` and not a `backend.controller` tag.
 - [ ] No `ButtonBar::make*()`, `Menu::makeMenuItem()`, `MenuRegistry::makeMenu()` (deprecated, removed in v15).
+- [ ] No `createShortcutButton()` + `addButtonToButtonBar()` (deprecated, Deprecation-108008); no manual reload
+      button.

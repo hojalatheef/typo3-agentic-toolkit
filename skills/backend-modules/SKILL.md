@@ -61,3 +61,4 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 - [ ] Labels: one XLIFF per module with `title`, `short_description`, `description` and a domain reference.
 - [ ] Controller has `#[AsController]` (`TYPO3\CMS\Backend\Attribute\AsController`), not
       `TYPO3\CMS\Core\Attribute\Controller` and not a `backend.controller` tag.
+- [ ] No `ButtonBar::make*()`, `Menu::makeMenuItem()`, `MenuRegistry::makeMenu()` (deprecated, removed in v15).

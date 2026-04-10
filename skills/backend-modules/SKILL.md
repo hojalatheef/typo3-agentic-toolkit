@@ -76,3 +76,4 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 - The upgrade wizard "Migrate module permissions" covers the core identifier changes. When you rename your own
   module identifiers, keep the old ones in `aliases` and plan how existing `be_groups.groupMods` /
   `be_users.userMods` entries are updated.
+- `BeforeBackendPageRenderEvent::$pageRenderer` is marked `@internal`; prefer `$javaScriptRenderer`.

@@ -65,3 +65,4 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 - [ ] No `createShortcutButton()` + `addButtonToButtonBar()` (deprecated, Deprecation-108008); no manual reload
       button.
 - [ ] Custom `ModuleInterface` implementations have `hasSubmoduleOverview(): bool` (Breaking-107712).
+- [ ] Gates return `ModuleAccessResult::Abstain` for access values they do not own.

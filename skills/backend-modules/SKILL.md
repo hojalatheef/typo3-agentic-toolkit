@@ -71,3 +71,5 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 
 - Reload and shortcut buttons are added automatically before `ModifyButtonBarEvent`; adding them manually gives
   duplicates. Disable with `disableAutomaticReloadButton()` / `disableAutomaticShortcutButton()` if needed.
+- `admin` and `system` swapped meaning: `admin` is *Administration* (users, scheduler, integrations), `system`
+  is for system maintainers (formerly *Admin Tools*).

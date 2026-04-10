@@ -58,3 +58,4 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
       `system`), `system` (maintainer tasks, was `tools`), `content_status` (was `web_info`).
 - [ ] Route references use `records` instead of `web_list`, `redirects` instead of `site_redirects`,
       `system_database` instead of `system_dbint`.
+- [ ] Labels: one XLIFF per module with `title`, `short_description`, `description` and a domain reference.

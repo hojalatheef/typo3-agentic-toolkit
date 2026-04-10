@@ -66,3 +66,8 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
       button.
 - [ ] Custom `ModuleInterface` implementations have `hasSubmoduleOverview(): bool` (Breaking-107712).
 - [ ] Gates return `ModuleAccessResult::Abstain` for access values they do not own.
+
+## Pitfalls
+
+- Reload and shortcut buttons are added automatically before `ModifyButtonBarEvent`; adding them manually gives
+  duplicates. Disable with `disableAutomaticReloadButton()` / `disableAutomaticShortcutButton()` if needed.

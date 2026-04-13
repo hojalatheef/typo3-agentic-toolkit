@@ -83,3 +83,5 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 
 - [references/module-tree.md](references/module-tree.md) - renamed identifiers, container modules, gates,
   integrations.
+- [references/doc-header.md](references/doc-header.md) - ComponentFactory, shortcut context, language selector,
+  module menu, top-frame event.

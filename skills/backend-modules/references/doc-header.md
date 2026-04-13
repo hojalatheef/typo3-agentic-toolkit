@@ -92,3 +92,7 @@ $view->getDocHeaderComponent()->setLanguageSelector($languageDropdown);
 `setShowLabelText(true)` + `setShowActiveLabelText(true)` renders the label visually hidden and the active item
 visibly ("Language: English" for screen readers). For "Create new translation" sections see
 `PageLayoutController` in EXT:backend (`DropDownDivider`, `DropDownHeader`).
+
+## Backend top frame (Feature-109087, 14.2)
+
+`TYPO3\CMS\Backend\Controller\Event\BeforeBackendPageRenderEvent` is dispatched by `BackendController` before the

@@ -78,3 +78,8 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
   `be_users.userMods` entries are updated.
 - `BeforeBackendPageRenderEvent::$pageRenderer` is marked `@internal`; prefer `$javaScriptRenderer`.
 - `#[AsModuleAccessGate]`, `dependsOnSubmodules` and `showSubmoduleOverview` do not exist in 13.4.
+
+## References
+
+- [references/module-tree.md](references/module-tree.md) - renamed identifiers, container modules, gates,
+  integrations.

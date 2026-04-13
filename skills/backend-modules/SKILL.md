@@ -88,3 +88,6 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
 - Templates: [templates/Modules.php](templates/Modules.php),
   [templates/ReportController.php](templates/ReportController.php),
   [templates/EditorGate.php](templates/EditorGate.php).
+- Changelog: Feature-107628, Feature-107663, Feature-107712, Breaking-107712, Feature-109365, Feature-108008,
+  Deprecation-108008, Feature-102631, Feature-107823, Feature-107875, Feature-109087, Feature-107795,
+  Feature-93334 (module labels).

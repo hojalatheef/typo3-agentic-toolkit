@@ -85,3 +85,6 @@ gates (Feature-109365). Old identifiers keep working as aliases, but new code us
   integrations.
 - [references/doc-header.md](references/doc-header.md) - ComponentFactory, shortcut context, language selector,
   module menu, top-frame event.
+- Templates: [templates/Modules.php](templates/Modules.php),
+  [templates/ReportController.php](templates/ReportController.php),
+  [templates/EditorGate.php](templates/EditorGate.php).

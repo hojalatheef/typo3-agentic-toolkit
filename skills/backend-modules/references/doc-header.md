@@ -96,3 +96,4 @@ visibly ("Language: English" for screen readers). For "Create new translation" s
 ## Backend top frame (Feature-109087, 14.2)
 
 `TYPO3\CMS\Backend\Controller\Event\BeforeBackendPageRenderEvent` is dispatched by `BackendController` before the
+main backend page renders. Public properties: `$view` (`ViewInterface`), `$javaScriptRenderer`

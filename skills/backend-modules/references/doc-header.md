@@ -98,3 +98,12 @@ visibly ("Language: English" for screen readers). For "Create new translation" s
 `TYPO3\CMS\Backend\Controller\Event\BeforeBackendPageRenderEvent` is dispatched by `BackendController` before the
 main backend page renders. Public properties: `$view` (`ViewInterface`), `$javaScriptRenderer`
 (`JavaScriptRenderer`), `$pageRenderer` (`@internal`).
+
+```php
+#[AsEventListener(identifier: 'my-extension/before-backend-page-render')]
+final class BeforeBackendPageRenderEventListener
+{
+    public function __invoke(BeforeBackendPageRenderEvent $event): void
+    {
+        $event->javaScriptRenderer->addJavaScriptModuleInstruction(
+```

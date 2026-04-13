@@ -106,4 +106,8 @@ final class BeforeBackendPageRenderEventListener
     public function __invoke(BeforeBackendPageRenderEvent $event): void
     {
         $event->javaScriptRenderer->addJavaScriptModuleInstruction(
+            JavaScriptModuleInstruction::create('@my-vendor/my-extension/backend-module.js')
+        );
+    }
+}
 ```

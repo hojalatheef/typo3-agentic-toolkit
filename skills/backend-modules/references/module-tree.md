@@ -108,3 +108,5 @@ with `'access' => 'myEditor'` in `Modules.php`.
 - Labels per module (Feature-93334): file `Resources/Private/Language/Modules/<name>.xlf` with ids `title`,
   `short_description`, `description`; `'labels' => 'my_extension.modules.<name>'`. A single-module extension
   uses `module.xlf` and `'labels' => 'my_extension.module'`.
+- `#[TYPO3\CMS\Backend\Attribute\AsController]` (Feature-102631, 13.0) tags the controller for DI; it replaces
+  the deprecated `TYPO3\CMS\Core\Attribute\Controller` and the `backend.controller` tag.

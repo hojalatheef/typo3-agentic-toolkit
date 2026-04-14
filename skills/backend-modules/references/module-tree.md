@@ -75,3 +75,4 @@ The `integrations` identifier was taken from the core `Modules.php` files (`EXT:
 ## Module access gates (Feature-109365, 14.2)
 
 `access` values are resolved by gates implementing `TYPO3\CMS\Backend\Module\ModuleAccessGateInterface`.
+Built-in: `UserGate` (admins + `userMods` / `groupMods`), `AdminGate`, `SystemMaintainerGate` in

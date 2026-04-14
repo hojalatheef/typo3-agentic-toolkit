@@ -99,3 +99,5 @@ final readonly class EditorGate implements ModuleAccessGateInterface
     }
 }
 ```
+
+Results: `Granted`, `Denied`, `Abstain` (not responsible). Order gates with `before` / `after`. Reference the gate

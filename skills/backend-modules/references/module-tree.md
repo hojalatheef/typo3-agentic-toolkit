@@ -102,3 +102,9 @@ final readonly class EditorGate implements ModuleAccessGateInterface
 
 Results: `Granted`, `Denied`, `Abstain` (not responsible). Order gates with `before` / `after`. Reference the gate
 with `'access' => 'myEditor'` in `Modules.php`.
+
+## Labels and controllers
+
+- Labels per module (Feature-93334): file `Resources/Private/Language/Modules/<name>.xlf` with ids `title`,
+  `short_description`, `description`; `'labels' => 'my_extension.modules.<name>'`. A single-module extension
+  uses `module.xlf` and `'labels' => 'my_extension.module'`.

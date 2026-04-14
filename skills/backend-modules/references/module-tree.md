@@ -71,3 +71,7 @@ The `integrations` identifier was taken from the core `Modules.php` files (`EXT:
   permission, extension not installed).
 - Custom `ModuleInterface` implementations need `hasSubmoduleOverview(): bool` (Breaking-107712); `Module` and
   `BaseModule` already have it.
+
+## Module access gates (Feature-109365, 14.2)
+
+`access` values are resolved by gates implementing `TYPO3\CMS\Backend\Module\ModuleAccessGateInterface`.

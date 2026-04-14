@@ -92,4 +92,10 @@ final readonly class EditorGate implements ModuleAccessGateInterface
     {
         if ($module->getAccess() !== 'myEditor') {
             return ModuleAccessResult::Abstain;
+        }
+        return in_array(3, $user->userGroupsUID, true)
+            ? ModuleAccessResult::Granted
+            : ModuleAccessResult::Denied;
+    }
+}
 ```

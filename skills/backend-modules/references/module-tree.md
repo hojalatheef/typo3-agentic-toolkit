@@ -84,4 +84,12 @@ use TYPO3\CMS\Backend\Module\ModuleAccessResult;
 use TYPO3\CMS\Backend\Module\ModuleInterface;
 use TYPO3\CMS\Core\Attribute\AsModuleAccessGate;
 use TYPO3\CMS\Core\Authentication\BackendUserAuthentication;
+
+#[AsModuleAccessGate(identifier: 'myEditor', after: ['user'])]
+final readonly class EditorGate implements ModuleAccessGateInterface
+{
+    public function decide(ModuleInterface $module, BackendUserAuthentication $user): ModuleAccessResult
+    {
+        if ($module->getAccess() !== 'myEditor') {
+            return ModuleAccessResult::Abstain;
 ```

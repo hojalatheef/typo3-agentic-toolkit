@@ -18,3 +18,7 @@ Arguments: `$ARGUMENTS`. A path, if given, is the class to work on; a keyword na
 Extbase in v14 moved most cross-cutting concerns (access control, throttling, validation, uploads, audit trail)
 into declarative PHP attributes in the namespace `TYPO3\CMS\Extbase\Attribute`. Prefer these over hand-written
 checks in the action body. Target TYPO3 14.3 LTS, PHP 8.2+.
+
+## When to use
+
+- A new or existing Extbase controller needs login/group/ownership checks: `#[Authorize]` (Feature-107826, 14.2).

@@ -22,3 +22,5 @@ checks in the action body. Target TYPO3 14.3 LTS, PHP 8.2+.
 ## When to use
 
 - A new or existing Extbase controller needs login/group/ownership checks: `#[Authorize]` (Feature-107826, 14.2).
+- A form submit or API action needs brute-force protection: `#[RateLimit]` (Feature-108982, 14.2) and the
+  `RateLimiterFactoryInterface` (Feature-109080, 14.2).

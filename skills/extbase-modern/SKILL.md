@@ -27,3 +27,5 @@ checks in the action body. Target TYPO3 14.3 LTS, PHP 8.2+.
 - A model needs validation beyond the Extbase built-ins: Symfony constraints (Feature-106945, 14.0).
 - A model property receives file uploads: `#[FileUpload]` (Feature-103511, 13.3) and the upload validators
   (Feature-104526, 13.3).
+- Code still uses `#[Validate(param: ...)]`, `#[IgnoreValidation(argumentName: ...)]`, array-style attribute
+  configuration or the `TYPO3\CMS\Extbase\Annotation` namespace: migrate (Feature-108227, Feature-97559, 14.0).

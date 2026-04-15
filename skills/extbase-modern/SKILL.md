@@ -25,3 +25,5 @@ checks in the action body. Target TYPO3 14.3 LTS, PHP 8.2+.
 - A form submit or API action needs brute-force protection: `#[RateLimit]` (Feature-108982, 14.2) and the
   `RateLimiterFactoryInterface` (Feature-109080, 14.2).
 - A model needs validation beyond the Extbase built-ins: Symfony constraints (Feature-106945, 14.0).
+- A model property receives file uploads: `#[FileUpload]` (Feature-103511, 13.3) and the upload validators
+  (Feature-104526, 13.3).

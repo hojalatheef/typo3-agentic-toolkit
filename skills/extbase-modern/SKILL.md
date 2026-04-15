@@ -29,3 +29,4 @@ checks in the action body. Target TYPO3 14.3 LTS, PHP 8.2+.
   (Feature-104526, 13.3).
 - Code still uses `#[Validate(param: ...)]`, `#[IgnoreValidation(argumentName: ...)]`, array-style attribute
   configuration or the `TYPO3\CMS\Extbase\Annotation` namespace: migrate (Feature-108227, Feature-97559, 14.0).
+- Sorting needs `CONCAT`/`TRIM`/`COALESCE`: `$query->orderBy()` (Feature-32051, 14.2).

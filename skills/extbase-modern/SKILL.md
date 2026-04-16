@@ -44,3 +44,5 @@ checks in the action body. Target TYPO3 14.3 LTS, PHP 8.2+.
    `#[FileUpload(validation: [...], uploadFolder: '1:/user_upload/')]` (Feature-97559).
 4. Put `#[Validate]` / `#[IgnoreValidation]` on the action parameter, not on the method with
    `param:`/`argumentName:` (Feature-108227).
+5. Add `#[Authorize]` to every action that changes or reveals user-owned data; stack several when needed - all
+   must pass, otherwise a 403 is propagated. Use group UIDs, not titles.

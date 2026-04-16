@@ -51,3 +51,4 @@ checks in the action body. Target TYPO3 14.3 LTS, PHP 8.2+.
    `initialize<Action>Action()` via `getFileHandlingServiceConfiguration()`.
 8. Start from [templates/ProfileController.php](templates/ProfileController.php) and
    [templates/Profile.php](templates/Profile.php), which combine the attributes.
+9. Hand off to the `security-hardening` skill for a review of the finished plugin.

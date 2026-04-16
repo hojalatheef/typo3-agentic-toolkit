@@ -38,3 +38,5 @@ checks in the action body. Target TYPO3 14.3 LTS, PHP 8.2+.
 1. Read the controller and its models. Note the target TYPO3 range in `composer.json`. Features marked 14.2
    need `typo3/cms-core: ^14.2`; for a 13.4 + 14 dual-line extension, use only the 13.3 features
    (uploads, upload validators, argument mapping exceptions).
+2. Import attributes from `TYPO3\CMS\Extbase\Attribute` (the `Annotation` namespace is deprecated in 14.0 and
+   removed in v15; annotations in docblocks no longer work in 14.0, Breaking-107229).

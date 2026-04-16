@@ -49,3 +49,5 @@ checks in the action body. Target TYPO3 14.3 LTS, PHP 8.2+.
 6. Add `#[RateLimit]` to uncached write actions (create, contact, login-like). It does nothing on cached actions.
 7. For upload properties, use `#[FileUpload]` with `validation` + `uploadFolder`; tune it per request in
    `initialize<Action>Action()` via `getFileHandlingServiceConfiguration()`.
+8. Start from [templates/ProfileController.php](templates/ProfileController.php) and
+   [templates/Profile.php](templates/Profile.php), which combine the attributes.

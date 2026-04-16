@@ -42,3 +42,5 @@ checks in the action body. Target TYPO3 14.3 LTS, PHP 8.2+.
    removed in v15; annotations in docblocks no longer work in 14.0, Breaking-107229).
 3. Configure attributes with named properties, not an array: `#[Validate(validator: 'NotEmpty')]`,
    `#[FileUpload(validation: [...], uploadFolder: '1:/user_upload/')]` (Feature-97559).
+4. Put `#[Validate]` / `#[IgnoreValidation]` on the action parameter, not on the method with
+   `param:`/`argumentName:` (Feature-108227).

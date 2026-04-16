@@ -40,3 +40,5 @@ checks in the action body. Target TYPO3 14.3 LTS, PHP 8.2+.
    (uploads, upload validators, argument mapping exceptions).
 2. Import attributes from `TYPO3\CMS\Extbase\Attribute` (the `Annotation` namespace is deprecated in 14.0 and
    removed in v15; annotations in docblocks no longer work in 14.0, Breaking-107229).
+3. Configure attributes with named properties, not an array: `#[Validate(validator: 'NotEmpty')]`,
+   `#[FileUpload(validation: [...], uploadFolder: '1:/user_upload/')]` (Feature-97559).

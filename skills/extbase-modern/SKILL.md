@@ -32,3 +32,9 @@ checks in the action body. Target TYPO3 14.3 LTS, PHP 8.2+.
 - Sorting needs `CONCAT`/`TRIM`/`COALESCE`: `$query->orderBy()` (Feature-32051, 14.2).
 - A detail action throws on unknown UIDs: `handleArgumentMappingExceptions` (Feature-104321, 13.3).
 - Someone needs an audit trail of frontend edits: history tracking (Feature-107289, 14.2).
+
+## Steps
+
+1. Read the controller and its models. Note the target TYPO3 range in `composer.json`. Features marked 14.2
+   need `typo3/cms-core: ^14.2`; for a 13.4 + 14 dual-line extension, use only the 13.3 features
+   (uploads, upload validators, argument mapping exceptions).

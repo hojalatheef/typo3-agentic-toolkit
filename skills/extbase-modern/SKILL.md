@@ -66,3 +66,4 @@ Details and the exact option lists: [references/attributes.md](references/attrib
 - [ ] `#[RateLimit]` only on uncached actions; plugin action is registered as non-cacheable.
 - [ ] `RateLimiterFactoryInterface` (TYPO3 namespace) is type-hinted, not the Symfony factory.
 - [ ] `#[FileUpload]` has `fileSize`, `mimeType` and `fileExtension` validation; `addRandomSuffix` stays `true`.
+- [ ] Symfony constraints avoid `#[File]` / `#[Image]` (not supported by the Extbase decorator).

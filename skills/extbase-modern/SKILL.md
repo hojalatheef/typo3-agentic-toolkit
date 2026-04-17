@@ -63,3 +63,4 @@ Details and the exact option lists: [references/attributes.md](references/attrib
 - [ ] No `param:` / `argumentName:` on method-level validation attributes (deprecated, Feature-108227).
 - [ ] Every edit/update/delete action has an `#[Authorize]` with an ownership `callback`.
 - [ ] Authorization callback classes are `#[Autoconfigure(public: true)]`.
+- [ ] `#[RateLimit]` only on uncached actions; plugin action is registered as non-cacheable.

@@ -54,3 +54,4 @@ checks in the action body. Target TYPO3 14.3 LTS, PHP 8.2+.
 9. Hand off to the `security-hardening` skill for a review of the finished plugin.
 
 Details and the exact option lists: [references/attributes.md](references/attributes.md),
+[references/persistence-and-errors.md](references/persistence-and-errors.md).

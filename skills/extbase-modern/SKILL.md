@@ -64,3 +64,4 @@ Details and the exact option lists: [references/attributes.md](references/attrib
 - [ ] Every edit/update/delete action has an `#[Authorize]` with an ownership `callback`.
 - [ ] Authorization callback classes are `#[Autoconfigure(public: true)]`.
 - [ ] `#[RateLimit]` only on uncached actions; plugin action is registered as non-cacheable.
+- [ ] `RateLimiterFactoryInterface` (TYPO3 namespace) is type-hinted, not the Symfony factory.

@@ -61,3 +61,4 @@ Details and the exact option lists: [references/attributes.md](references/attrib
 - [ ] No `TYPO3\CMS\Extbase\Annotation\*` imports and no `@Extbase\...` docblock annotations remain.
 - [ ] No array as first attribute argument (deprecated, Feature-97559).
 - [ ] No `param:` / `argumentName:` on method-level validation attributes (deprecated, Feature-108227).
+- [ ] Every edit/update/delete action has an `#[Authorize]` with an ownership `callback`.

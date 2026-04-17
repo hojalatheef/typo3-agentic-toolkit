@@ -59,3 +59,4 @@ Details and the exact option lists: [references/attributes.md](references/attrib
 ## Checklist
 
 - [ ] No `TYPO3\CMS\Extbase\Annotation\*` imports and no `@Extbase\...` docblock annotations remain.
+- [ ] No array as first attribute argument (deprecated, Feature-97559).

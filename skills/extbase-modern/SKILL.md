@@ -70,3 +70,8 @@ Details and the exact option lists: [references/attributes.md](references/attrib
 - [ ] Tables with personal data have `ctrl.extbase.enableHistoryTracking => false` if the toggle is on.
 - [ ] Detail actions set `showPageNotFoundIfTargetNotFoundException = 1` or override
       `handleArgumentMappingExceptions()`.
+
+## Pitfalls
+
+- `#[Authorize]` denies with a `PropagateResponseException` (403) before the action runs. A custom response from
+  `BeforeActionAuthorizationDeniedEvent` must not be cached - only use it for uncached actions.

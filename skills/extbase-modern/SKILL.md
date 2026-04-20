@@ -79,3 +79,5 @@ Details and the exact option lists: [references/attributes.md](references/attrib
   one bucket.
 - The rate limit message is a translation key without domain (`messages.rate_limit_message`) or a full
   `LLL:EXT:` reference.
+- Upload validation runs only if all other properties validate; on any validation error the user must upload
+  again (no temporary storage).

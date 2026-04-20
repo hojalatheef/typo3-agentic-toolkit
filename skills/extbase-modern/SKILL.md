@@ -67,3 +67,4 @@ Details and the exact option lists: [references/attributes.md](references/attrib
 - [ ] `RateLimiterFactoryInterface` (TYPO3 namespace) is type-hinted, not the Symfony factory.
 - [ ] `#[FileUpload]` has `fileSize`, `mimeType` and `fileExtension` validation; `addRandomSuffix` stays `true`.
 - [ ] Symfony constraints avoid `#[File]` / `#[Image]` (not supported by the Extbase decorator).
+- [ ] Tables with personal data have `ctrl.extbase.enableHistoryTracking => false` if the toggle is on.

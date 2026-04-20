@@ -84,3 +84,8 @@ Details and the exact option lists: [references/attributes.md](references/attrib
 - Nested upload targets (`modelA.modelB.file`) are not supported.
 - History tracking is off by default (feature toggle `extbase.enableHistoryTracking`) and stores full data
   snapshots - a GDPR topic.
+
+## References
+
+- [references/attributes.md](references/attributes.md) - `#[Authorize]`, `#[RateLimit]`, validation and
+  upload attributes with every option.

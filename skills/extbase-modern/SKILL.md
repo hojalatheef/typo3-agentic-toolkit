@@ -82,3 +82,5 @@ Details and the exact option lists: [references/attributes.md](references/attrib
 - Upload validation runs only if all other properties validate; on any validation error the user must upload
   again (no temporary storage).
 - Nested upload targets (`modelA.modelB.file`) are not supported.
+- History tracking is off by default (feature toggle `extbase.enableHistoryTracking`) and stores full data
+  snapshots - a GDPR topic.

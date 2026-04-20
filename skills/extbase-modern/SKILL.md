@@ -68,3 +68,5 @@ Details and the exact option lists: [references/attributes.md](references/attrib
 - [ ] `#[FileUpload]` has `fileSize`, `mimeType` and `fileExtension` validation; `addRandomSuffix` stays `true`.
 - [ ] Symfony constraints avoid `#[File]` / `#[Image]` (not supported by the Extbase decorator).
 - [ ] Tables with personal data have `ctrl.extbase.enableHistoryTracking => false` if the toggle is on.
+- [ ] Detail actions set `showPageNotFoundIfTargetNotFoundException = 1` or override
+      `handleArgumentMappingExceptions()`.

@@ -77,3 +77,5 @@ Details and the exact option lists: [references/attributes.md](references/attrib
   `BeforeActionAuthorizationDeniedEvent` must not be cached - only use it for uncached actions.
 - `#[RateLimit]` keys on the client IP. Behind a proxy, `reverseProxyIP` must be configured or all users share
   one bucket.
+- The rate limit message is a translation key without domain (`messages.rate_limit_message`) or a full
+  `LLL:EXT:` reference.

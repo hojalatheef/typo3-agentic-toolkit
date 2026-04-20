@@ -75,3 +75,5 @@ Details and the exact option lists: [references/attributes.md](references/attrib
 
 - `#[Authorize]` denies with a `PropagateResponseException` (403) before the action runs. A custom response from
   `BeforeActionAuthorizationDeniedEvent` must not be cached - only use it for uncached actions.
+- `#[RateLimit]` keys on the client IP. Behind a proxy, `reverseProxyIP` must be configured or all users share
+  one bucket.

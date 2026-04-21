@@ -21,3 +21,5 @@ removed (Breaking-107229).
 #[Authorize(callback: [MyObjectAuthorization::class, 'checkOwnership'])]
 public function editAction(MyObject $myObject): ResponseInterface
 ```
+
+A callback class needs DI visibility: `#[Autoconfigure(public: true)]` (Symfony attribute).

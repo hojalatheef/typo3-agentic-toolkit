@@ -91,3 +91,6 @@ Details and the exact option lists: [references/attributes.md](references/attrib
   upload attributes with every option.
 - [references/persistence-and-errors.md](references/persistence-and-errors.md) - rate limiter factory, history
   tracking, `orderBy()` expressions, class configuration provider, argument mapping exceptions.
+- [templates/ProfileController.php](templates/ProfileController.php),
+  [templates/Profile.php](templates/Profile.php),
+  [templates/ProfileAuthorization.php](templates/ProfileAuthorization.php) - copy-ready files.

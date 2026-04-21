@@ -94,3 +94,6 @@ Details and the exact option lists: [references/attributes.md](references/attrib
 - [templates/ProfileController.php](templates/ProfileController.php),
   [templates/Profile.php](templates/Profile.php),
   [templates/ProfileAuthorization.php](templates/ProfileAuthorization.php) - copy-ready files.
+- Changelog: Feature-107826, Feature-108982, Feature-109080, Feature-107289, Feature-106945, Feature-103511,
+  Feature-104526, Feature-108227, Feature-97559, Feature-108975, Feature-32051, Feature-104321,
+  Breaking-107229, Deprecation-107229.

@@ -11,3 +11,4 @@ removed (Breaking-107229).
 
 | Option | Type | Meaning |
 | --- | --- | --- |
+| `requireLogin` | `bool` | A frontend user must be logged in. |

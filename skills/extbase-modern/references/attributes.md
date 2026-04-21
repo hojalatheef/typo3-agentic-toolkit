@@ -12,3 +12,4 @@ removed (Breaking-107229).
 | Option | Type | Meaning |
 | --- | --- | --- |
 | `requireLogin` | `bool` | A frontend user must be logged in. |
+| `requireGroups` | `array` | User must be in at least one of the groups (OR). UIDs recommended; titles work but editors can rename them. |

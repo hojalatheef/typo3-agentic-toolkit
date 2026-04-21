@@ -8,3 +8,6 @@ removed (Breaking-107229).
 
 `#[Authorize]` on an action method. Options, combinable in one attribute or stacked as several attributes
 (all must pass):
+
+| Option | Type | Meaning |
+| --- | --- | --- |

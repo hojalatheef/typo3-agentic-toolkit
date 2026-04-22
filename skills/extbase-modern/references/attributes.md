@@ -29,3 +29,4 @@ renders it. To replace the response, listen to `TYPO3\CMS\Extbase\Event\Mvc\Befo
 and call `$event->setResponse()`. `$event->getFailureReason()` returns an
 `TYPO3\CMS\Extbase\Authorization\AuthorizationFailureReason` case: `NOT_LOGGED_IN`, `MISSING_GROUP`,
 `CALLBACK_DENIED`. In that listener do not change state, do not use Extbase persistence, and only customise
+responses of uncached actions.

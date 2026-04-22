@@ -30,3 +30,7 @@ and call `$event->setResponse()`. `$event->getFailureReason()` returns an
 `TYPO3\CMS\Extbase\Authorization\AuthorizationFailureReason` case: `NOT_LOGGED_IN`, `MISSING_GROUP`,
 `CALLBACK_DENIED`. In that listener do not change state, do not use Extbase persistence, and only customise
 responses of uncached actions.
+
+## RateLimit (Feature-108982, 14.2)
+
+`#[RateLimit]` on an action method. Uses Symfony RateLimiter with caching framework storage, keyed by client IP.

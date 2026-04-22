@@ -34,3 +34,6 @@ responses of uncached actions.
 ## RateLimit (Feature-108982, 14.2)
 
 `#[RateLimit]` on an action method. Uses Symfony RateLimiter with caching framework storage, keyed by client IP.
+
+| Property | Default | Notes |
+| --- | --- | --- |

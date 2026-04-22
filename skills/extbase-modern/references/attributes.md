@@ -27,3 +27,4 @@ A callback class needs DI visibility: `#[Autoconfigure(public: true)]` (Symfony 
 On failure a `TYPO3\CMS\Core\Http\PropagateResponseException` with HTTP 403 is thrown; the site error handler
 renders it. To replace the response, listen to `TYPO3\CMS\Extbase\Event\Mvc\BeforeActionAuthorizationDeniedEvent`
 and call `$event->setResponse()`. `$event->getFailureReason()` returns an
+`TYPO3\CMS\Extbase\Authorization\AuthorizationFailureReason` case: `NOT_LOGGED_IN`, `MISSING_GROUP`,

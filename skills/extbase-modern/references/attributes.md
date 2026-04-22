@@ -37,3 +37,4 @@ responses of uncached actions.
 
 | Property | Default | Notes |
 | --- | --- | --- |
+| `limit` | `5` | Max requests in the window. |

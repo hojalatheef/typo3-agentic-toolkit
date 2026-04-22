@@ -38,3 +38,4 @@ responses of uncached actions.
 | Property | Default | Notes |
 | --- | --- | --- |
 | `limit` | `5` | Max requests in the window. |
+| `interval` | `'15 minutes'` | Any interval string, e.g. `'1 minute'`, `'1 hour'`. |

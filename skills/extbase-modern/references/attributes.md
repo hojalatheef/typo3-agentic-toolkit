@@ -25,3 +25,4 @@ public function editAction(MyObject $myObject): ResponseInterface
 A callback class needs DI visibility: `#[Autoconfigure(public: true)]` (Symfony attribute).
 
 On failure a `TYPO3\CMS\Core\Http\PropagateResponseException` with HTTP 403 is thrown; the site error handler
+renders it. To replace the response, listen to `TYPO3\CMS\Extbase\Event\Mvc\BeforeActionAuthorizationDeniedEvent`

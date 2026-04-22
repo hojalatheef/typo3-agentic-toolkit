@@ -28,3 +28,4 @@ On failure a `TYPO3\CMS\Core\Http\PropagateResponseException` with HTTP 403 is t
 renders it. To replace the response, listen to `TYPO3\CMS\Extbase\Event\Mvc\BeforeActionAuthorizationDeniedEvent`
 and call `$event->setResponse()`. `$event->getFailureReason()` returns an
 `TYPO3\CMS\Extbase\Authorization\AuthorizationFailureReason` case: `NOT_LOGGED_IN`, `MISSING_GROUP`,
+`CALLBACK_DENIED`. In that listener do not change state, do not use Extbase persistence, and only customise

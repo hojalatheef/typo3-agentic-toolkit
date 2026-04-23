@@ -55,3 +55,4 @@ Only uncached actions are protected - a cached page is delivered before Extbase 
 
 The limiter ID is `extbase-<slugified class>-<action method>`, e.g.
 `extbase-vendor-myextension-controller-mycontroller-dosomethingaction`; admins can override it in
+`$GLOBALS['TYPO3_CONF_VARS']['SYS']['rateLimiter']` (Feature-109080).

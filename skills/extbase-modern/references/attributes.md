@@ -41,3 +41,8 @@ responses of uncached actions.
 | `interval` | `'15 minutes'` | Any interval string, e.g. `'1 minute'`, `'1 hour'`. |
 | `policy` | `'sliding_window'` | Or `'fixed_window'`. |
 | `message` | none | Translation key without domain (`messages.rate_limit_message`) or `LLL:EXT:...` reference. |
+
+```php
+#[RateLimit(limit: 3, interval: '1 minute', message: 'message.ratelimitexceeded')]
+public function createAction(): ResponseInterface
+```

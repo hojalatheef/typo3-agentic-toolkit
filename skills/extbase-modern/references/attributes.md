@@ -49,3 +49,4 @@ public function createAction(): ResponseInterface
 
 Exceeding the limit returns HTTP 429. `TYPO3\CMS\Extbase\Event\Mvc\BeforeActionRateLimitResponseEvent` lets a
 listener change the response (`getRequest()`, `getRateLimit()`), for example throw a `PropagateResponseException`
+built with `ErrorController::accessDeniedAction()`.

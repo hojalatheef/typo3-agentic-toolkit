@@ -46,3 +46,5 @@ responses of uncached actions.
 #[RateLimit(limit: 3, interval: '1 minute', message: 'message.ratelimitexceeded')]
 public function createAction(): ResponseInterface
 ```
+
+Exceeding the limit returns HTTP 429. `TYPO3\CMS\Extbase\Event\Mvc\BeforeActionRateLimitResponseEvent` lets a

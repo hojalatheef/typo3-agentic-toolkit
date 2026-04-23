@@ -54,3 +54,4 @@ built with `ErrorController::accessDeniedAction()`.
 Only uncached actions are protected - a cached page is delivered before Extbase runs.
 
 The limiter ID is `extbase-<slugified class>-<action method>`, e.g.
+`extbase-vendor-myextension-controller-mycontroller-dosomethingaction`; admins can override it in

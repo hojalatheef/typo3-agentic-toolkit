@@ -39,3 +39,4 @@ responses of uncached actions.
 | --- | --- | --- |
 | `limit` | `5` | Max requests in the window. |
 | `interval` | `'15 minutes'` | Any interval string, e.g. `'1 minute'`, `'1 hour'`. |
+| `policy` | `'sliding_window'` | Or `'fixed_window'`. |

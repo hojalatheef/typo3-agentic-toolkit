@@ -72,3 +72,5 @@ protected string $biography = '';
 #[Assert\Iban]
 protected string $iban = '';
 ```
+
+Not supported yet: `#[File]`, `#[Image]` and other framework-bound constraints.

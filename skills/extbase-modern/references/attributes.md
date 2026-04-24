@@ -60,3 +60,4 @@ The limiter ID is `extbase-<slugified class>-<action method>`, e.g.
 ## Validation (Feature-106945, Feature-108227, Feature-97559)
 
 Symfony constraints (14.0) work on model properties and controller methods; they are wrapped in
+`TYPO3\CMS\Extbase\Validation\Validator\ConstraintDecoratingValidator`. Messages starting with `LLL:` are

@@ -82,4 +82,9 @@ public function bazAction(
     #[Validate(validator: 'NotEmpty')]
     string $anythingNotEmpty,
 ): ResponseInterface {}
+
+public function newAction(
+    #[IgnoreValidation]
+    ?MyModel $myModel = null,
+): ResponseInterface {}
 ```

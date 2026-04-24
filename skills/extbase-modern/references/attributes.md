@@ -74,3 +74,5 @@ protected string $iban = '';
 ```
 
 Not supported yet: `#[File]`, `#[Image]` and other framework-bound constraints.
+
+Parameter-level placement (14.0) replaces `param:` / `argumentName:`, which are deprecated:

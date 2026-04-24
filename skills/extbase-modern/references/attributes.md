@@ -61,3 +61,4 @@ The limiter ID is `extbase-<slugified class>-<action method>`, e.g.
 
 Symfony constraints (14.0) work on model properties and controller methods; they are wrapped in
 `TYPO3\CMS\Extbase\Validation\Validator\ConstraintDecoratingValidator`. Messages starting with `LLL:` are
+translated, `{{ value }}` placeholders become `sprintf` placeholders.

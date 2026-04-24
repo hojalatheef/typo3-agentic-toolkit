@@ -65,4 +65,7 @@ translated, `{{ value }}` placeholders become `sprintf` placeholders.
 
 ```php
 use Symfony\Component\Validator\Constraints as Assert;
+
+#[Assert\WordCount(max: 200, maxMessage: 'Biography must not exceed 200 words.')]
+protected string $biography = '';
 ```

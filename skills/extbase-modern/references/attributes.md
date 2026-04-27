@@ -88,3 +88,5 @@ public function newAction(
     ?MyModel $myModel = null,
 ): ResponseInterface {}
 ```
+
+Method-level `#[Validate]` / `#[IgnoreValidation]` without those properties still applies to the whole method.

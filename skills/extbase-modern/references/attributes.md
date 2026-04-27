@@ -109,4 +109,9 @@ use TYPO3\CMS\Extbase\Domain\Model\FileReference;
         'fileSize' => ['minimum' => '0K', 'maximum' => '2M'],
         'mimeType' => ['allowedMimeTypes' => ['image/jpeg', 'image/png']],
         'fileExtension' => ['allowedFileExtensions' => ['jpg', 'jpeg', 'png']],
+        'imageDimensions' => ['maxWidth' => 4096, 'maxHeight' => 4096],
+    ],
+    uploadFolder: '1:/user_upload/files/',
+)]
+protected ?FileReference $file = null;
 ```

@@ -93,3 +93,7 @@ Method-level `#[Validate]` / `#[IgnoreValidation]` without those properties stil
 
 Configure every Extbase attribute with named properties (Feature-97559). Passing an array as the first
 argument is deprecated and removed in v15.
+
+## FileUpload (Feature-103511, Feature-104526, 13.3)
+
+Supports a `FileReference` property or an `ObjectStorage<FileReference>` property. v14 property syntax:

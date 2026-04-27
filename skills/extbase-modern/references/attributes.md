@@ -92,3 +92,4 @@ public function newAction(
 Method-level `#[Validate]` / `#[IgnoreValidation]` without those properties still applies to the whole method.
 
 Configure every Extbase attribute with named properties (Feature-97559). Passing an array as the first
+argument is deprecated and removed in v15.

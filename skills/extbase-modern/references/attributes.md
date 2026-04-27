@@ -101,4 +101,12 @@ Supports a `FileReference` property or an `ObjectStorage<FileReference>` propert
 ```php
 use TYPO3\CMS\Extbase\Attribute\FileUpload;
 use TYPO3\CMS\Extbase\Domain\Model\FileReference;
+
+#[FileUpload(
+    validation: [
+        'required' => true,
+        'maxFiles' => 1,
+        'fileSize' => ['minimum' => '0K', 'maximum' => '2M'],
+        'mimeType' => ['allowedMimeTypes' => ['image/jpeg', 'image/png']],
+        'fileExtension' => ['allowedFileExtensions' => ['jpg', 'jpeg', 'png']],
 ```

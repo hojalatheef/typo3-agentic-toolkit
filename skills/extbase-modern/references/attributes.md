@@ -118,3 +118,5 @@ protected ?FileReference $file = null;
 
 On 13.4 use `TYPO3\CMS\Extbase\Annotation\FileUpload` with a single array (`#[FileUpload(['validation' => ...,
 'uploadFolder' => ...])]`).
+
+Configuration keys: `validation` (`required`, `minFiles`, `maxFiles`, `fileSize`, `fileExtension`, `mimeType`,

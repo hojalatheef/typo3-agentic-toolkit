@@ -97,3 +97,8 @@ argument is deprecated and removed in v15.
 ## FileUpload (Feature-103511, Feature-104526, 13.3)
 
 Supports a `FileReference` property or an `ObjectStorage<FileReference>` property. v14 property syntax:
+
+```php
+use TYPO3\CMS\Extbase\Attribute\FileUpload;
+use TYPO3\CMS\Extbase\Domain\Model\FileReference;
+```

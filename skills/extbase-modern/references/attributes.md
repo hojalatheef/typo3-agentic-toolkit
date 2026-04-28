@@ -120,3 +120,4 @@ On 13.4 use `TYPO3\CMS\Extbase\Annotation\FileUpload` with a single array (`#[Fi
 'uploadFolder' => ...])]`).
 
 Configuration keys: `validation` (`required`, `minFiles`, `maxFiles`, `fileSize`, `fileExtension`, `mimeType`,
+`allowedMimeTypes` shorthand, `imageDimensions`), `uploadFolder` (combined identifier, created if missing),

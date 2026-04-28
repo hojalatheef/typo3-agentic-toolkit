@@ -126,3 +126,4 @@ Configuration keys: `validation` (`required`, `minFiles`, `maxFiles`, `fileSize`
 
 Always-on validators: `FileNameValidator` (blocks PHP-executable extensions) and
 `FileExtensionMimeTypeConsistencyValidator`. Optional validators in
+`TYPO3\CMS\Extbase\Validation\Validator`:

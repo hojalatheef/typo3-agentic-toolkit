@@ -125,3 +125,4 @@ Configuration keys: `validation` (`required`, `minFiles`, `maxFiles`, `fileSize`
 (default `true`, keep it), `createUploadFolderIfNotExist` (default `true`).
 
 Always-on validators: `FileNameValidator` (blocks PHP-executable extensions) and
+`FileExtensionMimeTypeConsistencyValidator`. Optional validators in

@@ -123,3 +123,5 @@ Configuration keys: `validation` (`required`, `minFiles`, `maxFiles`, `fileSize`
 `allowedMimeTypes` shorthand, `imageDimensions`), `uploadFolder` (combined identifier, created if missing),
 `duplicationBehavior` (`DuplicationBehavior::RENAME` default, `REPLACE`, `CANCEL`), `addRandomSuffix`
 (default `true`, keep it), `createUploadFolderIfNotExist` (default `true`).
+
+Always-on validators: `FileNameValidator` (blocks PHP-executable extensions) and

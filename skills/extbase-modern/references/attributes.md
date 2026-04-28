@@ -131,3 +131,4 @@ Always-on validators: `FileNameValidator` (blocks PHP-executable extensions) and
 | Validator | Options |
 | --- | --- |
 | `FileSizeValidator` | `minimum`, `maximum` (strings like `100K`) |
+| `MimeTypeValidator` | `allowedMimeTypes`, `ignoreFileExtensionCheck`, `notAllowedMessage`, `invalidExtensionMessage` (message options since 13.4.1) |

@@ -130,3 +130,4 @@ Always-on validators: `FileNameValidator` (blocks PHP-executable extensions) and
 
 | Validator | Options |
 | --- | --- |
+| `FileSizeValidator` | `minimum`, `maximum` (strings like `100K`) |

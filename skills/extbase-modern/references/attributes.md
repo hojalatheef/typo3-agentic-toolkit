@@ -145,4 +145,6 @@ public function initializeCreateAction(): void
     $configuration = $argument->getFileHandlingServiceConfiguration()
         ->getFileUploadConfigurationForProperty('file');
     $configuration?->setUploadFolder($this->settings['uploadFolder'] ?? '1:/fallback_folder');
+    $configuration?->addValidator(GeneralUtility::makeInstance(MyCustomValidator::class));
+}
 ```

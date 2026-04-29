@@ -152,3 +152,5 @@ public function initializeCreateAction(): void
 Deleting files: `<f:form.uploadDeleteCheckbox property="file" fileReference="{object.file}" />`
 (`property="file.0"` for collections). Rename uploaded files with the PSR-14
 `TYPO3\CMS\Extbase\Event\Service\ModifyUploadedFileTargetFilenameEvent`.
+
+Limits: no nested models, no temporary storage across validation errors.

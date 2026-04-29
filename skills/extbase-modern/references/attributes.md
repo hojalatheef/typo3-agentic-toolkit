@@ -150,3 +150,4 @@ public function initializeCreateAction(): void
 ```
 
 Deleting files: `<f:form.uploadDeleteCheckbox property="file" fileReference="{object.file}" />`
+(`property="file.0"` for collections). Rename uploaded files with the PSR-14

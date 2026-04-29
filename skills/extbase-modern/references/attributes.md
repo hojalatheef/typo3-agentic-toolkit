@@ -137,3 +137,12 @@ Always-on validators: `FileNameValidator` (blocks PHP-executable extensions) and
 
 Custom validators extend `AbstractValidator`, receive a PSR-7 `UploadedFile`, and must be added in
 `initialize<Action>Action()`:
+
+```php
+public function initializeCreateAction(): void
+{
+    $argument = $this->arguments->getArgument('myArgument');
+    $configuration = $argument->getFileHandlingServiceConfiguration()
+        ->getFileUploadConfigurationForProperty('file');
+    $configuration?->setUploadFolder($this->settings['uploadFolder'] ?? '1:/fallback_folder');
+```

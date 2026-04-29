@@ -148,3 +148,5 @@ public function initializeCreateAction(): void
     $configuration?->addValidator(GeneralUtility::makeInstance(MyCustomValidator::class));
 }
 ```
+
+Deleting files: `<f:form.uploadDeleteCheckbox property="file" fileReference="{object.file}" />`

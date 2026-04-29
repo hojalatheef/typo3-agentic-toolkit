@@ -136,3 +136,4 @@ Always-on validators: `FileNameValidator` (blocks PHP-executable extensions) and
 | `ImageDimensionsValidator` | `width`, `height`, `minWidth`, `maxWidth`, `minHeight`, `maxHeight` |
 
 Custom validators extend `AbstractValidator`, receive a PSR-7 `UploadedFile`, and must be added in
+`initialize<Action>Action()`:

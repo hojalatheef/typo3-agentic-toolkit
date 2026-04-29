@@ -134,3 +134,5 @@ Always-on validators: `FileNameValidator` (blocks PHP-executable extensions) and
 | `MimeTypeValidator` | `allowedMimeTypes`, `ignoreFileExtensionCheck`, `notAllowedMessage`, `invalidExtensionMessage` (message options since 13.4.1) |
 | `FileExtensionValidator` | `allowedFileExtensions` |
 | `ImageDimensionsValidator` | `width`, `height`, `minWidth`, `maxWidth`, `minHeight`, `maxHeight` |
+
+Custom validators extend `AbstractValidator`, receive a PSR-7 `UploadedFile`, and must be added in

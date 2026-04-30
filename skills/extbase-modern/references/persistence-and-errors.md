@@ -29,3 +29,5 @@ public function doSomething(ServerRequestInterface $request): void
     }
 }
 ```
+
+Custom key (e.g. a user ID): `$this->rateLimiterFactory->createLimiter([...config...], $userId)`.

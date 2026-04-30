@@ -20,4 +20,11 @@ public function doSomething(ServerRequestInterface $request): void
         [
             'id' => 'my-extension-action',
             'policy' => 'sliding_window',
+            'limit' => 10,
+            'interval' => '1 hour',
+        ],
+    );
+    if (!$limiter->consume()->isAccepted()) {
+        // reject
+    }
 ```

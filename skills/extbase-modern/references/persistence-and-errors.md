@@ -7,3 +7,9 @@ login, password recovery, Extbase `#[RateLimit]`, custom code). Type-hint
 `TYPO3\CMS\Core\RateLimiter\RateLimiterFactoryInterface`.
 
 Request-scoped limiter keyed by the client IP:
+
+```php
+public function __construct(
+    private readonly RateLimiterFactoryInterface $rateLimiterFactory,
+) {}
+```

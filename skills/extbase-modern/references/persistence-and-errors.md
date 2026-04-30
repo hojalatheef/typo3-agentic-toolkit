@@ -12,4 +12,12 @@ Request-scoped limiter keyed by the client IP:
 public function __construct(
     private readonly RateLimiterFactoryInterface $rateLimiterFactory,
 ) {}
+
+public function doSomething(ServerRequestInterface $request): void
+{
+    $limiter = $this->rateLimiterFactory->createRequestBasedLimiter(
+        $request,
+        [
+            'id' => 'my-extension-action',
+            'policy' => 'sliding_window',
 ```

@@ -27,4 +27,5 @@ public function doSomething(ServerRequestInterface $request): void
     if (!$limiter->consume()->isAccepted()) {
         // reject
     }
+}
 ```

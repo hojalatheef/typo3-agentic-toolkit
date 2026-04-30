@@ -31,3 +31,5 @@ public function doSomething(ServerRequestInterface $request): void
 ```
 
 Custom key (e.g. a user ID): `$this->rateLimiterFactory->createLimiter([...config...], $userId)`.
+
+Named service in `Services.yaml`, then call `create()` on it:

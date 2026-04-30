@@ -5,3 +5,5 @@
 `TYPO3\CMS\Core\RateLimiter\RateLimiterFactory` is the single entry point for rate limiting (backend/frontend
 login, password recovery, Extbase `#[RateLimit]`, custom code). Type-hint
 `TYPO3\CMS\Core\RateLimiter\RateLimiterFactoryInterface`.
+
+Request-scoped limiter keyed by the client IP:

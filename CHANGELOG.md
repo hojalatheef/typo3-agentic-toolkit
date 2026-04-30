@@ -4,6 +4,26 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [0.7.0] - 2026-04-30
+
+### Added
+
+- `explain-change` skill
+
+### Changed
+
+- `backend-modules/doc-header` reference: more guidance
+- `backend-modules/module-tree` reference: more guidance
+- `backend-modules` skill: more guidance
+- `explain-change` skill: more guidance
+- `extbase-modern/attributes` reference: more guidance
+- `extbase-modern/persistence-and-errors` reference: more guidance
+- `extbase-modern` skill: more guidance
+- `fluid-components/design-system-workflow` reference: more guidance
+- `fluid-components` skill: more guidance
+- `site-sets` skill: more guidance
+- `sitepackage` skill: more guidance
+
 ## [0.6.0] - 2026-03-31
 
 ### Changed

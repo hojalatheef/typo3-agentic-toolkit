@@ -64,3 +64,4 @@ user context (frontend user, backend user, anonymous) and full data snapshots.
 
 - Off by default. Enable the feature toggle `extbase.enableHistoryTracking`
   (System > Settings > Feature toggles).
+- When enabled it covers every Extbase table. Opt a table out in TCA:

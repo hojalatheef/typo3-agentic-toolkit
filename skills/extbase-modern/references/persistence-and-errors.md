@@ -55,3 +55,4 @@ $GLOBALS['TYPO3_CONF_VARS']['SYS']['rateLimiter']['login-be'] = [
 ```
 
 Known IDs: `login-be`, `login-fe`, `backend-password-recovery`, `felogin-password-recovery`,
+`extbase-<classSlug>-<actionMethod>`.

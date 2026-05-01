@@ -46,3 +46,10 @@ myRateLimiter:
 ```
 
 Admin overrides by limiter ID in `config/system/additional.php`:
+
+```php
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['rateLimiter']['login-be'] = [
+    'limit' => 3,
+    'interval' => '5 minutes',
+];
+```

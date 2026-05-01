@@ -44,3 +44,5 @@ myRateLimiter:
       limit: 5
       interval: '10 minutes'
 ```
+
+Admin overrides by limiter ID in `config/system/additional.php`:

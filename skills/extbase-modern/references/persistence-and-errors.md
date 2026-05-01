@@ -41,4 +41,6 @@ myRateLimiter:
     $config:
       id: 'my-custom-limiter'
       policy: 'sliding_window'
+      limit: 5
+      interval: '10 minutes'
 ```

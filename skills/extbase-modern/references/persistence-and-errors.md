@@ -56,3 +56,7 @@ $GLOBALS['TYPO3_CONF_VARS']['SYS']['rateLimiter']['login-be'] = [
 
 Known IDs: `login-be`, `login-fe`, `backend-password-recovery`, `felogin-password-recovery`,
 `extbase-<classSlug>-<actionMethod>`.
+
+## History tracking (Feature-107289, 14.2)
+
+Extbase writes create/update/delete of entities to `sys_history`, visible in the backend record history, with

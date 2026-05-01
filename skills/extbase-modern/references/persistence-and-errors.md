@@ -53,3 +53,5 @@ $GLOBALS['TYPO3_CONF_VARS']['SYS']['rateLimiter']['login-be'] = [
     'interval' => '5 minutes',
 ];
 ```
+
+Known IDs: `login-be`, `login-fe`, `backend-password-recovery`, `felogin-password-recovery`,

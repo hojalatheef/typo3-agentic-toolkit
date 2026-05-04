@@ -76,3 +76,7 @@ user context (frontend user, backend user, anonymous) and full data snapshots.
 ```
 
 - Third-party tables can be opted out with `Configuration/TCA/Overrides/`.
+- Listener identifiers that can be removed or replaced: `extbase-history-tracker-persisted`,
+  `extbase-history-tracker-updated`, `extbase-history-tracker-removed`
+  (class `TYPO3\CMS\Extbase\EventListener\ExtbaseHistoryTracker`, events `EntityAddedToPersistenceEvent`,
+  `EntityUpdatedInPersistenceEvent`, `EntityRemovedFromPersistenceEvent`).

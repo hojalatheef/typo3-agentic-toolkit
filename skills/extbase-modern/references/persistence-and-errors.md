@@ -80,3 +80,4 @@ user context (frontend user, backend user, anonymous) and full data snapshots.
   `extbase-history-tracker-updated`, `extbase-history-tracker-removed`
   (class `TYPO3\CMS\Extbase\EventListener\ExtbaseHistoryTracker`, events `EntityAddedToPersistenceEvent`,
   `EntityUpdatedInPersistenceEvent`, `EntityRemovedFromPersistenceEvent`).
+- Snapshots contain personal data: disable for sensitive tables and prune `sys_history`.

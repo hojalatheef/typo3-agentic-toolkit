@@ -95,3 +95,5 @@ $query
 
 $query->orderBy($query->coalesce('nickname', 'firstName'), QueryInterface::ORDER_ASCENDING);
 ```
+
+`setOrderings([...])` keeps working; use it when the extension must also run on 13.4.

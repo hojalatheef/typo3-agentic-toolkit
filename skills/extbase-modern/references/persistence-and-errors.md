@@ -97,3 +97,7 @@ $query->orderBy($query->coalesce('nickname', 'firstName'), QueryInterface::ORDER
 ```
 
 `setOrderings([...])` keeps working; use it when the extension must also run on 13.4.
+
+## Class configuration provider (Feature-108975, 14.2)
+
+With `typo3/cms-lowlevel` installed, System > Configuration shows the merged

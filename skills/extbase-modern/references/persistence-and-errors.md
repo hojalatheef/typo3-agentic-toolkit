@@ -74,3 +74,5 @@ user context (frontend user, backend user, anonymous) and full data snapshots.
     ],
 ],
 ```
+
+- Third-party tables can be opted out with `Configuration/TCA/Overrides/`.

@@ -86,3 +86,10 @@ user context (frontend user, backend user, anonymous) and full data snapshots.
 
 New methods on `TYPO3\CMS\Extbase\Persistence\QueryInterface`: `orderBy()` (replace orderings),
 `addOrderBy()` (append), `concat()`, `trim()`, `coalesce()`. Expressions nest.
+
+```php
+$query = $this->createQuery();
+$query
+    ->orderBy($query->concat($query->trim('firstName'), $query->trim('lastName')))
+    ->addOrderBy('createdAt', QueryInterface::ORDER_DESCENDING);
+```

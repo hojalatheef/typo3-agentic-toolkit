@@ -81,3 +81,7 @@ user context (frontend user, backend user, anonymous) and full data snapshots.
   (class `TYPO3\CMS\Extbase\EventListener\ExtbaseHistoryTracker`, events `EntityAddedToPersistenceEvent`,
   `EntityUpdatedInPersistenceEvent`, `EntityRemovedFromPersistenceEvent`).
 - Snapshots contain personal data: disable for sensitive tables and prune `sys_history`.
+
+## Query orderings with expressions (Feature-32051, 14.2)
+
+New methods on `TYPO3\CMS\Extbase\Persistence\QueryInterface`: `orderBy()` (replace orderings),

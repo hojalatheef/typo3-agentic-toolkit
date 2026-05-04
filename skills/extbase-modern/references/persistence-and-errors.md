@@ -92,4 +92,6 @@ $query = $this->createQuery();
 $query
     ->orderBy($query->concat($query->trim('firstName'), $query->trim('lastName')))
     ->addOrderBy('createdAt', QueryInterface::ORDER_DESCENDING);
+
+$query->orderBy($query->coalesce('nickname', 'firstName'), QueryInterface::ORDER_ASCENDING);
 ```

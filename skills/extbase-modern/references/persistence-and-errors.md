@@ -85,3 +85,4 @@ user context (frontend user, backend user, anonymous) and full data snapshots.
 ## Query orderings with expressions (Feature-32051, 14.2)
 
 New methods on `TYPO3\CMS\Extbase\Persistence\QueryInterface`: `orderBy()` (replace orderings),
+`addOrderBy()` (append), `concat()`, `trim()`, `coalesce()`. Expressions nest.

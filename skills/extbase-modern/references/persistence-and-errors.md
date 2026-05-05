@@ -108,3 +108,8 @@ With `typo3/cms-lowlevel` installed, System > Configuration shows the merged
 
 `ActionController::handleArgumentMappingExceptions()` turns `TargetNotFoundException` (unknown UID) and
 `RequiredArgumentMissingException` into a page-not-found response when enabled:
+
+```typoscript
+plugin.tx_myextension.mvc.showPageNotFoundIfTargetNotFoundException = 1
+plugin.tx_myextension.mvc.showPageNotFoundIfRequiredArgumentIsMissingException = 1
+```

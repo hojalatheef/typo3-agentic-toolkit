@@ -115,3 +115,4 @@ plugin.tx_myextension.mvc.showPageNotFoundIfRequiredArgumentIsMissingException =
 ```
 
 Scopes: `config.tx_extbase.mvc.*` (global), `plugin.tx_<ext>.mvc.*`, `plugin.tx_<ext>_<plugin>.mvc.*`.
+Default `0` keeps throwing. Override the method in a controller for custom handling (e.g. redirect to the list).

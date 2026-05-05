@@ -101,3 +101,4 @@ $query->orderBy($query->coalesce('nickname', 'firstName'), QueryInterface::ORDER
 ## Class configuration provider (Feature-108975, 14.2)
 
 With `typo3/cms-lowlevel` installed, System > Configuration shows the merged
+`Configuration/Extbase/Persistence/Classes.php` mapping of all active packages. Use it to verify

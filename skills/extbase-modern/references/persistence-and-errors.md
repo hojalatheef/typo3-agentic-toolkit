@@ -113,3 +113,5 @@ With `typo3/cms-lowlevel` installed, System > Configuration shows the merged
 plugin.tx_myextension.mvc.showPageNotFoundIfTargetNotFoundException = 1
 plugin.tx_myextension.mvc.showPageNotFoundIfRequiredArgumentIsMissingException = 1
 ```
+
+Scopes: `config.tx_extbase.mvc.*` (global), `plugin.tx_<ext>.mvc.*`, `plugin.tx_<ext>_<plugin>.mvc.*`.

@@ -66,3 +66,5 @@ collection still works; both can ship side by side (see
    [templates/TeaserCard.fluid.html](templates/TeaserCard.fluid.html).
 5. Generate XSD files for autocomplete: `vendor/bin/typo3 fluid:schema:generate`
    (Feature-104114, 13.2; covers components since Feature-109114, 14.2).
+6. Check templates: `vendor/bin/typo3 fluid:analyze` (Feature-108763, 14.2) and
+   `vendor/bin/typo3 fluid:namespaces` (Feature-108846, 14.2).

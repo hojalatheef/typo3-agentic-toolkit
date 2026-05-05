@@ -107,3 +107,4 @@ With `typo3/cms-lowlevel` installed, System > Configuration shows the merged
 ## Argument mapping exceptions (Feature-104321, 13.3)
 
 `ActionController::handleArgumentMappingExceptions()` turns `TargetNotFoundException` (unknown UID) and
+`RequiredArgumentMissingException` into a page-not-found response when enabled:

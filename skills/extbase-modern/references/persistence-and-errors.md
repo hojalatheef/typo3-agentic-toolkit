@@ -103,3 +103,7 @@ $query->orderBy($query->coalesce('nickname', 'firstName'), QueryInterface::ORDER
 With `typo3/cms-lowlevel` installed, System > Configuration shows the merged
 `Configuration/Extbase/Persistence/Classes.php` mapping of all active packages. Use it to verify
 `tableName`, `recordType`, `subclasses` and property mapping overrides instead of dumping arrays.
+
+## Argument mapping exceptions (Feature-104321, 13.3)
+
+`ActionController::handleArgumentMappingExceptions()` turns `TargetNotFoundException` (unknown UID) and

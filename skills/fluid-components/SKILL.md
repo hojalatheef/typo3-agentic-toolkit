@@ -81,3 +81,4 @@ collection still works; both can ship side by side (see
 | Union types (pipe-separated class or type names in `type`) for flexible args | Fluid 5 (Feature-108148); disables automatic type conversion |
 | No `_`-prefixed variable names | disallowed in Fluid 5 (Breaking-108148) |
 | Inline CSS/JS only inside CDATA with `{{{var}}}` | Fluid 5 CDATA syntax (Feature-108148) |
+| Components call other components | atoms, molecules, organisms compose |

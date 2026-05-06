@@ -75,3 +75,4 @@ collection still works; both can ship side by side (see
 
 | Rule | Why |
 | --- | --- |
+| Use `*.fluid.html` for new files in v14-only code | preferred in resolving; required by `fluid:analyze` and warmup (Feature-108166) |

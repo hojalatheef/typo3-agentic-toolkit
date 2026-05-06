@@ -82,3 +82,7 @@ collection still works; both can ship side by side (see
 | No `_`-prefixed variable names | disallowed in Fluid 5 (Breaking-108148) |
 | Inline CSS/JS only inside CDATA with `{{{var}}}` | Fluid 5 CDATA syntax (Feature-108148) |
 | Components call other components | atoms, molecules, organisms compose |
+
+## Checklist
+
+- [ ] `ComponentCollections.php` returns the collection namespace with `templatePaths`.

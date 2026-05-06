@@ -70,3 +70,8 @@ collection still works; both can ship side by side (see
    `vendor/bin/typo3 fluid:namespaces` (Feature-108846, 14.2).
 7. Warm caches on deploy: `vendor/bin/typo3 cache:warmup` compiles all
    `*.fluid.*` files (Feature-108229, 14.0).
+
+## Component rules
+
+| Rule | Why |
+| --- | --- |

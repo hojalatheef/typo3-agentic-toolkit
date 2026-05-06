@@ -79,3 +79,4 @@ collection still works; both can ship side by side (see
 | Keep `.html` in extensions that still support v13 | older Fluid ignores `*.fluid.*` (Feature-108166) |
 | Declare all arguments; set `optional="{true}"` where needed | undeclared arguments fail unless `additionalArgumentsAllowed` |
 | Union types (pipe-separated class or type names in `type`) for flexible args | Fluid 5 (Feature-108148); disables automatic type conversion |
+| No `_`-prefixed variable names | disallowed in Fluid 5 (Breaking-108148) |

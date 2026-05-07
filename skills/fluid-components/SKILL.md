@@ -98,3 +98,4 @@ collection still works; both can ship side by side (see
 - [references/components-in-depth.md](references/components-in-depth.md) - collection options, overriding, PSR-14 events, v13 co-existence.
 - [references/design-system-workflow.md](references/design-system-workflow.md) - atomic folder layout, naming, review flow, tooling in CI.
 - [templates/](templates/) - `ComponentCollections.php`, `Namespaces.php`, `TeaserCard.fluid.html`, `Icon.fluid.html`, `RenderComponentListener.php`.
+- Changelog: Feature-104114 (13.2), Feature-108148, Feature-108166, Feature-108229 (14.0), Feature-108508 (two entries), Feature-108524 (14.1), Feature-108763, Feature-108846, Feature-109114, Feature-109167 (14.2).

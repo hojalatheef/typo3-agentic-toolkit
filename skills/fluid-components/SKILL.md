@@ -90,3 +90,4 @@ collection still works; both can ship side by side (see
 - [ ] `fluid:schema:generate` run; IDE resolves `xmlns:my`.
 - [ ] `fluid:analyze` returns exit code 0 (deprecations do not fail it).
 - [ ] `fluid:namespaces` shows the expected prefix and merge order.
+- [ ] Custom ViewHelpers throw `TYPO3Fluid\Fluid\Core\ViewHelper\Exception` or a subclass so errors carry the template path (Feature-109167).

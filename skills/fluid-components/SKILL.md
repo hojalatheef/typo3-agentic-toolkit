@@ -89,3 +89,4 @@ collection still works; both can ship side by side (see
 - [ ] Every component file has `<f:argument>` for each input and `<f:slot />` where content is passed.
 - [ ] `fluid:schema:generate` run; IDE resolves `xmlns:my`.
 - [ ] `fluid:analyze` returns exit code 0 (deprecations do not fail it).
+- [ ] `fluid:namespaces` shows the expected prefix and merge order.

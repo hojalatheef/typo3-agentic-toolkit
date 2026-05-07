@@ -96,3 +96,4 @@ collection still works; both can ship side by side (see
 ## References
 
 - [references/components-in-depth.md](references/components-in-depth.md) - collection options, overriding, PSR-14 events, v13 co-existence.
+- [references/design-system-workflow.md](references/design-system-workflow.md) - atomic folder layout, naming, review flow, tooling in CI.

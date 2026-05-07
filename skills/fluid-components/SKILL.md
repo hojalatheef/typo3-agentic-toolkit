@@ -86,3 +86,4 @@ collection still works; both can ship side by side (see
 ## Checklist
 
 - [ ] `ComponentCollections.php` returns the collection namespace with `templatePaths`.
+- [ ] Every component file has `<f:argument>` for each input and `<f:slot />` where content is passed.

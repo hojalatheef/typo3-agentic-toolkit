@@ -14,3 +14,4 @@ collection namespace (Feature-108508, 14.1):
 | --- | --- | --- |
 | `templatePaths` | - | sorted by key, processed in reverse order (highest key wins) |
 | `templateNamePattern` | one folder per component | variables `{path}` and `{name}`; `'{path}/{name}'` drops the per-component folder |
+| `additionalArgumentsAllowed` | `false` | `true` lets callers pass arguments without `<f:argument>` |

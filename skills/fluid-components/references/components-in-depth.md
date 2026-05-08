@@ -8,3 +8,4 @@ Fluid-side syntax reference see the Fluid Standalone documentation
 ## Collection options
 
 `Configuration/Fluid/ComponentCollections.php` returns an array keyed by the
+collection namespace (Feature-108508, 14.1):

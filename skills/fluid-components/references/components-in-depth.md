@@ -9,3 +9,6 @@ Fluid-side syntax reference see the Fluid Standalone documentation
 
 `Configuration/Fluid/ComponentCollections.php` returns an array keyed by the
 collection namespace (Feature-108508, 14.1):
+
+| Option | Default | Effect |
+| --- | --- | --- |

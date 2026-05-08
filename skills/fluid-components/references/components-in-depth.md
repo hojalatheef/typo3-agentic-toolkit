@@ -13,3 +13,4 @@ collection namespace (Feature-108508, 14.1):
 | Option | Default | Effect |
 | --- | --- | --- |
 | `templatePaths` | - | sorted by key, processed in reverse order (highest key wins) |
+| `templateNamePattern` | one folder per component | variables `{path}` and `{name}`; `'{path}/{name}'` drops the per-component folder |

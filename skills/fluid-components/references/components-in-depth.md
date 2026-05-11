@@ -28,3 +28,7 @@ File name resolving (Feature-108166, 14.0) tries, per template path,
 `name.fluid.html`, `name.html`, `name`, then the same with an uppercase first
 letter. `*.fluid.*` wins when both exist. Do not use `*.fluid.*` in an
 extension that still supports TYPO3 below 14.
+
+## Overriding and extending
+
+Another extension can add a path to an existing collection; a higher key

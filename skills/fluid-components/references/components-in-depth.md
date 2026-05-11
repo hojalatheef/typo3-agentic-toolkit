@@ -23,3 +23,5 @@ Resolution examples for `<my:organism.header.navigation />`:
 
 The per-folder default is useful because CSS, JS or a language file can sit
 next to the template.
+
+File name resolving (Feature-108166, 14.0) tries, per template path,

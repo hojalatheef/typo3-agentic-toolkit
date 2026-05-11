@@ -17,3 +17,5 @@ collection namespace (Feature-108508, 14.1):
 | `additionalArgumentsAllowed` | `false` | `true` lets callers pass arguments without `<f:argument>` |
 
 Resolution examples for `<my:organism.header.navigation />`:
+
+- default: `Components/Organism/Header/Navigation/Navigation.fluid.html`

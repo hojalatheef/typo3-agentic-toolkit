@@ -20,3 +20,5 @@ Resolution examples for `<my:organism.header.navigation />`:
 
 - default: `Components/Organism/Header/Navigation/Navigation.fluid.html`
 - `'templateNamePattern' => '{path}/{name}'`: `Components/Organism/Header/Navigation.fluid.html`
+
+The per-folder default is useful because CSS, JS or a language file can sit

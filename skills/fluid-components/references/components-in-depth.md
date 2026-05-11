@@ -19,3 +19,4 @@ collection namespace (Feature-108508, 14.1):
 Resolution examples for `<my:organism.header.navigation />`:
 
 - default: `Components/Organism/Header/Navigation/Navigation.fluid.html`
+- `'templateNamePattern' => '{path}/{name}'`: `Components/Organism/Header/Navigation.fluid.html`

@@ -22,3 +22,4 @@ Resolution examples for `<my:organism.header.navigation />`:
 - `'templateNamePattern' => '{path}/{name}'`: `Components/Organism/Header/Navigation.fluid.html`
 
 The per-folder default is useful because CSS, JS or a language file can sit
+next to the template.

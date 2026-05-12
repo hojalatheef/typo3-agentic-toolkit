@@ -33,3 +33,7 @@ extension that still supports TYPO3 below 14.
 
 Another extension can add a path to an existing collection; a higher key
 overrides components with the same name:
+
+```php
+<?php
+```

@@ -51,3 +51,4 @@ loading order and are searched in reverse order, so a dependent extension can
 override single ViewHelpers. Rules:
 
 - `Namespaces.php` can only extend namespaces defined in `Namespaces.php`.
+- `TYPO3_CONF_VARS` can extend both.

@@ -54,3 +54,5 @@ override single ViewHelpers. Rules:
 - `TYPO3_CONF_VARS` can extend both.
 - `TYPO3\CMS\Fluid\Event\ModifyNamespacesEvent` can change everything,
   including replacing a namespace.
+
+For v13 + v14 support, define the namespace in `Namespaces.php` and in

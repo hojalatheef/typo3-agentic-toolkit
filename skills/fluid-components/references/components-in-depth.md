@@ -45,3 +45,5 @@ return [
     ],
 ];
 ```
+
+Global ViewHelper namespaces (Feature-108524, 14.1) merge across extensions in

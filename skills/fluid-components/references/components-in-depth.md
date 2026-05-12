@@ -56,3 +56,4 @@ override single ViewHelpers. Rules:
   including replacing a namespace.
 
 For v13 + v14 support, define the namespace in `Namespaces.php` and in
+`ext_localconf.php` only when `Typo3Version` major is below 14.

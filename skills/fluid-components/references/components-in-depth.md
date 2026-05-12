@@ -48,3 +48,4 @@ return [
 
 Global ViewHelper namespaces (Feature-108524, 14.1) merge across extensions in
 loading order and are searched in reverse order, so a dependent extension can
+override single ViewHelpers. Rules:

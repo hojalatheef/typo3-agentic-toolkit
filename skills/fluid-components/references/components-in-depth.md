@@ -61,3 +61,4 @@ For v13 + v14 support, define the namespace in `Namespaces.php` and in
 ## v13 co-existence
 
 Class-based collections (a class extending Fluid's
+`AbstractComponentCollection`) keep working. If the same namespace is defined

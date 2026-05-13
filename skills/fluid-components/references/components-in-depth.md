@@ -67,3 +67,4 @@ configuration and ignores the class entirely. Ship both while supporting v13.
 
 For XSD generation of a class-based collection with a custom
 `resolveTemplateName()`, implement `getAvailableComponents()`
+(`ComponentListProviderInterface`, Feature-109114). The config-based

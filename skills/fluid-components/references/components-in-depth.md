@@ -64,3 +64,5 @@ Class-based collections (a class extending Fluid's
 `AbstractComponentCollection`) keep working. If the same namespace is defined
 by a class and by configuration, TYPO3 13 uses the class and TYPO3 14 uses the
 configuration and ignores the class entirely. Ship both while supporting v13.
+
+For XSD generation of a class-based collection with a custom

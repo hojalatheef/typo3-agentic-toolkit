@@ -69,3 +69,7 @@ For XSD generation of a class-based collection with a custom
 `resolveTemplateName()`, implement `getAvailableComponents()`
 (`ComponentListProviderInterface`, Feature-109114). The config-based
 integration already does this.
+
+## PSR-14 events
+
+All in `TYPO3\CMS\Fluid\Event` (Feature-108508, 14.1), only for

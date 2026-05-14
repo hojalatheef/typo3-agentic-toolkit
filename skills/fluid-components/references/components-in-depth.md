@@ -74,3 +74,6 @@ integration already does this.
 
 All in `TYPO3\CMS\Fluid\Event` (Feature-108508, 14.1), only for
 configuration-registered collections:
+
+| Event | Use for | Constraint |
+| --- | --- | --- |

@@ -77,3 +77,4 @@ configuration-registered collections:
 
 | Event | Use for | Constraint |
 | --- | --- | --- |
+| `ModifyComponentDefinitionEvent` | add or change argument definitions | no runtime data; result is cached |

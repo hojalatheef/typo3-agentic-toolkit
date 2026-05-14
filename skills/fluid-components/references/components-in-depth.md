@@ -83,3 +83,4 @@ configuration-registered collections:
 
 The asset use case from the changelog - add a bundle stylesheet when any
 component of the collection renders - is in
+[../templates/RenderComponentListener.php](../templates/RenderComponentListener.php).

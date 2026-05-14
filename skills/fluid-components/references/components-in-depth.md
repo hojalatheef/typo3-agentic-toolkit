@@ -82,3 +82,4 @@ configuration-registered collections:
 | `RenderComponentEvent` | take over rendering, add arguments/slots, add assets | runs per render |
 
 The asset use case from the changelog - add a bundle stylesheet when any
+component of the collection renders - is in

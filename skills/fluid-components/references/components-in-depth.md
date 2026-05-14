@@ -79,3 +79,4 @@ configuration-registered collections:
 | --- | --- | --- |
 | `ModifyComponentDefinitionEvent` | add or change argument definitions | no runtime data; result is cached |
 | `ProvideStaticVariablesToComponentEvent` | static design tokens, name-based prefixes | no runtime data; result is cached |
+| `RenderComponentEvent` | take over rendering, add arguments/slots, add assets | runs per render |

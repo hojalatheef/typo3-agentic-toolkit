@@ -88,3 +88,7 @@ component of the collection renders - is in
 ## Fluid 5 syntax that matters for components
 
 From Feature-108148 (14.0):
+
+- Union types: `<f:argument name="file" type="TYPO3\CMS\Core\Resource\File|TYPO3\CMS\Core\Resource\FileReference" />`.
+  `iterable`, `countable` and `callable` are also valid types. Union types
+  turn off automatic type conversion, so list every accepted type.

@@ -92,3 +92,6 @@ From Feature-108148 (14.0):
 - Union types: `<f:argument name="file" type="TYPO3\CMS\Core\Resource\File|TYPO3\CMS\Core\Resource\FileReference" />`.
   `iterable`, `countable` and `callable` are also valid types. Union types
   turn off automatic type conversion, so list every accepted type.
+- CDATA: inside `<![CDATA[ ]]>` normal `{}` and tag syntax are ignored; use
+  `{{{color}}}` to output a variable. Prefer CSS custom properties or `data-*`
+  attributes over inline CSS/JS anyway.

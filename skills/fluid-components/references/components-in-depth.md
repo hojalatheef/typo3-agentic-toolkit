@@ -84,3 +84,7 @@ configuration-registered collections:
 The asset use case from the changelog - add a bundle stylesheet when any
 component of the collection renders - is in
 [../templates/RenderComponentListener.php](../templates/RenderComponentListener.php).
+
+## Fluid 5 syntax that matters for components
+
+From Feature-108148 (14.0):

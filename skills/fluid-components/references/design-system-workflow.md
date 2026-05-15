@@ -14,4 +14,11 @@ packages/my_sitepackage/
 │   └── Namespaces.php
 └── Resources/Private/Components/
     ├── Atom/
+    │   ├── Button/Button.fluid.html
+    │   └── Icon/Icon.fluid.html
+    ├── Molecule/
+    │   └── TeaserCard/
+    │       ├── TeaserCard.fluid.html
+    │       └── TeaserCard.css
+    └── Organism/
 ```

@@ -100,3 +100,4 @@ From Feature-108148 (14.0):
 
 - Parse errors and undeclared arguments now name the template file and line
   (Feature-109167, 14.2).
+- Missing templates list every candidate path that was tried.

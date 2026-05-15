@@ -25,3 +25,4 @@ packages/my_sitepackage/
 ```
 
 Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
+`<my:organism.header.navigation>`.

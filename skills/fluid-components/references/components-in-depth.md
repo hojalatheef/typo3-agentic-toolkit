@@ -95,3 +95,8 @@ From Feature-108148 (14.0):
 - CDATA: inside `<![CDATA[ ]]>` normal `{}` and tag syntax are ignored; use
   `{{{color}}}` to output a variable. Prefer CSS custom properties or `data-*`
   attributes over inline CSS/JS anyway.
+
+## Debugging
+
+- Parse errors and undeclared arguments now name the template file and line
+  (Feature-109167, 14.2).

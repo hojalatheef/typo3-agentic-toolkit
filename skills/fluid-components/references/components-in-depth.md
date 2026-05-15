@@ -101,3 +101,7 @@ From Feature-108148 (14.0):
 - Parse errors and undeclared arguments now name the template file and line
   (Feature-109167, 14.2).
 - Missing templates list every candidate path that was tried.
+- Custom ViewHelpers: throw `TYPO3Fluid\Fluid\Core\ViewHelper\Exception`,
+  `InvalidArgumentException`, `InvalidArgumentValueException`,
+  `MissingArgumentException` or `UndeclaredArgumentException` so Fluid adds the
+  template path. The original exception is in `$e->getPrevious()`.

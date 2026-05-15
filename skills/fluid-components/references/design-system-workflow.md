@@ -23,3 +23,5 @@ packages/my_sitepackage/
     └── Organism/
         └── Header/Navigation/Navigation.fluid.html
 ```
+
+Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,

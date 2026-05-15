@@ -21,4 +21,5 @@ packages/my_sitepackage/
     │       ├── TeaserCard.fluid.html
     │       └── TeaserCard.css
     └── Organism/
+        └── Header/Navigation/Navigation.fluid.html
 ```

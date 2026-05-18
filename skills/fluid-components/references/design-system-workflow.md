@@ -36,3 +36,5 @@ Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
   component must format itself.
 - Keep variants as a string argument with a small fixed set (for example
   `primary`, `secondary`) and map them to CSS classes inside the component.
+- Keep the strict API (`additionalArgumentsAllowed` off). Undeclared arguments
+  are a typo detector.

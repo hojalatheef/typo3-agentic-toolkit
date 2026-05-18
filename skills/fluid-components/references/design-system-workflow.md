@@ -38,3 +38,5 @@ Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
   `primary`, `secondary`) and map them to CSS classes inside the component.
 - Keep the strict API (`additionalArgumentsAllowed` off). Undeclared arguments
   are a typo detector.
+- Pass design tokens that never change at runtime through
+  `ProvideStaticVariablesToComponentEvent`, not through every call.

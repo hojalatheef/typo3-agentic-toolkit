@@ -40,3 +40,5 @@ Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
   are a typo detector.
 - Pass design tokens that never change at runtime through
   `ProvideStaticVariablesToComponentEvent`, not through every call.
+- Page and content templates only compose components; they do not contain
+  styling markup themselves.

@@ -31,3 +31,4 @@ Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
 
 - One component, one responsibility. If a component needs more than about six
   arguments, split it or pass content through a slot.
+- Arguments describe data, not markup: `title`, `link`, `icon`, `variant`.

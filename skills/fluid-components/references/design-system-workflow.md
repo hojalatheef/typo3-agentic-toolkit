@@ -26,3 +26,8 @@ packages/my_sitepackage/
 
 Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
 `<my:organism.header.navigation>`.
+
+## Naming and API rules
+
+- One component, one responsibility. If a component needs more than about six
+  arguments, split it or pass content through a slot.

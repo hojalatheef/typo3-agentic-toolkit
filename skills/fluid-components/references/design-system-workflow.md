@@ -34,3 +34,5 @@ Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
 - Arguments describe data, not markup: `title`, `link`, `icon`, `variant`.
 - Use `<f:slot />` for free HTML content; use arguments for everything the
   component must format itself.
+- Keep variants as a string argument with a small fixed set (for example
+  `primary`, `secondary`) and map them to CSS classes inside the component.

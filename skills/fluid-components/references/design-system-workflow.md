@@ -48,3 +48,5 @@ Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
 1. Write the API first: the `<f:argument>` lines and a one-line comment of
    intent at the top of the file.
 2. Implement markup using lower-level components.
+3. Run `vendor/bin/typo3 fluid:schema:generate` so the IDE autocompletes the
+   new tag (components covered since Feature-109114, 14.2).

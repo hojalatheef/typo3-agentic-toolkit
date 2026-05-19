@@ -53,3 +53,8 @@ Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
 4. Use the component in one real template.
 5. Run `vendor/bin/typo3 fluid:analyze`; fix every `[ERROR]` line.
 6. Review: the reviewer checks the argument list, not only the markup.
+
+## Tooling in CI and deploy
+
+| When | Command | Source |
+| --- | --- | --- |

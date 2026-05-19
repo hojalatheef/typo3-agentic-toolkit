@@ -60,3 +60,4 @@ Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
 | --- | --- | --- |
 | Local, after adding components | `vendor/bin/typo3 fluid:schema:generate` (XSD in `var/transient/`) | Feature-104114, Feature-109114 |
 | CI | `vendor/bin/typo3 fluid:analyze` (exit 1 on errors only) | Feature-108763 |
+| CI, machine-readable | `vendor/bin/typo3 fluid:analyze --json` | Feature-108763 |

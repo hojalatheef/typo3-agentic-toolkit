@@ -50,3 +50,4 @@ Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
 2. Implement markup using lower-level components.
 3. Run `vendor/bin/typo3 fluid:schema:generate` so the IDE autocompletes the
    new tag (components covered since Feature-109114, 14.2).
+4. Use the component in one real template.

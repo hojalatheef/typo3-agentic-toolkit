@@ -63,3 +63,5 @@ Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
 | CI, machine-readable | `vendor/bin/typo3 fluid:analyze --json` | Feature-108763 |
 | Debug namespaces | `vendor/bin/typo3 fluid:namespaces --json` | Feature-108846 |
 | Deploy | `vendor/bin/typo3 cache:warmup` or `fluid:cache:warmup` | Feature-108229 |
+
+`fluid:analyze` finds templates by the `*.fluid.*` extension and skips system

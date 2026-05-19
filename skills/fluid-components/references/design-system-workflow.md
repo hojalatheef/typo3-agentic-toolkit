@@ -62,3 +62,4 @@ Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
 | CI | `vendor/bin/typo3 fluid:analyze` (exit 1 on errors only) | Feature-108763 |
 | CI, machine-readable | `vendor/bin/typo3 fluid:analyze --json` | Feature-108763 |
 | Debug namespaces | `vendor/bin/typo3 fluid:namespaces --json` | Feature-108846 |
+| Deploy | `vendor/bin/typo3 cache:warmup` or `fluid:cache:warmup` | Feature-108229 |

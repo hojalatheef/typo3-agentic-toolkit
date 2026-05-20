@@ -24,3 +24,4 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 - An extension ships form configuration: create a form set `Configuration/Form/<Set>/config.yaml`, drop
   `plugin.tx_form.settings.yamlConfigurations` / `module.tx_form...` TypoScript (Deprecation-109412).
 - A new form element type: YAML definition + Fluid partial, no `formEditorPartials`, no stage JavaScript.
+- Post-submit processing: a finisher class extending `AbstractFinisher`.

@@ -30,3 +30,4 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
   `afterBuildingFinished` hooks: they were removed in 14.0, use the events.
 - Forms stored in file mounts (`persistenceManager.allowedFileMounts`, deprecated): plan migration to the
   `form_definition` table.
+- Upload fields should accept several files, or custom finishers handle uploads.

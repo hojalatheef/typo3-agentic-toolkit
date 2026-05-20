@@ -65,3 +65,4 @@ Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
 | Deploy | `vendor/bin/typo3 cache:warmup` or `fluid:cache:warmup` | Feature-108229 |
 
 `fluid:analyze` finds templates by the `*.fluid.*` extension and skips system
+extensions unless `--include-system-extensions` is given. It also accepts a

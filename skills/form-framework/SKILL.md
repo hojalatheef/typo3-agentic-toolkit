@@ -16,3 +16,4 @@ paths:
 Arguments: `$ARGUMENTS`.
 
 In 14.0 every `$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['ext/form'][...]` hook was replaced by a PSR-14 event.
+14.2 adds auto-discovered form sets (Feature-109412), database storage (Feature-108653), JavaScript-free custom

@@ -28,3 +28,5 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 - Code registers `beforeFormCreate`, `beforeFormDuplicate`, `beforeFormDelete`, `beforeFormSave`,
   `initializeFormElement`, `beforeRemoveFromParentRenderable`, `afterSubmit`, `beforeRendering` or
   `afterBuildingFinished` hooks: they were removed in 14.0, use the events.
+- Forms stored in file mounts (`persistenceManager.allowedFileMounts`, deprecated): plan migration to the
+  `form_definition` table.

@@ -18,3 +18,8 @@ Arguments: `$ARGUMENTS`.
 In 14.0 every `$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['ext/form'][...]` hook was replaced by a PSR-14 event.
 14.2 adds auto-discovered form sets (Feature-109412), database storage (Feature-108653), JavaScript-free custom
 elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Feature-108966).
+
+## When to use
+
+- An extension ships form configuration: create a form set `Configuration/Form/<Set>/config.yaml`, drop
+  `plugin.tx_form.settings.yamlConfigurations` / `module.tx_form...` TypoScript (Deprecation-109412).

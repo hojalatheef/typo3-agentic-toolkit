@@ -66,3 +66,4 @@ Call sites use the dot path: `<my:atom.button>`, `<my:molecule.teaserCard>`,
 
 `fluid:analyze` finds templates by the `*.fluid.*` extension and skips system
 extensions unless `--include-system-extensions` is given. It also accepts a
+template on STDIN with `--stdin`, which is handy in editor integrations.

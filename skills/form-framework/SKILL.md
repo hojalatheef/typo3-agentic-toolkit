@@ -48,3 +48,5 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 5. Storage: editors pick the storage (database, extension, file mount) in the Form Manager wizard; migrate
    file-mount forms with the upgrade wizard or `bin/typo3 form:definition:transfer --source=filemount --target=database --dry-run`
    first. Read the permission caveat in [references/storage-and-config.md](references/storage-and-config.md).
+6. Frontend template overrides: use the `typo3/form` site set settings `form.templates.*Path` and
+   `form.translation.translationFile` instead of `yamlSettingsOverrides`.

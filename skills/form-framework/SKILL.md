@@ -54,3 +54,4 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 ## Checklist
 
 - [ ] No `yamlConfigurations` TypoScript; one `config.yaml` per form set with a unique `name`.
+- [ ] No `__inheritances` in form YAML (deprecated 14.0, Deprecation-97857); use YAML anchors/aliases.

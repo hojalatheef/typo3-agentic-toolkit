@@ -43,3 +43,5 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 3. Finisher: copy [templates/NotifyCrmFinisher.php](templates/NotifyCrmFinisher.php); register it under
    `finishersDefinition` and add it to the `Form` editor's finisher select (template shows both). Handle both
    `FileReference` and `ObjectStorage<FileReference>` values.
+4. Events: copy [templates/FormEventListener.php](templates/FormEventListener.php) and keep only the listeners
+   you need. Event table: [references/events.md](references/events.md).

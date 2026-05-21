@@ -40,3 +40,6 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 2. Custom element: define it under `prototypes.standard.formElementsDefinition.<Type>` in that file (see the
    template), add a frontend partial `<Type>.html` in your partial root path. Omit `formEditorPartials` so the
    editor uses the generic `<typo3-form-form-element-stage-item>` web component.
+3. Finisher: copy [templates/NotifyCrmFinisher.php](templates/NotifyCrmFinisher.php); register it under
+   `finishersDefinition` and add it to the `Form` editor's finisher select (template shows both). Handle both
+   `FileReference` and `ObjectStorage<FileReference>` values.

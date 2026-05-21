@@ -37,3 +37,6 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 1. Form set: copy [templates/config.yaml](templates/config.yaml) to
    `Configuration/Form/<SetName>/config.yaml`. Set a unique `name` (`vendor/name`) and `priority` > 10 (core base set
    `typo3/form-base` is 10; default 100). No TypoScript registration.
+2. Custom element: define it under `prototypes.standard.formElementsDefinition.<Type>` in that file (see the
+   template), add a frontend partial `<Type>.html` in your partial root path. Omit `formEditorPartials` so the
+   editor uses the generic `<typo3-form-form-element-stage-item>` web component.

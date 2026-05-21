@@ -31,3 +31,9 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 - Forms stored in file mounts (`persistenceManager.allowedFileMounts`, deprecated): plan migration to the
   `form_definition` table.
 - Upload fields should accept several files, or custom finishers handle uploads.
+
+## Steps
+
+1. Form set: copy [templates/config.yaml](templates/config.yaml) to
+   `Configuration/Form/<SetName>/config.yaml`. Set a unique `name` (`vendor/name`) and `priority` > 10 (core base set
+   `typo3/form-base` is 10; default 100). No TypoScript registration.

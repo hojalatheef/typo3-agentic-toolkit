@@ -60,3 +60,4 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
       `iconIdentifier`; no `formEditorPartials` unless a special stage rendering is required.
 - [ ] Finishers read options with `parseOption()` and support single and multiple uploads.
 - [ ] Per-file validators implement `ObjectStorageElementValidatorInterface`; `Count` limits the number of files.
+- [ ] Password fields saved with `SaveToDatabase` have `hashed: true` (Feature-106752).

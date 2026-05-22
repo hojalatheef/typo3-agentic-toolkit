@@ -63,3 +63,8 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 - [ ] Password fields saved with `SaveToDatabase` have `hashed: true` (Feature-106752).
 - [ ] RTE-enabled properties are rendered through `f:sanitize.html()` in custom partials.
 - [ ] Before migrating to database storage: no file-mount based permission separation in use.
+
+## Pitfalls
+
+- Database-stored forms have no per-group isolation yet: everyone with table access to `form_definition` sees all
+  forms. Keep file storage if editor groups must be separated.

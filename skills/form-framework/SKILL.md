@@ -70,3 +70,4 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
   forms. Keep file storage if editor groups must be separated.
 - The upgrade wizard updates `persistenceIdentifier` only in `tt_content` (CType `form_formframework`); custom
   tables/FlexForms need manual migration.
+- With `multiple: true`, `$formRuntime[$id]` is an `ObjectStorage`, not a `FileReference`.

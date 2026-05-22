@@ -62,3 +62,4 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 - [ ] Per-file validators implement `ObjectStorageElementValidatorInterface`; `Count` limits the number of files.
 - [ ] Password fields saved with `SaveToDatabase` have `hashed: true` (Feature-106752).
 - [ ] RTE-enabled properties are rendered through `f:sanitize.html()` in custom partials.
+- [ ] Before migrating to database storage: no file-mount based permission separation in use.

@@ -68,3 +68,5 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 
 - Database-stored forms have no per-group isolation yet: everyone with table access to `form_definition` sees all
   forms. Keep file storage if editor groups must be separated.
+- The upgrade wizard updates `persistenceIdentifier` only in `tt_content` (CType `form_formframework`); custom
+  tables/FlexForms need manual migration.

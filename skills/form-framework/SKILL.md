@@ -58,3 +58,4 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 - [ ] No `SC_OPTIONS['ext/form']` hooks; listeners use `#[AsEventListener]`.
 - [ ] Custom element YAML has `implementationClassName`, `formEditor.label`, `group`, `groupSorting`,
       `iconIdentifier`; no `formEditorPartials` unless a special stage rendering is required.
+- [ ] Finishers read options with `parseOption()` and support single and multiple uploads.

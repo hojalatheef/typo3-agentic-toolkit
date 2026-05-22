@@ -71,3 +71,4 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 - The upgrade wizard updates `persistenceIdentifier` only in `tt_content` (CType `form_formframework`); custom
   tables/FlexForms need manual migration.
 - With `multiple: true`, `$formRuntime[$id]` is an `ObjectStorage`, not a `FileReference`.
+- Disabling `typo3/form-base` via `disabledSets` breaks rendering entirely.

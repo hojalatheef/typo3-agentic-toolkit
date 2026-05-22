@@ -72,3 +72,5 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
   tables/FlexForms need manual migration.
 - With `multiple: true`, `$formRuntime[$id]` is an `ObjectStorage`, not a `FileReference`.
 - Disabling `typo3/form-base` via `disabledSets` breaks rendering entirely.
+- `BeforeFormIsDeletedEvent` and `BeforeRenderableIsRemovedFromFormEvent` are stoppable: setting the prevent flag
+  skips later listeners.

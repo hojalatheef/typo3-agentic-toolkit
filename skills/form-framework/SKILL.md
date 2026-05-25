@@ -84,3 +84,6 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
   [templates/NotifyCrmFinisher.php](templates/NotifyCrmFinisher.php),
   [templates/FormEventListener.php](templates/FormEventListener.php),
   [templates/Iban.html](templates/Iban.html).
+- Changelog: Feature-108653, Deprecation-108653, Feature-109412, Deprecation-109412, Feature-107058,
+  Feature-107343, Feature-107380, Feature-107382, Feature-107388, Feature-107518, Feature-107528, Feature-107568,
+  Feature-107569, Feature-98239, Feature-105708, Feature-108966, Feature-106752, Deprecation-97857.

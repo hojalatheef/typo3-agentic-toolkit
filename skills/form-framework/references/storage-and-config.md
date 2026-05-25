@@ -15,4 +15,8 @@ priority: 200                    # default 100; core typo3/form-base is 10
 # everything else is form configuration:
 persistenceManager:
   allowedExtensionPaths:
+    10: 'EXT:my_extension/Resources/Private/Forms/'
+prototypes:
+  standard:
+    formElementsDefinition: {}
 ```

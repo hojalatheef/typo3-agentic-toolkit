@@ -20,3 +20,5 @@ prototypes:
   standard:
     formElementsDefinition: {}
 ```
+
+- Sets merge in ascending `priority` with `array_replace_recursive()`; loaded for frontend and backend.

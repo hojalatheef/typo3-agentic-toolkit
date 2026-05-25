@@ -74,3 +74,7 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 - Disabling `typo3/form-base` via `disabledSets` breaks rendering entirely.
 - `BeforeFormIsDeletedEvent` and `BeforeRenderableIsRemovedFromFormEvent` are stoppable: setting the prevent flag
   skips later listeners.
+
+## References
+
+- [references/events.md](references/events.md) - all PSR-14 form events with properties and hook mapping.

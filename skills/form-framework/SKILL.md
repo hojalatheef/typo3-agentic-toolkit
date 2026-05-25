@@ -80,3 +80,7 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 - [references/events.md](references/events.md) - all PSR-14 form events with properties and hook mapping.
 - [references/storage-and-config.md](references/storage-and-config.md) - form sets, database storage, CLI,
   multiple uploads, RTE, site settings.
+- Templates: [templates/config.yaml](templates/config.yaml),
+  [templates/NotifyCrmFinisher.php](templates/NotifyCrmFinisher.php),
+  [templates/FormEventListener.php](templates/FormEventListener.php),
+  [templates/Iban.html](templates/Iban.html).

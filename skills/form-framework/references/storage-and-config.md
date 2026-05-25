@@ -22,3 +22,5 @@ prototypes:
 ```
 
 - Sets merge in ascending `priority` with `array_replace_recursive()`; loaded for frontend and backend.
+- The core base set (`EXT:form/Configuration/Form/Base/config.yaml`) uses YAML `imports:` to split element,
+  validator and finisher definitions into files - the same pattern works in your set.

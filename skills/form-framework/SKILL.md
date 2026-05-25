@@ -78,3 +78,5 @@ elements (Feature-107058), multiple uploads (Feature-105708) and RTE editing (Fe
 ## References
 
 - [references/events.md](references/events.md) - all PSR-14 form events with properties and hook mapping.
+- [references/storage-and-config.md](references/storage-and-config.md) - form sets, database storage, CLI,
+  multiple uploads, RTE, site settings.

@@ -30,3 +30,4 @@ prototypes:
 - `__inheritances` is deprecated since 14.0 (Deprecation-97857): use YAML anchors and aliases.
 
 Site set `typo3/form` settings (no YAML or TypoScript needed for template overrides):
+`form.templates.templateRootPath`, `form.templates.partialRootPath`, `form.templates.layoutRootPath`,

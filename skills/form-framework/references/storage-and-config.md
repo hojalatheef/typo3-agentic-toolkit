@@ -25,3 +25,5 @@ prototypes:
 - The core base set (`EXT:form/Configuration/Form/Base/config.yaml`) uses YAML `imports:` to split element,
   validator and finisher definitions into files - the same pattern works in your set.
 - Disable a set: `$GLOBALS['TYPO3_CONF_VARS']['EXTENSIONS']['form']['disabledSets'][] = 'some-vendor/set';`.
+- Deprecated (removal v15): `plugin.tx_form.settings.yamlConfigurations` and
+  `module.tx_form.settings.yamlConfigurations` (Deprecation-109412).

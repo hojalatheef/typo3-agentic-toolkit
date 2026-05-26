@@ -36,3 +36,6 @@ Site set `typo3/form` settings (no YAML or TypoScript needed for template overri
 ## Database storage (Feature-108653, 14.2)
 
 Storage adapters (chain of responsibility, `StorageAdapterInterface::supports()`):
+
+| Adapter | Priority | Status |
+| --- | --- | --- |

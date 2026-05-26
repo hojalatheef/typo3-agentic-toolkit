@@ -39,3 +39,4 @@ Storage adapters (chain of responsibility, `StorageAdapterInterface::supports()`
 
 | Adapter | Priority | Status |
 | --- | --- | --- |
+| `DatabaseStorageAdapter` (table `form_definition`: `label`, `identifier`, `configuration` JSON) | 100 | new, recommended |

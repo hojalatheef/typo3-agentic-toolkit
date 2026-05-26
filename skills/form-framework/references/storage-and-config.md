@@ -27,3 +27,4 @@ prototypes:
 - Disable a set: `$GLOBALS['TYPO3_CONF_VARS']['EXTENSIONS']['form']['disabledSets'][] = 'some-vendor/set';`.
 - Deprecated (removal v15): `plugin.tx_form.settings.yamlConfigurations` and
   `module.tx_form.settings.yamlConfigurations` (Deprecation-109412).
+- `__inheritances` is deprecated since 14.0 (Deprecation-97857): use YAML anchors and aliases.

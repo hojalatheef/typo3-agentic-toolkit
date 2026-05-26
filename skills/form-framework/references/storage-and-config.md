@@ -32,3 +32,7 @@ prototypes:
 Site set `typo3/form` settings (no YAML or TypoScript needed for template overrides):
 `form.templates.templateRootPath`, `form.templates.partialRootPath`, `form.templates.layoutRootPath`,
 `form.translation.translationFile`.
+
+## Database storage (Feature-108653, 14.2)
+
+Storage adapters (chain of responsibility, `StorageAdapterInterface::supports()`):

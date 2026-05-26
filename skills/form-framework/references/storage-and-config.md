@@ -28,3 +28,5 @@ prototypes:
 - Deprecated (removal v15): `plugin.tx_form.settings.yamlConfigurations` and
   `module.tx_form.settings.yamlConfigurations` (Deprecation-109412).
 - `__inheritances` is deprecated since 14.0 (Deprecation-97857): use YAML anchors and aliases.
+
+Site set `typo3/form` settings (no YAML or TypoScript needed for template overrides):

@@ -48,3 +48,5 @@ Storage adapters (chain of responsibility, `StorageAdapterInterface::supports()`
 - Backend users need `tables_select` / `tables_modify` for `form_definition`.
 - **No per-group isolation yet**: all users with table access see all database forms. Keep file mounts if you rely on
   file-mount permission separation.
+
+Migration:

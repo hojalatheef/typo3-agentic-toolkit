@@ -41,3 +41,4 @@ Storage adapters (chain of responsibility, `StorageAdapterInterface::supports()`
 | --- | --- | --- |
 | `DatabaseStorageAdapter` (table `form_definition`: `label`, `identifier`, `configuration` JSON) | 100 | new, recommended |
 | `ExtensionStorageAdapter` (`allowedExtensionPaths`) | 75 | unchanged |
+| `FileMountStorageAdapter` (`allowedFileMounts`) | 50 | deprecated (Deprecation-108653) |

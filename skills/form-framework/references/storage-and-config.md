@@ -56,3 +56,5 @@ bin/typo3 form:definition:transfer --source=filemount --target=database --dry-ru
 bin/typo3 form:definition:transfer --source=filemount --target=database --move
 bin/typo3 form:definition:transfer --source=extension --target=database --form-identifier=contact
 ```
+
+Options: `--source`, `--target` (`database`, `extension`, `filemount`), `--target-location` (PID for database),

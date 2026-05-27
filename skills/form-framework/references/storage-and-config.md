@@ -46,3 +46,5 @@ Storage adapters (chain of responsibility, `StorageAdapterInterface::supports()`
 - Writes go through DataHandler (permissions, history, hooks). The record list links to the Form Editor; delete only
   through the Form Manager; "New record" is denied via `mod.web_list.deniedNewTables`.
 - Backend users need `tables_select` / `tables_modify` for `form_definition`.
+- **No per-group isolation yet**: all users with table access see all database forms. Keep file mounts if you rely on
+  file-mount permission separation.

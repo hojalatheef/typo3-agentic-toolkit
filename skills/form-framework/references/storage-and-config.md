@@ -50,3 +50,9 @@ Storage adapters (chain of responsibility, `StorageAdapterInterface::supports()`
   file-mount permission separation.
 
 Migration:
+
+```bash
+bin/typo3 form:definition:transfer --source=filemount --target=database --dry-run
+bin/typo3 form:definition:transfer --source=filemount --target=database --move
+bin/typo3 form:definition:transfer --source=extension --target=database --form-identifier=contact
+```

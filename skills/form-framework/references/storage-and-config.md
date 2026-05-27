@@ -60,3 +60,4 @@ bin/typo3 form:definition:transfer --source=extension --target=database --form-i
 Options: `--source`, `--target` (`database`, `extension`, `filemount`), `--target-location` (PID for database),
 `--form-identifier`, `--move`, `--dry-run`. The upgrade wizard "Migrate file-based forms to database storage"
 copies forms, updates `tt_content` (CType `form_formframework`) references and deletes the YAML files. Afterwards set
+`persistenceManager.allowedFileMounts: ~`.

@@ -58,3 +58,4 @@ bin/typo3 form:definition:transfer --source=extension --target=database --form-i
 ```
 
 Options: `--source`, `--target` (`database`, `extension`, `filemount`), `--target-location` (PID for database),
+`--form-identifier`, `--move`, `--dry-run`. The upgrade wizard "Migrate file-based forms to database storage"

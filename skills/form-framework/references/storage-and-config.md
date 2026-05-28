@@ -78,4 +78,5 @@ copies forms, updates `tt_content` (CType `form_formframework`) references and d
     - identifier: Count
       options:
         minimum: 1
+        maximum: 5
 ```

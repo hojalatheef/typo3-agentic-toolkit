@@ -71,4 +71,11 @@ copies forms, updates `tt_content` (CType `form_formframework`) references and d
   properties:
     multiple: true
     allowRemoval: true
+    saveToFileMount: '1:/user_upload/'
+    allowedMimeTypes:
+      - application/pdf
+  validators:
+    - identifier: Count
+      options:
+        minimum: 1
 ```

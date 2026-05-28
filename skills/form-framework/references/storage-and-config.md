@@ -86,3 +86,5 @@ copies forms, updates `tt_content` (CType `form_formframework`) references and d
   `<formvh:form.uploadDeleteCheckbox property="{element.identifier}" fileReference="{file}" fileIndex="{iterator.index}" />`.
 - Value is `ObjectStorage<FileReference>` when `multiple` is on. Core finishers (Email, SaveToDatabase,
   DeleteUploads) handle both; custom finishers must too.
+- Validators run on the whole collection unless they implement
+  `TYPO3\CMS\Form\Mvc\Validation\ObjectStorageElementValidatorInterface` (then per element, e.g. MIME type, size).

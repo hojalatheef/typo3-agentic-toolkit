@@ -88,3 +88,7 @@ copies forms, updates `tt_content` (CType `form_formframework`) references and d
   DeleteUploads) handle both; custom finishers must too.
 - Validators run on the whole collection unless they implement
   `TYPO3\CMS\Form\Mvc\Validation\ObjectStorageElementValidatorInterface` (then per element, e.g. MIME type, size).
+
+## Rich text in the form editor (Feature-108966, 14.2)
+
+Textarea editors accept `enableRichtext: true` and `richtextConfiguration: <preset>` (default `form-label`).

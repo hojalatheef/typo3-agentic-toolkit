@@ -80,3 +80,5 @@ copies forms, updates `tt_content` (CType `form_formframework`) references and d
         minimum: 1
         maximum: 5
 ```
+
+- Works for `FileUpload` and `ImageUpload`; checkbox in the form editor inspector.

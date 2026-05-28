@@ -61,3 +61,14 @@ Options: `--source`, `--target` (`database`, `extension`, `filemount`), `--targe
 `--form-identifier`, `--move`, `--dry-run`. The upgrade wizard "Migrate file-based forms to database storage"
 copies forms, updates `tt_content` (CType `form_formframework`) references and deletes the YAML files. Afterwards set
 `persistenceManager.allowedFileMounts: ~`.
+
+## Multiple file uploads (Feature-105708, 14.2)
+
+```yaml
+- type: FileUpload
+  identifier: attachments
+  label: 'Attachments'
+  properties:
+    multiple: true
+    allowRemoval: true
+```

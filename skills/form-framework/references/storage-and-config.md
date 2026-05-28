@@ -93,3 +93,4 @@ copies forms, updates `tt_content` (CType `form_formframework`) references and d
 
 Textarea editors accept `enableRichtext: true` and `richtextConfiguration: <preset>` (default `form-label`).
 New presets: `form-label` (bold, italic, link), `form-content` (+ lists). Enabled out of the box for `StaticText`,
+`Checkbox` labels and the `Confirmation` finisher.

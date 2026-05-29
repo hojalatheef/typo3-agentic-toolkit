@@ -102,4 +102,11 @@ prototypes:
       StaticText:
         formEditor:
           editors:
+            300:
+              identifier: staticText
+              templateName: Inspector-TextareaEditor
+              label: formEditor.elements.StaticText.editor.staticText.label
+              propertyPath: properties.text
+              enableRichtext: true
+              richtextConfiguration: form-label
 ```

@@ -4,3 +4,7 @@ name: my-vendor/my-form-set
 label: 'My extension form set'
 priority: 200
 
+persistenceManager:
+  allowedExtensionPaths:
+    10: 'EXT:my_extension/Resources/Private/Forms/'
+

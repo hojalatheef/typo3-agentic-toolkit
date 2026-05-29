@@ -110,3 +110,5 @@ prototypes:
               enableRichtext: true
               richtextConfiguration: form-label
 ```
+
+Sanitising: backend via the preset's `processing.HTMLparser_db.htmlSanitize.build`, frontend via

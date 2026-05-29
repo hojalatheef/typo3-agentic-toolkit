@@ -112,3 +112,4 @@ prototypes:
 ```
 
 Sanitising: backend via the preset's `processing.HTMLparser_db.htmlSanitize.build`, frontend via
+`f:sanitize.html()` (default builder). Custom partials must keep

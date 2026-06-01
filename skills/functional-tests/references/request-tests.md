@@ -19,3 +19,4 @@ Request tests send an internal request through the full frontend middleware stac
 
 | Check | Assertion |
 | --- | --- |
+| status | `self::assertSame(200, $response->getStatusCode())` |

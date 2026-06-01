@@ -21,3 +21,4 @@ Request tests send an internal request through the full frontend middleware stac
 | --- | --- |
 | status | `self::assertSame(200, $response->getStatusCode())` |
 | content | `self::assertStringContainsString('...', (string)$response->getBody())` |
+| header | `self::assertSame('...', $response->getHeaderLine('Content-Security-Policy'))` |

@@ -45,3 +45,4 @@ Details, configuration files and fallbacks per step are in [references/steps.md]
 ## TYPO3 CLI steps
 
 - `lint:yaml` arrived in TYPO3 13.3 (Feature-104973). It takes files or directories and `--exclude=<file>`. On older cores the command does not exist: mark the step SKIPPED (core too old), not FAILED.
+- `fluid:analyze` arrived in TYPO3 14.2 (Feature-108763). Note the US spelling. It analyses templates with the `*.fluid.*` file extension (Feature-108166) in the project, skips system extensions unless `--include-system-extensions` is given, and exits 1 only on parse errors; deprecations are reported but do not fail it. Count the `[DEPRECATION]` lines and report them as warnings. Extensions that still use plain `*.html` templates are not covered: say so in the report rather than claiming the templates are clean.

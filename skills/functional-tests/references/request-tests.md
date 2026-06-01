@@ -23,3 +23,5 @@ Request tests send an internal request through the full frontend middleware stac
 | content | `self::assertStringContainsString('...', (string)$response->getBody())` |
 | header | `self::assertSame('...', $response->getHeaderLine('Content-Security-Policy'))` |
 | structure | parse with `\DOMDocument` and query with `\DOMXPath` instead of matching long HTML strings |
+
+Keep assertions on stable markup (ids, data attributes, text), not on whitespace or class order.

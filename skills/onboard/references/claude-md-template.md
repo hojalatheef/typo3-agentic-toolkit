@@ -60,3 +60,4 @@ Fill every placeholder from the repository. Remove sections that do not apply. K
 ## Version-dependent lines
 
 - Include `lint:yaml` only for TYPO3 13.3 and later (Feature-104973).
+- Include `fluid:analyze` only for TYPO3 14.2 and later (Feature-108763), and only when templates use `*.fluid.*` (Feature-108166).

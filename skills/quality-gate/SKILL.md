@@ -65,3 +65,7 @@ NEXT  <the single most important fix>
 ```
 
 PASSED needs every step PASS. Any FAIL makes it FAILED. Any SKIP without FAIL makes it INCOMPLETE: list each skip as a coverage gap.
+
+## References
+
+- [references/steps.md](references/steps.md) - per-step setup, config files and common failures.

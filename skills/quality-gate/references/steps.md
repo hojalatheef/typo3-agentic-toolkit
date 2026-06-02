@@ -29,3 +29,4 @@ That writes `.php-cs-fixer.dist.php` and `.editorconfig`. The config builds on `
 | --- | --- | --- | --- |
 | `typo3 lint:yaml <paths>` | 13.3 | Feature-104973 | Directories are linted recursively; `--exclude=<file>` repeats |
 | `typo3 fluid:analyze` | 14.2 | Feature-108763 | Only `*.fluid.*` templates; `--include-system-extensions`; `--stdin --json` for tool integration |
+| `typo3 fluid:cache:warmup` | 14.0 | Feature-108229 | Compiles `*.fluid.*` templates and prints compile-time deprecations |

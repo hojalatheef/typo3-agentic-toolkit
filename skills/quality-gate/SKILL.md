@@ -69,3 +69,4 @@ PASSED needs every step PASS. Any FAIL makes it FAILED. Any SKIP without FAIL ma
 ## References
 
 - [references/steps.md](references/steps.md) - per-step setup, config files and common failures.
+- Changelog: Feature-104973 (`lint:yaml`, 13.3), Feature-108763 (`fluid:analyze`, 14.2), Feature-108166 (`*.fluid.*` file extension, 14.0). Read them with `t3-changelog <id>`.

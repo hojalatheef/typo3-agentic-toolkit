@@ -32,3 +32,7 @@ That writes `.php-cs-fixer.dist.php` and `.editorconfig`. The config builds on `
 | `typo3 fluid:cache:warmup` | 14.0 | Feature-108229 | Compiles `*.fluid.*` templates and prints compile-time deprecations |
 
 Run them through `t3` so DDEV projects use the container. Typical YAML targets: `Configuration/`, `config/sites/`, `Configuration/Sets/`.
+
+## Tests
+
+- Prefer the project's own runner (`Build/Scripts/runTests.sh`) because it brings the database and PHP matrix.

@@ -57,4 +57,9 @@ GATE  <PASSED | FAILED | INCOMPLETE>   runner: <ddev | host | docker | none>   T
 3 php-cs-fixer        FAIL  3 files (Classes/Foo.php, ...)
 4 phpstan             PASS  level 8, 0 errors
 5 rector dry-run      PASS  0 changes
+6 lint:yaml           PASS  14 files
+7 fluid:analyze       PASS  0 errors, 2 deprecations (warnings)
+8 unit                PASS  142 tests, 0 failures
+9 functional          SKIP  no database available
+NEXT  <the single most important fix>
 ```

@@ -63,3 +63,5 @@ GATE  <PASSED | FAILED | INCOMPLETE>   runner: <ddev | host | docker | none>   T
 9 functional          SKIP  no database available
 NEXT  <the single most important fix>
 ```
+
+PASSED needs every step PASS. Any FAIL makes it FAILED. Any SKIP without FAIL makes it INCOMPLETE: list each skip as a coverage gap.

@@ -40,3 +40,4 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 | `page-content` data processor, `identifier` and `slideMode` in page layouts | Feature-103894 | 13.2 |
 | `PAGEVIEW` provides `{content.<identifier>}` as `ContentArea` | Feature-104974 | 14.2 |
 | `<f:render.contentArea>`, `<f:render.record>` | Feature-108726 | 14.2 |
+| `ModifyRenderedContentAreaEvent`, `ModifyRenderedRecordEvent` | Feature-108726 | 14.2 |

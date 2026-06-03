@@ -47,3 +47,4 @@ Run them through `t3` so DDEV projects use the container. Typical YAML targets: 
 | `Command "fluid:analyze" is not defined` | core below 14.2 | SKIP step 7, mention the version |
 | `Command "lint:yaml" is not defined` | core below 13.3 | SKIP step 6 |
 | `The "typo3DatabaseName" environment variable is not set` | functional tests without DB config | set the variables or use runTests.sh |
+| php-cs-fixer "Files that were not fixed due to errors" | syntax error | fix step 2 first |

@@ -37,3 +37,4 @@ Run them through `t3` so DDEV projects use the container. Typical YAML targets: 
 
 - Prefer the project's own runner (`Build/Scripts/runTests.sh`) because it brings the database and PHP matrix.
 - Plain PHPUnit with functional tests needs database variables, for example `typo3DatabaseDriver=pdo_sqlite`.
+- A suite with zero tests is a SKIP with "no tests", not a PASS.

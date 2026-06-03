@@ -38,3 +38,4 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 | Relations, files, datetime, link, json, flex resolved lazily | Feature-103581 | 13.3 |
 | `RecordCreationEvent` for custom field transformation | Feature-104846 | 13.3 |
 | `page-content` data processor, `identifier` and `slideMode` in page layouts | Feature-103894 | 13.2 |
+| `PAGEVIEW` provides `{content.<identifier>}` as `ContentArea` | Feature-104974 | 14.2 |

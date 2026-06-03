@@ -44,3 +44,4 @@ Run them through `t3` so DDEV projects use the container. Typical YAML targets: 
 
 | Output | Cause | Fix |
 | --- | --- | --- |
+| `Command "fluid:analyze" is not defined` | core below 14.2 | SKIP step 7, mention the version |

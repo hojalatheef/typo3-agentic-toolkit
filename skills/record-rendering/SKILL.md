@@ -59,3 +59,4 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
    `<f:for each="{record.image}" as="image">`, and nothing from raw arrays.
 4. Single relations: set TCA `'relationship' => 'manyToOne'` so
    `{record.image}` is one object instead of a collection.
+5. Custom value objects: add a `RecordCreationEvent` listener.

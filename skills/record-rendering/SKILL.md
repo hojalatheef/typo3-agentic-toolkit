@@ -45,3 +45,9 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 | `RecordFieldPreviewProcessor` for preview renderers | Feature-108819 | 14.2 |
 | Sanitized HTML in page module previews | Feature-108580 | 14.2 |
 | `RecordTitleProvider` (`recordTitle`) | Feature-106232 | 14.0 |
+
+## Steps
+
+1. Page level: render areas with `PAGEVIEW` and give every page-layout column
+   an `identifier` (for example `main`). In the page template write
+   `<f:render.contentArea contentArea="{content.main}" />`.

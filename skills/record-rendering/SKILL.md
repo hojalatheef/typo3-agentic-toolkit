@@ -60,3 +60,6 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 4. Single relations: set TCA `'relationship' => 'manyToOne'` so
    `{record.image}` is one object instead of a collection.
 5. Custom value objects: add a `RecordCreationEvent` listener.
+6. Backend preview: either a Fluid preview template using `{record}` via
+   `mod.web_layout.tt_content.preview.<CType>` page TSconfig, or a
+   `PreviewRendererInterface` class that injects `RecordFieldPreviewProcessor`.

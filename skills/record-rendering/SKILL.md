@@ -42,3 +42,4 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 | `<f:render.contentArea>`, `<f:render.record>` | Feature-108726 | 14.2 |
 | `ModifyRenderedContentAreaEvent`, `ModifyRenderedRecordEvent` | Feature-108726 | 14.2 |
 | `<f:render.text>` record-aware text output | Feature-108868 | 14.2 |
+| `RecordFieldPreviewProcessor` for preview renderers | Feature-108819 | 14.2 |

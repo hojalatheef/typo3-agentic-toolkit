@@ -41,3 +41,4 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 | `PAGEVIEW` provides `{content.<identifier>}` as `ContentArea` | Feature-104974 | 14.2 |
 | `<f:render.contentArea>`, `<f:render.record>` | Feature-108726 | 14.2 |
 | `ModifyRenderedContentAreaEvent`, `ModifyRenderedRecordEvent` | Feature-108726 | 14.2 |
+| `<f:render.text>` record-aware text output | Feature-108868 | 14.2 |

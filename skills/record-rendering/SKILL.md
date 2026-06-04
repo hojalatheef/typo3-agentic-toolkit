@@ -51,3 +51,6 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 1. Page level: render areas with `PAGEVIEW` and give every page-layout column
    an `identifier` (for example `main`). In the page template write
    `<f:render.contentArea contentArea="{content.main}" />`.
+2. Element level: add `dataProcessing.10 = record-transformation` to the
+   element's `FLUIDTEMPLATE` (or rely on your content rendering setup to
+   provide `{record}`).

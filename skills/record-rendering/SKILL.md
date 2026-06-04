@@ -57,3 +57,5 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 3. In the element template output text fields with
    `<f:render.text record="{record}" field="header" />`, files with
    `<f:for each="{record.image}" as="image">`, and nothing from raw arrays.
+4. Single relations: set TCA `'relationship' => 'manyToOne'` so
+   `{record.image}` is one object instead of a collection.

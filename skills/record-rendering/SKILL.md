@@ -54,3 +54,6 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 2. Element level: add `dataProcessing.10 = record-transformation` to the
    element's `FLUIDTEMPLATE` (or rely on your content rendering setup to
    provide `{record}`).
+3. In the element template output text fields with
+   `<f:render.text record="{record}" field="header" />`, files with
+   `<f:for each="{record.image}" as="image">`, and nothing from raw arrays.

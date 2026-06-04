@@ -44,3 +44,4 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 | `<f:render.text>` record-aware text output | Feature-108868 | 14.2 |
 | `RecordFieldPreviewProcessor` for preview renderers | Feature-108819 | 14.2 |
 | Sanitized HTML in page module previews | Feature-108580 | 14.2 |
+| `RecordTitleProvider` (`recordTitle`) | Feature-106232 | 14.0 |

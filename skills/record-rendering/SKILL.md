@@ -73,3 +73,4 @@ A full page-to-element example is in
 
 - [ ] No `FilesProcessor` for fields that the Record object already resolves.
 - [ ] Every page-layout column used in the frontend has an `identifier`.
+- [ ] Page templates use `<f:render.contentArea>` (lets other extensions hook in).

@@ -63,3 +63,5 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 6. Backend preview: either a Fluid preview template using `{record}` via
    `mod.web_layout.tt_content.preview.<CType>` page TSconfig, or a
    `PreviewRendererInterface` class that injects `RecordFieldPreviewProcessor`.
+7. Extbase detail pages: `<f:page.title>` in the template (Feature-107358) or
+   `RecordTitleProvider::setTitle()` in the controller (Feature-106232).

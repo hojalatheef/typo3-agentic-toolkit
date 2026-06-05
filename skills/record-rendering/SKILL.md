@@ -72,3 +72,4 @@ A full page-to-element example is in
 ## Checklist
 
 - [ ] No `FilesProcessor` for fields that the Record object already resolves.
+- [ ] Every page-layout column used in the frontend has an `identifier`.

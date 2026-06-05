@@ -67,3 +67,4 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
    `RecordTitleProvider::setTitle()` in the controller (Feature-106232).
 
 A full page-to-element example is in
+[references/end-to-end-example.md](references/end-to-end-example.md).

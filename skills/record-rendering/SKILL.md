@@ -75,3 +75,4 @@ A full page-to-element example is in
 - [ ] Every page-layout column used in the frontend has an `identifier`.
 - [ ] Page templates use `<f:render.contentArea>` (lets other extensions hook in).
 - [ ] Text fields go through `<f:render.text>`; shared partials use `optional: true` for fields a type may not have.
+- [ ] Fields not part of the type (`passthrough`) are read via `{record.rawRecord}`.

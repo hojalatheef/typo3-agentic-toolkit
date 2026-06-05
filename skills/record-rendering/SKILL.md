@@ -68,3 +68,7 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
 
 A full page-to-element example is in
 [references/end-to-end-example.md](references/end-to-end-example.md).
+
+## Checklist
+
+- [ ] No `FilesProcessor` for fields that the Record object already resolves.

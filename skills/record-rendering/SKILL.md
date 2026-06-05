@@ -65,3 +65,5 @@ Arguments: `$ARGUMENTS` - optional CType or table, optional extension path.
    `PreviewRendererInterface` class that injects `RecordFieldPreviewProcessor`.
 7. Extbase detail pages: `<f:page.title>` in the template (Feature-107358) or
    `RecordTitleProvider::setTitle()` in the controller (Feature-106232).
+
+A full page-to-element example is in

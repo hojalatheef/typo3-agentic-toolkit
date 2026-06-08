@@ -31,4 +31,11 @@ mod.web_layout.BackendLayouts {
                 colPos = 1
                 identifier = sidebar
                 slideMode = slide
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 ```

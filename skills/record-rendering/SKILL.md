@@ -82,3 +82,4 @@ A full page-to-element example is in
 ## References
 
 - [references/end-to-end-example.md](references/end-to-end-example.md) - backend layout, TypoScript, page template, element template, preview.
+- [references/record-api.md](references/record-api.md) - Record properties, field transformations, events, preview helpers.

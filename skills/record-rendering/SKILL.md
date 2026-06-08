@@ -84,3 +84,4 @@ A full page-to-element example is in
 - [references/end-to-end-example.md](references/end-to-end-example.md) - backend layout, TypoScript, page template, element template, preview.
 - [references/record-api.md](references/record-api.md) - Record properties, field transformations, events, preview helpers.
 - [templates/](templates/) - `Default.fluid.html` page, `Teaser.fluid.html` element, `TeaserPreviewRenderer.php`, `RecordCreationListener.php`.
+- Changelog: Feature-103783, Feature-103894 (13.2), Feature-103581, Feature-104846 (13.3), Feature-106232 (14.0), Feature-104974, Feature-108580, Feature-108726 (three entries), Feature-108819, Feature-108868 (14.2).

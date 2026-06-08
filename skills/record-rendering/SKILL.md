@@ -78,3 +78,7 @@ A full page-to-element example is in
 - [ ] Fields not part of the type (`passthrough`) are read via `{record.rawRecord}`.
 - [ ] HTML added in render events is escaped by the listener itself.
 - [ ] `f:debug` output is not taken literally - properties are accessed as `{record.<field>}`.
+
+## References
+
+- [references/end-to-end-example.md](references/end-to-end-example.md) - backend layout, TypoScript, page template, element template, preview.

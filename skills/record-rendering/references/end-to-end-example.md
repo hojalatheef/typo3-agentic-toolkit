@@ -9,3 +9,12 @@ and `f:cObject` loop shown at the end.
 
 Page TSconfig, for example in the site set's `page.tsconfig` (Feature-103894,
 Feature-104974):
+
+```typoscript
+mod.web_layout.BackendLayouts {
+  default {
+    title = Default
+    config {
+      backend_layout {
+        colCount = 2
+```

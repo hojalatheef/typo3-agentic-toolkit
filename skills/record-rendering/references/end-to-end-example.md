@@ -24,4 +24,11 @@ mod.web_layout.BackendLayouts {
               1 {
                 name = Main Content Area
                 colPos = 0
+                identifier = main
+              }
+              2 {
+                name = Sidebar
+                colPos = 1
+                identifier = sidebar
+                slideMode = slide
 ```

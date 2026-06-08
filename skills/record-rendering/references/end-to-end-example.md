@@ -8,3 +8,4 @@ and `f:cObject` loop shown at the end.
 ## 1. Page layout with identifiers
 
 Page TSconfig, for example in the site set's `page.tsconfig` (Feature-103894,
+Feature-104974):

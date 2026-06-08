@@ -17,4 +17,11 @@ mod.web_layout.BackendLayouts {
     config {
       backend_layout {
         colCount = 2
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Main Content Area
+                colPos = 0
 ```

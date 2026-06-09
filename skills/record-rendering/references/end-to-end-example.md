@@ -51,4 +51,11 @@ In the site set's `setup.typoscript`:
 page = PAGE
 page.10 = PAGEVIEW
 page.10.paths.10 = EXT:my_sitepackage/Resources/Private/PageView/
+
+tt_content.my_teaser = FLUIDTEMPLATE
+tt_content.my_teaser {
+  templateName = Teaser
+  templateRootPaths.10 = EXT:my_sitepackage/Resources/Private/Templates/Content/
+  dataProcessing.10 = record-transformation
+}
 ```

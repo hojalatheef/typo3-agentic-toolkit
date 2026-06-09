@@ -82,3 +82,5 @@ tt_content.my_teaser {
     </f:render.contentArea>
 </aside>
 ```
+
+`<f:render.contentArea>` and `<f:render.record>` (Feature-108726, 14.2) render

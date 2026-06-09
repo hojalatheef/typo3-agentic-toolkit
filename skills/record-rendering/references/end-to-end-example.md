@@ -69,3 +69,12 @@ tt_content.my_teaser {
 ## 3. Page template
 
 `Resources/Private/PageView/Pages/Default.fluid.html`:
+
+```html
+<main>
+    <f:render.contentArea contentArea="{content.main}" />
+</main>
+<aside>
+    <f:render.contentArea contentArea="{content.sidebar}" recordAs="record">
+        <div class="sidebar-item sidebar-item--{record.recordType}">
+```

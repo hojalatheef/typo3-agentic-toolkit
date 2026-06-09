@@ -46,3 +46,9 @@ mod.web_layout.BackendLayouts {
 ## 2. TypoScript: page and element
 
 In the site set's `setup.typoscript`:
+
+```typoscript
+page = PAGE
+page.10 = PAGEVIEW
+page.10.paths.10 = EXT:my_sitepackage/Resources/Private/PageView/
+```

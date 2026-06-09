@@ -40,3 +40,5 @@ mod.web_layout.BackendLayouts {
   }
 }
 ```
+
+`slideMode` accepts `slide`, `collect` and `collectReverse`.

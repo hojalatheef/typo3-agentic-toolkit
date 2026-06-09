@@ -77,4 +77,8 @@ tt_content.my_teaser {
 <aside>
     <f:render.contentArea contentArea="{content.sidebar}" recordAs="record">
         <div class="sidebar-item sidebar-item--{record.recordType}">
+            <f:render.record record="{record}" />
+        </div>
+    </f:render.contentArea>
+</aside>
 ```

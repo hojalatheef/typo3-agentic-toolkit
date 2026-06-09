@@ -63,3 +63,5 @@ tt_content.my_teaser {
 - `PAGEVIEW` resolves `Pages/<LayoutName>` below the path and exposes the
   areas as `{content}` (Feature-103504, Feature-104974). Use `contentAs` to
   rename the variable.
+- `record-transformation` turns the element's data into `{record}`
+  (Feature-103783). Options: `variableName`, `table`, `as`.

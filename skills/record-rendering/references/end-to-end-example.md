@@ -42,3 +42,7 @@ mod.web_layout.BackendLayouts {
 ```
 
 `slideMode` accepts `slide`, `collect` and `collectReverse`.
+
+## 2. TypoScript: page and element
+
+In the site set's `setup.typoscript`:

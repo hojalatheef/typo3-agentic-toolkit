@@ -59,3 +59,7 @@ tt_content.my_teaser {
   dataProcessing.10 = record-transformation
 }
 ```
+
+- `PAGEVIEW` resolves `Pages/<LayoutName>` below the path and exposes the
+  areas as `{content}` (Feature-103504, Feature-104974). Use `contentAs` to
+  rename the variable.

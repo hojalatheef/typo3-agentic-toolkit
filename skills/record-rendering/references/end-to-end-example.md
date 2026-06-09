@@ -65,3 +65,7 @@ tt_content.my_teaser {
   rename the variable.
 - `record-transformation` turns the element's data into `{record}`
   (Feature-103783). Options: `variableName`, `table`, `as`.
+
+## 3. Page template
+
+`Resources/Private/PageView/Pages/Default.fluid.html`:

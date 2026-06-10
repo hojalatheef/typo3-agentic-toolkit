@@ -93,3 +93,8 @@ extensions can wrap the output. `{content.main}` also carries `identifier`,
 ## 4. Element template
 
 `Resources/Private/Templates/Content/Teaser.fluid.html`:
+
+```html
+<article class="teaser">
+    <h2><f:render.text record="{record}" field="header" /></h2>
+```

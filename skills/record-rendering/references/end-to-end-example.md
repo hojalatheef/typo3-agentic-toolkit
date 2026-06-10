@@ -109,3 +109,6 @@ extensions can wrap the output. `{content.main}` also carries `identifier`,
     </f:if>
 </article>
 ```
+
+- `<f:render.text>` picks plain, multi-line or rich-text processing from TCA
+  (Feature-108868, 14.2).

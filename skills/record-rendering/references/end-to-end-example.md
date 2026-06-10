@@ -85,3 +85,4 @@ tt_content.my_teaser {
 
 `<f:render.contentArea>` and `<f:render.record>` (Feature-108726, 14.2) render
 through the TypoScript definition of the record's table and type, and fire
+`ModifyRenderedContentAreaEvent` / `ModifyRenderedRecordEvent` so other

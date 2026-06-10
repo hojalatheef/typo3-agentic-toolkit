@@ -101,4 +101,11 @@ extensions can wrap the output. `{content.main}` also carries `identifier`,
     <f:if condition="{record.image}">
         <f:image image="{record.image}" width="800" />
     </f:if>
+
+    <f:render.text record="{record}" field="bodytext" />
+
+    <f:if condition="{record.link}">
+        <f:link.typolink parameter="{record.link}">Read more</f:link.typolink>
+    </f:if>
+</article>
 ```

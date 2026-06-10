@@ -88,3 +88,4 @@ through the TypoScript definition of the record's table and type, and fire
 `ModifyRenderedContentAreaEvent` / `ModifyRenderedRecordEvent` so other
 extensions can wrap the output. `{content.main}` also carries `identifier`,
 `colPos`, `name`, `allowedContentTypes`, `disallowedContentTypes`,
+`slideMode` and `configuration` (Feature-104974).

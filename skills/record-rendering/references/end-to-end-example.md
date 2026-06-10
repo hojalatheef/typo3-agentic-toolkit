@@ -97,4 +97,8 @@ extensions can wrap the output. `{content.main}` also carries `identifier`,
 ```html
 <article class="teaser">
     <h2><f:render.text record="{record}" field="header" /></h2>
+
+    <f:if condition="{record.image}">
+        <f:image image="{record.image}" width="800" />
+    </f:if>
 ```

@@ -129,3 +129,5 @@ mod.web_layout.tt_content.preview {
   my_teaser = EXT:my_sitepackage/Resources/Private/Templates/Preview/Teaser.fluid.html
 }
 ```
+
+For a PHP preview renderer, inject `RecordFieldPreviewProcessor`

@@ -134,3 +134,4 @@ For a PHP preview renderer, inject `RecordFieldPreviewProcessor`
 (Feature-108819, 14.2) - see
 [../templates/TeaserPreviewRenderer.php](../templates/TeaserPreviewRenderer.php).
 Since v14.2 standard previews show sanitized HTML for bodytext
+(Feature-108580).

@@ -112,3 +112,6 @@ extensions can wrap the output. `{content.main}` also carries `identifier`,
 
 - `<f:render.text>` picks plain, multi-line or rich-text processing from TCA
   (Feature-108868, 14.2).
+- `{record.image}` is a single `FileReference` because the TCA field uses
+  `'relationship' => 'manyToOne'`; without it, it is a collection to loop over
+  (Feature-103581).

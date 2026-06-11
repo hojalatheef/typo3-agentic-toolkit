@@ -122,3 +122,4 @@ extensions can wrap the output. `{content.main}` also carries `identifier`,
 ## 5. Backend preview
 
 Simplest: a Fluid preview template with the `{record}` variable
+(Feature-103581):

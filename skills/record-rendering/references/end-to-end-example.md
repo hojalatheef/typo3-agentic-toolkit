@@ -118,3 +118,7 @@ extensions can wrap the output. `{content.main}` also carries `identifier`,
 - `{record.link}` is a `TypolinkParameter` object for TCA type `link`
   (Feature-103581). `f:link.typolink` accepts it directly (checked in the
   v14.3 core source, not in a changelog).
+
+## 5. Backend preview
+
+Simplest: a Fluid preview template with the `{record}` variable

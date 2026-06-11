@@ -123,3 +123,9 @@ extensions can wrap the output. `{content.main}` also carries `identifier`,
 
 Simplest: a Fluid preview template with the `{record}` variable
 (Feature-103581):
+
+```typoscript
+mod.web_layout.tt_content.preview {
+  my_teaser = EXT:my_sitepackage/Resources/Private/Templates/Preview/Teaser.fluid.html
+}
+```

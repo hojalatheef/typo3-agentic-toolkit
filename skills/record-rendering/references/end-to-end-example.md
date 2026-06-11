@@ -115,3 +115,6 @@ extensions can wrap the output. `{content.main}` also carries `identifier`,
 - `{record.image}` is a single `FileReference` because the TCA field uses
   `'relationship' => 'manyToOne'`; without it, it is a collection to loop over
   (Feature-103581).
+- `{record.link}` is a `TypolinkParameter` object for TCA type `link`
+  (Feature-103581). `f:link.typolink` accepts it directly (checked in the
+  v14.3 core source, not in a changelog).

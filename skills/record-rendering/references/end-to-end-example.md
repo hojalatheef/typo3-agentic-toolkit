@@ -140,3 +140,9 @@ Since v14.2 standard previews show sanitized HTML for bodytext
 
 Without the v14.2 ViewHelpers, loop and render with `f:cObject`
 (Feature-103894):
+
+```html
+<f:for each="{content.main.records}" as="record">
+    <f:cObject typoscriptObjectPath="{record.mainType}" table="{record.mainType}" data="{record}" />
+</f:for>
+```

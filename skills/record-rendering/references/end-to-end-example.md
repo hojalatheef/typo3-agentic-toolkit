@@ -135,3 +135,7 @@ For a PHP preview renderer, inject `RecordFieldPreviewProcessor`
 [../templates/TeaserPreviewRenderer.php](../templates/TeaserPreviewRenderer.php).
 Since v14.2 standard previews show sanitized HTML for bodytext
 (Feature-108580).
+
+## v13.4 fallback for the page template
+
+Without the v14.2 ViewHelpers, loop and render with `f:cObject`

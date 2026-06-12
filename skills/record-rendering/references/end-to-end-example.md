@@ -146,3 +146,5 @@ Without the v14.2 ViewHelpers, loop and render with `f:cObject`
     <f:cObject typoscriptObjectPath="{record.mainType}" table="{record.mainType}" data="{record}" />
 </f:for>
 ```
+
+On v13 the areas come from the `page-content` data processor

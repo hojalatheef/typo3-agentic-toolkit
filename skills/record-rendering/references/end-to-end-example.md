@@ -139,3 +139,4 @@ Since v14.2 standard previews show sanitized HTML for bodytext
 ## v13.4 fallback for the page template
 
 Without the v14.2 ViewHelpers, loop and render with `f:cObject`
+(Feature-103894):

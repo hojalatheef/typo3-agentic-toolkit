@@ -148,3 +148,4 @@ Without the v14.2 ViewHelpers, loop and render with `f:cObject`
 ```
 
 On v13 the areas come from the `page-content` data processor
+(`page.10.dataProcessing.10 = page-content`, `as` sets the variable name).

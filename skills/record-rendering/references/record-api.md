@@ -14,4 +14,11 @@ finalized" in 13.2.
 {record.languageInfo.translationSource}
 {record.overlaidUid}
 {record.mainType}      <!-- "tt_content" -->
+{record.recordType}    <!-- "textpic" -->
+{record.fullType}      <!-- "tt_content.textpic" -->
+{record.systemProperties.deleted}
+{record.systemProperties.disabled}
+{record.systemProperties.lockedForEditing}
+{record.systemProperties.createdAt}
+{record.systemProperties.lastUpdatedAt}
 ```

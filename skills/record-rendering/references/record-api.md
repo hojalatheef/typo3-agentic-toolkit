@@ -21,4 +21,11 @@ finalized" in 13.2.
 {record.systemProperties.lockedForEditing}
 {record.systemProperties.createdAt}
 {record.systemProperties.lastUpdatedAt}
+{record.systemProperties.publishAt}
+{record.systemProperties.publishUntil}
+{record.systemProperties.userGroupRestriction}
+{record.systemProperties.sorting}
+{record.systemProperties.description}
+{record.computedProperties.versionedUid}
+{record.computedProperties.localizedUid}
 ```

@@ -28,4 +28,11 @@ finalized" in 13.2.
 {record.systemProperties.description}
 {record.computedProperties.versionedUid}
 {record.computedProperties.localizedUid}
+{record.computedProperties.requestedOverlayLanguageId}
+{record.computedProperties.translationSource}
+{record.versionInfo.workspaceId}
+{record.versionInfo.liveId}
+{record.versionInfo.state.name}
+{record.versionInfo.stageId}
+{record.rawRecord}     <!-- untransformed row, e.g. for passthrough fields -->
 ```

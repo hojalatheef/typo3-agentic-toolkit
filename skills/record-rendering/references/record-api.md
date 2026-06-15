@@ -36,3 +36,5 @@ finalized" in 13.2.
 {record.versionInfo.stageId}
 {record.rawRecord}     <!-- untransformed row, e.g. for passthrough fields -->
 ```
+
+Only fields of the current type are properties. Accessing a missing field via

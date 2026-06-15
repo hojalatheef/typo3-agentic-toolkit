@@ -48,3 +48,4 @@ Feature-103581 (13.3), resolved lazily on first access:
 | TCA type | Value in the Record |
 | --- | --- |
 | `category`, `group`, `inline`, `select` with `foreign_table`/`MM` | `LazyRecordCollection` of Records |
+| `file` | `LazyFileReferenceCollection` of `FileReference` |

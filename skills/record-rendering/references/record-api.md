@@ -44,3 +44,6 @@ Only fields of the current type are properties. Accessing a missing field via
 ## Field transformations
 
 Feature-103581 (13.3), resolved lazily on first access:
+
+| TCA type | Value in the Record |
+| --- | --- |

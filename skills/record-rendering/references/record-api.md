@@ -40,3 +40,7 @@ finalized" in 13.2.
 Only fields of the current type are properties. Accessing a missing field via
 `<f:render.text>` throws `RecordPropertyNotFoundException` unless
 `optional: true` is set (Feature-108868).
+
+## Field transformations
+
+Feature-103581 (13.3), resolved lazily on first access:

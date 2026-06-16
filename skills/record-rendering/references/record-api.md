@@ -52,3 +52,4 @@ Feature-103581 (13.3), resolved lazily on first access:
 | `folder` | `LazyFolderCollection` of `Folder` |
 | `datetime` | `DateTimeImmutable` |
 | `flex` | resolved FlexForm, values expanded |
+| `json` | decoded value |

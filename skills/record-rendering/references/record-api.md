@@ -57,3 +57,4 @@ Feature-103581 (13.3), resolved lazily on first access:
 | `select` with static items | array of values |
 
 TCA `relationship` (`oneToOne`, `manyToOne`) returns the single object or
+`null` instead of a collection. `maxitems` does not change this.

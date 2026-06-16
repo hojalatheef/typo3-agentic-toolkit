@@ -49,3 +49,4 @@ Feature-103581 (13.3), resolved lazily on first access:
 | --- | --- |
 | `category`, `group`, `inline`, `select` with `foreign_table`/`MM` | `LazyRecordCollection` of Records |
 | `file` | `LazyFileReferenceCollection` of `FileReference` |
+| `folder` | `LazyFolderCollection` of `Folder` |

@@ -55,3 +55,5 @@ Feature-103581 (13.3), resolved lazily on first access:
 | `json` | decoded value |
 | `link` | `TypolinkParameter` |
 | `select` with static items | array of values |
+
+TCA `relationship` (`oneToOne`, `manyToOne`) returns the single object or

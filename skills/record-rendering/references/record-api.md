@@ -51,3 +51,4 @@ Feature-103581 (13.3), resolved lazily on first access:
 | `file` | `LazyFileReferenceCollection` of `FileReference` |
 | `folder` | `LazyFolderCollection` of `Folder` |
 | `datetime` | `DateTimeImmutable` |
+| `flex` | resolved FlexForm, values expanded |

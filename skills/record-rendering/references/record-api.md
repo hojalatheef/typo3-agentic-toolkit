@@ -53,3 +53,4 @@ Feature-103581 (13.3), resolved lazily on first access:
 | `datetime` | `DateTimeImmutable` |
 | `flex` | resolved FlexForm, values expanded |
 | `json` | decoded value |
+| `link` | `TypolinkParameter` |

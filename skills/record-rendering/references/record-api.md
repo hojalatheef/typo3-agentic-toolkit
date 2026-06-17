@@ -70,3 +70,4 @@ and `setRecord()` (stops propagation). See
 
 In PHP, a resolved record is created with
 `RecordFactory::createResolvedRecordFromDatabaseRow($table, $row)`
+(as shown in Breaking-107356, 14.0); the factory lives in

@@ -66,3 +66,4 @@ Custom transformation (Feature-104846): listen to
 `getProperty()`, `setProperty()`, `setProperties()`, `unsetProperty()`,
 `getProperties()`, `getRawRecord()`, `getSystemProperties()`, `getContext()`,
 and `setRecord()` (stops propagation). See
+[../templates/RecordCreationListener.php](../templates/RecordCreationListener.php).

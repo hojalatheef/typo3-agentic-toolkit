@@ -60,3 +60,5 @@ TCA `relationship` (`oneToOne`, `manyToOne`) returns the single object or
 `null` instead of a collection. `maxitems` does not change this.
 `selectSingle` with `foreign_table` defaults to `manyToOne` (`manyToMany` with
 `MM`).
+
+Custom transformation (Feature-104846): listen to

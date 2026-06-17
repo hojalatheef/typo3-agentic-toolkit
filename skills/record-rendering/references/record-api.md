@@ -67,3 +67,5 @@ Custom transformation (Feature-104846): listen to
 `getProperties()`, `getRawRecord()`, `getSystemProperties()`, `getContext()`,
 and `setRecord()` (stops propagation). See
 [../templates/RecordCreationListener.php](../templates/RecordCreationListener.php).
+
+In PHP, a resolved record is created with

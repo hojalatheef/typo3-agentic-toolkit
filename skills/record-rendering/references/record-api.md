@@ -64,3 +64,4 @@ TCA `relationship` (`oneToOne`, `manyToOne`) returns the single object or
 Custom transformation (Feature-104846): listen to
 `TYPO3\CMS\Core\Domain\Event\RecordCreationEvent`. Methods: `hasProperty()`,
 `getProperty()`, `setProperty()`, `setProperties()`, `unsetProperty()`,
+`getProperties()`, `getRawRecord()`, `getSystemProperties()`, `getContext()`,

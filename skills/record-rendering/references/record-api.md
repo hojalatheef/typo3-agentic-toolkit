@@ -82,3 +82,4 @@ In PHP, a resolved record is created with
 | `<f:render.text>` | `record`, `field`, optional `optional` | 14.2, Feature-108868 |
 
 `<f:render.text>` accepts a `RecordInterface`, `PageInformation` or Extbase
+`DomainObjectInterface`. For Extbase models, `field` is the database column

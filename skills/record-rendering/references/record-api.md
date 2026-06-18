@@ -83,3 +83,4 @@ In PHP, a resolved record is created with
 
 `<f:render.text>` accepts a `RecordInterface`, `PageInformation` or Extbase
 `DomainObjectInterface`. For Extbase models, `field` is the database column
+name and the model must map the record type column too.

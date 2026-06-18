@@ -86,3 +86,4 @@ In PHP, a resolved record is created with
 name and the model must map the record type column too.
 
 `<f:render.record>` renders any table that has a TypoScript definition with
+that table name, for example `sys_category = FLUIDTEMPLATE` with

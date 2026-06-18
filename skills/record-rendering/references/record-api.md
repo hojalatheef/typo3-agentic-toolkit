@@ -78,3 +78,4 @@ In PHP, a resolved record is created with
 | ViewHelper | Arguments | Since |
 | --- | --- | --- |
 | `<f:render.contentArea>` | `contentArea`, optional `recordAs` for per-record wrapping | 14.2, Feature-108726 |
+| `<f:render.record>` | `record` | 14.2, Feature-108726 |

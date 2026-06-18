@@ -80,3 +80,5 @@ In PHP, a resolved record is created with
 | `<f:render.contentArea>` | `contentArea`, optional `recordAs` for per-record wrapping | 14.2, Feature-108726 |
 | `<f:render.record>` | `record` | 14.2, Feature-108726 |
 | `<f:render.text>` | `record`, `field`, optional `optional` | 14.2, Feature-108868 |
+
+`<f:render.text>` accepts a `RecordInterface`, `PageInformation` or Extbase

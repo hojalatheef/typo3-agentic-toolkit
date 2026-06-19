@@ -88,3 +88,5 @@ name and the model must map the record type column too.
 `<f:render.record>` renders any table that has a TypoScript definition with
 that table name, for example `sys_category = FLUIDTEMPLATE` with
 `dataProcessing.1421884800 = record-transformation`.
+
+Events in `TYPO3\CMS\Fluid\Event` (Feature-108726): `ModifyRenderedContentAreaEvent`

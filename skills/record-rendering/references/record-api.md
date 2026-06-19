@@ -90,3 +90,4 @@ that table name, for example `sys_category = FLUIDTEMPLATE` with
 `dataProcessing.1421884800 = record-transformation`.
 
 Events in `TYPO3\CMS\Fluid\Event` (Feature-108726): `ModifyRenderedContentAreaEvent`
+(`getRenderedContentArea()`, `setRenderedContentArea()`) and

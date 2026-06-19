@@ -92,3 +92,4 @@ that table name, for example `sys_category = FLUIDTEMPLATE` with
 Events in `TYPO3\CMS\Fluid\Event` (Feature-108726): `ModifyRenderedContentAreaEvent`
 (`getRenderedContentArea()`, `setRenderedContentArea()`) and
 `ModifyRenderedRecordEvent` (`getRenderedRecord()`, `setRenderedRecord()`).
+Output is not escaped; escape inside the listener.

@@ -1,0 +1,20 @@
+<f:comment>
+    EXT:my_sitepackage/Resources/Private/PageView/Pages/Default.fluid.html
+    PAGEVIEW page template (Feature-103504) with content areas
+    (Feature-104974) rendered by f:render.contentArea (Feature-108726, v14.2).
+    Column identifiers "main" and "sidebar" come from the backend layout.
+</f:comment>
+<f:layout name="Default" />
+
+<f:section name="Main">
+    <main id="content">
+        <f:render.contentArea contentArea="{content.main}" />
+    </main>
+    <aside>
+        <f:render.contentArea contentArea="{content.sidebar}" recordAs="record">
+            <div class="sidebar-item sidebar-item--{record.recordType}">
+                <f:render.record record="{record}" />
+            </div>
+        </f:render.contentArea>
+    </aside>
+</f:section>

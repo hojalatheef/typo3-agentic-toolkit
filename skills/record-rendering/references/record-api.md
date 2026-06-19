@@ -93,3 +93,11 @@ Events in `TYPO3\CMS\Fluid\Event` (Feature-108726): `ModifyRenderedContentAreaEv
 (`getRenderedContentArea()`, `setRenderedContentArea()`) and
 `ModifyRenderedRecordEvent` (`getRenderedRecord()`, `setRenderedRecord()`).
 Output is not escaped; escape inside the listener.
+
+## Backend preview and titles
+
+- `TYPO3\CMS\Backend\Preview\RecordFieldPreviewProcessor` (Feature-108819,
+  14.2): `prepareFieldWithLabel()`, `prepareField()`, `prepareText()`,
+  `preparePlainHtml()`, `prepareFiles()`, `linkToEditForm()`. Inject it into a
+  class implementing `PreviewRendererInterface` instead of extending
+  `StandardContentPreviewRenderer`.

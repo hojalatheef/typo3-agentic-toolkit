@@ -101,3 +101,6 @@ Output is not escaped; escape inside the listener.
   `preparePlainHtml()`, `prepareFiles()`, `linkToEditForm()`. Inject it into a
   class implementing `PreviewRendererInterface` instead of extending
   `StandardContentPreviewRenderer`.
+- Page module previews render sanitized HTML for bodytext, HTML lists for
+  bullet elements, and harmonized menu previews (Feature-108580, 14.2) via
+  `TYPO3\CMS\Core\Html\PreviewSanitizerBuilder`.

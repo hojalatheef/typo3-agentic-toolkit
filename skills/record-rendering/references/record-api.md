@@ -104,3 +104,6 @@ Output is not escaped; escape inside the listener.
 - Page module previews render sanitized HTML for bodytext, HTML lists for
   bullet elements, and harmonized menu previews (Feature-108580, 14.2) via
   `TYPO3\CMS\Core\Html\PreviewSanitizerBuilder`.
+- `TYPO3\CMS\Core\PageTitle\RecordTitleProvider` (Feature-106232, 14.0):
+  identifier `recordTitle`, runs before the `seo` provider; call
+  `setTitle()` from a controller.

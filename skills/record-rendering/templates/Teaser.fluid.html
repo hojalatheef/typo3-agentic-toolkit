@@ -1,0 +1,16 @@
+<f:comment>
+    EXT:my_sitepackage/Resources/Private/Templates/Content/Teaser.fluid.html
+    Requires: tt_content.my_teaser { dataProcessing.10 = record-transformation }
+    (Feature-103783). Text output via f:render.text (Feature-108868, v14.2).
+    "image" uses TCA relationship = manyToOne, so it is a single FileReference
+    (Feature-103581).
+</f:comment>
+<article class="teaser">
+    <h2><f:render.text record="{record}" field="header" /></h2>
+
+    <f:if condition="{record.image}">
+        <f:image image="{record.image}" width="800" />
+    </f:if>
+
+    <f:render.text record="{record}" field="bodytext" />
+</article>

@@ -45,3 +45,4 @@ Commits since the base:
 | `#[Authorize]` | hand-written access checks | Feature-107826 |
 | `#[RateLimit]` on uncached actions | custom throttling | Feature-108982 |
 | System Resource API | `PathUtility::getPublicResourceWebPath()` | Feature-107537, Deprecation-107537 |
+| Fluid components | partials as UI library | Feature-108508 |

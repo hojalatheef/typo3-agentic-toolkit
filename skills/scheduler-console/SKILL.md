@@ -40,3 +40,5 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
    [templates/tx_scheduler_task_cleanup.php](templates/tx_scheduler_task_cleanup.php) (TCA override). Implement
    `execute()`, `getTaskParameters()`, `setTaskParameters()` and optionally `getAdditionalInformation()`.
    New columns added with `addTCAcolumns()` are created by the database analyzer from TCA.
+3. Register the task with `ExtensionManagementUtility::addRecordType()` on table `tx_scheduler_task`
+   (`value` = task class, `group`, `icon`, `iconOverlay`). The wizard shows it automatically (Feature-107471).

@@ -43,3 +43,4 @@ Commits since the base:
 | Site sets with `settings.definitions.yaml` | static TypoScript includes | Feature-103437 |
 | Schema API | `$GLOBALS['TCA']` reads | Feature-104002 |
 | `#[Authorize]` | hand-written access checks | Feature-107826 |
+| `#[RateLimit]` on uncached actions | custom throttling | Feature-108982 |

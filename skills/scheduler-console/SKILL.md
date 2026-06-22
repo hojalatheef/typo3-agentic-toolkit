@@ -28,3 +28,5 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
 - An existing task uses `AdditionalFieldProviderInterface`, a serialized task object
   or `$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['frequencyOptions']` (removed, Breaking-107488).
 - A command must never be scheduled (interactive, destructive, long-running import): `#[AsNonSchedulableCommand]`.
+- Work should leave the request: dispatch a message, handle it with `#[AsMessageHandler]` (Feature-101700, 13.0),
+  consume it with `messenger:consume` (Feature-106261, 14.2).

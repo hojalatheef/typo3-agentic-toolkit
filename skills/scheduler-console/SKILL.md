@@ -36,3 +36,7 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
 1. Command: copy [templates/ImportCommand.php](templates/ImportCommand.php). Use `#[AsCommand]`, constructor
    injection, `Command::SUCCESS` / `Command::FAILURE`. Add completion callbacks to arguments
    (Feature-106839). Add `#[AsNonSchedulableCommand]` only when scheduling would be harmful.
+2. Task with fields: copy [templates/CleanupTask.php](templates/CleanupTask.php) and
+   [templates/tx_scheduler_task_cleanup.php](templates/tx_scheduler_task_cleanup.php) (TCA override). Implement
+   `execute()`, `getTaskParameters()`, `setTaskParameters()` and optionally `getAdditionalInformation()`.
+   New columns added with `addTCAcolumns()` are created by the database analyzer from TCA.

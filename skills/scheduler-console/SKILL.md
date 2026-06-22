@@ -42,3 +42,5 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
    New columns added with `addTCAcolumns()` are created by the database analyzer from TCA.
 3. Register the task with `ExtensionManagementUtility::addRecordType()` on table `tx_scheduler_task`
    (`value` = task class, `group`, `icon`, `iconOverlay`). The wizard shows it automatically (Feature-107471).
+4. Timing: add frequency presets via `execution_details` `overrideFieldTca` (Feature-107488). Priority levels
+   are TCA items of the `priority` column (Feature-109110, 14.2).

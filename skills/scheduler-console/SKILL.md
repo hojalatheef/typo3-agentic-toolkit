@@ -50,3 +50,5 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
    `messenger:consume <receiver> --time-limit=<below cron interval>`.
 6. After migrating legacy tasks run the upgrade wizard "Migrate the contents of the tx_scheduler_task database
    table into a more structured form".
+7. Details: [references/scheduler-tca.md](references/scheduler-tca.md),
+   [references/cli-and-messaging.md](references/cli-and-messaging.md).

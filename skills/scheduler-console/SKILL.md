@@ -52,3 +52,7 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
    table into a more structured form".
 7. Details: [references/scheduler-tca.md](references/scheduler-tca.md),
    [references/cli-and-messaging.md](references/cli-and-messaging.md).
+
+## Checklist
+
+- [ ] Commands use `#[AsCommand]`, not `Services.yaml` `console.command` tags.

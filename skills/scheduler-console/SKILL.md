@@ -44,3 +44,7 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
    (`value` = task class, `group`, `icon`, `iconOverlay`). The wizard shows it automatically (Feature-107471).
 4. Timing: add frequency presets via `execution_details` `overrideFieldTca` (Feature-107488). Priority levels
    are TCA items of the `priority` column (Feature-109110, 14.2).
+5. Messages: copy [templates/ImportMessage.php](templates/ImportMessage.php) and
+   [templates/ImportMessageHandler.php](templates/ImportMessageHandler.php); configure the
+   transport routing in `Services.yaml` / `TYPO3_CONF_VARS` as before; schedule
+   `messenger:consume <receiver> --time-limit=<below cron interval>`.

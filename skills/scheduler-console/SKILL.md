@@ -56,3 +56,4 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
 ## Checklist
 
 - [ ] Commands use `#[AsCommand]`, not `Services.yaml` `console.command` tags.
+- [ ] `schedulable: false` tags replaced by `#[AsNonSchedulableCommand]` (14.0+ only).

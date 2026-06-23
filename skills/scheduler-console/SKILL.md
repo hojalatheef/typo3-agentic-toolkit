@@ -61,3 +61,4 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
 - [ ] `setTaskParameters()` accepts both the old serialized keys and the new column names (migration path).
 - [ ] No `AdditionalFieldProvider` left; fields are TCA columns with labels, `eval`/`required` validation.
 - [ ] Task TCA `showitem` keeps `tasktype`, `task_group`, `description`, the `execution` palette and `disable`.
+- [ ] No `frequencyOptions` in `ext_localconf.php`; presets live in `Configuration/TCA/Overrides/`.

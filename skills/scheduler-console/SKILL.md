@@ -60,3 +60,4 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
 - [ ] Task class extends `TYPO3\CMS\Scheduler\Task\AbstractTask`; `execute()` returns `bool`.
 - [ ] `setTaskParameters()` accepts both the old serialized keys and the new column names (migration path).
 - [ ] No `AdditionalFieldProvider` left; fields are TCA columns with labels, `eval`/`required` validation.
+- [ ] Task TCA `showitem` keeps `tasktype`, `task_group`, `description`, the `execution` palette and `disable`.

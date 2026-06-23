@@ -48,3 +48,5 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
    [templates/ImportMessageHandler.php](templates/ImportMessageHandler.php); configure the
    transport routing in `Services.yaml` / `TYPO3_CONF_VARS` as before; schedule
    `messenger:consume <receiver> --time-limit=<below cron interval>`.
+6. After migrating legacy tasks run the upgrade wizard "Migrate the contents of the tx_scheduler_task database
+   table into a more structured form".

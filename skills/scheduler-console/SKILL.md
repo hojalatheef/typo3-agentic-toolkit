@@ -57,3 +57,4 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
 
 - [ ] Commands use `#[AsCommand]`, not `Services.yaml` `console.command` tags.
 - [ ] `schedulable: false` tags replaced by `#[AsNonSchedulableCommand]` (14.0+ only).
+- [ ] Task class extends `TYPO3\CMS\Scheduler\Task\AbstractTask`; `execute()` returns `bool`.

@@ -64,3 +64,5 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
 - [ ] No `frequencyOptions` in `ext_localconf.php`; presets live in `Configuration/TCA/Overrides/`.
 - [ ] `messenger:consume` in the scheduler has `--time-limit` lower than the cron interval.
 - [ ] Handlers use `#[AsMessageHandler]`; no `messenger.message_handler` tag in `Services.yaml`.
+- [ ] Deployment scripts use `configuration:set` / `configuration:show` (EXT:lowlevel, 14.2) instead of
+      editing `settings.php` by hand.

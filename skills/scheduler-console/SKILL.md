@@ -70,3 +70,4 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
 ## Pitfalls
 
 - `messenger:consume` blocks other scheduler tasks while it runs.
+- Priority sorts before `nextexecution`: a stream of high-priority tasks can starve low-priority ones.

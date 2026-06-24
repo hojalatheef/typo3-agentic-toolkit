@@ -75,3 +75,4 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
   (`EXTENSIONS`, `EXTCONF`, `DB`); use `--json` for booleans, integers and arrays.
 - `#[AsNonSchedulableCommand]` and the `ModifyNewSchedulerTaskWizardItemsEvent` do not exist in 13.4; dual-line
   extensions keep the `schedulable: false` tag.
+- Top-level modules were renamed in 14.0: the scheduler lives under *Administration*.

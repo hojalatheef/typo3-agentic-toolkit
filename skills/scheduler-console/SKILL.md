@@ -66,3 +66,7 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
 - [ ] Handlers use `#[AsMessageHandler]`; no `messenger.message_handler` tag in `Services.yaml`.
 - [ ] Deployment scripts use `configuration:set` / `configuration:show` (EXT:lowlevel, 14.2) instead of
       editing `settings.php` by hand.
+
+## Pitfalls
+
+- `messenger:consume` blocks other scheduler tasks while it runs.

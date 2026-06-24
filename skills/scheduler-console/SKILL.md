@@ -76,3 +76,8 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
 - `#[AsNonSchedulableCommand]` and the `ModifyNewSchedulerTaskWizardItemsEvent` do not exist in 13.4; dual-line
   extensions keep the `schedulable: false` tag.
 - Top-level modules were renamed in 14.0: the scheduler lives under *Administration*.
+
+## References
+
+- [references/scheduler-tca.md](references/scheduler-tca.md) - TCA record types, migration methods, timing,
+  priority, wizard event.

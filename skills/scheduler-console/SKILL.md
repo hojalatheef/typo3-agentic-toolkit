@@ -81,3 +81,5 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
 
 - [references/scheduler-tca.md](references/scheduler-tca.md) - TCA record types, migration methods, timing,
   priority, wizard event.
+- [references/cli-and-messaging.md](references/cli-and-messaging.md) - command attributes, completion,
+  configuration commands, messenger.

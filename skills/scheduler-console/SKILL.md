@@ -73,3 +73,5 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
 - Priority sorts before `nextexecution`: a stream of high-priority tasks can starve low-priority ones.
 - `configuration:set` only writes paths that exist in the default configuration or are allowed
   (`EXTENSIONS`, `EXTCONF`, `DB`); use `--json` for booleans, integers and arrays.
+- `#[AsNonSchedulableCommand]` and the `ModifyNewSchedulerTaskWizardItemsEvent` do not exist in 13.4; dual-line
+  extensions keep the `schedulable: false` tag.

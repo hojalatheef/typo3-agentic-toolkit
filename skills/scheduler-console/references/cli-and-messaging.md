@@ -53,3 +53,4 @@ Provided by `typo3/cms-lowlevel`. Paths use `/` separators.
 | --- | --- |
 | `configuration:show` | `vendor/bin/typo3 configuration:show SYS/sitename --type=active --json` (`--type=local` for `settings.php` only; default shows a diff when overridden) |
 | `configuration:set` | `vendor/bin/typo3 configuration:set BE/debug true --json` |
+| `configuration:remove` | `vendor/bin/typo3 configuration:remove "EXTCONF/ext1,EXTCONF/ext2" --force` |

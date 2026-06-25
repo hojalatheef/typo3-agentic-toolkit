@@ -83,3 +83,8 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
   priority, wizard event.
 - [references/cli-and-messaging.md](references/cli-and-messaging.md) - command attributes, completion,
   configuration commands, messenger.
+- Templates: [templates/ImportCommand.php](templates/ImportCommand.php),
+  [templates/CleanupTask.php](templates/CleanupTask.php),
+  [templates/tx_scheduler_task_cleanup.php](templates/tx_scheduler_task_cleanup.php),
+  [templates/ImportMessage.php](templates/ImportMessage.php),
+  [templates/ImportMessageHandler.php](templates/ImportMessageHandler.php).

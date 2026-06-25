@@ -44,3 +44,7 @@ $this->addArgument(
 
 Core commands with argument completion: `redirects:cleanup`, `redirects:checkintegrity`,
 `styleguide:generate`.
+
+## System configuration commands (Feature-108815, 14.2)
+
+Provided by `typo3/cms-lowlevel`. Paths use `/` separators.

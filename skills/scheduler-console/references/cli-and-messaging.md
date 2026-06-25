@@ -56,3 +56,4 @@ Provided by `typo3/cms-lowlevel`. Paths use `/` separators.
 | `configuration:remove` | `vendor/bin/typo3 configuration:remove "EXTCONF/ext1,EXTCONF/ext2" --force` |
 
 `configuration:set` writes `config/system/settings.php`; only paths from the default configuration or allowed
+roots (`EXTENSIONS`, `EXTCONF`, `DB`) are writable. `--json` gives typed values (`true`, `1`, `{"key": "value"}`).

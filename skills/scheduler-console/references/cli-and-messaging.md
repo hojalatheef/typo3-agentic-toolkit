@@ -57,3 +57,4 @@ Provided by `typo3/cms-lowlevel`. Paths use `/` separators.
 
 `configuration:set` writes `config/system/settings.php`; only paths from the default configuration or allowed
 roots (`EXTENSIONS`, `EXTCONF`, `DB`) are writable. `--json` gives typed values (`true`, `1`, `{"key": "value"}`).
+Overrides in `config/system/additional.php` win at runtime - check with `--type=active`.

@@ -51,3 +51,4 @@ Provided by `typo3/cms-lowlevel`. Paths use `/` separators.
 
 | Command | Example |
 | --- | --- |
+| `configuration:show` | `vendor/bin/typo3 configuration:show SYS/sitename --type=active --json` (`--type=local` for `settings.php` only; default shows a diff when overridden) |

@@ -88,3 +88,5 @@ persistence. Symfony commands are schedulable by default; opt out with an attrib
   [templates/tx_scheduler_task_cleanup.php](templates/tx_scheduler_task_cleanup.php),
   [templates/ImportMessage.php](templates/ImportMessage.php),
   [templates/ImportMessageHandler.php](templates/ImportMessageHandler.php).
+- Changelog: Feature-106739, Feature-107526, Feature-107488, Breaking-107488, Feature-109110, Feature-107151,
+  Feature-107471, Feature-108815, Feature-106261, Feature-106839, Feature-101700.

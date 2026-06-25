@@ -48,3 +48,6 @@ Core commands with argument completion: `redirects:cleanup`, `redirects:checkint
 ## System configuration commands (Feature-108815, 14.2)
 
 Provided by `typo3/cms-lowlevel`. Paths use `/` separators.
+
+| Command | Example |
+| --- | --- |

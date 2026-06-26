@@ -74,3 +74,6 @@ final class DemoHandler
 ```
 
 `messenger:consume` options aligned with Symfony in 14.2:
+
+| Option | Meaning |
+| --- | --- |

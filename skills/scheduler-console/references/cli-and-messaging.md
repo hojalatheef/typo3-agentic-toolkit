@@ -77,3 +77,4 @@ final class DemoHandler
 
 | Option | Meaning |
 | --- | --- |
+| `--limit` / `-l` | Stop after N messages. |

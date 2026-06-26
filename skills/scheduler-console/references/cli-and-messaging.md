@@ -80,3 +80,4 @@ final class DemoHandler
 | `--limit` / `-l` | Stop after N messages. |
 | `--failure-limit` / `-f` | Stop after N failed messages. |
 | `--memory-limit` / `-m` | Stop above memory, e.g. `128M`. |
+| `--time-limit` / `-t` | Stop after N seconds. |

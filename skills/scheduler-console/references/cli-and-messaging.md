@@ -62,3 +62,7 @@ Overrides in `config/system/additional.php` win at runtime - check with `--type=
 ## Messenger (Feature-101700, 13.0; Feature-106261, 14.2)
 
 Handlers are registered by attribute (class or method level); no `messenger.message_handler` tag needed:
+
+```php
+use Symfony\Component\Messenger\Attribute\AsMessageHandler;
+```

@@ -65,4 +65,10 @@ Handlers are registered by attribute (class or method level); no `messenger.mess
 
 ```php
 use Symfony\Component\Messenger\Attribute\AsMessageHandler;
+
+#[AsMessageHandler]
+final class DemoHandler
+{
+    public function __invoke(DemoMessage $message): void {}
+}
 ```

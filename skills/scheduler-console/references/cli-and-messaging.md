@@ -72,3 +72,5 @@ final class DemoHandler
     public function __invoke(DemoMessage $message): void {}
 }
 ```
+
+`messenger:consume` options aligned with Symfony in 14.2:

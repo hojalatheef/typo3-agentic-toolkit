@@ -82,3 +82,4 @@ final class DemoHandler
 | `--memory-limit` / `-m` | Stop above memory, e.g. `128M`. |
 | `--time-limit` / `-t` | Stop after N seconds. |
 | `--bus` / `-b` | Bus to dispatch received messages to. |
+| `--all` | Consume all receivers. |

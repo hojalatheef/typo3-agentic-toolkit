@@ -83,3 +83,4 @@ final class DemoHandler
 | `--time-limit` / `-t` | Stop after N seconds. |
 | `--bus` / `-b` | Bus to dispatch received messages to. |
 | `--all` | Consume all receivers. |
+| `--keepalive` | Use transport keepalive if supported. |

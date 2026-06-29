@@ -91,3 +91,4 @@ vendor/bin/typo3 messenger:consume --all
 ```
 
 The command can run as a scheduler task. It blocks other scheduler tasks while running: set `--time-limit` below
+the cron interval (cron every 300 s, limit 240 s).

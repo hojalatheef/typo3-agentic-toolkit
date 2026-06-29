@@ -84,3 +84,8 @@ final class DemoHandler
 | `--bus` / `-b` | Bus to dispatch received messages to. |
 | `--all` | Consume all receivers. |
 | `--keepalive` | Use transport keepalive if supported. |
+
+```bash
+vendor/bin/typo3 messenger:consume my_receiver --time-limit=240 --memory-limit=128M
+vendor/bin/typo3 messenger:consume --all
+```

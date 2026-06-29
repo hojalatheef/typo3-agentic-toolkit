@@ -89,3 +89,5 @@ final class DemoHandler
 vendor/bin/typo3 messenger:consume my_receiver --time-limit=240 --memory-limit=128M
 vendor/bin/typo3 messenger:consume --all
 ```
+
+The command can run as a scheduler task. It blocks other scheduler tasks while running: set `--time-limit` below

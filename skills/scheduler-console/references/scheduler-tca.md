@@ -8,3 +8,5 @@
 - `parameters` - a `json` column for tasks without own columns,
 - `execution_details` - a `json` field holding the timing (Feature-107488),
 - `priority` - integer, 14.2 (Feature-109110).
+
+Consequences: editing through FormEngine, saving through DataHandler (hooks, history, audit), import/export

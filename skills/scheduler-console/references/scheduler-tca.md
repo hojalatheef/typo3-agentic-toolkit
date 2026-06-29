@@ -10,3 +10,4 @@
 - `priority` - integer, 14.2 (Feature-109110).
 
 Consequences: editing through FormEngine, saving through DataHandler (hooks, history, audit), import/export
+support, restore through the recycler, automatic restrictions and TCA schema. An upgrade wizard migrates existing

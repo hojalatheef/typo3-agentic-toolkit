@@ -34,4 +34,11 @@ ExtensionManagementUtility::addRecordType(
         'description' => 'my_extension.tasks:cleanup.description',
         'value' => \MyVendor\MyExtension\Task\CleanupTask::class,
         'icon' => 'mimetypes-x-tx_scheduler_task_group',
+        'iconOverlay' => 'content-clock',
+        'group' => 'my_extension',
+    ],
+    '
+        --div--;core.form.tabs:general,
+            tasktype,
+            task_group,
 ```

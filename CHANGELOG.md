@@ -4,6 +4,28 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [0.8.0] - 2026-06-30
+
+### Changed
+
+- `extbase-modern/persistence-and-errors` reference: more guidance
+- `fluid-components/components-in-depth` reference: more guidance
+- `fluid-components/design-system-workflow` reference: more guidance
+- `fluid-components` skill: more guidance
+- `form-framework/storage-and-config` reference: more guidance
+- `form-framework` skill: more guidance
+- `functional-tests/request-tests` reference: more guidance
+- `onboard/claude-md-template` reference: more guidance
+- `quality-gate/steps` reference: more guidance
+- `quality-gate` skill: more guidance
+- `record-rendering/end-to-end-example` reference: more guidance
+- `record-rendering/record-api` reference: more guidance
+- `record-rendering` skill: more guidance
+- `review` skill: more guidance
+- `scheduler-console/cli-and-messaging` reference: more guidance
+- `scheduler-console/scheduler-tca` reference: more guidance
+- `scheduler-console` skill: more guidance
+
 ## [0.7.0] - 2026-04-30
 
 ### Added

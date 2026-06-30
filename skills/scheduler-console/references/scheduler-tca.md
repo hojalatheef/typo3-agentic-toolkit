@@ -23,3 +23,4 @@ Steps from the changelog:
    column => value) and `setTaskParameters(array $parameters): void` (receives the full database record for
    TCA-based tasks).
 3. Optional `getAdditionalInformation()` for the module list.
+4. TCA in `Configuration/TCA/Overrides/tx_scheduler_task_<name>.php`.

@@ -19,3 +19,6 @@ Steps from the changelog:
 
 1. Task class extends `TYPO3\CMS\Scheduler\Task\AbstractTask`, logic in `execute()` (return `true` on
    success).
+2. Implement `getTaskParameters(): array` (called during migration to read old serialized values; return
+   column => value) and `setTaskParameters(array $parameters): void` (receives the full database record for
+   TCA-based tasks).

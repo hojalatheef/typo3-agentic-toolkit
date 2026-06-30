@@ -22,3 +22,4 @@ Steps from the changelog:
 2. Implement `getTaskParameters(): array` (called during migration to read old serialized values; return
    column => value) and `setTaskParameters(array $parameters): void` (receives the full database record for
    TCA-based tasks).
+3. Optional `getAdditionalInformation()` for the module list.

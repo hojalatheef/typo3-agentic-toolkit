@@ -26,3 +26,12 @@ Steps from the changelog:
 4. TCA in `Configuration/TCA/Overrides/tx_scheduler_task_<name>.php`.
 5. New columns via `ExtensionManagementUtility::addTCAcolumns('tx_scheduler_task', [...])`.
 6. Register with `ExtensionManagementUtility::addRecordType()`:
+
+```php
+ExtensionManagementUtility::addRecordType(
+    [
+        'label' => 'my_extension.tasks:cleanup.title',
+        'description' => 'my_extension.tasks:cleanup.description',
+        'value' => \MyVendor\MyExtension\Task\CleanupTask::class,
+        'icon' => 'mimetypes-x-tx_scheduler_task_group',
+```

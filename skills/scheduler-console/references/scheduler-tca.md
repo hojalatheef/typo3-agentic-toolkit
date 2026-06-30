@@ -41,4 +41,11 @@ ExtensionManagementUtility::addRecordType(
         --div--;core.form.tabs:general,
             tasktype,
             task_group,
+            description,
+            number_of_days;my_extension.tasks:cleanup.days,
+        --div--;core.form.tabs:timing,
+            --palette--;;execution,
+        --div--;core.form.tabs:access,
+            disable,
+        --div--;core.form.tabs:extended,',
 ```

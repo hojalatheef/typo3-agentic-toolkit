@@ -16,3 +16,6 @@ rows.
 ## Custom TCA record types (Feature-107526, 14.0)
 
 Steps from the changelog:
+
+1. Task class extends `TYPO3\CMS\Scheduler\Task\AbstractTask`, logic in `execute()` (return `true` on
+   success).

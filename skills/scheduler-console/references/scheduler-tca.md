@@ -25,3 +25,4 @@ Steps from the changelog:
 3. Optional `getAdditionalInformation()` for the module list.
 4. TCA in `Configuration/TCA/Overrides/tx_scheduler_task_<name>.php`.
 5. New columns via `ExtensionManagementUtility::addTCAcolumns('tx_scheduler_task', [...])`.
+6. Register with `ExtensionManagementUtility::addRecordType()`:

@@ -69,3 +69,7 @@ public function setTaskParameters(array $parameters): void
 
 Core reuses columns such as `number_of_days`, `selected_tables`, `file_storage` across task types; check the
 existing TCA (`$GLOBALS['TCA']['tx_scheduler_task']['columns']`) before adding a duplicate column.
+
+## Timing options (Feature-107488, Breaking-107488, 14.0)
+
+`execution_details` exposes `overrideFieldTca` for its sub-fields `frequency`, `runningType`, `multiple`,

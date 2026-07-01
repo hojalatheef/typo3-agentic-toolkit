@@ -59,3 +59,10 @@ ExtensionManagementUtility::addRecordType(
 ```
 
 `setTaskParameters()` should accept old and new keys so migrated and new records both work:
+
+```php
+public function setTaskParameters(array $parameters): void
+{
+    $this->period = (int)($parameters['RecyclerCleanerPeriod'] ?? $parameters['number_of_days'] ?? 180);
+}
+```

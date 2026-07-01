@@ -55,4 +55,5 @@ ExtensionManagementUtility::addRecordType(
     ],
     '',
     'tx_scheduler_task'
+);
 ```

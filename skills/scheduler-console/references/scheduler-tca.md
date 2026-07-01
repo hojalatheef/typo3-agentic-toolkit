@@ -57,3 +57,5 @@ ExtensionManagementUtility::addRecordType(
     'tx_scheduler_task'
 );
 ```
+
+`setTaskParameters()` should accept old and new keys so migrated and new records both work:

@@ -82,4 +82,9 @@ $GLOBALS['TCA']['tx_scheduler_task']['columns']['execution_details']['config']
         'value' => '0 2 * * *',
         'label' => 'my_extension.messages:frequency.daily_2am',
     ];
+
+$GLOBALS['TCA']['tx_scheduler_task']['columns']['execution_details']['config']
+    ['overrideFieldTca']['multiple'] = [
+        'description' => 'my_extension.messages:multiple.description',
+    ];
 ```

@@ -74,3 +74,12 @@ existing TCA (`$GLOBALS['TCA']['tx_scheduler_task']['columns']`) before adding a
 
 `execution_details` exposes `overrideFieldTca` for its sub-fields `frequency`, `runningType`, `multiple`,
 `start`, `end`.
+
+```php
+// Configuration/TCA/Overrides/tx_scheduler_task.php
+$GLOBALS['TCA']['tx_scheduler_task']['columns']['execution_details']['config']
+    ['overrideFieldTca']['frequency']['config']['valuePicker']['items'][] = [
+        'value' => '0 2 * * *',
+        'label' => 'my_extension.messages:frequency.daily_2am',
+    ];
+```

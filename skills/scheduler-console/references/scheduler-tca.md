@@ -68,3 +68,4 @@ public function setTaskParameters(array $parameters): void
 ```
 
 Core reuses columns such as `number_of_days`, `selected_tables`, `file_storage` across task types; check the
+existing TCA (`$GLOBALS['TCA']['tx_scheduler_task']['columns']`) before adding a duplicate column.

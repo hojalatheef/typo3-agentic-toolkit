@@ -66,3 +66,5 @@ public function setTaskParameters(array $parameters): void
     $this->period = (int)($parameters['RecyclerCleanerPeriod'] ?? $parameters['number_of_days'] ?? 180);
 }
 ```
+
+Core reuses columns such as `number_of_days`, `selected_tables`, `file_storage` across task types; check the

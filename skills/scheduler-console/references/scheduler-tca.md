@@ -48,4 +48,11 @@ ExtensionManagementUtility::addRecordType(
         --div--;core.form.tabs:access,
             disable,
         --div--;core.form.tabs:extended,',
+    [
+        'columnsOverrides' => [
+            'number_of_days' => ['config' => ['eval' => 'required']],
+        ],
+    ],
+    '',
+    'tx_scheduler_task'
 ```

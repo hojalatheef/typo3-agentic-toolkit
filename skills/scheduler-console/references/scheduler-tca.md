@@ -73,3 +73,4 @@ existing TCA (`$GLOBALS['TCA']['tx_scheduler_task']['columns']`) before adding a
 ## Timing options (Feature-107488, Breaking-107488, 14.0)
 
 `execution_details` exposes `overrideFieldTca` for its sub-fields `frequency`, `runningType`, `multiple`,
+`start`, `end`.

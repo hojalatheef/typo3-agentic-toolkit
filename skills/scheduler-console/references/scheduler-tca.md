@@ -88,3 +88,5 @@ $GLOBALS['TCA']['tx_scheduler_task']['columns']['execution_details']['config']
         'description' => 'my_extension.messages:multiple.description',
     ];
 ```
+
+`$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['frequencyOptions']` is removed and silently ignored.

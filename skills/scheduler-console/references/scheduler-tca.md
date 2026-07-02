@@ -103,4 +103,8 @@ ExtensionManagementUtility::addTcaSelectItem(
     [
         'label' => 'LLL:my_extension.messages:priority.critical',
         'value' => 200,
+    ],
+    150,
+    'after',
+);
 ```

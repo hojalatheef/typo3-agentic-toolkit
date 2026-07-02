@@ -114,3 +114,4 @@ ExtensionManagementUtility::addTcaSelectItem(
 *Administration > Scheduler* creates tasks through a categorized, searchable wizard; the chosen type is passed to
 FormEngine (no more type switching inside the form). Tasks registered via `addRecordType()` appear with their
 `icon`, `iconOverlay` and `group`. Modify items with
+`TYPO3\CMS\Scheduler\Event\ModifyNewSchedulerTaskWizardItemsEvent`:

@@ -95,3 +95,12 @@ $GLOBALS['TCA']['tx_scheduler_task']['columns']['execution_details']['config']
 
 Levels: High 150, Regular 100 (default), Low 50. The next task is chosen by `priority DESC`, then
 `nextexecution ASC`. Shown in the Timing tab and in the module list. Add levels as TCA items:
+
+```php
+ExtensionManagementUtility::addTcaSelectItem(
+    'tx_scheduler_task',
+    'priority',
+    [
+        'label' => 'LLL:my_extension.messages:priority.critical',
+        'value' => 200,
+```

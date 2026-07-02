@@ -112,3 +112,4 @@ ExtensionManagementUtility::addTcaSelectItem(
 ## New task wizard (Feature-107471, 14.0)
 
 *Administration > Scheduler* creates tasks through a categorized, searchable wizard; the chosen type is passed to
+FormEngine (no more type switching inside the form). Tasks registered via `addRecordType()` appear with their

@@ -115,3 +115,6 @@ ExtensionManagementUtility::addTcaSelectItem(
 FormEngine (no more type switching inside the form). Tasks registered via `addRecordType()` appear with their
 `icon`, `iconOverlay` and `group`. Modify items with
 `TYPO3\CMS\Scheduler\Event\ModifyNewSchedulerTaskWizardItemsEvent`:
+
+| Method | Purpose |
+| --- | --- |

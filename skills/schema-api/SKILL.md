@@ -44,3 +44,4 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
 - [ ] Per-type defaults via `TCAdefaults.<table>.<field>.types.<type>` in TSconfig (Feature-107281, 14.0).
 - [ ] `itemsProcessors` instead of `itemsProcFunc` (Feature-107889, 14.0).
 - [ ] Items use `label`/`value` keys, also for `valuePicker` (Feature-106092, 14.0).
+- [ ] Countries use `'type' => 'country'` (Feature-99911, 14.0).

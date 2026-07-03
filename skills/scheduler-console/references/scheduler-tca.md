@@ -118,3 +118,4 @@ FormEngine (no more type switching inside the form). Tasks registered via `addRe
 
 | Method | Purpose |
 | --- | --- |
+| `getWizardItems()` / `setWizardItems()` | Read / replace all items. |

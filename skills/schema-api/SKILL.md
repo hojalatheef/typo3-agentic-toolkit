@@ -39,3 +39,5 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
 - [ ] Content types list only their own fields in `showitem`; system tabs are
       added automatically (Feature-104814, 13.3).
 - [ ] Type-specific `title` and `previewRenderer` in `types` (Feature-108027, 14.0).
+- [ ] Type-specific `label`, `label_alt`, `label_alt_force` in `types` or via
+      `addRecordType()` third argument (Feature-108581, 14.2).

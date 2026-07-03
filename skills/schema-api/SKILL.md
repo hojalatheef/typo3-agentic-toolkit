@@ -41,3 +41,4 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
 - [ ] Type-specific `title` and `previewRenderer` in `types` (Feature-108027, 14.0).
 - [ ] Type-specific `label`, `label_alt`, `label_alt_force` in `types` or via
       `addRecordType()` third argument (Feature-108581, 14.2).
+- [ ] Per-type defaults via `TCAdefaults.<table>.<field>.types.<type>` in TSconfig (Feature-107281, 14.0).

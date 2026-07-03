@@ -120,3 +120,4 @@ FormEngine (no more type switching inside the form). Tasks registered via `addRe
 | --- | --- |
 | `getWizardItems()` / `setWizardItems()` | Read / replace all items. |
 | `addWizardItem(string $key, array $item)` | Add or overwrite one item (`title`, `description`, `iconIdentifier`, `taskType`, `taskClass`). |
+| `removeWizardItem(string $key)` | Remove, e.g. `redirects_redirects:checkintegrity`. |

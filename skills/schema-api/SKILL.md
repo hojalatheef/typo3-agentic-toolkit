@@ -69,3 +69,5 @@ public function isTranslatable(string $table): bool
             ->hasCapability(TcaSchemaCapability::Language);
 }
 ```
+
+More patterns (fields, labels, sub-schemata, FlexForm tools) are in

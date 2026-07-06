@@ -56,3 +56,9 @@ Examples for each line are in [references/tca-v14.md](references/tca-v14.md).
 ## Read TCA in PHP
 
 Inject `TYPO3\CMS\Core\Schema\TcaSchemaFactory` (Feature-104002, 13.2):
+
+```php
+public function __construct(
+    private readonly TcaSchemaFactory $tcaSchemaFactory,
+) {}
+```

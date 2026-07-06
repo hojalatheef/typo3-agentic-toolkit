@@ -48,3 +48,4 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
 - [ ] No `ctrl.searchFields`; exclude fields with `'searchable' => false` (Feature-106972, 14.0).
 - [ ] Page types use `allowedRecordTypes` and `isViewable` in TCA, not
       `PageDoktypeRegistry` (Feature-108557, Feature-97898, 14.2).
+- [ ] Plugin FlexForms passed to `registerPlugin()`/`addPlugin()` directly (Feature-107047, 14.0).

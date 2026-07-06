@@ -52,3 +52,7 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
 - [ ] File relations that hold one file declare `'relationship' => 'manyToOne'` (Feature-103581, 13.3).
 
 Examples for each line are in [references/tca-v14.md](references/tca-v14.md).
+
+## Read TCA in PHP
+
+Inject `TYPO3\CMS\Core\Schema\TcaSchemaFactory` (Feature-104002, 13.2):

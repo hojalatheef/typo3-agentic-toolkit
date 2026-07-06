@@ -46,3 +46,5 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
 - [ ] Items use `label`/`value` keys, also for `valuePicker` (Feature-106092, 14.0).
 - [ ] Countries use `'type' => 'country'` (Feature-99911, 14.0).
 - [ ] No `ctrl.searchFields`; exclude fields with `'searchable' => false` (Feature-106972, 14.0).
+- [ ] Page types use `allowedRecordTypes` and `isViewable` in TCA, not
+      `PageDoktypeRegistry` (Feature-108557, Feature-97898, 14.2).

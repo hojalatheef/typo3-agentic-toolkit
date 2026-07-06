@@ -71,3 +71,4 @@ public function isTranslatable(string $table): bool
 ```
 
 More patterns (fields, labels, sub-schemata, FlexForm tools) are in
+[references/reading-schema.md](references/reading-schema.md).

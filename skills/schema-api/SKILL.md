@@ -50,3 +50,5 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
       `PageDoktypeRegistry` (Feature-108557, Feature-97898, 14.2).
 - [ ] Plugin FlexForms passed to `registerPlugin()`/`addPlugin()` directly (Feature-107047, 14.0).
 - [ ] File relations that hold one file declare `'relationship' => 'manyToOne'` (Feature-103581, 13.3).
+
+Examples for each line are in [references/tca-v14.md](references/tca-v14.md).

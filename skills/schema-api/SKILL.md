@@ -45,3 +45,4 @@ Arguments: `$ARGUMENTS` - optional table name and extension path.
 - [ ] `itemsProcessors` instead of `itemsProcFunc` (Feature-107889, 14.0).
 - [ ] Items use `label`/`value` keys, also for `valuePicker` (Feature-106092, 14.0).
 - [ ] Countries use `'type' => 'country'` (Feature-99911, 14.0).
+- [ ] No `ctrl.searchFields`; exclude fields with `'searchable' => false` (Feature-106972, 14.0).

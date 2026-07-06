@@ -61,4 +61,11 @@ Inject `TYPO3\CMS\Core\Schema\TcaSchemaFactory` (Feature-104002, 13.2):
 public function __construct(
     private readonly TcaSchemaFactory $tcaSchemaFactory,
 ) {}
+
+public function isTranslatable(string $table): bool
+{
+    return $this->tcaSchemaFactory->has($table)
+        && $this->tcaSchemaFactory->get($table)
+            ->hasCapability(TcaSchemaCapability::Language);
+}
 ```

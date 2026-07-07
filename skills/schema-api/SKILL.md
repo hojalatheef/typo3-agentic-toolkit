@@ -72,3 +72,9 @@ public function isTranslatable(string $table): bool
 
 More patterns (fields, labels, sub-schemata, FlexForm tools) are in
 [references/reading-schema.md](references/reading-schema.md).
+
+## Steps
+
+1. Write the base file `Configuration/TCA/<table>.php` from
+   [templates/tx_myext_item.php](templates/tx_myext_item.php): `ctrl` with
+   capabilities, `types`, only domain `columns`.

@@ -90,3 +90,4 @@ More patterns (fields, labels, sub-schemata, FlexForm tools) are in
 - [references/tca-v14.md](references/tca-v14.md) - option-by-option examples from the changelog.
 - [references/reading-schema.md](references/reading-schema.md) - Schema API usage, replacements for `BackendUtility` helpers, FlexFormTools.
 - [templates/](templates/) - base TCA file, `tt_content` override with `addRecordType()`, `ItemsProcessor` class.
+- Changelog: Feature-101553 (13.0), Feature-104002 (13.2), Feature-103581, Feature-104311, Feature-104814 (13.3), Feature-99911, Feature-106092, Feature-106972, Feature-107047, Feature-107281, Feature-107889, Feature-108027 (14.0), Feature-97898, Feature-108557, Feature-108581 (14.2).

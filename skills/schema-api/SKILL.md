@@ -88,3 +88,4 @@ More patterns (fields, labels, sub-schemata, FlexForm tools) are in
 ## References
 
 - [references/tca-v14.md](references/tca-v14.md) - option-by-option examples from the changelog.
+- [references/reading-schema.md](references/reading-schema.md) - Schema API usage, replacements for `BackendUtility` helpers, FlexFormTools.

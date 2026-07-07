@@ -78,3 +78,5 @@ More patterns (fields, labels, sub-schemata, FlexForm tools) are in
 1. Write the base file `Configuration/TCA/<table>.php` from
    [templates/tx_myext_item.php](templates/tx_myext_item.php): `ctrl` with
    capabilities, `types`, only domain `columns`.
+2. Add record types to existing tables in `Configuration/TCA/Overrides/` with
+   `ExtensionManagementUtility::addRecordType()`.

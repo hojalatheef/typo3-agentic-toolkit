@@ -80,3 +80,5 @@ More patterns (fields, labels, sub-schemata, FlexForm tools) are in
    capabilities, `types`, only domain `columns`.
 2. Add record types to existing tables in `Configuration/TCA/Overrides/` with
    `ExtensionManagementUtility::addRecordType()`.
+3. Delete matching lines from `ext_tables.sql`; run the database analyzer and
+   compare - ideally no change. Watch NULL to NOT NULL changes (Feature-101553).

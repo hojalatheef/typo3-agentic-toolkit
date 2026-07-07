@@ -84,3 +84,7 @@ More patterns (fields, labels, sub-schemata, FlexForm tools) are in
    compare - ideally no change. Watch NULL to NOT NULL changes (Feature-101553).
 4. Replace `$GLOBALS['TCA']` reads in Classes/ with `TcaSchemaFactory`.
 5. Flush caches; the schema is built once and cached.
+
+## References
+
+- [references/tca-v14.md](references/tca-v14.md) - option-by-option examples from the changelog.

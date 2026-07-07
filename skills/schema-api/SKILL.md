@@ -82,3 +82,4 @@ More patterns (fields, labels, sub-schemata, FlexForm tools) are in
    `ExtensionManagementUtility::addRecordType()`.
 3. Delete matching lines from `ext_tables.sql`; run the database analyzer and
    compare - ideally no change. Watch NULL to NOT NULL changes (Feature-101553).
+4. Replace `$GLOBALS['TCA']` reads in Classes/ with `TcaSchemaFactory`.

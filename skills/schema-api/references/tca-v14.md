@@ -97,3 +97,4 @@ ExtensionManagementUtility::addRecordType(
 
 Type-specific defaults in page or user TSconfig (Feature-107281, 14.0). They
 apply only when the type is known at creation (wizard `defVals` or the type
+field in the DataHandler datamap):

@@ -76,3 +76,5 @@ not use it yet:
     'event' => ['label_alt' => 'event_date,location', 'label_alt_force' => true],
 ],
 ```
+
+The same via `ExtensionManagementUtility::addRecordType($item, $showitem, $additionalTypeInformation)`:

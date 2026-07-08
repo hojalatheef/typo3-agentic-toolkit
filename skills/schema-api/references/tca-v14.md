@@ -68,3 +68,4 @@ Type-specific `title` and `previewRenderer` (Feature-108027, 14.0):
 
 Type-specific labels (Feature-108581, 14.2) - used by
 `BackendUtility::getRecordTitle()` (lists, page tree, history); FormEngine does
+not use it yet:

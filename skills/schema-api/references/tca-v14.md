@@ -78,3 +78,12 @@ not use it yet:
 ```
 
 The same via `ExtensionManagementUtility::addRecordType($item, $showitem, $additionalTypeInformation)`:
+
+```php
+ExtensionManagementUtility::addRecordType(
+    [
+        'label' => 'LLL:frontend.ttc:CType.shortcut',
+        'value' => 'my-type',
+        'icon' => 'my-icon',
+        'group' => 'special',
+```

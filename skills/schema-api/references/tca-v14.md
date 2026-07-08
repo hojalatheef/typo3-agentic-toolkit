@@ -98,3 +98,11 @@ ExtensionManagementUtility::addRecordType(
 Type-specific defaults in page or user TSconfig (Feature-107281, 14.0). They
 apply only when the type is known at creation (wizard `defVals` or the type
 field in the DataHandler datamap):
+
+```typoscript
+TCAdefaults.tt_content {
+    header_layout = 1
+    header_layout.types.textmedia = 3
+    frame_class.types.textmedia = ruler-before
+}
+```

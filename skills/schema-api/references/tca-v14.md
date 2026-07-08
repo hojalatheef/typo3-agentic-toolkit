@@ -86,4 +86,11 @@ ExtensionManagementUtility::addRecordType(
         'value' => 'my-type',
         'icon' => 'my-icon',
         'group' => 'special',
+    ],
+    'my-header',
+    [
+        'label' => 'header',
+        'label_alt' => 'records',
+    ]
+);
 ```

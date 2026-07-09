@@ -141,3 +141,5 @@ TCA type `country` (Feature-99911, 14.0):
     ],
 ],
 ```
+
+Stores the ISO alpha-2 code; Extbase maps it to `TYPO3\CMS\Core\Country\Country`.

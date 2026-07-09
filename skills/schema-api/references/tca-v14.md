@@ -134,4 +134,10 @@ TCA type `country` (Feature-99911, 14.0):
         'type' => 'country',
         'labelField' => 'localizedName',
         'prioritizedCountries' => ['AT', 'CH'],
+        'sortItems' => ['label' => 'asc'],
+        'filter' => ['onlyCountries' => ['DE', 'AT', 'CH']],
+        'default' => 'DE',
+        'required' => false,
+    ],
+],
 ```

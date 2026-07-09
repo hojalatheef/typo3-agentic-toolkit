@@ -112,3 +112,12 @@ TCAdefaults.tt_content {
 `itemsProcessors` (Feature-107889, 14.0) - ordered by key, each class
 implements `TYPO3\CMS\Core\DataHandling\ItemsProcessorInterface` and returns a
 `SelectItemCollection`. If `itemsProcFunc` is also set, it runs first.
+
+```php
+'itemsProcessors' => [
+    100 => [
+        'class' => SpecialRelationsProcessor::class,
+        'parameters' => ['foo' => 'bar'],
+    ],
+],
+```

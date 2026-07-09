@@ -126,3 +126,12 @@ TSconfig can pass parameters with the same key:
 `TCEFORM.example_table.content.itemsProcessors.100.foo = bar`.
 
 TCA type `country` (Feature-99911, 14.0):
+
+```php
+'country' => [
+    'label' => 'Country',
+    'config' => [
+        'type' => 'country',
+        'labelField' => 'localizedName',
+        'prioritizedCountries' => ['AT', 'CH'],
+```

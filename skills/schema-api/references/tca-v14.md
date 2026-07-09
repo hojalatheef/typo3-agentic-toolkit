@@ -121,3 +121,5 @@ implements `TYPO3\CMS\Core\DataHandling\ItemsProcessorInterface` and returns a
     ],
 ],
 ```
+
+TSconfig can pass parameters with the same key:

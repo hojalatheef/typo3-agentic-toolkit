@@ -110,3 +110,4 @@ TCAdefaults.tt_content {
 ## Field options
 
 `itemsProcessors` (Feature-107889, 14.0) - ordered by key, each class
+implements `TYPO3\CMS\Core\DataHandling\ItemsProcessorInterface` and returns a

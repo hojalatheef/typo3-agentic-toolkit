@@ -152,3 +152,7 @@ fields of type `color`, `datetime`, `email`, `flex`, `input`, `json`, `link`,
 
 `relationship` (Feature-103581, 13.3): `oneToOne` / `manyToOne` on relation
 types makes Record objects return one object instead of a collection.
+
+## Page types and plugins
+
+Page types (Feature-108557, Feature-97898, 14.2) - replaces

@@ -162,3 +162,5 @@ Page types (Feature-108557, Feature-97898, 14.2) - replaces
 $GLOBALS['TCA']['pages']['types']['116']['allowedRecordTypes'] = ['tt_content', 'my_custom_record'];
 $GLOBALS['TCA']['pages']['types']['116']['isViewable'] = false;
 ```
+
+Default allowed tables are `pages`, `sys_category`, `sys_file_reference`,

@@ -149,3 +149,5 @@ Stores the ISO alpha-2 code; Extbase maps it to `TYPO3\CMS\Core\Country\Country`
 `searchable` (Feature-106972, 14.0): `ctrl.searchFields` is removed; all
 fields of type `color`, `datetime`, `email`, `flex`, `input`, `json`, `link`,
 `slug`, `text`, `uuid` are searched unless `'searchable' => false`.
+
+`relationship` (Feature-103581, 13.3): `oneToOne` / `manyToOne` on relation

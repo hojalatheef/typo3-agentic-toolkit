@@ -151,3 +151,4 @@ fields of type `color`, `datetime`, `email`, `flex`, `input`, `json`, `link`,
 `slug`, `text`, `uuid` are searched unless `'searchable' => false`.
 
 `relationship` (Feature-103581, 13.3): `oneToOne` / `manyToOne` on relation
+types makes Record objects return one object instead of a collection.

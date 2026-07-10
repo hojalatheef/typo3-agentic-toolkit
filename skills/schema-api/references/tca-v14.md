@@ -156,3 +156,4 @@ types makes Record objects return one object instead of a collection.
 ## Page types and plugins
 
 Page types (Feature-108557, Feature-97898, 14.2) - replaces
+`PageDoktypeRegistry->add()` in `ext_tables.php` (deprecated):

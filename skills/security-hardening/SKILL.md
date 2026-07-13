@@ -20,3 +20,7 @@ TYPO3 14 ships primitives that replace most hand-rolled security code: authentic
 (Feature-108002, 14.0), HMACs with a mandatory extra secret (Feature-102761, 13.0), hash-based CSP that keeps pages
 cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) and a central rate limiter
 (Feature-109080, 14.2).
+
+## When to use
+
+- Security review of an extension before release or before installing it in a project.

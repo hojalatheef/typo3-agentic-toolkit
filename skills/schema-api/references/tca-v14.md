@@ -164,3 +164,4 @@ $GLOBALS['TCA']['pages']['types']['116']['isViewable'] = false;
 ```
 
 Default allowed tables are `pages`, `sys_category`, `sys_file_reference`,
+`sys_file_collection` plus tables with `ctrl.security.ignorePageTypeRestriction`.

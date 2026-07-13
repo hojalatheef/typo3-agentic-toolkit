@@ -176,4 +176,7 @@ ExtensionUtility::registerPlugin(
     'My Plugin Title',
     'my-extension-icon',
     'plugins',
+    'Plugin description',
+    'FILE:EXT:my_extension/Configuration/FlexForm.xml'
+);
 ```

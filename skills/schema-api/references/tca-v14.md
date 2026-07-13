@@ -167,3 +167,4 @@ Default allowed tables are `pages`, `sys_category`, `sys_file_reference`,
 `sys_file_collection` plus tables with `ctrl.security.ignorePageTypeRestriction`.
 
 Plugin with FlexForm in one call (Feature-107047, 14.0); `addPiFlexFormValue()`
+is deprecated:

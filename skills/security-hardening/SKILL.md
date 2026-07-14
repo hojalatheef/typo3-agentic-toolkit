@@ -24,3 +24,4 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 ## When to use
 
 - Security review of an extension before release or before installing it in a project.
+- Storing credentials, API tokens or personal data that must be readable later: `CipherService`.

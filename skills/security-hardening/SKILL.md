@@ -28,3 +28,4 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 - Signing URLs, form fields or one-time links: `HashService` with an additional secret.
 - Adding inline scripts/styles or CDN assets to a site that sends a CSP, or wanting a static/proxy-cached site
   with CSP: hashes instead of nonces.
+- CSP report noise from browser extensions: `BeforePersistingReportEvent` (Feature-102079, 14.2).

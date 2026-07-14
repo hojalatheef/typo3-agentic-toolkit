@@ -32,3 +32,8 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 - Form registration storing passwords via `SaveToDatabase`: `hashed: true` (Feature-106752, 14.0).
 - Brute-force exposed endpoints: `#[RateLimit]` / `RateLimiterFactoryInterface` - see the `extbase-modern`
   skill.
+
+## Steps
+
+1. Review: walk through [references/review-checklist.md](references/review-checklist.md). Report each finding as
+   `file:line - risk - fix`, ordered by severity.

@@ -42,3 +42,6 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
    `encryptionKey` afterwards, or data cannot be decrypted.
 3. Signed values: `HashService::hmac($data, '<purpose-secret>', HashAlgo::SHA3_256)` and
    `validateHmac()`; never compare HMACs with `===`.
+4. CSP: copy [templates/csp.yaml](templates/csp.yaml) to `config/sites/<site>/csp.yaml`. Switch Fluid
+   `useNonce` to `csp`, inline `style=""` to `f:asset.styleAttr`. Details in
+   [references/csp-sri.md](references/csp-sri.md).

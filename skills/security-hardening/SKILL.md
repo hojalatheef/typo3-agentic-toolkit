@@ -30,3 +30,5 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
   with CSP: hashes instead of nonces.
 - CSP report noise from browser extensions: `BeforePersistingReportEvent` (Feature-102079, 14.2).
 - Form registration storing passwords via `SaveToDatabase`: `hashed: true` (Feature-106752, 14.0).
+- Brute-force exposed endpoints: `#[RateLimit]` / `RateLimiterFactoryInterface` - see the `extbase-modern`
+  skill.

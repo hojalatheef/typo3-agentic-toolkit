@@ -40,3 +40,5 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 2. Secrets: use [templates/TokenVault.php](templates/TokenVault.php). Derive one key per purpose with
    `KeyFactory::deriveSharedKeyFromEncryptionKey('<seed>')`; store `(string)$cipherValue`. Never change
    `encryptionKey` afterwards, or data cannot be decrypted.
+3. Signed values: `HashService::hmac($data, '<purpose-secret>', HashAlgo::SHA3_256)` and
+   `validateHmac()`; never compare HMACs with `===`.

@@ -37,3 +37,6 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 
 1. Review: walk through [references/review-checklist.md](references/review-checklist.md). Report each finding as
    `file:line - risk - fix`, ordered by severity.
+2. Secrets: use [templates/TokenVault.php](templates/TokenVault.php). Derive one key per purpose with
+   `KeyFactory::deriveSharedKeyFromEncryptionKey('<seed>')`; store `(string)$cipherValue`. Never change
+   `encryptionKey` afterwards, or data cannot be decrypted.

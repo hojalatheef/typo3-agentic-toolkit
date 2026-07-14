@@ -26,3 +26,5 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 - Security review of an extension before release or before installing it in a project.
 - Storing credentials, API tokens or personal data that must be readable later: `CipherService`.
 - Signing URLs, form fields or one-time links: `HashService` with an additional secret.
+- Adding inline scripts/styles or CDN assets to a site that sends a CSP, or wanting a static/proxy-cached site
+  with CSP: hashes instead of nonces.

@@ -54,3 +54,4 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 - [ ] No custom crypto (`openssl_encrypt`, `base64` "encryption", `md5()`/`sha1()` signatures).
 - [ ] No `GeneralUtility::hmac()` / Extbase `HashService`; `TYPO3\CMS\Core\Crypto\HashService` with a
       purpose-specific additional secret.
+- [ ] HMACs for new features use `HashAlgo::SHA3_256` (default is still SHA1, Breaking-106307).

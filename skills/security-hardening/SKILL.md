@@ -48,3 +48,7 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 5. SRI: `integrity = auto` for own assets; precomputed hashes for third-party CDN files.
 6. Controllers: `#[Authorize]` + `#[RateLimit]` on state-changing Extbase actions (14.2).
 7. Forms: `hashed: true` for password fields mapped to a database column.
+
+## Checklist
+
+- [ ] No custom crypto (`openssl_encrypt`, `base64` "encryption", `md5()`/`sha1()` signatures).

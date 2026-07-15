@@ -57,3 +57,4 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 - [ ] HMACs for new features use `HashAlgo::SHA3_256` (default is still SHA1, Breaking-106307).
 - [ ] Encrypted values are stored as `(string)CipherValue`; decryption failures (`CipherDecryptionFailedException`)
       are handled.
+- [ ] `csp.yaml` exists per site; inline assets have `csp="1"` or are moved to files.

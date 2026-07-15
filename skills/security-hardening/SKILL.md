@@ -55,3 +55,5 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 - [ ] No `GeneralUtility::hmac()` / Extbase `HashService`; `TYPO3\CMS\Core\Crypto\HashService` with a
       purpose-specific additional secret.
 - [ ] HMACs for new features use `HashAlgo::SHA3_256` (default is still SHA1, Breaking-106307).
+- [ ] Encrypted values are stored as `(string)CipherValue`; decryption failures (`CipherDecryptionFailedException`)
+      are handled.

@@ -59,3 +59,4 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
       are handled.
 - [ ] `csp.yaml` exists per site; inline assets have `csp="1"` or are moved to files.
 - [ ] No `useNonce` in `f:asset.*` or `AssetCollector` options (deprecated in 14.2).
+- [ ] External assets have `integrity` (precomputed for third-party hosts).

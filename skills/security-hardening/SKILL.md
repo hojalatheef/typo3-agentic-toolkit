@@ -45,3 +45,4 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 4. CSP: copy [templates/csp.yaml](templates/csp.yaml) to `config/sites/<site>/csp.yaml`. Switch Fluid
    `useNonce` to `csp`, inline `style=""` to `f:asset.styleAttr`. Details in
    [references/csp-sri.md](references/csp-sri.md).
+5. SRI: `integrity = auto` for own assets; precomputed hashes for third-party CDN files.

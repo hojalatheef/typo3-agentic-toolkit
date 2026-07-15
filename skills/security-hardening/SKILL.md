@@ -58,3 +58,4 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 - [ ] Encrypted values are stored as `(string)CipherValue`; decryption failures (`CipherDecryptionFailedException`)
       are handled.
 - [ ] `csp.yaml` exists per site; inline assets have `csp="1"` or are moved to files.
+- [ ] No `useNonce` in `f:asset.*` or `AssetCollector` options (deprecated in 14.2).

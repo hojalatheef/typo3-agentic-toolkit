@@ -73,3 +73,7 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 - `CipherService` output differs on every call (random nonce). Do not use it for lookups; store a separate HMAC
   if you must search by value.
 - `HashService` default algorithm is SHA1 for BC; pass the algorithm explicitly.
+
+## References
+
+- [references/review-checklist.md](references/review-checklist.md) - full extension security review.

@@ -63,3 +63,7 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 - [ ] Public write endpoints are rate limited and, if user-bound, authorized.
 - [ ] `SaveToDatabase` password fields have `hashed: true`.
 - [ ] Uploads use `#[FileUpload]` with MIME/extension/size validation.
+
+## Pitfalls
+
+- `useHash: true` without `useNonce: false` still emits nonces - responses stay uncacheable for proxies.

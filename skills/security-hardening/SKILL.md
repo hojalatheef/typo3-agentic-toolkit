@@ -70,3 +70,5 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 - `integrity = auto` on a remote URL trusts whatever the remote server delivered on the first fetch (cached 7
   days in `cache.assets`).
 - Inline `<f:asset.script>` defaults to `csp="0"` (no hash). Opt in explicitly.
+- `CipherService` output differs on every call (random nonce). Do not use it for lookups; store a separate HMAC
+  if you must search by value.

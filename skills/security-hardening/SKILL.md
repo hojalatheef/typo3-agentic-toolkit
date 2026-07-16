@@ -67,3 +67,5 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 ## Pitfalls
 
 - `useHash: true` without `useNonce: false` still emits nonces - responses stay uncacheable for proxies.
+- `integrity = auto` on a remote URL trusts whatever the remote server delivered on the first fetch (cached 7
+  days in `cache.assets`).

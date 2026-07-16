@@ -61,3 +61,4 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 - [ ] No `useNonce` in `f:asset.*` or `AssetCollector` options (deprecated in 14.2).
 - [ ] External assets have `integrity` (precomputed for third-party hosts).
 - [ ] Public write endpoints are rate limited and, if user-bound, authorized.
+- [ ] `SaveToDatabase` password fields have `hashed: true`.

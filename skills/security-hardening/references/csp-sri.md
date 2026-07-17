@@ -17,3 +17,6 @@ enforce:
   inheritDefault: true
   includeResolutions: true
 ```
+
+| `Behavior` property | Values |
+| --- | --- |

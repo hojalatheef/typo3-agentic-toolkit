@@ -12,4 +12,8 @@ Opt in per site in `config/sites/<site>/csp.yaml`:
 behavior:
   useNonce: false
   useHash: true
+
+enforce:
+  inheritDefault: true
+  includeResolutions: true
 ```

@@ -80,3 +80,5 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 - [references/csp-sri.md](references/csp-sri.md) - CSP hashes, report event, SRI.
 - [references/crypto.md](references/crypto.md) - `CipherService`, `KeyFactory`, `HashService`, form password
   hashing.
+- Templates: [templates/TokenVault.php](templates/TokenVault.php), [templates/csp.yaml](templates/csp.yaml),
+  [templates/CspReportFilter.php](templates/CspReportFilter.php).

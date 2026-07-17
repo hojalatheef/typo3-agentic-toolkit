@@ -82,3 +82,5 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
   hashing.
 - Templates: [templates/TokenVault.php](templates/TokenVault.php), [templates/csp.yaml](templates/csp.yaml),
   [templates/CspReportFilter.php](templates/CspReportFilter.php).
+- Changelog: Feature-100887, Deprecation-100887, Feature-102079, Feature-109187 (both entries), Feature-108002,
+  Feature-102761, Breaking-106307, Feature-106752, Feature-109080, Feature-108982, Feature-107826, Feature-103511.

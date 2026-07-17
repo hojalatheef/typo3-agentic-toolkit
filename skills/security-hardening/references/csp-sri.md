@@ -5,3 +5,5 @@
 Nonces change on every request and make responses uncacheable. With hashes, TYPO3 collects SHA-256 values of
 assets during rendering (`TYPO3\CMS\Core\Security\ContentSecurityPolicy\DirectiveHashCollection`); they survive
 the page cache via `MetaDataState`.
+
+Opt in per site in `config/sites/<site>/csp.yaml`:

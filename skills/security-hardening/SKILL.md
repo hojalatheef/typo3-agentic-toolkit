@@ -78,3 +78,5 @@ cacheable (Feature-100887, 14.2), automatic SRI hashes (Feature-109187, 14.2) an
 
 - [references/review-checklist.md](references/review-checklist.md) - full extension security review.
 - [references/csp-sri.md](references/csp-sri.md) - CSP hashes, report event, SRI.
+- [references/crypto.md](references/crypto.md) - `CipherService`, `KeyFactory`, `HashService`, form password
+  hashing.

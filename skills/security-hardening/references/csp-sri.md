@@ -7,3 +7,9 @@ assets during rendering (`TYPO3\CMS\Core\Security\ContentSecurityPolicy\Directiv
 the page cache via `MetaDataState`.
 
 Opt in per site in `config/sites/<site>/csp.yaml`:
+
+```yaml
+behavior:
+  useNonce: false
+  useHash: true
+```

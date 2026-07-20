@@ -24,3 +24,5 @@ enforce:
 | `useNonce` | `false` removes nonce sources - required for proxy/static-file caching |
 
 What gets hashed:
+
+- Inline `<script>` / `<style>` content.

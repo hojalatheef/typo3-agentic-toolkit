@@ -20,3 +20,4 @@ enforce:
 
 | `Behavior` property | Values |
 | --- | --- |
+| `useHash` | `true` collect and apply hashes; `null` (default) off; `false` explicitly off |

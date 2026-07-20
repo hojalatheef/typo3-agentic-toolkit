@@ -35,3 +35,10 @@ What gets hashed:
 
 `f:asset.script` / `f:asset.css`: `useNonce` renamed to `csp` (Deprecation-100887, removal v15). Default `csp`
 is `true` for files and `false` for inline content.
+
+```html
+<f:asset.script identifier="my-script" src="EXT:my_ext/Resources/Public/JavaScript/foo.js" />
+<f:asset.script identifier="my-inline" csp="1">
+    document.querySelector('.foo').classList.add('active');
+</f:asset.script>
+```

@@ -32,3 +32,5 @@ What gets hashed:
 ```html
 <div style="{f:asset.styleAttr(value: 'color: green', csp: true)}"></div>
 ```
+
+`f:asset.script` / `f:asset.css`: `useNonce` renamed to `csp` (Deprecation-100887, removal v15). Default `csp`

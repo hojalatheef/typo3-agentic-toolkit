@@ -21,3 +21,4 @@ enforce:
 | `Behavior` property | Values |
 | --- | --- |
 | `useHash` | `true` collect and apply hashes; `null` (default) off; `false` explicitly off |
+| `useNonce` | `false` removes nonce sources - required for proxy/static-file caching |

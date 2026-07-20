@@ -34,3 +34,4 @@ What gets hashed:
 ```
 
 `f:asset.script` / `f:asset.css`: `useNonce` renamed to `csp` (Deprecation-100887, removal v15). Default `csp`
+is `true` for files and `false` for inline content.

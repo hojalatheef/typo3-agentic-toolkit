@@ -27,3 +27,4 @@ What gets hashed:
 
 - Inline `<script>` / `<style>` content.
 - Static files: the existing `integrity` value is reused, otherwise the file is hashed.
+- Inline style attributes through the new ViewHelper (directive `style-src-attr`):

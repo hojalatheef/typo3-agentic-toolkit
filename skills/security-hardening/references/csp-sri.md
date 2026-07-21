@@ -47,3 +47,4 @@ PHP: `$assetCollector->addJavaScript('my-script', $src, [], ['csp' => true]);` (
 `PageRenderer::addJsInlineCode()`, `addJsFooterInlineCode()`, `addCssInlineBlock()` keep `$useNonce`.
 
 Internal API change: `Policy::prepare()` / `compile()` take a `PolicyBag`; listeners of `PolicyPreparedEvent`
+reach the hashes through `$event->policyBag->directiveHashCollection`.

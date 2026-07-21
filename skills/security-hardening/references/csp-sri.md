@@ -44,3 +44,4 @@ is `true` for files and `false` for inline content.
 ```
 
 PHP: `$assetCollector->addJavaScript('my-script', $src, [], ['csp' => true]);` (was `'useNonce'`).
+`PageRenderer::addJsInlineCode()`, `addJsFooterInlineCode()`, `addCssInlineBlock()` keep `$useNonce`.

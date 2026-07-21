@@ -48,3 +48,7 @@ PHP: `$assetCollector->addJavaScript('my-script', $src, [], ['csp' => true]);` (
 
 Internal API change: `Policy::prepare()` / `compile()` take a `PolicyBag`; listeners of `PolicyPreparedEvent`
 reach the hashes through `$event->policyBag->directiveHashCollection`.
+
+## CSP violation reports (Feature-102079, 14.2)
+
+`TYPO3\CMS\Core\Security\ContentSecurityPolicy\Event\BeforePersistingReportEvent`: `$event->originalReport`

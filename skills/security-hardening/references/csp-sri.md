@@ -53,3 +53,4 @@ reach the hashes through `$event->policyBag->directiveHashCollection`.
 
 `TYPO3\CMS\Core\Security\ContentSecurityPolicy\Event\BeforePersistingReportEvent`: `$event->originalReport`
 (read), `$event->report` (write; `null` drops the report). Typical use: drop reports caused by browser
+extensions (`blocked-uri` starting with `chrome-extension://`, `moz-extension://`, `safari-extension://`) or add

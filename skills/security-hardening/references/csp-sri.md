@@ -52,3 +52,4 @@ reach the hashes through `$event->policyBag->directiveHashCollection`.
 ## CSP violation reports (Feature-102079, 14.2)
 
 `TYPO3\CMS\Core\Security\ContentSecurityPolicy\Event\BeforePersistingReportEvent`: `$event->originalReport`
+(read), `$event->report` (write; `null` drops the report). Typical use: drop reports caused by browser

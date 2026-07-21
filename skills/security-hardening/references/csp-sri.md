@@ -42,3 +42,5 @@ is `true` for files and `false` for inline content.
     document.querySelector('.foo').classList.add('active');
 </f:asset.script>
 ```
+
+PHP: `$assetCollector->addJavaScript('my-script', $src, [], ['csp' => true]);` (was `'useNonce'`).

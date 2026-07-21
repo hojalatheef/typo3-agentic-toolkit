@@ -45,3 +45,5 @@ is `true` for files and `false` for inline content.
 
 PHP: `$assetCollector->addJavaScript('my-script', $src, [], ['csp' => true]);` (was `'useNonce'`).
 `PageRenderer::addJsInlineCode()`, `addJsFooterInlineCode()`, `addCssInlineBlock()` keep `$useNonce`.
+
+Internal API change: `Policy::prepare()` / `compile()` take a `PolicyBag`; listeners of `PolicyPreparedEvent`

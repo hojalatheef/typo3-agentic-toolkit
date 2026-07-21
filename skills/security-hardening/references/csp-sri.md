@@ -59,3 +59,7 @@ metadata by building a new `Report`. See [../templates/CspReportFilter.php](../t
 ## Subresource Integrity (Feature-109187, 14.2)
 
 Two changelog entries share this number:
+
+1. `integrity` and `crossorigin` for `page.includeCSS` / `includeCSSLibs` (parity with the JS includes).
+   `crossorigin="anonymous"` is added automatically when `integrity` is set on a URI resource.
+   `PageRenderer::addCssFile()` / `addCssLibrary()` gained `$integrity` and `$crossorigin`.

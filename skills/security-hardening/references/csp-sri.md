@@ -55,3 +55,7 @@ reach the hashes through `$event->policyBag->directiveHashCollection`.
 (read), `$event->report` (write; `null` drops the report). Typical use: drop reports caused by browser
 extensions (`blocked-uri` starting with `chrome-extension://`, `moz-extension://`, `safari-extension://`) or add
 metadata by building a new `Report`. See [../templates/CspReportFilter.php](../templates/CspReportFilter.php).
+
+## Subresource Integrity (Feature-109187, 14.2)
+
+Two changelog entries share this number:

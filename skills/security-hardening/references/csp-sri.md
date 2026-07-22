@@ -63,3 +63,6 @@ Two changelog entries share this number:
 1. `integrity` and `crossorigin` for `page.includeCSS` / `includeCSSLibs` (parity with the JS includes).
    `crossorigin="anonymous"` is added automatically when `integrity` is set on a URI resource.
    `PageRenderer::addCssFile()` / `addCssLibrary()` gained `$integrity` and `$crossorigin`.
+2. `integrity = auto` on `includeCSS`, `includeCSSLibs`, `includeJS`, `includeJSLibs`, `includeJSFooter`,
+   `includeJSFooterlibs`: SHA-256 computed by TYPO3, cached 7 days in `cache.assets`.
+   PHP constant: `TYPO3\CMS\Core\Page\ResourceHashCollection::AUTO`.

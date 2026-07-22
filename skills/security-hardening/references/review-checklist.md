@@ -8,3 +8,5 @@ severity: critical (exploitable without login), high, medium, low.
 - [ ] SQL only via `QueryBuilder` with `createNamedParameter()` or Extbase queries; no string concatenation into
       `where()`, `orderBy()` or `executeQuery()`. Extbase `orderBy()` expressions (Feature-32051) take property
       names, not user input.
+- [ ] Fluid output escaped; every `f:format.raw` and `{value -> f:format.raw()}` justified; no
+      `escapeOutput = false` in custom ViewHelpers without sanitising.

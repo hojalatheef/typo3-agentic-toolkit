@@ -10,3 +10,5 @@ severity: critical (exploitable without login), high, medium, low.
       names, not user input.
 - [ ] Fluid output escaped; every `f:format.raw` and `{value -> f:format.raw()}` justified; no
       `escapeOutput = false` in custom ViewHelpers without sanitising.
+- [ ] Backend modules and AJAX routes check `$GLOBALS['BE_USER']` permissions on the record (`doesUserHaveAccess`,
+      `check('tables_modify', ...)`), not only the module access.

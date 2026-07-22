@@ -66,3 +66,12 @@ Two changelog entries share this number:
 2. `integrity = auto` on `includeCSS`, `includeCSSLibs`, `includeJS`, `includeJSLibs`, `includeJSFooter`,
    `includeJSFooterlibs`: SHA-256 computed by TYPO3, cached 7 days in `cache.assets`.
    PHP constant: `TYPO3\CMS\Core\Page\ResourceHashCollection::AUTO`.
+
+```typoscript
+page.includeCSS {
+    main = EXT:my_extension/Resources/Public/Css/main.css
+    main.integrity = auto
+}
+page.includeJSFooterlibs {
+    vendor = https://cdn.example.com/vendor.js
+```

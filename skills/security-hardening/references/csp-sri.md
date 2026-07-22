@@ -74,4 +74,7 @@ page.includeCSS {
 }
 page.includeJSFooterlibs {
     vendor = https://cdn.example.com/vendor.js
+    # precomputed from a trusted source, not "auto"
+    vendor.integrity = sha384-...
+}
 ```

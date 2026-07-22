@@ -12,3 +12,4 @@ severity: critical (exploitable without login), high, medium, low.
       `escapeOutput = false` in custom ViewHelpers without sanitising.
 - [ ] Backend modules and AJAX routes check `$GLOBALS['BE_USER']` permissions on the record (`doesUserHaveAccess`,
       `check('tables_modify', ...)`), not only the module access.
+- [ ] Redirect targets validated (no open redirect via `redirect_url` / `returnUrl`).

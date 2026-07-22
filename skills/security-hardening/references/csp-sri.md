@@ -87,3 +87,5 @@ $assetCollector->addStyleSheet(
     ['integrity' => ResourceHashCollection::AUTO],
 );
 ```
+
+`auto` for a remote URL fetches the file once and trusts that response. Inline CSS (`inline = 1`) gets no

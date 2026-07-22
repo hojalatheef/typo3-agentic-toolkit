@@ -78,3 +78,12 @@ page.includeJSFooterlibs {
     vendor.integrity = sha384-...
 }
 ```
+
+```php
+$assetCollector->addStyleSheet(
+    'my-styles',
+    'EXT:my_extension/Resources/Public/Css/style.css',
+    [],
+    ['integrity' => ResourceHashCollection::AUTO],
+);
+```

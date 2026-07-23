@@ -22,3 +22,5 @@ severity: critical (exploitable without login), high, medium, low.
 - [ ] Group checks use `fe_groups` UIDs, not titles.
 - [ ] Login-like, contact, registration and search endpoints are rate limited: `#[RateLimit]` (Feature-108982)
       or `RateLimiterFactoryInterface::createRequestBasedLimiter()` (Feature-109080). The actions are uncached.
+- [ ] Module access uses `user`/`admin`/`systemMaintainer` or a dedicated gate (Feature-109365), never a check
+      inside the controller only.

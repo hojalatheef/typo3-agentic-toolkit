@@ -30,3 +30,4 @@ severity: critical (exploitable without login), high, medium, low.
 
 - [ ] Uploads go through `#[FileUpload]` (Feature-103511) with `fileSize`, `mimeType`, `fileExtension`;
       `addRandomSuffix` not disabled; target folder not publicly listable.
+- [ ] No `move_uploaded_file()` / `$_FILES` handling.

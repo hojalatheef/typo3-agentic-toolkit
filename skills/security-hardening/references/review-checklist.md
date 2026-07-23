@@ -31,3 +31,5 @@ severity: critical (exploitable without login), high, medium, low.
 - [ ] Uploads go through `#[FileUpload]` (Feature-103511) with `fileSize`, `mimeType`, `fileExtension`;
       `addRandomSuffix` not disabled; target folder not publicly listable.
 - [ ] No `move_uploaded_file()` / `$_FILES` handling.
+- [ ] Assets referenced through the System Resource API (`PUBLIC:` / `EXT:` in public folders), no access to
+      arbitrary extension paths (Deprecation-109409).

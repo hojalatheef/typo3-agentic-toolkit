@@ -20,3 +20,5 @@ severity: critical (exploitable without login), high, medium, low.
 - [ ] Extbase edit/update/delete actions carry `#[Authorize]` with an ownership callback (Feature-107826, 14.2)
       or an equivalent explicit check.
 - [ ] Group checks use `fe_groups` UIDs, not titles.
+- [ ] Login-like, contact, registration and search endpoints are rate limited: `#[RateLimit]` (Feature-108982)
+      or `RateLimiterFactoryInterface::createRequestBasedLimiter()` (Feature-109080). The actions are uncached.

@@ -13,3 +13,4 @@ severity: critical (exploitable without login), high, medium, low.
 - [ ] Backend modules and AJAX routes check `$GLOBALS['BE_USER']` permissions on the record (`doesUserHaveAccess`,
       `check('tables_modify', ...)`), not only the module access.
 - [ ] Redirect targets validated (no open redirect via `redirect_url` / `returnUrl`).
+- [ ] No `GeneralUtility::_GP()` (removed in 13.0), `$_GET` or `$_POST`; values come from the PSR-7 request.

@@ -19,3 +19,4 @@ severity: critical (exploitable without login), high, medium, low.
 
 - [ ] Extbase edit/update/delete actions carry `#[Authorize]` with an ownership callback (Feature-107826, 14.2)
       or an equivalent explicit check.
+- [ ] Group checks use `fe_groups` UIDs, not titles.

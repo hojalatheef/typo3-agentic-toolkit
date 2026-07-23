@@ -25,3 +25,8 @@ severity: critical (exploitable without login), high, medium, low.
 - [ ] Module access uses `user`/`admin`/`systemMaintainer` or a dedicated gate (Feature-109365), never a check
       inside the controller only.
 - [ ] Commands that delete data or need interaction carry `#[AsNonSchedulableCommand]` (Feature-107151).
+
+## Files and uploads
+
+- [ ] Uploads go through `#[FileUpload]` (Feature-103511) with `fileSize`, `mimeType`, `fileExtension`;
+      `addRandomSuffix` not disabled; target folder not publicly listable.

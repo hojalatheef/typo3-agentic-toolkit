@@ -14,3 +14,8 @@ severity: critical (exploitable without login), high, medium, low.
       `check('tables_modify', ...)`), not only the module access.
 - [ ] Redirect targets validated (no open redirect via `redirect_url` / `returnUrl`).
 - [ ] No `GeneralUtility::_GP()` (removed in 13.0), `$_GET` or `$_POST`; values come from the PSR-7 request.
+
+## Access control and abuse
+
+- [ ] Extbase edit/update/delete actions carry `#[Authorize]` with an ownership callback (Feature-107826, 14.2)
+      or an equivalent explicit check.

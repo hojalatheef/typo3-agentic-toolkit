@@ -47,3 +47,4 @@ severity: critical (exploitable without login), high, medium, low.
 ## Browser-side hardening
 
 - [ ] Inline JS/CSS avoided or marked `csp="1"`; `useNonce` replaced (Deprecation-100887).
+- [ ] Inline `style` attributes via `f:asset.styleAttr` where the site uses hash-based CSP (Feature-100887).

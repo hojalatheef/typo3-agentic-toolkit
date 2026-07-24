@@ -38,3 +38,4 @@ severity: critical (exploitable without login), high, medium, low.
 ## Secrets and crypto
 
 - [ ] No credentials in `ext_conf_template.txt` defaults, TypoScript or committed `.env` files.
+- [ ] Stored third-party secrets encrypted with `CipherService` + per-purpose derived key (Feature-108002).

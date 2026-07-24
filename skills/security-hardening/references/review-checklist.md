@@ -49,3 +49,4 @@ severity: critical (exploitable without login), high, medium, low.
 - [ ] Inline JS/CSS avoided or marked `csp="1"`; `useNonce` replaced (Deprecation-100887).
 - [ ] Inline `style` attributes via `f:asset.styleAttr` where the site uses hash-based CSP (Feature-100887).
 - [ ] Extension ships `Configuration/ContentSecurityPolicies.php` mutations for every external host it needs.
+- [ ] Third-party assets carry precomputed `integrity`; own assets may use `integrity = auto` (Feature-109187).

@@ -41,3 +41,4 @@ severity: critical (exploitable without login), high, medium, low.
 - [ ] Stored third-party secrets encrypted with `CipherService` + per-purpose derived key (Feature-108002).
 - [ ] HMACs: `TYPO3\CMS\Core\Crypto\HashService` with additional secret, `HashAlgo::SHA3_256` for new code
       (Feature-102761, Breaking-106307). No `md5()`/`sha1()` tokens, no `GeneralUtility::hmac()`.
+- [ ] Passwords hashed via `PasswordHashFactory` or the form finisher option `hashed: true` (Feature-106752).

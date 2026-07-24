@@ -34,3 +34,7 @@ severity: critical (exploitable without login), high, medium, low.
 - [ ] Assets referenced through the System Resource API (`PUBLIC:` / `EXT:` in public folders), no access to
       arbitrary extension paths (Deprecation-109409).
 - [ ] File dump / download links signed with `HashService` and a purpose-specific secret.
+
+## Secrets and crypto
+
+- [ ] No credentials in `ext_conf_template.txt` defaults, TypoScript or committed `.env` files.

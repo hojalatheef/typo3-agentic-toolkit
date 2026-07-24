@@ -43,3 +43,7 @@ severity: critical (exploitable without login), high, medium, low.
       (Feature-102761, Breaking-106307). No `md5()`/`sha1()` tokens, no `GeneralUtility::hmac()`.
 - [ ] Passwords hashed via `PasswordHashFactory` or the form finisher option `hashed: true` (Feature-106752).
 - [ ] Random tokens from `Random::generateRandomHexString()` / `random_bytes()`, never `uniqid()`/`rand()`.
+
+## Browser-side hardening
+
+- [ ] Inline JS/CSS avoided or marked `csp="1"`; `useNonce` replaced (Deprecation-100887).

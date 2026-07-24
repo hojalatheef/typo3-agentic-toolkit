@@ -39,3 +39,5 @@ severity: critical (exploitable without login), high, medium, low.
 
 - [ ] No credentials in `ext_conf_template.txt` defaults, TypoScript or committed `.env` files.
 - [ ] Stored third-party secrets encrypted with `CipherService` + per-purpose derived key (Feature-108002).
+- [ ] HMACs: `TYPO3\CMS\Core\Crypto\HashService` with additional secret, `HashAlgo::SHA3_256` for new code
+      (Feature-102761, Breaking-106307). No `md5()`/`sha1()` tokens, no `GeneralUtility::hmac()`.

@@ -53,3 +53,8 @@ the `name` in `config.yaml` is what sites reference (Feature-103437, 13.1).
 
 Copy-ready files are in [templates/](templates/). Details, YAML keys and the
 merge rules are in [references/set-files.md](references/set-files.md).
+
+## Steps
+
+1. Pick the set name. Use the extension's Composer vendor. If the extension
+   ships exactly one set, use the Composer package name.

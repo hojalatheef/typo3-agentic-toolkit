@@ -51,3 +51,7 @@ severity: critical (exploitable without login), high, medium, low.
 - [ ] Extension ships `Configuration/ContentSecurityPolicies.php` mutations for every external host it needs.
 - [ ] Third-party assets carry precomputed `integrity`; own assets may use `integrity = auto` (Feature-109187).
 - [ ] CSP report filtering (if any) via `BeforePersistingReportEvent` (Feature-102079).
+
+## Data protection
+
+- [ ] Tables with personal data opt out of Extbase history tracking if the instance enables it (Feature-107289).

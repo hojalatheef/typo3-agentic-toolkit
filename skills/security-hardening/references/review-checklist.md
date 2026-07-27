@@ -56,3 +56,4 @@ severity: critical (exploitable without login), high, medium, low.
 
 - [ ] Tables with personal data opt out of Extbase history tracking if the instance enables it (Feature-107289).
 - [ ] Scheduler/cleanup tasks exist for personal data with retention limits.
+- [ ] Logs do not contain tokens, passwords or full request bodies.

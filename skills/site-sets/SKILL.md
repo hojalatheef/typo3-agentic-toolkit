@@ -52,3 +52,4 @@ the `name` in `config.yaml` is what sites reference (Feature-103437, 13.1).
 | `labels.xlf` | labels for the set and its settings, domain `<ext>.sets.<set>` | Feature-93334, 14.0 / Feature-106640, 14.2 |
 
 Copy-ready files are in [templates/](templates/). Details, YAML keys and the
+merge rules are in [references/set-files.md](references/set-files.md).

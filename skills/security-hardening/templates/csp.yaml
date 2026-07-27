@@ -5,3 +5,12 @@ behavior:
   useNonce: false
   useHash: true
 
+enforce:
+  inheritDefault: true
+  includeResolutions: true
+  mutations:
+    # Example: allow images from a CDN
+    - mode: extend
+      directive: 'img-src'
+      sources:
+        - 'https://cdn.example.com'

@@ -72,3 +72,5 @@ merge rules are in [references/set-files.md](references/set-files.md).
    `labels.xlf` (Feature-106640).
 5. Move TypoScript into `setup.typoscript` / `constants.typoscript` next to
    `config.yaml`, and page TSconfig into `page.tsconfig`.
+6. Move route enhancers that the extension needs into `route-enhancers.yaml`
+   (v14.1+ only; keep them in the site config for v13 support).

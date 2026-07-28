@@ -63,3 +63,7 @@ merge rules are in [references/set-files.md](references/set-files.md).
    TypoScript or settings yours builds on under `dependencies` (for example
    `typo3/fluid-styled-content`). Sets are ordered and deduplicated, so do not
    `@import` another extension's TypoScript.
+3. Move settings: every TypoScript constant that an integrator should change
+   becomes an entry in `settings.definitions.yaml`. Site settings always win
+   over set constants (Feature-103439), so the same identifier used as a
+   constant keeps TypoScript `{$...}` references working.

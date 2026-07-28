@@ -82,3 +82,5 @@ merge rules are in [references/set-files.md](references/set-files.md).
 
 Use [references/converter-checklist.md](references/converter-checklist.md) for
 the full walk-through. Short form:
+
+- [ ] Every `addStaticFile()` registration has a matching set.

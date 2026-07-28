@@ -58,3 +58,8 @@ merge rules are in [references/set-files.md](references/set-files.md).
 
 1. Pick the set name. Use the extension's Composer vendor. If the extension
    ships exactly one set, use the Composer package name.
+2. Create `Configuration/Sets/<Name>/config.yaml` from
+   [templates/config.yaml](templates/config.yaml). List every set whose
+   TypoScript or settings yours builds on under `dependencies` (for example
+   `typo3/fluid-styled-content`). Sets are ordered and deduplicated, so do not
+   `@import` another extension's TypoScript.

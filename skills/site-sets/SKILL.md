@@ -67,3 +67,6 @@ merge rules are in [references/set-files.md](references/set-files.md).
    becomes an entry in `settings.definitions.yaml`. Site settings always win
    over set constants (Feature-103439), so the same identifier used as a
    constant keeps TypoScript `{$...}` references working.
+4. Group settings with `categories` and give each one a `category`
+   (Feature-104794). Use `enum` for fixed choices; localize options through
+   `labels.xlf` (Feature-106640).

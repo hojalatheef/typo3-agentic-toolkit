@@ -74,3 +74,6 @@ merge rules are in [references/set-files.md](references/set-files.md).
    `config.yaml`, and page TSconfig into `page.tsconfig`.
 6. Move route enhancers that the extension needs into `route-enhancers.yaml`
    (v14.1+ only; keep them in the site config for v13 support).
+7. Verify: `vendor/bin/typo3 site:sets:list` shows the set; add it to a site
+   via `config/sites/<site>/config.yaml` `dependencies` or the backend site
+   configuration; open the settings editor and check every label.

@@ -77,3 +77,7 @@ merge rules are in [references/set-files.md](references/set-files.md).
 7. Verify: `vendor/bin/typo3 site:sets:list` shows the set; add it to a site
    via `config/sites/<site>/config.yaml` `dependencies` or the backend site
    configuration; open the settings editor and check every label.
+
+## Converter checklist (static template / ext_typoscript_setup to set)
+
+Use [references/converter-checklist.md](references/converter-checklist.md) for

@@ -84,3 +84,5 @@ Use [references/converter-checklist.md](references/converter-checklist.md) for
 the full walk-through. Short form:
 
 - [ ] Every `addStaticFile()` registration has a matching set.
+- [ ] `ext_typoscript_setup.typoscript` content moved into a set's
+      `setup.typoscript` (it is not autoloaded for set-based sites).

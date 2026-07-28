@@ -70,3 +70,5 @@ merge rules are in [references/set-files.md](references/set-files.md).
 4. Group settings with `categories` and give each one a `category`
    (Feature-104794). Use `enum` for fixed choices; localize options through
    `labels.xlf` (Feature-106640).
+5. Move TypoScript into `setup.typoscript` / `constants.typoscript` next to
+   `config.yaml`, and page TSconfig into `page.tsconfig`.

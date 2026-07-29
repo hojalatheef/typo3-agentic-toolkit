@@ -87,3 +87,4 @@ the full walk-through. Short form:
 - [ ] `ext_typoscript_setup.typoscript` content moved into a set's
       `setup.typoscript` (it is not autoloaded for set-based sites).
 - [ ] Constants used by editors exist as settings with label, type and default.
+- [ ] Cross-extension `@import` / `<INCLUDE_TYPOSCRIPT:` replaced by `dependencies`.

@@ -95,3 +95,4 @@ the full walk-through. Short form:
 ## Checklist
 
 - [ ] `name` uses `vendor/name`, vendor matches the extension.
+- [ ] Defaults live only in `settings.definitions.yaml`, never repeated in `settings.yaml`.

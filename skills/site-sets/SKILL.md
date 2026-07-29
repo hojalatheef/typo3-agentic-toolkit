@@ -89,3 +89,4 @@ the full walk-through. Short form:
 - [ ] Constants used by editors exist as settings with label, type and default.
 - [ ] Cross-extension `@import` / `<INCLUDE_TYPOSCRIPT:` replaced by `dependencies`.
 - [ ] Global `Configuration/page.tsconfig` that is frontend/site specific moved to the set's `page.tsconfig`.
+- [ ] v13 compatibility decided: keep the static template in parallel if v12 sites must still work.

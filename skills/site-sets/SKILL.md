@@ -96,3 +96,4 @@ the full walk-through. Short form:
 
 - [ ] `name` uses `vendor/name`, vendor matches the extension.
 - [ ] Defaults live only in `settings.definitions.yaml`, never repeated in `settings.yaml`.
+- [ ] `settings.yaml` uses the flat map form (`foo.bar: value`), not a nested tree (Important-106894, 13.4.x).

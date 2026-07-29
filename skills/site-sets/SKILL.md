@@ -88,3 +88,4 @@ the full walk-through. Short form:
       `setup.typoscript` (it is not autoloaded for set-based sites).
 - [ ] Constants used by editors exist as settings with label, type and default.
 - [ ] Cross-extension `@import` / `<INCLUDE_TYPOSCRIPT:` replaced by `dependencies`.
+- [ ] Global `Configuration/page.tsconfig` that is frontend/site specific moved to the set's `page.tsconfig`.

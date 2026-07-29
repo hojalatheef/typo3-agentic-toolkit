@@ -91,3 +91,7 @@ the full walk-through. Short form:
 - [ ] Global `Configuration/page.tsconfig` that is frontend/site specific moved to the set's `page.tsconfig`.
 - [ ] v13 compatibility decided: keep the static template in parallel if v12 sites must still work.
 - [ ] `site:sets:list` lists the set; the settings editor shows categories and labels.
+
+## Checklist
+
+- [ ] `name` uses `vendor/name`, vendor matches the extension.

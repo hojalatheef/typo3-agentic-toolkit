@@ -98,3 +98,4 @@ the full walk-through. Short form:
 - [ ] Defaults live only in `settings.definitions.yaml`, never repeated in `settings.yaml`.
 - [ ] `settings.yaml` uses the flat map form (`foo.bar: value`), not a nested tree (Important-106894, 13.4.x).
 - [ ] Every setting has `label` and `type`; enum options have labels.
+- [ ] Helper sets that editors should not pick carry `hidden: true`.

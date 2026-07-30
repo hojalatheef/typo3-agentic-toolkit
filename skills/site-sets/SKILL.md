@@ -104,3 +104,4 @@ the full walk-through. Short form:
 ## References
 
 - [references/set-files.md](references/set-files.md) - keys per file, merge and load order, settings editor, enum localization.
+- [references/converter-checklist.md](references/converter-checklist.md) - migration from static templates and `ext_typoscript_*`.

@@ -105,3 +105,4 @@ the full walk-through. Short form:
 
 - [references/set-files.md](references/set-files.md) - keys per file, merge and load order, settings editor, enum localization.
 - [references/converter-checklist.md](references/converter-checklist.md) - migration from static templates and `ext_typoscript_*`.
+- [templates/](templates/) - `config.yaml`, `settings.definitions.yaml`, `settings.yaml`, `setup.typoscript`, `page.tsconfig`, `route-enhancers.yaml`, `labels.xlf`.

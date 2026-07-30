@@ -100,3 +100,7 @@ the full walk-through. Short form:
 - [ ] Every setting has `label` and `type`; enum options have labels.
 - [ ] Helper sets that editors should not pick carry `hidden: true`.
 - [ ] No TypoScript is shipped globally unless a backend module needs it.
+
+## References
+
+- [references/set-files.md](references/set-files.md) - keys per file, merge and load order, settings editor, enum localization.

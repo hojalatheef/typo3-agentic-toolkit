@@ -59,3 +59,4 @@ optionalDependencies:
 ## settings.definitions.yaml and settings.yaml
 
 Sources: Feature-103437 (13.1), Feature-104794 (13.3), Important-106894
+(13.4.x), Feature-106640 (14.2).

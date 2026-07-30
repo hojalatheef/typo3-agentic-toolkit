@@ -62,3 +62,4 @@ Sources: Feature-103437 (13.1), Feature-104794 (13.3), Important-106894
 (13.4.x), Feature-106640 (14.2).
 
 Types named in the changelog: `int`, `bool`, `string`, `stringlist`, `text`,
+`color`. `description` may use Markdown.

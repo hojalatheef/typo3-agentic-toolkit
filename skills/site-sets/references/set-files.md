@@ -68,4 +68,12 @@ Types named in the changelog: `int`, `bool`, `string`, `stringlist`, `text`,
 categories:
   myCategory:
     label: 'My Category'
+
+settings:
+  my.example.setting:
+    label: 'My example setting'
+    description: 'Configure `baz` to be used in `bar`.'
+    category: myCategory
+    type: string
+    default: ''
 ```

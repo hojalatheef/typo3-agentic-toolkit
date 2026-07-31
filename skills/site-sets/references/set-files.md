@@ -100,3 +100,7 @@ settings:
   `typo3/fluid-styled-content`. Do not repeat your own defaults there.
 - Store values as a flat map (`foo.bar: 'value'`). The tree form is still
   read, but the settings editor writes a map (Important-106894).
+
+### Enums and their labels
+
+Map style (Feature-104794) with literal labels:

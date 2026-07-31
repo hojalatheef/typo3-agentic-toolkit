@@ -93,3 +93,5 @@ settings:
 
 - `category` may point at a category of another set (for example `seo`).
   Uncategorized settings land in a virtual "Other" category at the end.
+- `readonly: true` shows the value read-only in the editor; it can only be
+  changed in `config/sites/<site>/settings.yaml`.

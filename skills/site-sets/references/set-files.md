@@ -95,3 +95,6 @@ settings:
   Uncategorized settings land in a virtual "Other" category at the end.
 - `readonly: true` shows the value read-only in the editor; it can only be
   changed in `config/sites/<site>/settings.yaml`.
+- `settings.yaml` next to `config.yaml` sets values for settings of
+  dependencies, for example `styles.content.defaultHeaderType: 1` for
+  `typo3/fluid-styled-content`. Do not repeat your own defaults there.

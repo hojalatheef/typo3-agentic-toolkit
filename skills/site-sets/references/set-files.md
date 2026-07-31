@@ -98,3 +98,5 @@ settings:
 - `settings.yaml` next to `config.yaml` sets values for settings of
   dependencies, for example `styles.content.defaultHeaderType: 1` for
   `typo3/fluid-styled-content`. Do not repeat your own defaults there.
+- Store values as a flat map (`foo.bar: 'value'`). The tree form is still
+  read, but the settings editor writes a map (Important-106894).

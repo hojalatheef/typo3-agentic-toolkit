@@ -90,3 +90,6 @@ settings:
     default: 5
     readonly: true
 ```
+
+- `category` may point at a category of another set (for example `seo`).
+  Uncategorized settings land in a virtual "Other" category at the end.

@@ -104,3 +104,12 @@ settings:
 ### Enums and their labels
 
 Map style (Feature-104794) with literal labels:
+
+```yaml
+settings:
+  my.enumSetting:
+    label: 'My setting with options'
+    type: string
+    enum:
+      valueA: 'Label of value A'
+```

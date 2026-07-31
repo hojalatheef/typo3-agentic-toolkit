@@ -114,3 +114,5 @@ settings:
       valueA: 'Label of value A'
       valueB: 'Label of value B'
 ```
+
+List style with labels derived from the set's `labels.xlf` (Feature-106640,

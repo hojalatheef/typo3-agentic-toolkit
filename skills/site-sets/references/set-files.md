@@ -83,4 +83,10 @@ settings:
     category: seo
     type: int
     default: 5
+
+  my.readonlySetting:
+    label: 'My readonly setting'
+    type: int
+    default: 5
+    readonly: true
 ```

@@ -112,4 +112,5 @@ settings:
     type: string
     enum:
       valueA: 'Label of value A'
+      valueB: 'Label of value B'
 ```

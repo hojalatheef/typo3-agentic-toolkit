@@ -76,4 +76,11 @@ settings:
     category: myCategory
     type: string
     default: ''
+
+  my.seoRelevantSetting:
+    label: 'My SEO relevant setting'
+    # show in EXT:seo provided category "seo"
+    category: seo
+    type: int
+    default: 5
 ```

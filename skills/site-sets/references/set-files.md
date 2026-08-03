@@ -117,3 +117,12 @@ settings:
 
 List style with labels derived from the set's `labels.xlf` (Feature-106640,
 14.2). The key is `settings.<settingKey>.enum.<enumValue>`:
+
+```yaml
+settings:
+  my.enumSetting:
+    type: string
+    default: optionA
+    enum:
+      - optionA
+```

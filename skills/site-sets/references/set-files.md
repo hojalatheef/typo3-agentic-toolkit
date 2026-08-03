@@ -144,3 +144,7 @@ Sources: Feature-103439, Feature-103522 (13.1).
 
 - `setup.typoscript` and `constants.typoscript` next to `config.yaml` are
   inserted like a `static_file_include`.
+- A site itself may also hold `setup.typoscript`, `constants.typoscript` and
+  `page.tsconfig` next to `config/sites/<site>/config.yaml`. Site TypoScript
+  always starts a new scope ("root" and "clear"), dependencies load first, so
+  the site can override set TypoScript.

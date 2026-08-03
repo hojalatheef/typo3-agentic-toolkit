@@ -141,3 +141,6 @@ mapped to the translation domain `<extension>.sets.<set>` (Feature-93334, 14.0).
 ## TypoScript, TSconfig and load order
 
 Sources: Feature-103439, Feature-103522 (13.1).
+
+- `setup.typoscript` and `constants.typoscript` next to `config.yaml` are
+  inserted like a `static_file_include`.

@@ -133,3 +133,5 @@ settings:
   <source>Option A (localized)</source>
 </trans-unit>
 ```
+
+In map style an `LLL:` value is resolved, a literal stays as-is, a key-only

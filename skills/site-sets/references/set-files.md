@@ -136,3 +136,4 @@ settings:
 
 In map style an `LLL:` value is resolved, a literal stays as-is, a key-only
 entry falls back to the enum value and `''` stays empty. Set label files are
+mapped to the translation domain `<extension>.sets.<set>` (Feature-93334, 14.0).

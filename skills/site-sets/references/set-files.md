@@ -157,3 +157,5 @@ Sources: Feature-103439, Feature-103522 (13.1).
   are **not** loaded for set-based sites. If global TypoScript is unavoidable,
   use `ExtensionManagementUtility::addTypoScriptSetup()` in `ext_localconf.php`.
 - Use `@import` only for files inside the same set.
+- A constant can fall back from an old to a new name with
+  `{$config.oldThing ?? $myext.thing}` (Feature-103671, 13.1).

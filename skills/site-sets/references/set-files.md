@@ -153,3 +153,6 @@ Sources: Feature-103439, Feature-103522 (13.1).
 - Set constants are always overruled by site settings of the same name. This
   is the bridge for v12/v13 dual support: v12 reads the constant, v13+ the
   setting.
+- `ext_typoscript_setup.typoscript` and `ext_typoscript_constants.typoscript`
+  are **not** loaded for set-based sites. If global TypoScript is unavoidable,
+  use `ExtensionManagementUtility::addTypoScriptSetup()` in `ext_localconf.php`.

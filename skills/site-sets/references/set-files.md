@@ -165,3 +165,4 @@ Sources: Feature-103439, Feature-103522 (13.1).
 Source: Feature-107837 (14.1).
 
 `route-enhancers.yaml` next to `config.yaml` must have a top-level
+`routeEnhancers` key and may use `imports`:

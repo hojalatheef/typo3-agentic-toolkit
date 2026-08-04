@@ -163,3 +163,5 @@ Sources: Feature-103439, Feature-103522 (13.1).
 ## Route enhancers in sets (v14.1+)
 
 Source: Feature-107837 (14.1).
+
+`route-enhancers.yaml` next to `config.yaml` must have a top-level

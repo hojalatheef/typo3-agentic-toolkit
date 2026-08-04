@@ -170,4 +170,12 @@ Source: Feature-107837 (14.1).
 ```yaml
 imports:
   - { resource: 'route-enhancers/*.yaml', glob: true }
+
+routeEnhancers:
+  MyEnhancer:
+    type: Simple
+    routePath: '/my-path/{param}'
+    aspects:
+      param:
+        type: StaticValueMapper
 ```

@@ -159,3 +159,7 @@ Sources: Feature-103439, Feature-103522 (13.1).
 - Use `@import` only for files inside the same set.
 - A constant can fall back from an old to a new name with
   `{$config.oldThing ?? $myext.thing}` (Feature-103671, 13.1).
+
+## Route enhancers in sets (v14.1+)
+
+Source: Feature-107837 (14.1).

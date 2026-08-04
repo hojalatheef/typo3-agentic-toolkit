@@ -166,3 +166,8 @@ Source: Feature-107837 (14.1).
 
 `route-enhancers.yaml` next to `config.yaml` must have a top-level
 `routeEnhancers` key and may use `imports`:
+
+```yaml
+imports:
+  - { resource: 'route-enhancers/*.yaml', glob: true }
+```

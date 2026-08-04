@@ -148,3 +148,5 @@ Sources: Feature-103439, Feature-103522 (13.1).
   `page.tsconfig` next to `config/sites/<site>/config.yaml`. Site TypoScript
   always starts a new scope ("root" and "clear"), dependencies load first, so
   the site can override set TypoScript.
+- `sys_template` records still load, but after the site TypoScript, and are
+  optional.

@@ -192,3 +192,5 @@ set no longer configure them by hand.
 ## Site settings editor
 
 Source: Feature-104794 (13.3).
+
+- Backend module "Site Management > Settings" (administrators only in 13.3).

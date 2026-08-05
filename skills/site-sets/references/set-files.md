@@ -185,3 +185,4 @@ routeEnhancers:
 
 Merge rules: sets merge in dependency order, later sets override earlier ones;
 the site's own `routeEnhancers` always win. Scalars from the site override,
+new keys are appended. An invalid file skips the set and is logged.

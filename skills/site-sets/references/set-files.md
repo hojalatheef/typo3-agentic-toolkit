@@ -196,3 +196,5 @@ Source: Feature-104794 (13.3).
 - Backend module "Site Management > Settings" (administrators only in 13.3).
 - Writes only values that differ from the set defaults into
   `config/sites/<site>/settings.yaml`.
+- Anonymous settings (no definition) are preserved but not editable - so give
+  every setting a definition if editors should change it.

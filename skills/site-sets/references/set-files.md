@@ -182,3 +182,5 @@ routeEnhancers:
           value1: '1'
           value2: '2'
 ```
+
+Merge rules: sets merge in dependency order, later sets override earlier ones;

@@ -188,3 +188,7 @@ the site's own `routeEnhancers` always win. Scalars from the site override,
 new keys are appended. An invalid file skips the set and is logged.
 `typo3/seo-sitemap` ships the sitemap enhancers this way, so sites using that
 set no longer configure them by hand.
+
+## Site settings editor
+
+Source: Feature-104794 (13.3).

@@ -178,4 +178,7 @@ routeEnhancers:
     aspects:
       param:
         type: StaticValueMapper
+        map:
+          value1: '1'
+          value2: '2'
 ```

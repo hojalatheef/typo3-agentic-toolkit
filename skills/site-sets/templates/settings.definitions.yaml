@@ -4,3 +4,33 @@ categories:
   myExtension:
     label: 'My Extension'
 
+settings:
+  myExtension.itemsPerPage:
+    label: 'Items per page'
+    description: 'Number of items on one list page.'
+    category: myExtension
+    type: int
+    default: 10
+
+  myExtension.showTeaser:
+    label: 'Show teaser'
+    category: myExtension
+    type: bool
+    default: true
+
+  myExtension.accentColor:
+    label: 'Accent color'
+    category: myExtension
+    type: color
+    default: '#ff8700'
+
+  # List-style enum: labels come from labels.xlf
+  # (settings.myExtension.layout.enum.<value>), Feature-106640 (14.2)
+  myExtension.layout:
+    label: 'Layout'
+    category: myExtension
+    type: string
+    default: grid
+    enum:
+      - grid
+      - list

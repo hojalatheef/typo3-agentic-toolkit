@@ -63,3 +63,5 @@ enabled by default; in Composer mode require `typo3/theme-camino`.
 7. Responsive images: `f:image.srcset` (Feature-102215, 14.2).
 8. Assets: reference CSS/JS with `PKG:my-vendor/my-sitepackage:Resources/Public/...`
    (Feature-107537, 14.0); `EXT:` still works.
+9. Verify: `vendor/bin/typo3 site:sets:list`, `vendor/bin/typo3 fluid:analyze`,
+   load the page, check `<title>`, meta tags and image `srcset` in the HTML.

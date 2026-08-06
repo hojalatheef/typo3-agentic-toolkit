@@ -65,3 +65,5 @@ enabled by default; in Composer mode require `typo3/theme-camino`.
    (Feature-107537, 14.0); `EXT:` still works.
 9. Verify: `vendor/bin/typo3 site:sets:list`, `vendor/bin/typo3 fluid:analyze`,
    load the page, check `<title>`, meta tags and image `srcset` in the HTML.
+
+Details for each building block:

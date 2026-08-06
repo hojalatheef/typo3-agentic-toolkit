@@ -57,3 +57,6 @@ enabled by default; in Composer mode require `typo3/theme-camino`.
    (Feature-103504).
 5. Render content with `<f:render.contentArea contentArea="{content.main}" />`
    (Feature-104974, Feature-108726, 14.2).
+6. Head and body data from Fluid: `<f:page.title>` (Feature-107358),
+   `<f:page.meta>` (Feature-107359), `<f:page.headerData>` /
+   `<f:page.footerData>` (Feature-107056).

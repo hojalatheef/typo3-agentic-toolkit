@@ -61,3 +61,5 @@ enabled by default; in Composer mode require `typo3/theme-camino`.
    `<f:page.meta>` (Feature-107359), `<f:page.headerData>` /
    `<f:page.footerData>` (Feature-107056).
 7. Responsive images: `f:image.srcset` (Feature-102215, 14.2).
+8. Assets: reference CSS/JS with `PKG:my-vendor/my-sitepackage:Resources/Public/...`
+   (Feature-107537, 14.0); `EXT:` still works.

@@ -1,0 +1,6 @@
+# EXT:my_extension/Configuration/Sets/MySet/settings.definitions.yaml
+# Feature-103437 (13.1), Feature-104794 (13.3), Feature-106640 (14.2)
+categories:
+  myExtension:
+    label: 'My Extension'
+

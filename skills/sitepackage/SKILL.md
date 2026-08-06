@@ -55,3 +55,5 @@ enabled by default; in Composer mode require `typo3/theme-camino`.
 4. Pick the backend layout "Default" on the root page. `PAGEVIEW`
    renders `Resources/Private/PageView/Pages/Default.fluid.html`
    (Feature-103504).
+5. Render content with `<f:render.contentArea contentArea="{content.main}" />`
+   (Feature-104974, Feature-108726, 14.2).

@@ -60,3 +60,4 @@ enabled by default; in Composer mode require `typo3/theme-camino`.
 6. Head and body data from Fluid: `<f:page.title>` (Feature-107358),
    `<f:page.meta>` (Feature-107359), `<f:page.headerData>` /
    `<f:page.footerData>` (Feature-107056).
+7. Responsive images: `f:image.srcset` (Feature-102215, 14.2).

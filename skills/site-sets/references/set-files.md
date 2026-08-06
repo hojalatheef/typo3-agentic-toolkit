@@ -198,3 +198,4 @@ Source: Feature-104794 (13.3).
   `config/sites/<site>/settings.yaml`.
 - Anonymous settings (no definition) are preserved but not editable - so give
   every setting a definition if editors should change it.
+- Order follows extension load order and category order.

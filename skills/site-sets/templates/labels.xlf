@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  EXT:my_extension/Configuration/Sets/MySet/labels.xlf
+  Translation domain: my_extension.sets.my_set (Feature-93334, 14.0).
+  Enum keys for list-style enums: settings.<settingKey>.enum.<value>
+  (Feature-106640, 14.2).
+-->
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="labels.xlf">
+    <body>
+      <trans-unit id="settings.myExtension.layout.enum.grid">
+        <source>Grid</source>
+      </trans-unit>
+      <trans-unit id="settings.myExtension.layout.enum.list">
+        <source>List</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

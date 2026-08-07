@@ -67,3 +67,4 @@ enabled by default; in Composer mode require `typo3/theme-camino`.
    load the page, check `<title>`, meta tags and image `srcset` in the HTML.
 
 Details for each building block:
+[references/page-rendering.md](references/page-rendering.md). Asset handling

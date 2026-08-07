@@ -70,3 +70,7 @@ Details for each building block:
 [references/page-rendering.md](references/page-rendering.md). Asset handling
 and the build-tool question:
 [references/assets-and-resources.md](references/assets-and-resources.md).
+
+## Checklist
+
+- [ ] `composer.json` has `type: typo3-cms-extension`, `extra.typo3/cms.extension-key`, requires `typo3/cms-core: ^14.3`.

@@ -78,3 +78,4 @@ and the build-tool question:
 - [ ] Backend layouts in the set's `page.tsconfig`, every column with an `identifier`.
 - [ ] `PAGEVIEW` path points at `Resources/Private/PageView/`; `Pages/`, `Layouts/`, `Partials/` below it.
 - [ ] Templates use `*.fluid.html` (v14-only package, Feature-108166).
+- [ ] Editor-facing options are site settings, not TypoScript constants.

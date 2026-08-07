@@ -76,3 +76,4 @@ and the build-tool question:
 - [ ] `composer.json` has `type: typo3-cms-extension`, `extra.typo3/cms.extension-key`, requires `typo3/cms-core: ^14.3`.
 - [ ] Exactly one public set named like the Composer package; helper sets `hidden: true`.
 - [ ] Backend layouts in the set's `page.tsconfig`, every column with an `identifier`.
+- [ ] `PAGEVIEW` path points at `Resources/Private/PageView/`; `Pages/`, `Layouts/`, `Partials/` below it.

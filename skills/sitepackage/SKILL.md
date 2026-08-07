@@ -77,3 +77,4 @@ and the build-tool question:
 - [ ] Exactly one public set named like the Composer package; helper sets `hidden: true`.
 - [ ] Backend layouts in the set's `page.tsconfig`, every column with an `identifier`.
 - [ ] `PAGEVIEW` path points at `Resources/Private/PageView/`; `Pages/`, `Layouts/`, `Partials/` below it.
+- [ ] Templates use `*.fluid.html` (v14-only package, Feature-108166).

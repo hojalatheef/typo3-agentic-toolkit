@@ -74,3 +74,4 @@ and the build-tool question:
 ## Checklist
 
 - [ ] `composer.json` has `type: typo3-cms-extension`, `extra.typo3/cms.extension-key`, requires `typo3/cms-core: ^14.3`.
+- [ ] Exactly one public set named like the Composer package; helper sets `hidden: true`.

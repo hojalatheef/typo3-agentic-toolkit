@@ -68,3 +68,4 @@ enabled by default; in Composer mode require `typo3/theme-camino`.
 
 Details for each building block:
 [references/page-rendering.md](references/page-rendering.md). Asset handling
+and the build-tool question:

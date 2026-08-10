@@ -20,3 +20,8 @@ page.10 {
   dataProcessing.10.as = mainMenu
 }
 ```
+
+- The backend layout name selects the template: layout `default` renders
+  `Pages/Default.fluid.html` below the path (lowercase and `.html` variants
+  are tried too). `Layouts/` and `Partials/` below the same path are wired
+  automatically.

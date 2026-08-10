@@ -88,3 +88,4 @@ and the build-tool question:
 - [references/assets-and-resources.md](references/assets-and-resources.md) - PKG/EXT identifiers, f:asset, build tools, what core does not do.
 - [templates/my_sitepackage/](templates/my_sitepackage/) - minimal, copy-ready skeleton.
 - Related skills: `site-sets`, `record-rendering`, `fluid-components`.
+- Changelog: Feature-103437, Feature-103439, Feature-103504 (13.1), Feature-107056, Feature-107358, Feature-107359, Feature-107537, Feature-108166 (14.0), Feature-108539 (14.1), Feature-102215, Feature-104974, Feature-108726 (14.2).

@@ -85,3 +85,4 @@ and the build-tool question:
 ## References
 
 - [references/page-rendering.md](references/page-rendering.md) - PAGEVIEW, content areas, page title/meta/header/footer ViewHelpers, srcset.
+- [references/assets-and-resources.md](references/assets-and-resources.md) - PKG/EXT identifiers, f:asset, build tools, what core does not do.

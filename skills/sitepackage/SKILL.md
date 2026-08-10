@@ -80,3 +80,4 @@ and the build-tool question:
 - [ ] Templates use `*.fluid.html` (v14-only package, Feature-108166).
 - [ ] Editor-facing options are site settings, not TypoScript constants.
 - [ ] No inline user input in `f:page.headerData`/`footerData` - they output raw HTML.
+- [ ] `fluid:analyze` passes in CI.

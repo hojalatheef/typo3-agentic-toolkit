@@ -81,3 +81,7 @@ and the build-tool question:
 - [ ] Editor-facing options are site settings, not TypoScript constants.
 - [ ] No inline user input in `f:page.headerData`/`footerData` - they output raw HTML.
 - [ ] `fluid:analyze` passes in CI.
+
+## References
+
+- [references/page-rendering.md](references/page-rendering.md) - PAGEVIEW, content areas, page title/meta/header/footer ViewHelpers, srcset.

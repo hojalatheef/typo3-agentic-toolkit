@@ -14,4 +14,9 @@ page.10 {
   paths.10 = EXT:my_sitepackage/Resources/Private/PageView/
   variables {
     brandName = TEXT
+    brandName.value = {$sitepackage.brandName}
+  }
+  dataProcessing.10 = menu
+  dataProcessing.10.as = mainMenu
+}
 ```

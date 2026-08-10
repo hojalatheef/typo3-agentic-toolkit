@@ -6,3 +6,12 @@ skeleton in [../templates/my_sitepackage/](../templates/my_sitepackage/).
 ## PAGEVIEW
 
 Source: Feature-103504 (13.1), Feature-109167 (14.2), Feature-104974 (14.2).
+
+```typoscript
+page = PAGE
+page.10 = PAGEVIEW
+page.10 {
+  paths.10 = EXT:my_sitepackage/Resources/Private/PageView/
+  variables {
+    brandName = TEXT
+```

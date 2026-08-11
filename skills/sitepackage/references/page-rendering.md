@@ -41,3 +41,9 @@ Migration from `FLUIDTEMPLATE`: drop the `templateName` stdWrap that read
 ## Content areas
 
 Source: Feature-104974, Feature-108726 (14.2).
+
+```html
+<main>
+    <f:render.contentArea contentArea="{content.main}" />
+</main>
+```

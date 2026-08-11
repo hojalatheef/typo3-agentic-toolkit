@@ -25,3 +25,5 @@ page.10 {
   `Pages/Default.fluid.html` below the path (lowercase and `.html` variants
   are tried too). `Layouts/` and `Partials/` below the same path are wired
   automatically.
+- Default variables: `settings`, `site`, `language`, `page`. They cannot be
+  overridden (exception). `{page.pageLayout.identifier}` gives the layout.

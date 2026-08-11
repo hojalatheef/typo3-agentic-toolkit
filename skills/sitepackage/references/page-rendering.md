@@ -47,3 +47,5 @@ Source: Feature-104974, Feature-108726 (14.2).
     <f:render.contentArea contentArea="{content.main}" />
 </main>
 ```
+
+`<f:render.contentArea>` renders each record through its TypoScript

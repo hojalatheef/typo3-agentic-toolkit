@@ -27,3 +27,7 @@ page.10 {
   automatically.
 - Default variables: `settings`, `site`, `language`, `page`. They cannot be
   overridden (exception). `{page.pageLayout.identifier}` gives the layout.
+- Since 14.2 the content of every backend-layout column with an `identifier`
+  is available as `{content.<identifier>}` (`ContentArea`); `contentAs`
+  renames the variable. On v13.4 use `dataProcessing.10 = page-content`
+  (Feature-103894).

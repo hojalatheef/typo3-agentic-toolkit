@@ -33,3 +33,5 @@ page.10 {
   (Feature-103894).
 - If a template is missing, v14.2 lists every path that was tried, with the
   `PAGEVIEW` context (Feature-109167).
+
+Migration from `FLUIDTEMPLATE`: drop the `templateName` stdWrap that read

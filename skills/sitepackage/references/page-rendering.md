@@ -36,3 +36,4 @@ page.10 {
 
 Migration from `FLUIDTEMPLATE`: drop the `templateName` stdWrap that read
 `backend_layout`, the three `*RootPaths` and `variables` like `pageUid` or
+`pageTitle` - use `{page.uid}` and `{page.title}`.

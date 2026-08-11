@@ -35,3 +35,4 @@ page.10 {
   `PAGEVIEW` context (Feature-109167).
 
 Migration from `FLUIDTEMPLATE`: drop the `templateName` stdWrap that read
+`backend_layout`, the three `*RootPaths` and `variables` like `pageUid` or

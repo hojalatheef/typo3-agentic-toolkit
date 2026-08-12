@@ -69,3 +69,5 @@ definition and lets other extensions modify the output via
     <link rel="preconnect" href="https://fonts.example.com">
 </f:page.headerData>
 ```
+
+`headerData` and `footerData` output content as-is. Escape any user input

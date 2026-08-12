@@ -57,3 +57,4 @@ definition and lets other extensions modify the output via
 
 | ViewHelper | Use | Source |
 | --- | --- | --- |
+| `<f:page.title>{item.title}</f:page.title>` | page title through the page title provider chain | Feature-107358, 14.0 |

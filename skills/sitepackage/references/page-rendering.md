@@ -52,3 +52,8 @@ Source: Feature-104974, Feature-108726 (14.2).
 definition and lets other extensions modify the output via
 `ModifyRenderedContentAreaEvent`. Per-record wrapping uses `recordAs` plus
 `<f:render.record>`. See the `record-rendering` skill for element templates.
+
+## Title, meta, header and footer data
+
+| ViewHelper | Use | Source |
+| --- | --- | --- |

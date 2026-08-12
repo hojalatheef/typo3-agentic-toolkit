@@ -61,3 +61,11 @@ definition and lets other extensions modify the output via
 | `<f:page.meta property="og:title">...</f:page.meta>` | meta tags via MetaTagManager; args `property`, `type`, `subProperties`, `replace` | Feature-107359, 14.0 |
 | `<f:page.headerData>...</f:page.headerData>` | raw HTML into `<head>` (preload, preconnect) | Feature-107056, 14.0 |
 | `<f:page.footerData>...</f:page.footerData>` | raw HTML before `</body>` (tracking) | Feature-107056, 14.0 |
+
+```html
+<f:page.meta property="description">{page.description}</f:page.meta>
+<f:page.meta property="og:image" subProperties="{width: 1200, height: 630}">{ogImageUrl}</f:page.meta>
+<f:page.headerData>
+    <link rel="preconnect" href="https://fonts.example.com">
+</f:page.headerData>
+```

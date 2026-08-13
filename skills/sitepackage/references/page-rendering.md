@@ -85,4 +85,6 @@ Source: Feature-102215 (14.2).
         sizes="100vw"
         media="(min-width: 1200px)"
     />
+    <f:image image="{image}" width="800" />
+</picture>
 ```

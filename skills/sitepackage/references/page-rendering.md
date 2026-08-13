@@ -90,3 +90,4 @@ Source: Feature-102215 (14.2).
 ```
 
 Descriptors are width (`400w`) or density (`2x`). In PHP,
+`TYPO3\CMS\Core\Html\Srcset\SrcsetAttribute::createFromDescriptors()` builds

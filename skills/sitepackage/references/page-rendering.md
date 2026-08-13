@@ -88,3 +88,5 @@ Source: Feature-102215 (14.2).
     <f:image image="{image}" width="800" />
 </picture>
 ```
+
+Descriptors are width (`400w`) or density (`2x`). In PHP,

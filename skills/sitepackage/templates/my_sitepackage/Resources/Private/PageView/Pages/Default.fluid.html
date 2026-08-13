@@ -1,0 +1,17 @@
+<f:comment>
+    Backend layout "default" (Feature-103504). Content areas from the
+    backend layout identifiers (Feature-104974) rendered with
+    f:render.contentArea (Feature-108726, v14.2).
+</f:comment>
+<f:layout name="Default" />
+
+<f:section name="Main">
+    <div class="page__body">
+        <main class="page__main" id="content">
+            <f:render.contentArea contentArea="{content.main}" />
+        </main>
+        <aside class="page__sidebar">
+            <f:render.contentArea contentArea="{content.sidebar}" />
+        </aside>
+    </div>
+</f:section>

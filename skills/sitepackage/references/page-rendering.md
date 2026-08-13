@@ -77,3 +77,12 @@ sets the title from PHP instead.
 ## Responsive images with srcset
 
 Source: Feature-102215 (14.2).
+
+```html
+<picture>
+    <source
+        srcset="{f:image.srcset(image: image, srcset: '400w, 800w, 1200w', cropVariant: 'wide')}"
+        sizes="100vw"
+        media="(min-width: 1200px)"
+    />
+```

@@ -17,3 +17,4 @@ Arguments: `$ARGUMENTS`.
 
 A *system resource* is a file or folder of the project: a package file, a FAL file, an app file or a URI. Since
 14.0 one API resolves all of them and generates URLs with cache busting (Feature-107537). 14.2 adds real publishing
+(Feature-109163) and per-package resource configuration (Feature-109409).

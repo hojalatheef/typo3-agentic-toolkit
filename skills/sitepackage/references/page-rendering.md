@@ -91,3 +91,4 @@ Source: Feature-102215 (14.2).
 
 Descriptors are width (`400w`) or density (`2x`). In PHP,
 `TYPO3\CMS\Core\Html\Srcset\SrcsetAttribute::createFromDescriptors()` builds
+the same structure. On v13.4 fall back to one `f:uri.image` per size.

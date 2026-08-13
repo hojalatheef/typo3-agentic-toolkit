@@ -1,0 +1,30 @@
+# Backend layouts with column identifiers (Feature-103894, Feature-104974).
+# PAGEVIEW exposes them as {content.main} and {content.sidebar}.
+mod.web_layout.BackendLayouts {
+  default {
+    title = Default
+    config {
+      backend_layout {
+        colCount = 2
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Main
+                colPos = 0
+                identifier = main
+              }
+              2 {
+                name = Sidebar
+                colPos = 1
+                identifier = sidebar
+                slideMode = slide
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

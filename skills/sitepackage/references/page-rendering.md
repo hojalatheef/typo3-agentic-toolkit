@@ -73,3 +73,7 @@ definition and lets other extensions modify the output via
 `headerData` and `footerData` output content as-is. Escape any user input
 yourself. For plugin detail pages, `RecordTitleProvider` (Feature-106232)
 sets the title from PHP instead.
+
+## Responsive images with srcset
+
+Source: Feature-102215 (14.2).

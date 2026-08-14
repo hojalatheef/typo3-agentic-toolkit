@@ -37,3 +37,5 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
    `PKG:my-vendor/my-extension:Resources/Public/Css/main.css` for new code (`EXT:` keeps working),
    `PKG:typo3/app:public/typo3temp/assets/...` for app files, `FAL:<storage>:/<identifier>` for storages,
    `URI:/path` or `https://...` for URLs.
+2. PHP: copy [templates/AssetUriService.php](templates/AssetUriService.php). Pass the current request; `null` only
+   on CLI (no absolute URLs then).

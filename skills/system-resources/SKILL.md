@@ -27,3 +27,4 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
   `FilePathSanitizer` (all deprecated in 14.0, removal in v15).
 - References like `typo3conf/ext/my_ext/...`, `fileadmin/...` in a non-default storage, or `_assets/<hash>/...`
   hard-coded in templates.
+- Assets built into a folder other than `Resources/Public` (e.g. `Build/Public` from Vite).

@@ -28,3 +28,4 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
 - References like `typo3conf/ext/my_ext/...`, `fileadmin/...` in a non-default storage, or `_assets/<hash>/...`
   hard-coded in templates.
 - Assets built into a folder other than `Resources/Public` (e.g. `Build/Public` from Vite).
+- Containers or read-only deployments that cannot use symlinks: `filesystemPublishingType = mirror`.

@@ -41,3 +41,5 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
    on CLI (no absolute URLs then).
 3. Fluid: `{f:resource(identifier: 'PKG:...') -> f:uri.resource()}`; `f:asset.css` / `f:asset.script` accept
    all identifiers in `href` / `src`.
+4. TypoScript: `page.includeCSS.x = PKG:...`; `{asset : EXT:...}` getText for cache-busted URLs; note that `path`
+   getText returns absolute URLs since 14.0.

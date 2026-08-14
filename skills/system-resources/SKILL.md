@@ -29,3 +29,4 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
   hard-coded in templates.
 - Assets built into a folder other than `Resources/Public` (e.g. `Build/Public` from Vite).
 - Containers or read-only deployments that cannot use symlinks: `filesystemPublishingType = mirror`.
+- Site-specific favicon/manifest URLs: static route of type `asset` (Feature-101472, 13.3).

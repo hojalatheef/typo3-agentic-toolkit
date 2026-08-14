@@ -30,3 +30,10 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
 - Assets built into a folder other than `Resources/Public` (e.g. `Build/Public` from Vite).
 - Containers or read-only deployments that cannot use symlinks: `filesystemPublishingType = mirror`.
 - Site-specific favicon/manifest URLs: static route of type `asset` (Feature-101472, 13.3).
+
+## Steps
+
+1. Choose the identifier ([references/identifiers.md](references/identifiers.md)):
+   `PKG:my-vendor/my-extension:Resources/Public/Css/main.css` for new code (`EXT:` keeps working),
+   `PKG:typo3/app:public/typo3temp/assets/...` for app files, `FAL:<storage>:/<identifier>` for storages,
+   `URI:/path` or `https://...` for URLs.

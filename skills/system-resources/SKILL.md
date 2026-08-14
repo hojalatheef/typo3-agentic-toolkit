@@ -23,3 +23,5 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
 
 - Generating a URL to an extension asset in PHP: `SystemResourceFactory::createPublicResource()` +
   `SystemResourcePublisherInterface::generateUri()`.
+- Code calls `PathUtility::getPublicResourceWebPath()`, `GeneralUtility::createVersionNumberedFilename()` or
+  `FilePathSanitizer` (all deprecated in 14.0, removal in v15).

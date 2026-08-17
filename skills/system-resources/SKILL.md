@@ -59,3 +59,5 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
 - [ ] Every referenced extension path is under `Configuration`, `Resources/Private`, `Resources/Public` or
       declared in `Configuration/Resources.php` (Deprecation-109409).
 - [ ] No `$GLOBALS['TYPO3_CONF_VARS']['FE']['addAllowedPaths']`; use `config/system/resources.php`.
+- [ ] `Resources.php` uses plain PHP only (TYPO3 is not bootstrapped); relative paths without leading/trailing
+      slashes or `../`.

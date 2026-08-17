@@ -54,3 +54,4 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
 
 - [ ] No `typo3conf/ext/`, `typo3/sysext/` or `_assets/<md5>` paths in templates, TypoScript or PHP.
 - [ ] No `PathUtility::getPublicResourceWebPath()`, `createVersionNumberedFilename()`, `FilePathSanitizer`.
+- [ ] No manual `?v=123` cache busters - cache busting is always applied now.

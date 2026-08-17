@@ -43,3 +43,6 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
    all identifiers in `href` / `src`.
 4. TypoScript: `page.includeCSS.x = PKG:...`; `{asset : EXT:...}` getText for cache-busted URLs; note that `path`
    getText returns absolute URLs since 14.0.
+5. Assets outside `Resources/Public`: copy [templates/Resources.php](templates/Resources.php) to
+   `Configuration/Resources.php` and declare `PublicResourceDefinition` / `PublicFileDefinition` (14.2). Run
+   `composer dumpautoload` (classic mode: `typo3 cache:flush`).

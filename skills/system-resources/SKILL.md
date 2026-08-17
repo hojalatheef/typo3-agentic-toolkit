@@ -46,3 +46,6 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
 5. Assets outside `Resources/Public`: copy [templates/Resources.php](templates/Resources.php) to
    `Configuration/Resources.php` and declare `PublicResourceDefinition` / `PublicFileDefinition` (14.2). Run
    `composer dumpautoload` (classic mode: `typo3 cache:flush`).
+6. Deployment: `asset:publish` runs on `composer install`, `extension:setup` and extension activation. Skip at
+   build time with `TYPO3_SKIP_ASSET_PUBLISH=1` and run it later; choose `link`, `mirror` or `auto`.
+   See [references/publishing.md](references/publishing.md).

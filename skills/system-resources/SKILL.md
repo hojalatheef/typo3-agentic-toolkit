@@ -56,3 +56,5 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
 - [ ] No `PathUtility::getPublicResourceWebPath()`, `createVersionNumberedFilename()`, `FilePathSanitizer`.
 - [ ] No manual `?v=123` cache busters - cache busting is always applied now.
 - [ ] Files in non-default local storages referenced as `FAL:<uid>:/...` (relative paths throw).
+- [ ] Every referenced extension path is under `Configuration`, `Resources/Private`, `Resources/Public` or
+      declared in `Configuration/Resources.php` (Deprecation-109409).

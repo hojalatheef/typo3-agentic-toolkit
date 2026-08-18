@@ -14,3 +14,4 @@ Deprecated legacy strings: `fileadmin/...` (default storage only), `typo3temp/as
 Paths like `typo3conf/ext/my_ext/Resources/Public/Image.svg` no longer work consistently.
 
 App resources default to `public/_assets`, `public/typo3temp/assets`, `public/uploads`. Extend them in
+`config/system/resources.php` (Feature-109409); `FE.addAllowedPaths` is deprecated (Deprecation-109409).

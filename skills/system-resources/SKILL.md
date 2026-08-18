@@ -67,3 +67,5 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
 ## Pitfalls
 
 - The `null` request falls back to `$GLOBALS['TYPO3_REQUEST']`, which will be removed eventually.
+- Putting extra files directly into `public/_assets` bypasses custom publishers (CDN). Configure a source folder
+  outside the document root instead.

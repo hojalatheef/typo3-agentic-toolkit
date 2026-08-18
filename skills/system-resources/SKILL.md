@@ -78,3 +78,5 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
   routes, cache busting, deprecations.
 - [references/publishing.md](references/publishing.md) - `asset:publish`, publishing strategies, resource
   definitions, custom publishers.
+- Templates: [templates/AssetUriService.php](templates/AssetUriService.php),
+  [templates/Resources.php](templates/Resources.php), [templates/config.yaml](templates/config.yaml).

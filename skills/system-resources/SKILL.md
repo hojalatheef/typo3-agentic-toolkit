@@ -63,3 +63,7 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
       slashes or `../`.
 - [ ] Static `publicPrefix` values are unique across packages.
 - [ ] `URI:` values are valid URIs (invalid ones throw instead of rendering).
+
+## Pitfalls
+
+- The `null` request falls back to `$GLOBALS['TYPO3_REQUEST']`, which will be removed eventually.

@@ -76,3 +76,5 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
 
 - [references/identifiers.md](references/identifiers.md) - identifier syntax, PHP/Fluid/TypoScript usage, static
   routes, cache busting, deprecations.
+- [references/publishing.md](references/publishing.md) - `asset:publish`, publishing strategies, resource
+  definitions, custom publishers.

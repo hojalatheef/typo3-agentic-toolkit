@@ -62,3 +62,4 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
 - [ ] `Resources.php` uses plain PHP only (TYPO3 is not bootstrapped); relative paths without leading/trailing
       slashes or `../`.
 - [ ] Static `publicPrefix` values are unique across packages.
+- [ ] `URI:` values are valid URIs (invalid ones throw instead of rendering).

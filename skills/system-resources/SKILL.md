@@ -71,3 +71,8 @@ A *system resource* is a file or folder of the project: a package file, a FAL fi
   outside the document root instead.
 - `PKG:` needs a `composer.json` in the extension (also in classic mode).
 - In classic mode nothing visible changes, but the restriction rules still apply.
+
+## References
+
+- [references/identifiers.md](references/identifiers.md) - identifier syntax, PHP/Fluid/TypoScript usage, static
+  routes, cache busting, deprecations.

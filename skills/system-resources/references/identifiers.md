@@ -42,3 +42,5 @@ public function renderUrl(string $identifier, ServerRequestInterface $request): 
     );
 }
 ```
+
+`UriGenerationOptions` named arguments seen in the changelogs: `absoluteUri`, `uriPrefix`, `cacheBusting`.

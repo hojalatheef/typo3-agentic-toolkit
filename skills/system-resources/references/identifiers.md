@@ -15,3 +15,5 @@ Paths like `typo3conf/ext/my_ext/Resources/Public/Image.svg` no longer work cons
 
 App resources default to `public/_assets`, `public/typo3temp/assets`, `public/uploads`. Extend them in
 `config/system/resources.php` (Feature-109409); `FE.addAllowedPaths` is deprecated (Deprecation-109409).
+
+Package resources may only point to `Configuration`, `Resources/Private`, `Resources/Public` or paths declared in

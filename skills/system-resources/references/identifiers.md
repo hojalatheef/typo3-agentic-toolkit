@@ -44,3 +44,4 @@ public function renderUrl(string $identifier, ServerRequestInterface $request): 
 ```
 
 `UriGenerationOptions` named arguments seen in the changelogs: `absoluteUri`, `uriPrefix`, `cacheBusting`.
+`$request = null`: falls back to `$GLOBALS['TYPO3_REQUEST']`; on CLI no absolute URLs.

@@ -47,3 +47,6 @@ public function renderUrl(string $identifier, ServerRequestInterface $request): 
 `$request = null`: falls back to `$GLOBALS['TYPO3_REQUEST']`; on CLI no absolute URLs.
 
 Replaces (Deprecation-107537, removal v15):
+
+| Deprecated | Replacement |
+| --- | --- |

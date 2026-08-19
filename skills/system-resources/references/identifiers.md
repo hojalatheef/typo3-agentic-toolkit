@@ -31,4 +31,12 @@ public function __construct(
     private readonly SystemResourceFactory $systemResourceFactory,
     private readonly SystemResourcePublisherInterface $resourcePublisher,
 ) {}
+
+public function renderUrl(string $identifier, ServerRequestInterface $request): string
+{
+    $resource = $this->systemResourceFactory->createPublicResource($identifier);
+    return (string)$this->resourcePublisher->generateUri(
+        $resource,
+        $request,
+        new UriGenerationOptions(absoluteUri: true),
 ```

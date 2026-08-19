@@ -26,4 +26,9 @@ use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\SystemResource\Publishing\SystemResourcePublisherInterface;
 use TYPO3\CMS\Core\SystemResource\Publishing\UriGenerationOptions;
 use TYPO3\CMS\Core\SystemResource\SystemResourceFactory;
+
+public function __construct(
+    private readonly SystemResourceFactory $systemResourceFactory,
+    private readonly SystemResourcePublisherInterface $resourcePublisher,
+) {}
 ```

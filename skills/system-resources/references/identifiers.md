@@ -39,4 +39,6 @@ public function renderUrl(string $identifier, ServerRequestInterface $request): 
         $resource,
         $request,
         new UriGenerationOptions(absoluteUri: true),
+    );
+}
 ```

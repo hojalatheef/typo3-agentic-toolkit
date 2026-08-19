@@ -18,3 +18,12 @@ App resources default to `public/_assets`, `public/typo3temp/assets`, `public/up
 
 Package resources may only point to `Configuration`, `Resources/Private`, `Resources/Public` or paths declared in
 `Configuration/Resources.php`; anything else triggers a deprecation (Deprecation-109409).
+
+## PHP
+
+```php
+use Psr\Http\Message\ServerRequestInterface;
+use TYPO3\CMS\Core\SystemResource\Publishing\SystemResourcePublisherInterface;
+use TYPO3\CMS\Core\SystemResource\Publishing\UriGenerationOptions;
+use TYPO3\CMS\Core\SystemResource\SystemResourceFactory;
+```

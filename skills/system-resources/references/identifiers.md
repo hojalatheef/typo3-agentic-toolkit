@@ -53,3 +53,11 @@ Replaces (Deprecation-107537, removal v15):
 | `PathUtility::getPublicResourceWebPath($extResource)` | `createPublicResource()` + `generateUri()` |
 | `GeneralUtility::createVersionNumberedFilename()` | same - cache busting is built in |
 | `TYPO3\CMS\Frontend\Resource\FilePathSanitizer` | same |
+
+## Fluid and TypoScript
+
+```html
+<link href="{f:resource(identifier: 'PKG:typo3/cms-backend:Resources/Public/Css/webfonts.css') -> f:uri.resource()}" rel="stylesheet" />
+<f:asset.css identifier="main.css" href="PKG:my-vendor/site-package:Resources/Public/Css/main.css" />
+<img src="{typo3.systemConfiguration.backend.loginLogo -> f:resource() -> f:uri.resource()}" alt="Logo" />
+```

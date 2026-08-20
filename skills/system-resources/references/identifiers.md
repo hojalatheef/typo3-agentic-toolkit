@@ -63,3 +63,4 @@ Replaces (Deprecation-107537, removal v15):
 ```
 
 `<f:uri.resource path="EXT:..." useCacheBusting="true" />` (13.2, Feature-99203) - cache busting enabled by default;
+`FE.versionNumberInFilename` decides query string vs. file name.

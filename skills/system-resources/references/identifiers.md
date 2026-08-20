@@ -51,3 +51,4 @@ Replaces (Deprecation-107537, removal v15):
 | Deprecated | Replacement |
 | --- | --- |
 | `PathUtility::getPublicResourceWebPath($extResource)` | `createPublicResource()` + `generateUri()` |
+| `GeneralUtility::createVersionNumberedFilename()` | same - cache busting is built in |

@@ -74,3 +74,5 @@ page.20 = TEXT
 page.20.value = { asset : EXT:core/Resources/Public/Icons/Extension.svg }
 page.20.insertData = 1
 ```
+
+Behaviour changes (Breaking-107537, 14.0): getText `path` returns an absolute URL (leading `/`); all generated

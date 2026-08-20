@@ -69,4 +69,8 @@ Replaces (Deprecation-107537, removal v15):
 page.includeCSS.packageResource = PKG:my-vendor/ext-name:Resources/Public/Css/main.css
 page.includeCSS.appResource = PKG:typo3/app:public/_assets/style.css
 page.includeCSSLibs.fal = FAL:1:/templates/css/main.css
+
+page.20 = TEXT
+page.20.value = { asset : EXT:core/Resources/Public/Icons/Extension.svg }
+page.20.insertData = 1
 ```

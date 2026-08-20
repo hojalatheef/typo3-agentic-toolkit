@@ -52,3 +52,4 @@ Replaces (Deprecation-107537, removal v15):
 | --- | --- |
 | `PathUtility::getPublicResourceWebPath($extResource)` | `createPublicResource()` + `generateUri()` |
 | `GeneralUtility::createVersionNumberedFilename()` | same - cache busting is built in |
+| `TYPO3\CMS\Frontend\Resource\FilePathSanitizer` | same |

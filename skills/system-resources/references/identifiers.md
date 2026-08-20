@@ -61,3 +61,5 @@ Replaces (Deprecation-107537, removal v15):
 <f:asset.css identifier="main.css" href="PKG:my-vendor/site-package:Resources/Public/Css/main.css" />
 <img src="{typo3.systemConfiguration.backend.loginLogo -> f:resource() -> f:uri.resource()}" alt="Logo" />
 ```
+
+`<f:uri.resource path="EXT:..." useCacheBusting="true" />` (13.2, Feature-99203) - cache busting enabled by default;

@@ -79,3 +79,14 @@ Behaviour changes (Breaking-107537, 14.0): getText `path` returns an absolute UR
 resource URLs carry cache busting; a custom query string (`?v=1234`) no longer disables it (both are applied);
 relative paths only resolve in the default storage (`BE.fileadminDir`) - use `FAL:42:/...` or `URI:/...` for
 other storages.
+
+## Static routes to assets (Feature-101472, 13.3)
+
+```yaml
+# config/sites/my-site/config.yaml
+routes:
+  -
+    route: favicon.ico
+    type: asset
+    asset: 'EXT:my_sitepackage/Resources/Public/Icons/favicon.ico'
+```

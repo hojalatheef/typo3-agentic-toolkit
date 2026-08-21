@@ -78,3 +78,4 @@ page.20.insertData = 1
 Behaviour changes (Breaking-107537, 14.0): getText `path` returns an absolute URL (leading `/`); all generated
 resource URLs carry cache busting; a custom query string (`?v=1234`) no longer disables it (both are applied);
 relative paths only resolve in the default storage (`BE.fileadminDir`) - use `FAL:42:/...` or `URI:/...` for
+other storages.

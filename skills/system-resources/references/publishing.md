@@ -6,3 +6,4 @@
 (`public/_assets/...` in Composer mode). It runs automatically:
 
 - after `composer install` (skip with `TYPO3_SKIP_ASSET_PUBLISH=1 composer install`),
+- on `extension:setup`,

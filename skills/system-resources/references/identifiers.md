@@ -90,3 +90,5 @@ routes:
     type: asset
     asset: 'EXT:my_sitepackage/Resources/Public/Icons/favicon.ico'
 ```
+
+Per-site, so each site can deliver its own favicon, `manifest.json` or `robots`-style asset from an extension.

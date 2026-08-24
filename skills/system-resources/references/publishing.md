@@ -21,3 +21,4 @@ $GLOBALS['TYPO3_CONF_VARS']['SYS']['SystemResources']['filesystemPublishingType'
 
 | Value | Behaviour |
 | --- | --- |
+| `link` (default) | Symlinks (*nix) or junctions (Windows). |

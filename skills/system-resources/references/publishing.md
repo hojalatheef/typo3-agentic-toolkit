@@ -10,3 +10,4 @@
 - when an extension is activated in the Extension Manager (also classic mode).
 
 The changelog expects "not publishing at composer install" to become the default later. Put `asset:publish` (or
+`extension:setup`) into the deployment explicitly now.

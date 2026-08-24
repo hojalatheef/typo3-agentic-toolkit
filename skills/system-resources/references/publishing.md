@@ -24,3 +24,7 @@ $GLOBALS['TYPO3_CONF_VARS']['SYS']['SystemResources']['filesystemPublishingType'
 | `link` (default) | Symlinks (*nix) or junctions (Windows). |
 | `mirror` | Copy files and folders - container images, read-only file systems, restrictive hosting. |
 | `auto` | Mirror in `Production` context, link in `Development`. |
+
+## Resource definitions (Feature-109409, 14.2)
+
+Default per package: `ResourceDefinition('Resources/Private')` and, if present,

@@ -29,3 +29,7 @@ $GLOBALS['TYPO3_CONF_VARS']['SYS']['SystemResources']['filesystemPublishingType'
 
 Default per package: `ResourceDefinition('Resources/Private')` and, if present,
 `PublicResourceDefinition('Resources/Public')`. `Configuration/Resources.php` adds to that:
+
+```php
+<?php
+```

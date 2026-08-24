@@ -22,3 +22,4 @@ $GLOBALS['TYPO3_CONF_VARS']['SYS']['SystemResources']['filesystemPublishingType'
 | Value | Behaviour |
 | --- | --- |
 | `link` (default) | Symlinks (*nix) or junctions (Windows). |
+| `mirror` | Copy files and folders - container images, read-only file systems, restrictive hosting. |

@@ -11,3 +11,10 @@
 
 The changelog expects "not publishing at composer install" to become the default later. Put `asset:publish` (or
 `extension:setup`) into the deployment explicitly now.
+
+## Publishing strategies
+
+```php
+// config/system/additional.php
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['SystemResources']['filesystemPublishingType'] = 'mirror';
+```

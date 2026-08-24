@@ -18,3 +18,6 @@ The changelog expects "not publishing at composer install" to become the default
 // config/system/additional.php
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['SystemResources']['filesystemPublishingType'] = 'mirror';
 ```
+
+| Value | Behaviour |
+| --- | --- |

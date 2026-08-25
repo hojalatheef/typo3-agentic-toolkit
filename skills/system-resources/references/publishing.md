@@ -46,4 +46,8 @@ return static function (Package $package) {
             relativePath: 'Build/Public',
             publicPrefix: 'my-vendor/my-extension-build',
         ),
+        // single file, hashed folder
+        new PublicFileDefinition(relativePath: 'Build/styles.css'),
+    ];
+};
 ```

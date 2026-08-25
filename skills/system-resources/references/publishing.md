@@ -38,4 +38,12 @@ declare(strict_types=1);
 use TYPO3\CMS\Core\Package\Package;
 use TYPO3\CMS\Core\Package\Resource\Definition\PublicFileDefinition;
 use TYPO3\CMS\Core\Package\Resource\Definition\PublicResourceDefinition;
+
+return static function (Package $package) {
+    return [
+        // whole folder, stable URL below public/_assets/my-vendor/my-extension-build
+        new PublicResourceDefinition(
+            relativePath: 'Build/Public',
+            publicPrefix: 'my-vendor/my-extension-build',
+        ),
 ```

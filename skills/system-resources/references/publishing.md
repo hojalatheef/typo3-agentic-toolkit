@@ -55,3 +55,4 @@ return static function (Package $package) {
 Rules:
 
 - Plain PHP only - TYPO3 is not bootstrapped; only autoloading and the passed package object are available.
+- Relative paths: no leading/trailing slash, no `../`.

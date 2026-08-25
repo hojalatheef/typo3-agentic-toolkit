@@ -58,3 +58,5 @@ Rules:
 - Relative paths: no leading/trailing slash, no `../`.
 - `publicPrefix` must be unique across all packages (exception otherwise).
 - After changes: `composer dumpautoload` (Composer mode) or `typo3 cache:flush` (classic mode).
+
+The `typo3/app` package is configured in `config/system/resources.php`

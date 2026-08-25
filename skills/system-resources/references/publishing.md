@@ -61,3 +61,4 @@ Rules:
 
 The `typo3/app` package is configured in `config/system/resources.php`
 (`static function (VirtualAppPackage $package, string $relativePublicPath)`); defaults are `_assets`, `uploads`,
+`typo3temp/assets` below the public path. Do not drop files into `public/_assets` by hand - configure a source

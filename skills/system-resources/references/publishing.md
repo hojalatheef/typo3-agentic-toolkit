@@ -60,3 +60,4 @@ Rules:
 - After changes: `composer dumpautoload` (Composer mode) or `typo3 cache:flush` (classic mode).
 
 The `typo3/app` package is configured in `config/system/resources.php`
+(`static function (VirtualAppPackage $package, string $relativePublicPath)`); defaults are `_assets`, `uploads`,

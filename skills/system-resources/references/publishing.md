@@ -51,3 +51,5 @@ return static function (Package $package) {
     ];
 };
 ```
+
+Rules:

@@ -94,4 +94,5 @@ final readonly class CdnResourcePublisher implements SystemResourcePublisherInte
             ? new Uri('https://cdn.example.com/files/' . $uri)
             : $uri;
     }
+}
 ```

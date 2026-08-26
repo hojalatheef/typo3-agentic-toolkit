@@ -63,3 +63,7 @@ The `typo3/app` package is configured in `config/system/resources.php`
 (`static function (VirtualAppPackage $package, string $relativePublicPath)`); defaults are `_assets`, `uploads`,
 `typo3temp/assets` below the public path. Do not drop files into `public/_assets` by hand - configure a source
 folder outside the document root and let TYPO3 publish it, so custom publishers see it.
+
+## Custom publishers (CDN)
+
+Implement `TYPO3\CMS\Core\SystemResource\Publishing\SystemResourcePublisherInterface` and register it as the

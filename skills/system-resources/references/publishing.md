@@ -67,3 +67,4 @@ folder outside the document root and let TYPO3 publish it, so custom publishers 
 ## Custom publishers (CDN)
 
 Implement `TYPO3\CMS\Core\SystemResource\Publishing\SystemResourcePublisherInterface` and register it as the
+interface alias. TYPO3 then uses it both to publish and to generate URLs.

@@ -87,4 +87,11 @@ final readonly class CdnResourcePublisher implements SystemResourcePublisherInte
     ): UriInterface {
         $uri = $this->default->generateUri(
             $publicResource,
+            $request,
+            new UriGenerationOptions(uriPrefix: '', absoluteUri: false, cacheBusting: false),
+        );
+        return $publicResource instanceof PublicPackageFile
+            ? new Uri('https://cdn.example.com/files/' . $uri)
+            : $uri;
+    }
 ```

@@ -74,4 +74,9 @@ interface alias. TYPO3 then uses it both to publish and to generate URLs.
 final readonly class CdnResourcePublisher implements SystemResourcePublisherInterface
 {
     public function __construct(private DefaultSystemResourcePublisher $default) {}
+
+    public function publishResources(PackageInterface $package): FlashMessageQueue
+    {
+        return $this->default->publishResources($package);
+    }
 ```

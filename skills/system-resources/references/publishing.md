@@ -68,3 +68,10 @@ folder outside the document root and let TYPO3 publish it, so custom publishers 
 
 Implement `TYPO3\CMS\Core\SystemResource\Publishing\SystemResourcePublisherInterface` and register it as the
 interface alias. TYPO3 then uses it both to publish and to generate URLs.
+
+```php
+#[Autoconfigure(public: true), AsAlias(SystemResourcePublisherInterface::class, public: true)]
+final readonly class CdnResourcePublisher implements SystemResourcePublisherInterface
+{
+    public function __construct(private DefaultSystemResourcePublisher $default) {}
+```

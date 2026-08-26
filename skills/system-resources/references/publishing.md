@@ -79,4 +79,12 @@ final readonly class CdnResourcePublisher implements SystemResourcePublisherInte
     {
         return $this->default->publishResources($package);
     }
+
+    public function generateUri(
+        PublicResourceInterface $publicResource,
+        ?ServerRequestInterface $request,
+        ?UriGenerationOptions $options = null,
+    ): UriInterface {
+        $uri = $this->default->generateUri(
+            $publicResource,
 ```

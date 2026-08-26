@@ -96,3 +96,5 @@ final readonly class CdnResourcePublisher implements SystemResourcePublisherInte
     }
 }
 ```
+
+Only one default publisher per installation.

@@ -26,3 +26,4 @@ domains incrementally.
 - `<f:translate>` calls with long `LLL:EXT:` keys or `extensionName`: switch to `domain` / inline domain
   (Feature-107759, 14.0).
 - Labels that need plurals, gender or named placeholders: ICU MessageFormat (Feature-104546, 14.2).
+- Services that translate: inject `TYPO3\CMS\Core\Localization\TranslatorInterface` (Feature-89334, 14.2).

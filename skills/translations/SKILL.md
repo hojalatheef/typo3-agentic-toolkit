@@ -37,3 +37,6 @@ domains incrementally.
 
 1. Inventory: `bin/typo3 language:domain:list --extension=<ext_key>` (EXT:lowlevel) prints every domain of the
    extension and its file. `language:domain:search` finds label texts.
+2. Map each file to its domain with the rules in [references/domains.md](references/domains.md)
+   (`locallang.xlf` -> `<ext>.messages`, `locallang_db.xlf` -> `<ext>.db`, `Form/locallang_tabs.xlf` ->
+   `<ext>.form.tabs`, set `labels.xlf` -> `<ext>.sets.<set>`).

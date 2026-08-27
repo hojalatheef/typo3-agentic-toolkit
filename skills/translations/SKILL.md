@@ -31,3 +31,4 @@ domains incrementally.
   (Feature-108941, 14.2).
 - Site set `enum` settings with translated option labels (Feature-106640, 14.2).
 - New translation files in XLIFF 2.0 (Feature-107710, 14.0).
+- A custom localization parser or `SYS.lang` / `locallangXMLOverride` configuration exists (Breaking-107436).

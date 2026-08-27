@@ -30,3 +30,4 @@ domains incrementally.
 - Backend JavaScript/web components needing labels: `import labels from '~labels/<domain>'`
   (Feature-108941, 14.2).
 - Site set `enum` settings with translated option labels (Feature-106640, 14.2).
+- New translation files in XLIFF 2.0 (Feature-107710, 14.0).

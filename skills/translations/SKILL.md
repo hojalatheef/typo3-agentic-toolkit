@@ -40,3 +40,5 @@ domains incrementally.
 2. Map each file to its domain with the rules in [references/domains.md](references/domains.md)
    (`locallang.xlf` -> `<ext>.messages`, `locallang_db.xlf` -> `<ext>.db`, `Form/locallang_tabs.xlf` ->
    `<ext>.form.tabs`, set `labels.xlf` -> `<ext>.sets.<set>`).
+3. Replace references per the [migration checklist](references/migration-checklist.md). Do one file type at a
+   time (Fluid, TCA, PHP, YAML) and run the extension's tests between steps.

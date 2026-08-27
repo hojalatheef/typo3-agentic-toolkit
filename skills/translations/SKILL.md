@@ -42,3 +42,5 @@ domains incrementally.
    `<ext>.form.tabs`, set `labels.xlf` -> `<ext>.sets.<set>`).
 3. Replace references per the [migration checklist](references/migration-checklist.md). Do one file type at a
    time (Fluid, TCA, PHP, YAML) and run the extension's tests between steps.
+4. Where a label is concatenated from singular/plural variants, convert it to one ICU message and pass named
+   arguments. Positional arguments keep `sprintf` behaviour.

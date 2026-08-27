@@ -25,3 +25,4 @@ domains incrementally.
 - New labels in an extension targeting 14.x: use domains in TCA, Fluid, PHP and `Modules.php`.
 - `<f:translate>` calls with long `LLL:EXT:` keys or `extensionName`: switch to `domain` / inline domain
   (Feature-107759, 14.0).
+- Labels that need plurals, gender or named placeholders: ICU MessageFormat (Feature-104546, 14.2).

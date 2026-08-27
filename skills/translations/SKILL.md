@@ -27,3 +27,5 @@ domains incrementally.
   (Feature-107759, 14.0).
 - Labels that need plurals, gender or named placeholders: ICU MessageFormat (Feature-104546, 14.2).
 - Services that translate: inject `TYPO3\CMS\Core\Localization\TranslatorInterface` (Feature-89334, 14.2).
+- Backend JavaScript/web components needing labels: `import labels from '~labels/<domain>'`
+  (Feature-108941, 14.2).

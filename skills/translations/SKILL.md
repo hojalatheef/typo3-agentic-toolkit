@@ -29,3 +29,4 @@ domains incrementally.
 - Services that translate: inject `TYPO3\CMS\Core\Localization\TranslatorInterface` (Feature-89334, 14.2).
 - Backend JavaScript/web components needing labels: `import labels from '~labels/<domain>'`
   (Feature-108941, 14.2).
+- Site set `enum` settings with translated option labels (Feature-106640, 14.2).

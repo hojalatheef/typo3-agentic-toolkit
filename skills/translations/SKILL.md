@@ -48,3 +48,5 @@ domains incrementally.
    `label('<domain>:<id>')`. `label()` returns `null` when unresolved - handle it.
 6. For dual 13.4 + 14 extensions keep `LLL:EXT:` references: domain syntax, ICU and `TranslatorInterface` do
    not exist in 13.4.
+7. Copy [templates/messages.xlf](templates/messages.xlf) (XLIFF 1.2 with ICU) or
+   [templates/messages.de.xliff2.xlf](templates/messages.de.xliff2.xlf) (XLIFF 2.0) as a starting point.

@@ -60,3 +60,4 @@ domains incrementally.
 - [ ] XLIFF 2.0 targets carry `state="final"` or `"reviewed"` when `requireApprovedLocalizations` is on.
 - [ ] Backend module labels use `title`, `short_description`, `description` identifiers and a domain
       (`<ext>.module` or `<ext>.modules.<name>`).
+- [ ] Settings `enum` lists use derived keys `settings.<key>.enum.<value>` in the set `labels.xlf`.

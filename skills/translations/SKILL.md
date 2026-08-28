@@ -46,3 +46,5 @@ domains incrementally.
    arguments. Positional arguments keep `sprintf` behaviour.
 5. In services, type-hint `TranslatorInterface` and call `translate($id, $domain, $arguments, $default)` or
    `label('<domain>:<id>')`. `label()` returns `null` when unresolved - handle it.
+6. For dual 13.4 + 14 extensions keep `LLL:EXT:` references: domain syntax, ICU and `TranslatorInterface` do
+   not exist in 13.4.

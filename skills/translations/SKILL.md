@@ -54,3 +54,4 @@ domains incrementally.
 ## Checklist
 
 - [ ] No `locallang.xlf` and `messages.xlf` side by side in one directory (the latter wins, no merge).
+- [ ] No two files that map to the same domain (`locallang_db.xlf` + `db.xlf`: `locallang_db.xlf` is ignored).

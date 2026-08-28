@@ -55,3 +55,4 @@ domains incrementally.
 
 - [ ] No `locallang.xlf` and `messages.xlf` side by side in one directory (the latter wins, no merge).
 - [ ] No two files that map to the same domain (`locallang_db.xlf` + `db.xlf`: `locallang_db.xlf` is ignored).
+- [ ] Fluid: `key="<domain>:<id>"` or `key="<id>" domain="<domain>"`; no new `extensionName` usages.

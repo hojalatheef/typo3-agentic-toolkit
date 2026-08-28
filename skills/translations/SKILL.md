@@ -58,3 +58,5 @@ domains incrementally.
 - [ ] Fluid: `key="<domain>:<id>"` or `key="<id>" domain="<domain>"`; no new `extensionName` usages.
 - [ ] ICU messages get associative `arguments="{count: n}"`; sprintf messages get `{0: n}`.
 - [ ] XLIFF 2.0 targets carry `state="final"` or `"reviewed"` when `requireApprovedLocalizations` is on.
+- [ ] Backend module labels use `title`, `short_description`, `description` identifiers and a domain
+      (`<ext>.module` or `<ext>.modules.<name>`).

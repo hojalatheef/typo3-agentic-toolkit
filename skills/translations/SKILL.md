@@ -50,3 +50,7 @@ domains incrementally.
    not exist in 13.4.
 7. Copy [templates/messages.xlf](templates/messages.xlf) (XLIFF 1.2 with ICU) or
    [templates/messages.de.xliff2.xlf](templates/messages.de.xliff2.xlf) (XLIFF 2.0) as a starting point.
+
+## Checklist
+
+- [ ] No `locallang.xlf` and `messages.xlf` side by side in one directory (the latter wins, no merge).

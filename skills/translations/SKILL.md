@@ -44,3 +44,5 @@ domains incrementally.
    time (Fluid, TCA, PHP, YAML) and run the extension's tests between steps.
 4. Where a label is concatenated from singular/plural variants, convert it to one ICU message and pass named
    arguments. Positional arguments keep `sprintf` behaviour.
+5. In services, type-hint `TranslatorInterface` and call `translate($id, $domain, $arguments, $default)` or
+   `label('<domain>:<id>')`. `label()` returns `null` when unresolved - handle it.

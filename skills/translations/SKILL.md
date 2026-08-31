@@ -72,3 +72,5 @@ domains incrementally.
 - Fluid automatic domain detection uses the Extbase extension name; outside Extbase give `domain` explicitly.
 - `~labels/` modules are for backend JavaScript loaded via the import map; they do not replace server-side
   translation in frontend templates.
+- Internally the English key is now `en`, not `default` (Breaking-107436). Code calling
+  `LocalizationFactory::getParsedData()` must use the new two-argument signature.

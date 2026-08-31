@@ -79,3 +79,5 @@ domains incrementally.
 
 - [references/domains.md](references/domains.md) - domain syntax, resolution rules, Fluid/PHP/JS usage, ICU,
   XLIFF 2.0, site settings enums, configuration.
+- [references/migration-checklist.md](references/migration-checklist.md) - step-by-step migration from
+  `LLL:EXT:` paths.

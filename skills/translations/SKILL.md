@@ -62,3 +62,4 @@ domains incrementally.
       (`<ext>.module` or `<ext>.modules.<name>`).
 - [ ] Settings `enum` lists use derived keys `settings.<key>.enum.<value>` in the set `labels.xlf`.
 - [ ] `$GLOBALS['TYPO3_CONF_VARS']['SYS']['locallangXMLOverride']` moved to `['LANG']['resourceOverrides']`.
+- [ ] No `['SYS']['lang']['parser']`; custom formats are Symfony loaders in `['LANG']['loader']`.

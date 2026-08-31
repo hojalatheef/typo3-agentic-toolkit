@@ -68,3 +68,4 @@ domains incrementally.
 
 - The ICU formatter is used only when the arguments array is associative *and* the message has ICU patterns.
   Passing `[5]` to `{count, plural, ...}` does not pluralise.
+- `TranslatorInterface::label()` returns `null`, `LanguageService::sL()` returns `''`. Do not blindly swap them.

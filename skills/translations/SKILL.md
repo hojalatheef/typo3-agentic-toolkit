@@ -74,3 +74,8 @@ domains incrementally.
   translation in frontend templates.
 - Internally the English key is now `en`, not `default` (Breaking-107436). Code calling
   `LocalizationFactory::getParsedData()` must use the new two-argument signature.
+
+## References
+
+- [references/domains.md](references/domains.md) - domain syntax, resolution rules, Fluid/PHP/JS usage, ICU,
+  XLIFF 2.0, site settings enums, configuration.

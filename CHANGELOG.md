@@ -4,6 +4,25 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [0.9.0] - 2026-08-31
+
+### Changed
+
+- `scheduler-console/scheduler-tca` reference: more guidance
+- `schema-api/tca-v14` reference: more guidance
+- `schema-api` skill: more guidance
+- `security-hardening/csp-sri` reference: more guidance
+- `security-hardening/review-checklist` reference: more guidance
+- `security-hardening` skill: more guidance
+- `site-sets/set-files` reference: more guidance
+- `site-sets` skill: more guidance
+- `sitepackage/page-rendering` reference: more guidance
+- `sitepackage` skill: more guidance
+- `system-resources/identifiers` reference: more guidance
+- `system-resources/publishing` reference: more guidance
+- `system-resources` skill: more guidance
+- `translations` skill: more guidance
+
 ## [0.8.0] - 2026-06-30
 
 ### Changed

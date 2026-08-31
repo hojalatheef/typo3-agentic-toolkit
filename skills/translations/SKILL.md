@@ -63,3 +63,8 @@ domains incrementally.
 - [ ] Settings `enum` lists use derived keys `settings.<key>.enum.<value>` in the set `labels.xlf`.
 - [ ] `$GLOBALS['TYPO3_CONF_VARS']['SYS']['locallangXMLOverride']` moved to `['LANG']['resourceOverrides']`.
 - [ ] No `['SYS']['lang']['parser']`; custom formats are Symfony loaders in `['LANG']['loader']`.
+
+## Pitfalls
+
+- The ICU formatter is used only when the arguments array is associative *and* the message has ICU patterns.
+  Passing `[5]` to `{count, plural, ...}` does not pluralise.

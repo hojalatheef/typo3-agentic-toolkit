@@ -70,3 +70,5 @@ domains incrementally.
   Passing `[5]` to `{count, plural, ...}` does not pluralise.
 - `TranslatorInterface::label()` returns `null`, `LanguageService::sL()` returns `''`. Do not blindly swap them.
 - Fluid automatic domain detection uses the Extbase extension name; outside Extbase give `domain` explicitly.
+- `~labels/` modules are for backend JavaScript loaded via the import map; they do not replace server-side
+  translation in frontend templates.

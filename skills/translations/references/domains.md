@@ -58,3 +58,4 @@ file `module.xlf`).
 | Method | Purpose |
 | --- | --- |
 | `translate(string $id, string $domain, array $arguments = [], ?string $default = null, Locale\|string\|null $locale = null)` | Identifier + domain (or `EXT:` file, discouraged). |
+| `label(string $reference, array $arguments = [], ?string $default = null, Locale\|string\|null $locale = null)` | Full reference: `my_ext.messages:key`, `EXT:...xlf:key` or `LLL:EXT:...xlf:key` (`LLL:` optional). |

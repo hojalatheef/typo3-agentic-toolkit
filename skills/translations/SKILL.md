@@ -81,3 +81,6 @@ domains incrementally.
   XLIFF 2.0, site settings enums, configuration.
 - [references/migration-checklist.md](references/migration-checklist.md) - step-by-step migration from
   `LLL:EXT:` paths.
+- Templates: [templates/messages.xlf](templates/messages.xlf),
+  [templates/messages.de.xliff2.xlf](templates/messages.de.xliff2.xlf),
+  [templates/LabelService.php](templates/LabelService.php).

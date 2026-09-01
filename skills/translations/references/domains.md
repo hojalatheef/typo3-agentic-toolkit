@@ -50,3 +50,7 @@ file `module.xlf`).
 
 `domain` wins over `extensionName`. Without either, the ViewHelper uses the Extbase extension name, then a
 `domain:` prefix in the key, then the extension key of an `LLL:EXT:` path.
+
+## PHP: TranslatorInterface and LanguageService (Feature-89334, 14.2)
+
+`TYPO3\CMS\Core\Localization\TranslatorInterface` is implemented by `LanguageService`.

@@ -84,3 +84,5 @@ domains incrementally.
 - Templates: [templates/messages.xlf](templates/messages.xlf),
   [templates/messages.de.xliff2.xlf](templates/messages.de.xliff2.xlf),
   [templates/LabelService.php](templates/LabelService.php).
+- Changelog: Feature-107436, Breaking-107436, Feature-107710, Feature-93334, Feature-107759, Feature-104546,
+  Feature-89334, Feature-108941, Feature-106640.

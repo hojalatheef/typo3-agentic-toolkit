@@ -65,4 +65,9 @@ Both return `string|\Stringable|null` (signatures checked against the core sourc
 
 ```php
 public function __construct(private readonly TranslatorInterface $translator) {}
+
+$this->translator->translate('button.save', 'my_extension.messages');
+$this->translator->translate('record.count', 'my_extension.messages', [5]);
+$this->translator->translate('missing.key', 'my_extension.messages', [], 'Fallback text');
+$this->translator->label('my_extension.messages:record.count', [5], 'Fallback text');
 ```

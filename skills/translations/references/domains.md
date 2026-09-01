@@ -59,3 +59,5 @@ file `module.xlf`).
 | --- | --- |
 | `translate(string $id, string $domain, array $arguments = [], ?string $default = null, Locale\|string\|null $locale = null)` | Identifier + domain (or `EXT:` file, discouraged). |
 | `label(string $reference, array $arguments = [], ?string $default = null, Locale\|string\|null $locale = null)` | Full reference: `my_ext.messages:key`, `EXT:...xlf:key` or `LLL:EXT:...xlf:key` (`LLL:` optional). |
+
+Both return `string|\Stringable|null` (signatures checked against the core source; `null` means "not found").

@@ -62,3 +62,7 @@ file `module.xlf`).
 
 Both return `string|\Stringable|null` (signatures checked against the core source; `null` means "not found").
 `LanguageService::translate()` gained the `$default` and `$locale` parameters.
+
+```php
+public function __construct(private readonly TranslatorInterface $translator) {}
+```

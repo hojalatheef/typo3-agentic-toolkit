@@ -54,3 +54,6 @@ file `module.xlf`).
 ## PHP: TranslatorInterface and LanguageService (Feature-89334, 14.2)
 
 `TYPO3\CMS\Core\Localization\TranslatorInterface` is implemented by `LanguageService`.
+
+| Method | Purpose |
+| --- | --- |

@@ -57,3 +57,4 @@ file `module.xlf`).
 
 | Method | Purpose |
 | --- | --- |
+| `translate(string $id, string $domain, array $arguments = [], ?string $default = null, Locale\|string\|null $locale = null)` | Identifier + domain (or `EXT:` file, discouraged). |

@@ -84,4 +84,7 @@ keep `sprintf`.
 <trans-unit id="item_count">
     <source>{count, plural, =0 {no items} one {# item} other {# items}}</source>
 </trans-unit>
+<trans-unit id="profile_update">
+    <source>{gender, select, male {He} female {She} other {They}} updated the profile.</source>
+</trans-unit>
 ```

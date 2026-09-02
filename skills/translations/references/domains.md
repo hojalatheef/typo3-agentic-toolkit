@@ -76,3 +76,12 @@ $this->translator->label('my_extension.messages:record.count', [5], 'Fallback te
 
 Associative arguments plus ICU patterns in the message trigger PHP intl's `MessageFormatter`. Indexed arguments
 keep `sprintf`.
+
+```xml
+<trans-unit id="file_count">
+    <source>{count, plural, one {# file} other {# files}}</source>
+</trans-unit>
+<trans-unit id="item_count">
+    <source>{count, plural, =0 {no items} one {# item} other {# items}}</source>
+</trans-unit>
+```

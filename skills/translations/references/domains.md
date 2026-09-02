@@ -100,3 +100,4 @@ LocalizationUtility::translate('file_count', 'MyExtension', ['count' => 1]);    
 ```
 
 Also available: `{count, number}`, `{price, number, currency}`. `#` is the number inside plural branches.
+Requires the PHP `intl` extension.

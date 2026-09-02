@@ -88,3 +88,8 @@ keep `sprintf`.
     <source>{gender, select, male {He} female {She} other {They}} updated the profile.</source>
 </trans-unit>
 ```
+
+```php
+$languageService->translate('file_count', 'my_extension.messages', ['count' => 5]); // "5 files"
+LocalizationUtility::translate('file_count', 'MyExtension', ['count' => 1]);       // "1 file"
+```

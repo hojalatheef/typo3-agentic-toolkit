@@ -71,3 +71,7 @@ $this->translator->translate('record.count', 'my_extension.messages', [5]);
 $this->translator->translate('missing.key', 'my_extension.messages', [], 'Fallback text');
 $this->translator->label('my_extension.messages:record.count', [5], 'Fallback text');
 ```
+
+## ICU MessageFormat (Feature-104546, 14.2)
+
+Associative arguments plus ICU patterns in the message trigger PHP intl's `MessageFormatter`. Indexed arguments

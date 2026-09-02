@@ -93,3 +93,8 @@ keep `sprintf`.
 $languageService->translate('file_count', 'my_extension.messages', ['count' => 5]); // "5 files"
 LocalizationUtility::translate('file_count', 'MyExtension', ['count' => 1]);       // "1 file"
 ```
+
+```html
+<f:translate key="file_count" arguments="{count: numberOfFiles}" />
+<f:translate key="downloaded_times" arguments="{0: downloadCount}" />
+```

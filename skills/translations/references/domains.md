@@ -106,4 +106,11 @@ Requires the PHP `intl` extension.
 
 ```javascript
 import labels from '~labels/core.bookmarks';
+
+labels.get('groupType.global');
+labels.get('file.deleted', { filename: 'my-file.txt' });
+labels.get('file.deleted', {
+    filename: 'my-file.txt',
+    bold: chunks => html`<strong>${chunks}</strong>`,
+});
 ```

@@ -101,3 +101,9 @@ LocalizationUtility::translate('file_count', 'MyExtension', ['count' => 1]);    
 
 Also available: `{count, number}`, `{price, number, currency}`. `#` is the number inside plural branches.
 Requires the PHP `intl` extension.
+
+## JavaScript label modules (Feature-108941, 14.2)
+
+```javascript
+import labels from '~labels/core.bookmarks';
+```

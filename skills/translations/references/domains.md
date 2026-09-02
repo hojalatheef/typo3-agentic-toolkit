@@ -75,3 +75,4 @@ $this->translator->label('my_extension.messages:record.count', [5], 'Fallback te
 ## ICU MessageFormat (Feature-104546, 14.2)
 
 Associative arguments plus ICU patterns in the message trigger PHP intl's `MessageFormatter`. Indexed arguments
+keep `sprintf`.

@@ -114,3 +114,5 @@ labels.get('file.deleted', {
     bold: chunks => html`<strong>${chunks}</strong>`,
 });
 ```
+
+The `~labels/<domain>` prefix is resolved through the import map; URLs are version- and locale-specific so

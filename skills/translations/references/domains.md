@@ -131,3 +131,9 @@ settings:
       - optionA
       - optionB
 ```
+
+```xml
+<trans-unit id="settings.my.enumSetting.enum.optionA">
+  <source>Option A</source>
+</trans-unit>
+```

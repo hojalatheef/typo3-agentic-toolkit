@@ -137,3 +137,5 @@ settings:
   <source>Option A</source>
 </trans-unit>
 ```
+
+Map-style enums use only the given value: an `LLL:` reference is resolved, a literal stays literal, a key-only

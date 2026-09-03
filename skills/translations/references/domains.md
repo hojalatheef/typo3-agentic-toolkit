@@ -121,3 +121,12 @@ browsers cache them long-term. Replaces pushing labels into `TYPO3.lang`.
 ## Site settings enum labels (Feature-106640, 14.2)
 
 List-style enums derive keys `settings.<settingKey>.enum.<value>` from the set's `labels.xlf`:
+
+```yaml
+settings:
+  my.enumSetting:
+    type: string
+    default: optionA
+    enum:
+      - optionA
+```

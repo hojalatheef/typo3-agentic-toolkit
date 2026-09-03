@@ -140,3 +140,7 @@ settings:
 
 Map-style enums use only the given value: an `LLL:` reference is resolved, a literal stays literal, a key-only
 entry falls back to the value, `''` stays empty.
+
+## XLIFF 2.0 and loader configuration (Feature-107710, Feature-107436, 14.0)
+
+The loader detects XLIFF 1.2 or 2.x by namespace and `version`. In 2.0, `<unit>` contains `<segment>`,

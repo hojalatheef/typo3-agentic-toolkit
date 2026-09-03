@@ -117,3 +117,7 @@ labels.get('file.deleted', {
 
 The `~labels/<domain>` prefix is resolved through the import map; URLs are version- and locale-specific so
 browsers cache them long-term. Replaces pushing labels into `TYPO3.lang`.
+
+## Site settings enum labels (Feature-106640, 14.2)
+
+List-style enums derive keys `settings.<settingKey>.enum.<value>` from the set's `labels.xlf`:

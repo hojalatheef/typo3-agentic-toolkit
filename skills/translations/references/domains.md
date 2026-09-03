@@ -139,3 +139,4 @@ settings:
 ```
 
 Map-style enums use only the given value: an `LLL:` reference is resolved, a literal stays literal, a key-only
+entry falls back to the value, `''` stays empty.

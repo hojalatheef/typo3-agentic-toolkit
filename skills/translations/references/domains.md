@@ -116,3 +116,4 @@ labels.get('file.deleted', {
 ```
 
 The `~labels/<domain>` prefix is resolved through the import map; URLs are version- and locale-specific so
+browsers cache them long-term. Replaces pushing labels into `TYPO3.lang`.

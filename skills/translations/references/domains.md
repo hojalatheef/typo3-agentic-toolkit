@@ -129,4 +129,5 @@ settings:
     default: optionA
     enum:
       - optionA
+      - optionB
 ```

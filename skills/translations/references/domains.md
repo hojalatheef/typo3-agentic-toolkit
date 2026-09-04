@@ -147,3 +147,5 @@ The loader detects XLIFF 1.2 or 2.x by namespace and `version`. In 2.0, `<unit>`
 languages are `srcLang` / `trgLang` on `<xliff>`, and approval is the segment `state`: `initial` and
 `translated` count as not approved, `reviewed` and `final` as approved when
 `$GLOBALS['TYPO3_CONF_VARS']['LANG']['requireApprovedLocalizations']` is set.
+
+Configuration under `$GLOBALS['TYPO3_CONF_VARS']['LANG']`:

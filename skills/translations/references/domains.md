@@ -149,3 +149,6 @@ languages are `srcLang` / `trgLang` on `<xliff>`, and approval is the segment `s
 `$GLOBALS['TYPO3_CONF_VARS']['LANG']['requireApprovedLocalizations']` is set.
 
 Configuration under `$GLOBALS['TYPO3_CONF_VARS']['LANG']`:
+
+| Key | Was |
+| --- | --- |

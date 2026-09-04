@@ -146,3 +146,4 @@ entry falls back to the value, `''` stays empty.
 The loader detects XLIFF 1.2 or 2.x by namespace and `version`. In 2.0, `<unit>` contains `<segment>`,
 languages are `srcLang` / `trgLang` on `<xliff>`, and approval is the segment `state`: `initial` and
 `translated` count as not approved, `reviewed` and `final` as approved when
+`$GLOBALS['TYPO3_CONF_VARS']['LANG']['requireApprovedLocalizations']` is set.

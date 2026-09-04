@@ -152,3 +152,4 @@ Configuration under `$GLOBALS['TYPO3_CONF_VARS']['LANG']`:
 
 | Key | Was |
 | --- | --- |
+| `loader` | new: file ending => Symfony `LoaderInterface` class |

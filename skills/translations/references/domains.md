@@ -154,3 +154,4 @@ Configuration under `$GLOBALS['TYPO3_CONF_VARS']['LANG']`:
 | --- | --- |
 | `loader` | new: file ending => Symfony `LoaderInterface` class |
 | `requireApprovedLocalizations` | `SYS.lang.requireApprovedLocalizations` |
+| `format` | `SYS.lang.format` |

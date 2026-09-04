@@ -157,3 +157,5 @@ Configuration under `$GLOBALS['TYPO3_CONF_VARS']['LANG']`:
 | `format` | `SYS.lang.format` |
 | `availableLocales` | `EXTCONF.lang.availableLanguages` |
 | `resourceOverrides` | `SYS.locallangXMLOverride` |
+
+`SYS.lang.parser` is removed; write a `Symfony\Component\Translation\Loader\LoaderInterface` instead:

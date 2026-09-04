@@ -156,3 +156,4 @@ Configuration under `$GLOBALS['TYPO3_CONF_VARS']['LANG']`:
 | `requireApprovedLocalizations` | `SYS.lang.requireApprovedLocalizations` |
 | `format` | `SYS.lang.format` |
 | `availableLocales` | `EXTCONF.lang.availableLanguages` |
+| `resourceOverrides` | `SYS.locallangXMLOverride` |

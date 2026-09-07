@@ -159,3 +159,8 @@ Configuration under `$GLOBALS['TYPO3_CONF_VARS']['LANG']`:
 | `resourceOverrides` | `SYS.locallangXMLOverride` |
 
 `SYS.lang.parser` is removed; write a `Symfony\Component\Translation\Loader\LoaderInterface` instead:
+
+```php
+$GLOBALS['TYPO3_CONF_VARS']['LANG']['loader']['fileEnding']
+    = \MyVendor\MyExtension\Translation\CustomLoader::class;
+```

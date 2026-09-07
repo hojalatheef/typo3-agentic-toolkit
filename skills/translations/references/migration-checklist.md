@@ -47,3 +47,4 @@ Notes:
 - Replace `%s` placeholders with `{name}` only together with switching callers to associative arguments.
 - Site set enums: drop literal YAML labels and use list-style enums with
   `settings.<key>.enum.<value>` in `labels.xlf`.
+- Backend JavaScript: replace `TYPO3.lang['...']` lookups with `import labels from '~labels/<domain>'`.

@@ -39,3 +39,8 @@ Notes:
   `mlang_labels_tabdescr` -> `description`.
 - Core examples already use bare domain references in TCA, e.g. `'title' => 'my_extension.messages:my_title'`
   in the `ctrl` section (Feature-107289).
+
+## Modernise label content
+
+- Merge singular/plural label pairs into ICU messages and pass named arguments
+  (`arguments="{count: n}"`, `['count' => $n]`).

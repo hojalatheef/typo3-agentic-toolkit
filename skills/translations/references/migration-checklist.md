@@ -49,3 +49,7 @@ Notes:
   `settings.<key>.enum.<value>` in `labels.xlf`.
 - Backend JavaScript: replace `TYPO3.lang['...']` lookups with `import labels from '~labels/<domain>'`.
 - Optional: write new files as XLIFF 2.0 and set `state="final"` on approved segments.
+
+## Configuration and custom code
+
+- `$GLOBALS['TYPO3_CONF_VARS']['SYS']['locallangXMLOverride']` -> `['LANG']['resourceOverrides']`.

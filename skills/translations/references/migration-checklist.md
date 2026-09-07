@@ -53,3 +53,4 @@ Notes:
 ## Configuration and custom code
 
 - `$GLOBALS['TYPO3_CONF_VARS']['SYS']['locallangXMLOverride']` -> `['LANG']['resourceOverrides']`.
+- `['SYS']['lang']['requireApprovedLocalizations']` / `['format']` -> `['LANG'][...]`.

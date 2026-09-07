@@ -37,3 +37,5 @@ Notes:
   each location in the backend after migration.
 - Module label files: rename ids `mlang_tabs_tab` -> `title`, `mlang_labels_tablabel` -> `short_description`,
   `mlang_labels_tabdescr` -> `description`.
+- Core examples already use bare domain references in TCA, e.g. `'title' => 'my_extension.messages:my_title'`
+  in the `ctrl` section (Feature-107289).

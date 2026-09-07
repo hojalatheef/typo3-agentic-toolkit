@@ -48,3 +48,4 @@ Notes:
 - Site set enums: drop literal YAML labels and use list-style enums with
   `settings.<key>.enum.<value>` in `labels.xlf`.
 - Backend JavaScript: replace `TYPO3.lang['...']` lookups with `import labels from '~labels/<domain>'`.
+- Optional: write new files as XLIFF 2.0 and set `state="final"` on approved segments.

@@ -44,3 +44,4 @@ Notes:
 
 - Merge singular/plural label pairs into ICU messages and pass named arguments
   (`arguments="{count: n}"`, `['count' => $n]`).
+- Replace `%s` placeholders with `{name}` only together with switching callers to associative arguments.

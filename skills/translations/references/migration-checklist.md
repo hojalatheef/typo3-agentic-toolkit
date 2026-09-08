@@ -64,3 +64,4 @@ Notes:
 
 - `bin/typo3 language:domain:list --extension=my_extension` shows every expected domain once.
 - Backend: open each TCA form, module and site setting; no raw keys visible.
+- Frontend: switch through all site languages; plurals render for 0, 1 and many.

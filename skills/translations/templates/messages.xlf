@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    EXT:my_extension/Resources/Private/Language/messages.xlf
+    Domain: my_extension.messages (Feature-93334, TYPO3 14.0)
+    ICU messages need named arguments (Feature-104546, TYPO3 14.2).
+    Do not keep a locallang.xlf next to this file.
+-->
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:my_extension/Resources/Private/Language/messages.xlf">
+        <body>
+            <trans-unit id="button.save">
+                <source>Save</source>
+            </trans-unit>
+            <trans-unit id="list.count">
+                <source>{count, plural, =0 {No entries} one {# entry} other {# entries}}</source>
+            </trans-unit>
+            <trans-unit id="greeting">
+                <source>Hello {name}, you have {count, plural, one {# message} other {# messages}}.</source>
+            </trans-unit>
+            <trans-unit id="profile.updated">
+                <source>{gender, select, male {He} female {She} other {They}} updated the profile.</source>
+            </trans-unit>
+            <trans-unit id="downloaded_times">
+                <source>Downloaded %d times</source>
+            </trans-unit>
+            <trans-unit id="messages.rate_limit_exceeded">
+                <source>Too many requests. Please try again later.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

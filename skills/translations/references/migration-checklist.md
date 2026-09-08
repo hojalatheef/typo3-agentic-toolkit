@@ -55,3 +55,4 @@ Notes:
 - `$GLOBALS['TYPO3_CONF_VARS']['SYS']['locallangXMLOverride']` -> `['LANG']['resourceOverrides']`.
 - `['SYS']['lang']['requireApprovedLocalizations']` / `['format']` -> `['LANG'][...]`.
 - `['EXTCONF']['lang']['availableLanguages']` -> `['LANG']['availableLocales']`.
+- Custom parsers (`['SYS']['lang']['parser']`, removed) -> Symfony loader in `['LANG']['loader']`.

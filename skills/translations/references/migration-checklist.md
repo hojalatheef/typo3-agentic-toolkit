@@ -58,3 +58,4 @@ Notes:
 - Custom parsers (`['SYS']['lang']['parser']`, removed) -> Symfony loader in `['LANG']['loader']`.
 - `LocalizationFactory::getParsedData($file, $lang, null, null, false)[$lang]` ->
   `getParsedData($file, $lang)`; English is `en`, not `default`.
+- Type-hint `TranslatorInterface` instead of `LanguageService` in services and handle `null` from `label()`.

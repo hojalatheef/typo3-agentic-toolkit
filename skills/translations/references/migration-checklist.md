@@ -59,3 +59,7 @@ Notes:
 - `LocalizationFactory::getParsedData($file, $lang, null, null, false)[$lang]` ->
   `getParsedData($file, $lang)`; English is `en`, not `default`.
 - Type-hint `TranslatorInterface` instead of `LanguageService` in services and handle `null` from `label()`.
+
+## Verify
+
+- `bin/typo3 language:domain:list --extension=my_extension` shows every expected domain once.

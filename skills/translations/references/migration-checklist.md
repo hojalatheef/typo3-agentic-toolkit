@@ -56,3 +56,5 @@ Notes:
 - `['SYS']['lang']['requireApprovedLocalizations']` / `['format']` -> `['LANG'][...]`.
 - `['EXTCONF']['lang']['availableLanguages']` -> `['LANG']['availableLocales']`.
 - Custom parsers (`['SYS']['lang']['parser']`, removed) -> Symfony loader in `['LANG']['loader']`.
+- `LocalizationFactory::getParsedData($file, $lang, null, null, false)[$lang]` ->
+  `getParsedData($file, $lang)`; English is `en`, not `default`.

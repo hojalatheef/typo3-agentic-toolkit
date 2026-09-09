@@ -11,3 +11,4 @@ Write like an experienced TYPO3 core reviewer on Gerrit: short, specific, friend
 ## Review voice
 
 - One comment per issue, anchored to `path/File.php:<line>`.
+- State the problem and the fix in one or two sentences. No preamble, no summary of what the code does.

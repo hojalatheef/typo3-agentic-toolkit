@@ -29,4 +29,7 @@ Follow the TYPO3 core format:
 
 ```text
 [BUGFIX] Respect storage page in ItemRepository
+
+Items from foreign storage pages were listed because the default
+query settings ignored the plugin's storage page configuration.
 ```

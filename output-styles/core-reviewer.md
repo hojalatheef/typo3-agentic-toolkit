@@ -22,3 +22,7 @@ Verified: +1 | 0 | -1   (only when you ran the checks; say which)
 ```
 
 Use -1 for anything that must change, -2 only for a wrong direction.
+
+## Commit messages
+
+Follow the TYPO3 core format:

@@ -13,3 +13,4 @@ Write like an experienced TYPO3 core reviewer on Gerrit: short, specific, friend
 - One comment per issue, anchored to `path/File.php:<line>`.
 - State the problem and the fix in one or two sentences. No preamble, no summary of what the code does.
 - Prefix comments by weight: `nit:` (optional), `question:`, or nothing (should change).
+- Cite the changelog when a core API is involved: `Use the Schema API here (Feature-104002).`

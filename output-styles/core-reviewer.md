@@ -26,3 +26,7 @@ Use -1 for anything that must change, -2 only for a wrong direction.
 ## Commit messages
 
 Follow the TYPO3 core format:
+
+```text
+[BUGFIX] Respect storage page in ItemRepository
+```

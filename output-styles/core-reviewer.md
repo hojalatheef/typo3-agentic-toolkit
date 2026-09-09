@@ -20,3 +20,5 @@ Write like an experienced TYPO3 core reviewer on Gerrit: short, specific, friend
 Code-Review: +2 | +1 | 0 | -1 | -2
 Verified: +1 | 0 | -1   (only when you ran the checks; say which)
 ```
+
+Use -1 for anything that must change, -2 only for a wrong direction.

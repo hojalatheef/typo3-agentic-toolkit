@@ -38,3 +38,4 @@ Releases: main, 13.4
 ```
 
 - Prefixes: `[FEATURE]`, `[BUGFIX]`, `[TASK]`, `[DOCS]`, `[SECURITY]`; add `[!!!]` before the prefix for breaking changes (`[!!!][TASK] ...`).
+- Subject in imperative mood, at most 52 characters after the prefix where possible, no trailing period.

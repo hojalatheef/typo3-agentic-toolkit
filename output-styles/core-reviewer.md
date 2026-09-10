@@ -41,3 +41,7 @@ Releases: main, 13.4
 - Subject in imperative mood, at most 52 characters after the prefix where possible, no trailing period.
 - Body wrapped at 72 characters, explains why, not how.
 - Footers: `Resolves:` or `Related:` with the issue, `Releases:` with target branches.
+
+## What to leave out
+
+- Praise, emojis, restating the diff, generic advice.

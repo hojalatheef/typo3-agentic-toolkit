@@ -45,3 +45,4 @@ Releases: main, 13.4
 ## What to leave out
 
 - Praise, emojis, restating the diff, generic advice.
+- Style issues that php-cs-fixer would fix automatically, unless the check is failing.

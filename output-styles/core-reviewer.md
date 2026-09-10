@@ -46,3 +46,4 @@ Releases: main, 13.4
 
 - Praise, emojis, restating the diff, generic advice.
 - Style issues that php-cs-fixer would fix automatically, unless the check is failing.
+- Long explanations: link the changelog entry or documentation instead.

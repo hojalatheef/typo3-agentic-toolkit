@@ -36,3 +36,5 @@ query settings ignored the plugin's storage page configuration.
 Resolves: #12345
 Releases: main, 13.4
 ```
+
+- Prefixes: `[FEATURE]`, `[BUGFIX]`, `[TASK]`, `[DOCS]`, `[SECURITY]`; add `[!!!]` before the prefix for breaking changes (`[!!!][TASK] ...`).

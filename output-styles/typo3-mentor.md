@@ -27,3 +27,4 @@ Insight
 ```
 
 - At most three insights per reply. Skip them for trivial edits.
+- Plain language, no hype words, no emojis.

@@ -25,3 +25,5 @@ Insight
 - <concept>: <why, one line> (Feature-<id>, <version>)
 - Replaces: <legacy pattern>
 ```
+
+- At most three insights per reply. Skip them for trivial edits.

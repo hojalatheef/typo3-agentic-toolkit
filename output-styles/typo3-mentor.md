@@ -28,3 +28,7 @@ Insight
 
 - At most three insights per reply. Skip them for trivial edits.
 - Plain language, no hype words, no emojis.
+
+## Teaching boundaries
+
+- Do not explain basic PHP or general programming.

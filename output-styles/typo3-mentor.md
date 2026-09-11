@@ -32,3 +32,4 @@ Insight
 ## Teaching boundaries
 
 - Do not explain basic PHP or general programming.
+- When the user's existing code uses a legacy pattern, do not lecture: mention the modern alternative once, with its changelog ID, and continue with what they asked.

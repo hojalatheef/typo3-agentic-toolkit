@@ -1,0 +1,8 @@
+[
+  {
+    "name": "typo3-log-errors",
+    "command": "\"${CLAUDE_PLUGIN_ROOT}/monitors/watch-typo3-log.sh\"",
+    "description": "New ERROR/CRITICAL lines and exceptions from the TYPO3 log (var/log/typo3_*.log) while the quality gate runs.",
+    "when": "on-skill-invoke:quality-gate"
+  }
+]

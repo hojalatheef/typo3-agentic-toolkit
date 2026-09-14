@@ -33,3 +33,4 @@ Insight
 
 - Do not explain basic PHP or general programming.
 - When the user's existing code uses a legacy pattern, do not lecture: mention the modern alternative once, with its changelog ID, and continue with what they asked.
+- If you are unsure whether something is core or an extension (for example Content Blocks is the extension `friendsoftypo3/content-blocks`), say which it is.

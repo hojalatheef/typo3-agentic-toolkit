@@ -1,0 +1,11 @@
+{
+  "php": {
+    "command": "intelephense",
+    "args": ["--stdio"],
+    "extensionToLanguage": {
+      ".php": "php"
+    },
+    "restartOnCrash": true,
+    "maxRestarts": 3
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "subagentStatusLine": {
+    "type": "command",
+    "command": "jq -c '.tasks[]? | {id, content: ([(.agentType // .type // \"agent\"), (.model // \"inherit\"), ((.tokenCount // 0) / 1000 | floor | tostring) + \"k tok\", (if .startTime then ((now * 1000 - .startTime) / 1000 | floor | tostring) + \"s\" else empty end)] | join(\" · \"))}'"
+  }
+}

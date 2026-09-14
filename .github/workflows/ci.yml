@@ -13,3 +13,54 @@ concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
 
+jobs:
+  test:
+    name: npm test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jq shellcheck
+          shellcheck --version | head -2
+
+      - name: Fetch TYPO3 core changelogs (for changelog id checks)
+        run: |
+          git clone --quiet --depth 1 --filter=blob:none --sparse https://github.com/TYPO3/typo3.git \
+            ~/.cache/typo3-extension-migration/typo3-core
+          git -C ~/.cache/typo3-extension-migration/typo3-core sparse-checkout set typo3/sysext/core/Documentation/Changelog
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Self-test, shellcheck and Markdown lint
+        run: npm test && npm run lint:sh
+
+  validate:
+    name: Plugin validation and hook tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+
+      - name: Install Claude Code CLI
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          claude --version
+
+      - name: Validate plugin and marketplace manifests
+        run: npm run validate
+
+      - name: Function hook tests
+        run: npm run test:hooks
+        continue-on-error: true

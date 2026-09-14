@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "typo3-dev-companion": {
+      "type": "stdio",
+      "command": "${CLAUDE_PLUGIN_ROOT}/scripts/dev-companion-mcp.sh",
+      "args": ["${user_config.dev_companion_path}"]
+    }
+  }
+}

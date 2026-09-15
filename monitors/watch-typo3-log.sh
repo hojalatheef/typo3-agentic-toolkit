@@ -14,3 +14,6 @@ for pattern in var/log/typo3_*.log typo3temp/var/log/typo3_*.log; do
 done
 (( ${#logs[@]} )) || { echo "no TYPO3 log under var/log or typo3temp/var/log; monitor idle"; exit 0; }
 
+tail -F -n 0 "${logs[@]}" 2>/dev/null \
+  | grep --line-buffered -E '\[(ERROR|CRITICAL|ALERT|EMERGENCY)\]|Exception' \
+  | while IFS= read -r line; do printf 'TYPO3 log: %s\n' "${line:0:400}"; done

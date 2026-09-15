@@ -6,3 +6,5 @@
 # ERROR, CRITICAL, ALERT or EMERGENCY, or that names an exception, one line
 # per event. Exits quietly when the directory has no TYPO3 log.
 
+set -euo pipefail
+

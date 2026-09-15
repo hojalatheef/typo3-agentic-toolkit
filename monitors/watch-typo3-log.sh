@@ -8,3 +8,9 @@
 
 set -euo pipefail
 
+logs=()
+for pattern in var/log/typo3_*.log typo3temp/var/log/typo3_*.log; do
+  for f in $pattern; do [[ -f "$f" ]] && logs+=("$f"); done
+done
+(( ${#logs[@]} )) || { echo "no TYPO3 log under var/log or typo3temp/var/log; monitor idle"; exit 0; }
+

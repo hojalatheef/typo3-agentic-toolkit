@@ -1,0 +1,12 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:flashMessages />
+<f:form action="submit" name="message" object="{message}">
+    <label for="name"><f:translate key="form.name" /></label>
+    <f:form.textfield property="name" id="name" />
+    <label for="email"><f:translate key="form.email" /></label>
+    <f:form.textfield property="email" id="email" type="email" />
+    <label for="text"><f:translate key="form.text" /></label>
+    <f:form.textarea property="text" id="text" />
+    <f:form.submit value="{f:translate(key: 'form.submit')}" />
+</f:form>
+</html>

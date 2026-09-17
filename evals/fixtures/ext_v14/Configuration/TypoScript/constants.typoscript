@@ -1,0 +1,8 @@
+plugin.tx_contact {
+    settings {
+        # cat=acme contact; type=string; label=Recipient e-mail address
+        recipient = office@example.com
+        # cat=acme contact; type=int+; label=Maximum message length
+        maxLength = 2000
+    }
+}

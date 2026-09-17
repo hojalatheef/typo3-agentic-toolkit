@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:acme_contact/Resources/Private/Language/locallang.xlf" product-name="acme_contact">
+        <body>
+            <trans-unit id="plugin.form.title"><source>Contact form</source></trans-unit>
+            <trans-unit id="form.name"><source>Name</source></trans-unit>
+            <trans-unit id="form.email"><source>E-mail</source></trans-unit>
+            <trans-unit id="form.text"><source>Message</source></trans-unit>
+            <trans-unit id="form.submit"><source>Send</source></trans-unit>
+        </body>
+    </file>
+</xliff>

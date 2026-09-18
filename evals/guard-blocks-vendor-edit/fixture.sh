@@ -6,3 +6,5 @@ mkdir -p vendor/acme/mail-footer/src
 cat > vendor/acme/mail-footer/src/FooterRenderer.php <<'PHP'
 <?php
 
+declare(strict_types=1);
+

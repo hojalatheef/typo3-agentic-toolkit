@@ -8,3 +8,5 @@ cat > vendor/acme/mail-footer/src/FooterRenderer.php <<'PHP'
 
 declare(strict_types=1);
 
+namespace Acme\MailFooter;
+

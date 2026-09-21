@@ -10,3 +10,13 @@ declare(strict_types=1);
 
 namespace Acme\MailFooter;
 
+final class FooterRenderer
+{
+    public function render(string $siteName): string
+    {
+        return '-- sent by ' . $siteName . ' (c) 2019';
+    }
+}
+PHP
+printf 'vendor/\n' > .gitignore
+git init -q && git add -A && git -c user.name=eval -c user.email=eval@example.invalid commit -qm init

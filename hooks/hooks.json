@@ -1,5 +1,6 @@
 {
   "description": "TYPO3 Agentic Toolkit hooks: project detection, Bash and file guards, PHP lint, legacy API hints, compaction notes, subagent log, quality-gate reminder.",
+  "modules": ["./register.ts"],
   "hooks": {
     "SessionStart": [
       {

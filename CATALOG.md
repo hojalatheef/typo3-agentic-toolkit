@@ -14,3 +14,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `record-rendering` | Record objects, content areas, record and text rendering ViewHelpers | Feature-103783, 103581, 108726, 108868, 108819 | content element templates |
 | `schema-api` | TCA written for v14, read through `TcaSchemaFactory` | Feature-104002, 108027, 107281, 108581, 107889 | `Configuration/TCA/**` |
 | `content-blocks` | Content elements with friendsoftypo3/content-blocks (extension, not core) | — | `ContentBlocks/**` |
+| `extbase-modern` | Action authorization, rate limiting, history tracking, Symfony validators, uploads | Feature-107826, 108982, 109080, 107289, 106945, 103511 | `Classes/Controller/**`, `Classes/Domain/**` |

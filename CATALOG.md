@@ -13,3 +13,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `fluid-components` | Component collections, slots, typed arguments, XSD autocomplete | Feature-108508, 108524, 109114, 108166, 108229 | `Resources/Private/Components/**` |
 | `record-rendering` | Record objects, content areas, record and text rendering ViewHelpers | Feature-103783, 103581, 108726, 108868, 108819 | content element templates |
 | `schema-api` | TCA written for v14, read through `TcaSchemaFactory` | Feature-104002, 108027, 107281, 108581, 107889 | `Configuration/TCA/**` |
+| `content-blocks` | Content elements with friendsoftypo3/content-blocks (extension, not core) | — | `ContentBlocks/**` |

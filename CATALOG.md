@@ -20,3 +20,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `backend-modules` | Modules with the v14 module tree, access gates, component factory | Feature-107628, 107663, 109365, 102631, 107823 | `Configuration/Backend/**` |
 | `security-hardening` | CSP hashes, SRI, cipher service, HMAC, rate limits | Feature-100887, 102079, 109187, 108002, 102761 | `Configuration/ContentSecurityPolicies.php` |
 | `system-resources` | System Resource API, public resource publishing, asset URIs | Feature-107537, 109163, 109409 | `Resources/Public/**` |
+| `form-framework` | Form storage in the database, YAML autodiscovery, custom elements, form events | Feature-108653, 109412, 107058 | `Configuration/Form/**` |

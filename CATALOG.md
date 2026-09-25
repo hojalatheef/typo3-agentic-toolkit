@@ -17,3 +17,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `extbase-modern` | Action authorization, rate limiting, history tracking, Symfony validators, uploads | Feature-107826, 108982, 109080, 107289, 106945, 103511 | `Classes/Controller/**`, `Classes/Domain/**` |
 | `translations` | Translation domains, XLIFF 2.0, ICU plurals, Symfony translator | Feature-107436, 107710, 93334, 107759, 104546 | `Resources/Private/Language/**` |
 | `scheduler-console` | Console commands, scheduler tasks as TCA records, message handlers | Feature-106739, 107526, 107151, 109110, 106261 | `Classes/Command/**`, `Classes/Task/**` |
+| `backend-modules` | Modules with the v14 module tree, access gates, component factory | Feature-107628, 107663, 109365, 102631, 107823 | `Configuration/Backend/**` |

@@ -28,3 +28,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | --- | --- | --- |
 | `quality-gate` | composer validate, lint, CS, PHPStan, Rector dry-run, `lint:yaml`, `fluid:analyze`, tests — one verdict per step from real output | starts the `typo3-log-errors` monitor |
 | `functional-tests` | typo3/testing-framework setup, CSV datasets, request tests | `paths` on `Tests/**` |
+| `a11y-audit` | WCAG 2.2 AA for Fluid output and backend modules | delegates to `fluid-a11y-reviewer` |

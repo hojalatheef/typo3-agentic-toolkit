@@ -27,3 +27,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | Skill | Purpose | Claude Code feature |
 | --- | --- | --- |
 | `quality-gate` | composer validate, lint, CS, PHPStan, Rector dry-run, `lint:yaml`, `fluid:analyze`, tests — one verdict per step from real output | starts the `typo3-log-errors` monitor |
+| `functional-tests` | typo3/testing-framework setup, CSV datasets, request tests | `paths` on `Tests/**` |

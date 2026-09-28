@@ -36,3 +36,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | Skill | Purpose | Claude Code feature |
 | --- | --- | --- |
 | `feature-team` | Plan → parallel implementers in worktrees → tests → review | subagents, worktrees, SendMessage, agent teams |
+| `explain-change` | "What changed about X?" from the core changelog | `arguments`, `model: haiku`, `effort: low`, `!` injection |

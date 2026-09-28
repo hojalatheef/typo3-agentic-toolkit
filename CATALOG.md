@@ -38,3 +38,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `feature-team` | Plan → parallel implementers in worktrees → tests → review | subagents, worktrees, SendMessage, agent teams |
 | `explain-change` | "What changed about X?" from the core changelog | `arguments`, `model: haiku`, `effort: low`, `!` injection |
 | `onboard` | Generate `CLAUDE.md` and a permission allowlist for a TYPO3 project | `disable-model-invocation`, `!` injection |
+| `adr` | Architecture Decision Records in reST | `context: fork` |

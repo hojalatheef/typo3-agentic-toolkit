@@ -41,3 +41,8 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `adr` | Architecture Decision Records in reST | `context: fork` |
 | `release` | Version bump, changelog, tag — stops before push | user-only command |
 | `docs-rst` | Documentation/ with guides.xml, render-guides | `paths` on `Documentation/**` |
+
+## Subagents
+
+| Agent | Model | Role | Notable settings |
+| --- | --- | --- | --- |

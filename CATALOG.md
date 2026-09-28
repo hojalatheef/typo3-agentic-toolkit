@@ -40,3 +40,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `onboard` | Generate `CLAUDE.md` and a permission allowlist for a TYPO3 project | `disable-model-invocation`, `!` injection |
 | `adr` | Architecture Decision Records in reST | `context: fork` |
 | `release` | Version bump, changelog, tag — stops before push | user-only command |
+| `docs-rst` | Documentation/ with guides.xml, render-guides | `paths` on `Documentation/**` |

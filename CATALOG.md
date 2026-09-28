@@ -30,3 +30,8 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `functional-tests` | typo3/testing-framework setup, CSV datasets, request tests | `paths` on `Tests/**` |
 | `a11y-audit` | WCAG 2.2 AA for Fluid output and backend modules | delegates to `fluid-a11y-reviewer` |
 | `review` | Adversarial review of the current change | `context: fork`, `agent: code-reviewer` |
+
+## Orchestration and command skills
+
+| Skill | Purpose | Claude Code feature |
+| --- | --- | --- |

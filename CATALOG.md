@@ -50,3 +50,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `code-scout` | Haiku | Read-only sweep of one area | `maxTurns: 25` |
 | `changelog-researcher` | Haiku | Answers only from changelog rst, cites IDs | read-only |
 | `implementer` | Sonnet | Implements one package | `isolation: worktree`, preloaded build skills |
+| `test-engineer` | Sonnet | Unit and functional tests | preloads `functional-tests` |

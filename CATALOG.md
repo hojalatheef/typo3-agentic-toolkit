@@ -51,3 +51,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `changelog-researcher` | Haiku | Answers only from changelog rst, cites IDs | read-only |
 | `implementer` | Sonnet | Implements one package | `isolation: worktree`, preloaded build skills |
 | `test-engineer` | Sonnet | Unit and functional tests | preloads `functional-tests` |
+| `code-reviewer` | Opus | Adversarial diff review | `effort: high`, read-only |

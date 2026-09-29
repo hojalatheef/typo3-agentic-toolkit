@@ -48,3 +48,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | --- | --- | --- | --- |
 | `typo3-architect` | Opus | Designs a feature, writes `.typo3-toolkit/plan.md` with disjoint packages | `effort: high`, `memory: project` |
 | `code-scout` | Haiku | Read-only sweep of one area | `maxTurns: 25` |
+| `changelog-researcher` | Haiku | Answers only from changelog rst, cites IDs | read-only |

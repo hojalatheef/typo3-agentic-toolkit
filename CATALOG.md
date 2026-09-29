@@ -55,3 +55,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `security-auditor` | Opus | XSS, SQLi, access control, CSP | preloads `security-hardening` |
 | `fluid-a11y-reviewer` | Sonnet | WCAG 2.2 review of templates | read-only |
 | `docs-writer` | Sonnet | reST documentation | preloads `docs-rst` |
+| `ci-watcher` | Haiku | Follows a CI run or long command | `background: true` |

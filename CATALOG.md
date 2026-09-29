@@ -53,3 +53,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `test-engineer` | Sonnet | Unit and functional tests | preloads `functional-tests` |
 | `code-reviewer` | Opus | Adversarial diff review | `effort: high`, read-only |
 | `security-auditor` | Opus | XSS, SQLi, access control, CSP | preloads `security-hardening` |
+| `fluid-a11y-reviewer` | Sonnet | WCAG 2.2 review of templates | read-only |

@@ -61,3 +61,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 
 | Event | Handler | Does |
 | --- | --- | --- |
+| `SessionStart` | command `session-context.sh` | Injects TYPO3/PHP version, Composer or classic mode, DDEV, site sets |

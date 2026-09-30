@@ -67,3 +67,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `PreToolUse` (`Edit\|Write`) | command `guard-files.sh` | Asks (or denies) on vendor/var/generated files and `settings.php` |
 | `PostToolUse` (`Edit\|Write`) | command `php-lint.sh` | Lints changed PHP via DDEV, host or Docker |
 | `PostToolUse` (`Edit\|Write`) | command `legacy-api-check.sh` | Flags APIs removed in v13/v14 with the changelog ID |
+| `PreCompact` | command `precompact-notes.sh` | Keeps session facts in `${CLAUDE_PLUGIN_DATA}` |

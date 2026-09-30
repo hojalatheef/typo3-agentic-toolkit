@@ -65,3 +65,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `FileChanged` (`composer.lock`) | command | Re-detects the version after Composer changes |
 | `PreToolUse` (`Bash`) | command `guard-bash.sh` | Denies `--no-verify`, platform-req overrides, risky `rm -rf`; asks before destructive DB work |
 | `PreToolUse` (`Edit\|Write`) | command `guard-files.sh` | Asks (or denies) on vendor/var/generated files and `settings.php` |
+| `PostToolUse` (`Edit\|Write`) | command `php-lint.sh` | Lints changed PHP via DDEV, host or Docker |

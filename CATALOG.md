@@ -70,3 +70,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `PreCompact` | command `precompact-notes.sh` | Keeps session facts in `${CLAUDE_PLUGIN_DATA}` |
 | `SubagentStart` / `SubagentStop` | command | Logs agent runs and durations |
 | `Stop` | prompt | Asks for tests or the gate when PHP changed without them |
+| function hooks | `hooks/register.ts` | Status line with the TYPO3 version, toast when version files change |

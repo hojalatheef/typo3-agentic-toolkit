@@ -63,3 +63,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | --- | --- | --- |
 | `SessionStart` | command `session-context.sh` | Injects TYPO3/PHP version, Composer or classic mode, DDEV, site sets |
 | `FileChanged` (`composer.lock`) | command | Re-detects the version after Composer changes |
+| `PreToolUse` (`Bash`) | command `guard-bash.sh` | Denies `--no-verify`, platform-req overrides, risky `rm -rf`; asks before destructive DB work |

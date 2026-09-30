@@ -69,3 +69,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `PostToolUse` (`Edit\|Write`) | command `legacy-api-check.sh` | Flags APIs removed in v13/v14 with the changelog ID |
 | `PreCompact` | command `precompact-notes.sh` | Keeps session facts in `${CLAUDE_PLUGIN_DATA}` |
 | `SubagentStart` / `SubagentStop` | command | Logs agent runs and durations |
+| `Stop` | prompt | Asks for tests or the gate when PHP changed without them |

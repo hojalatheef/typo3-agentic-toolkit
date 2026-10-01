@@ -81,3 +81,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | Workflow | `workflows/feature-pipeline.js` | Deterministic plan → implement → test → review pipeline |
 | Workflow | `workflows/extension-audit.js` | Parallel scouts, verified by the changelog researcher |
 | Monitor | `monitors/monitors.json` | Streams new TYPO3 log errors during the quality gate |
+| LSP | `.lsp.json` | intelephense for PHP diagnostics and navigation |

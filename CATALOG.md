@@ -84,3 +84,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | LSP | `.lsp.json` | intelephense for PHP diagnostics and navigation |
 | MCP | `.mcp.json` | TYPO3 Dev Companion when `dev_companion_path` is set |
 | PATH helpers | `bin/t3`, `bin/t3-changelog` | DDEV-aware console, changelog lookup |
+| Settings | `settings.json` | Subagent status line with model, tokens and runtime |

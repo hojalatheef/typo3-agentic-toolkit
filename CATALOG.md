@@ -76,3 +76,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 
 | Component | File | Purpose |
 | --- | --- | --- |
+| Output style | `output-styles/typo3-mentor.md` | Explains the why, with changelog IDs |

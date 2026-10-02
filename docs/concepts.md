@@ -10,3 +10,4 @@ concept to the file that shows it.
 | --- | --- |
 | Model-invoked skill with a trigger-rich `description` | every `skills/*/SKILL.md` |
 | Progressive disclosure: `references/` and `templates/` loaded on demand | `site-sets`, `fluid-components`, `functional-tests` |
+| Auto-activation by file globs (`paths`) | `schema-api` (`Configuration/TCA/**`), `docs-rst` (`Documentation/**`) |

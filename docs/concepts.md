@@ -12,3 +12,4 @@ concept to the file that shows it.
 | Progressive disclosure: `references/` and `templates/` loaded on demand | `site-sets`, `fluid-components`, `functional-tests` |
 | Auto-activation by file globs (`paths`) | `schema-api` (`Configuration/TCA/**`), `docs-rst` (`Documentation/**`) |
 | Dynamic context with `` !`command` `` before the model reads the skill | `review` (diff stat), `onboard` (version), `explain-change` (lookup) |
+| Named `arguments` and `$ARGUMENTS` | `explain-change`, `feature-team` |

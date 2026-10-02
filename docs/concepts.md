@@ -8,3 +8,4 @@ concept to the file that shows it.
 
 | Concept | Where |
 | --- | --- |
+| Model-invoked skill with a trigger-rich `description` | every `skills/*/SKILL.md` |

@@ -9,3 +9,4 @@ concept to the file that shows it.
 | Concept | Where |
 | --- | --- |
 | Model-invoked skill with a trigger-rich `description` | every `skills/*/SKILL.md` |
+| Progressive disclosure: `references/` and `templates/` loaded on demand | `site-sets`, `fluid-components`, `functional-tests` |

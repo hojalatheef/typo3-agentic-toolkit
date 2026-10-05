@@ -13,3 +13,4 @@ concept to the file that shows it.
 | Auto-activation by file globs (`paths`) | `schema-api` (`Configuration/TCA/**`), `docs-rst` (`Documentation/**`) |
 | Dynamic context with `` !`command` `` before the model reads the skill | `review` (diff stat), `onboard` (version), `explain-change` (lookup) |
 | Named `arguments` and `$ARGUMENTS` | `explain-change`, `feature-team` |
+| Per-skill `model` and `effort` | `explain-change` (Haiku, low) |

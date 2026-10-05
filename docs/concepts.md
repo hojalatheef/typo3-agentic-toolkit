@@ -17,3 +17,8 @@ concept to the file that shows it.
 | Forked context (`context: fork`) running in a chosen agent | `review` → `code-reviewer`, `adr` |
 | User-only commands (`disable-model-invocation`) | `release`, `onboard` |
 | Scoped tool permissions (`allowed-tools`) | `quality-gate`, `explain-change` |
+
+## Subagents
+
+| Concept | Where |
+| --- | --- |

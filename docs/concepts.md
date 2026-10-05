@@ -26,3 +26,4 @@ concept to the file that shows it.
 | `effort` per agent | `typo3-architect`, `code-reviewer`, `security-auditor` |
 | Persistent agent memory (`memory: project`) | `typo3-architect` |
 | Worktree isolation for parallel writers | `implementer` |
+| Background agents | `ci-watcher` |

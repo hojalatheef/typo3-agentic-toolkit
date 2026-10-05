@@ -15,3 +15,4 @@ concept to the file that shows it.
 | Named `arguments` and `$ARGUMENTS` | `explain-change`, `feature-team` |
 | Per-skill `model` and `effort` | `explain-change` (Haiku, low) |
 | Forked context (`context: fork`) running in a chosen agent | `review` → `code-reviewer`, `adr` |
+| User-only commands (`disable-model-invocation`) | `release`, `onboard` |

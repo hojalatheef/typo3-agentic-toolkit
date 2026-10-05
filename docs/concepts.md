@@ -23,3 +23,4 @@ concept to the file that shows it.
 | Concept | Where |
 | --- | --- |
 | Model routing: Haiku sweeps, Sonnet builds, Opus plans and judges | `agents/*.md` |
+| `effort` per agent | `typo3-architect`, `code-reviewer`, `security-auditor` |

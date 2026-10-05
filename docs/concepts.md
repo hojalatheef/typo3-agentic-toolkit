@@ -14,3 +14,4 @@ concept to the file that shows it.
 | Dynamic context with `` !`command` `` before the model reads the skill | `review` (diff stat), `onboard` (version), `explain-change` (lookup) |
 | Named `arguments` and `$ARGUMENTS` | `explain-change`, `feature-team` |
 | Per-skill `model` and `effort` | `explain-change` (Haiku, low) |
+| Forked context (`context: fork`) running in a chosen agent | `review` → `code-reviewer`, `adr` |

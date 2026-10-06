@@ -36,3 +36,4 @@ concept to the file that shows it.
 
 | Concept | Where |
 | --- | --- |
+| `SessionStart` context injection | `hooks/scripts/session-context.sh` |

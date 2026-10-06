@@ -28,3 +28,4 @@ concept to the file that shows it.
 | Worktree isolation for parallel writers | `implementer` |
 | Background agents | `ci-watcher` |
 | Preloaded skills in an agent | `implementer`, `test-engineer`, `docs-writer` |
+| Fixed reply formats so the caller can merge results | every agent |

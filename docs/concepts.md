@@ -31,3 +31,8 @@ concept to the file that shows it.
 | Fixed reply formats so the caller can merge results | every agent |
 | Resuming an agent with SendMessage for the fix loop | `feature-team` |
 | Agent teams (experimental) | `feature-team/references/agent-teams.md` |
+
+## Hooks
+
+| Concept | Where |
+| --- | --- |

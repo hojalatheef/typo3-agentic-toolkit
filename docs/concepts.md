@@ -27,3 +27,4 @@ concept to the file that shows it.
 | Persistent agent memory (`memory: project`) | `typo3-architect` |
 | Worktree isolation for parallel writers | `implementer` |
 | Background agents | `ci-watcher` |
+| Preloaded skills in an agent | `implementer`, `test-engineer`, `docs-writer` |

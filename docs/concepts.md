@@ -29,3 +29,4 @@ concept to the file that shows it.
 | Background agents | `ci-watcher` |
 | Preloaded skills in an agent | `implementer`, `test-engineer`, `docs-writer` |
 | Fixed reply formats so the caller can merge results | every agent |
+| Resuming an agent with SendMessage for the fix loop | `feature-team` |

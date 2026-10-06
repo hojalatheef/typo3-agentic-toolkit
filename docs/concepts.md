@@ -38,3 +38,4 @@ concept to the file that shows it.
 | --- | --- |
 | `SessionStart` context injection | `hooks/scripts/session-context.sh` |
 | `PreToolUse` allow/ask/deny with reasons | `guard-bash.sh`, `guard-files.sh` |
+| `PostToolUse` feedback via `additionalContext` | `php-lint.sh`, `legacy-api-check.sh` |

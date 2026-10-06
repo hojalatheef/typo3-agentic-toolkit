@@ -40,3 +40,4 @@ concept to the file that shows it.
 | `PreToolUse` allow/ask/deny with reasons | `guard-bash.sh`, `guard-files.sh` |
 | `PostToolUse` feedback via `additionalContext` | `php-lint.sh`, `legacy-api-check.sh` |
 | `FileChanged` with a matcher | `composer.lock` re-detection |
+| `PreCompact` to survive compaction | `precompact-notes.sh` |

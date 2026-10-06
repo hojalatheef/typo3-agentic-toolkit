@@ -37,3 +37,4 @@ concept to the file that shows it.
 | Concept | Where |
 | --- | --- |
 | `SessionStart` context injection | `hooks/scripts/session-context.sh` |
+| `PreToolUse` allow/ask/deny with reasons | `guard-bash.sh`, `guard-files.sh` |

@@ -51,3 +51,4 @@ concept to the file that shows it.
 | Concept | Where |
 | --- | --- |
 | Marketplace in the same repository | `.claude-plugin/marketplace.json` |
+| `userConfig` options, including a `directory` field | `.claude-plugin/plugin.json` |

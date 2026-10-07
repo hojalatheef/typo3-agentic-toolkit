@@ -41,3 +41,4 @@ concept to the file that shows it.
 | `PostToolUse` feedback via `additionalContext` | `php-lint.sh`, `legacy-api-check.sh` |
 | `FileChanged` with a matcher | `composer.lock` re-detection |
 | `PreCompact` to survive compaction | `precompact-notes.sh` |
+| `SubagentStart` / `SubagentStop` | agent run log |

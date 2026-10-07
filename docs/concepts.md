@@ -42,3 +42,4 @@ concept to the file that shows it.
 | `FileChanged` with a matcher | `composer.lock` re-detection |
 | `PreCompact` to survive compaction | `precompact-notes.sh` |
 | `SubagentStart` / `SubagentStop` | agent run log |
+| Prompt-type hook (an LLM decides) | `Stop` test reminder |

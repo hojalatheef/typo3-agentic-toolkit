@@ -44,3 +44,4 @@ concept to the file that shows it.
 | `SubagentStart` / `SubagentStop` | agent run log |
 | Prompt-type hook (an LLM decides) | `Stop` test reminder |
 | Plugin options in hooks (`CLAUDE_PLUGIN_OPTION_*`) | `strict_guard`, `php_runner` |
+| Function hooks in TypeScript, status line and toasts | `hooks/register.ts`, tested by `register.test.ts` |

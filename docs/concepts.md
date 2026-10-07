@@ -43,3 +43,4 @@ concept to the file that shows it.
 | `PreCompact` to survive compaction | `precompact-notes.sh` |
 | `SubagentStart` / `SubagentStop` | agent run log |
 | Prompt-type hook (an LLM decides) | `Stop` test reminder |
+| Plugin options in hooks (`CLAUDE_PLUGIN_OPTION_*`) | `strict_guard`, `php_runner` |

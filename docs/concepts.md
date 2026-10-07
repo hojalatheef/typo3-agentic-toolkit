@@ -54,3 +54,4 @@ concept to the file that shows it.
 | `userConfig` options, including a `directory` field | `.claude-plugin/plugin.json` |
 | Output styles shipped by a plugin | `output-styles/` |
 | LSP server | `.lsp.json` |
+| MCP server configured from a user option | `.mcp.json` + `scripts/dev-companion-mcp.sh` |

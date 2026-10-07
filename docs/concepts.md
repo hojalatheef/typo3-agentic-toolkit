@@ -50,3 +50,4 @@ concept to the file that shows it.
 
 | Concept | Where |
 | --- | --- |
+| Marketplace in the same repository | `.claude-plugin/marketplace.json` |

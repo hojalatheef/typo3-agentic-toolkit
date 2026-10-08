@@ -64,3 +64,4 @@ concept to the file that shows it.
 
 | Concept | Where |
 | --- | --- |
+| Workflow scripts (`agent`, `parallel`, `pipeline`, `phase`) | `workflows/` |

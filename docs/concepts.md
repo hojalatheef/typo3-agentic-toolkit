@@ -57,3 +57,4 @@ concept to the file that shows it.
 | MCP server configured from a user option | `.mcp.json` + `scripts/dev-companion-mcp.sh` |
 | Executables on the Bash `PATH` | `bin/` |
 | Plugin `settings.json` (subagent status line) | `settings.json` |
+| Monitors started by a skill | `monitors/monitors.json` |

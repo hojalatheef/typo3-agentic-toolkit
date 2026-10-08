@@ -65,3 +65,4 @@ concept to the file that shows it.
 | Concept | Where |
 | --- | --- |
 | Workflow scripts (`agent`, `parallel`, `pipeline`, `phase`) | `workflows/` |
+| Plugin eval suites with scaffolds and LLM graders | `evals/` |

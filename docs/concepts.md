@@ -56,3 +56,4 @@ concept to the file that shows it.
 | LSP server | `.lsp.json` |
 | MCP server configured from a user option | `.mcp.json` + `scripts/dev-companion-mcp.sh` |
 | Executables on the Bash `PATH` | `bin/` |
+| Plugin `settings.json` (subagent status line) | `settings.json` |

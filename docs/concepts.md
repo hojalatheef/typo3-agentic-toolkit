@@ -67,3 +67,4 @@ concept to the file that shows it.
 | Workflow scripts (`agent`, `parallel`, `pipeline`, `phase`) | `workflows/` |
 | Plugin eval suites with scaffolds and LLM graders | `evals/` |
 | Validation in CI (`claude plugin validate --strict`) | `.github/workflows/ci.yml` |
+| Self-test of manifests, links and cited changelog IDs | `scripts/selftest.sh` |

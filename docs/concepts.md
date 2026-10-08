@@ -59,3 +59,8 @@ concept to the file that shows it.
 | Plugin `settings.json` (subagent status line) | `settings.json` |
 | Monitors started by a skill | `monitors/monitors.json` |
 | Persistent plugin data (`${CLAUDE_PLUGIN_DATA}`) | hooks |
+
+## Orchestration and verification
+
+| Concept | Where |
+| --- | --- |

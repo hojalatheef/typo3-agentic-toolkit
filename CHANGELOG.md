@@ -4,6 +4,28 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [1.0.0] - 2026-10-08
+
+### Added
+
+- `core-reviewer` output style
+- `typo3-mentor` output style
+- eval case `explain-change-cites-id`
+- eval case `extbase-rate-limit`
+- eval case `fluid-component-request`
+- eval case `guard-blocks-vendor-edit`
+- eval case `review-finds-tsfe`
+- eval case `site-set-from-static-template`
+- `extension-audit` workflow
+- `feature-pipeline` workflow
+- function hooks: status line with the TYPO3 version, toast when version files change
+
+### Changed
+
+- `translations/domains` reference: more guidance
+- `translations/migration-checklist` reference: more guidance
+- `translations` skill: more guidance
+
 ## [0.9.0] - 2026-08-31
 
 ### Changed

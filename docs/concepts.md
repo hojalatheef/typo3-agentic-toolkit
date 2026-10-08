@@ -55,3 +55,4 @@ concept to the file that shows it.
 | Output styles shipped by a plugin | `output-styles/` |
 | LSP server | `.lsp.json` |
 | MCP server configured from a user option | `.mcp.json` + `scripts/dev-companion-mcp.sh` |
+| Executables on the Bash `PATH` | `bin/` |

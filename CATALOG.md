@@ -42,6 +42,13 @@ matching their `paths`) fits. Agents are delegated to by name.
 | `release` | Version bump, changelog, tag — stops before push | user-only command |
 | `docs-rst` | Documentation/ with guides.xml, render-guides | `paths` on `Documentation/**` |
 
+## Planning and scaffolding skills
+
+| Skill | Purpose | Claude Code feature |
+| --- | --- | --- |
+| `ticket-analysis` | Turn a GitHub, GitLab, Forge or Jira ticket (or pasted text) into an evidence-based analysis in `.typo3-toolkit/tickets/<id>.md`: criteria, affected code, TYPO3 facts, risk, size, next step | parallel `code-scout` agents, scoped `allowed-tools` for `gh`/`glab`/`curl`, untrusted-input rules |
+| `extension-kickstart` | New v14 extension from scratch: `composer.json`-only metadata, site set, translation domain, then each feature handed to its build skill | `templates/` skeleton, hand-off to `feature-team` |
+
 ## Subagents
 
 | Agent | Model | Role | Notable settings |
@@ -86,3 +93,4 @@ matching their `paths`) fits. Agents are delegated to by name.
 | PATH helpers | `bin/t3`, `bin/t3-changelog` | DDEV-aware console, changelog lookup |
 | Settings | `settings.json` | Subagent status line with model, tokens and runtime |
 | Evals | `evals/` | Regression cases for skills and guards |
+| Guides | `docs/` | Getting started, architecture, per-component reference, testing and FAQ |

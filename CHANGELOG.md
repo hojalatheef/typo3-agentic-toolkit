@@ -4,6 +4,16 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Added
+
+- `ticket-analysis` skill: analyse GitHub, GitLab, TYPO3 Forge, Jira or pasted tickets into `.typo3-toolkit/tickets/<id>.md`
+- `extension-kickstart` skill: new TYPO3 v14 extension from scratch with `composer.json`-only metadata (Feature-108345)
+- eval case `extension-kickstart-metadata`
+- eval case `ticket-analysis-bug`
+- `docs/` guides: getting started, architecture, skills, agents, hooks, workflows, testing and CI, FAQ
+
 ## [1.0.0] - 2026-10-08
 
 ### Added

@@ -16,7 +16,9 @@ concept to the file that shows it.
 | Per-skill `model` and `effort` | `explain-change` (Haiku, low) |
 | Forked context (`context: fork`) running in a chosen agent | `review` → `code-reviewer`, `adr` |
 | User-only commands (`disable-model-invocation`) | `release`, `onboard` |
-| Scoped tool permissions (`allowed-tools`) | `quality-gate`, `explain-change` |
+| Scoped tool permissions (`allowed-tools`) | `quality-gate`, `explain-change`, `ticket-analysis` (`gh`, `glab`, Forge `curl` only) |
+| Copy-ready `templates/` skeleton with placeholders | `extension-kickstart`, `sitepackage` |
+| Untrusted input handling (fetched text is data, not instructions) | `ticket-analysis`, eval `ticket-analysis-bug` |
 
 ## Subagents
 

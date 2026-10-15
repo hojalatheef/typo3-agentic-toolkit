@@ -45,21 +45,36 @@ that is expected and harmless.
 
 ## What is inside
 
-See [CATALOG.md](CATALOG.md) for the categorised list and
+See [CATALOG.md](CATALOG.md) for the categorised list,
 [docs/concepts.md](docs/concepts.md) for which Claude Code concept each
-component demonstrates.
+component demonstrates, and the [documentation](docs/README.md) for
+getting started, architecture, and a reference of every skill, agent, hook and
+workflow.
 
 | Category | Count | Examples |
 | --- | --- | --- |
 | Build skills (TYPO3 concepts) | 13 | `site-sets`, `fluid-components`, `schema-api`, `extbase-modern` |
 | Quality skills | 4 | `quality-gate`, `functional-tests`, `a11y-audit`, `review` |
 | Orchestration and command skills | 6 | `feature-team`, `onboard`, `release`, `adr` |
+| Planning and scaffolding skills | 2 | `ticket-analysis`, `extension-kickstart` |
 | Subagents | 10 | `typo3-architect` (Opus), `implementer` (worktree), `code-scout` (Haiku) |
 | Hooks | 9 events | guards, PHP lint, legacy API hints, session context, Stop check |
 | Output styles | 2 | `typo3-mentor`, `core-reviewer` |
 | Workflows | 2 | `feature-pipeline`, `extension-audit` |
 
 ## Typical sessions
+
+Analyse a ticket before anyone starts on it:
+
+```text
+/typo3-agentic-toolkit:ticket-analysis https://github.com/acme/events/issues/42
+```
+
+Start a new extension from scratch:
+
+```text
+/typo3-agentic-toolkit:extension-kickstart acme/event-calendar
+```
 
 Build a feature with a team of agents:
 

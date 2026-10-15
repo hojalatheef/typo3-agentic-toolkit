@@ -1,0 +1,8 @@
+/.Build/
+/vendor/
+/var/
+/public/
+/composer.lock
+/.php-cs-fixer.cache
+/.phpunit.cache/
+/Documentation-GENERATED-temp/

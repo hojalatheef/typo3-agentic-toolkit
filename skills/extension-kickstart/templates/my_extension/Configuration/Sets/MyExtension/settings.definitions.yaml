@@ -1,0 +1,14 @@
+# EXT:my_extension/Configuration/Sets/MyExtension/settings.definitions.yaml
+# Typed settings, editable in the site settings module (Feature-103437).
+# Read them in setup.typoscript as {$myExtension.<name>}.
+categories:
+  myExtension:
+    label: 'My Extension'
+
+settings:
+  myExtension.itemsPerPage:
+    label: 'Items per page'
+    description: 'Number of items shown on one list page.'
+    category: myExtension
+    type: int
+    default: 10

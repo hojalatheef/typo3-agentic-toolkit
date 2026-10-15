@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: extension-kickstart-metadata
+tags: [build]
+context:
+  scaffold_script: fixture.sh

@@ -1,0 +1,31 @@
+{
+    "name": "my-vendor/my-extension",
+    "type": "typo3-cms-extension",
+    "description": "My Extension - One sentence about what the extension does",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": "^8.2",
+        "typo3/cms-core": "^14.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyVendor\\MyExtension\\": "Classes/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "typo3/class-alias-loader": true,
+            "typo3/cms-composer-installers": true
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "my_extension",
+            "version": "0.1.0-dev",
+            "Package": {
+                "providesPackages": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+# EXT:my_extension/Configuration/Services.yaml
+# Autowire and autoconfigure every class in Classes/. Attributes such as
+# #[AsEventListener], #[AsCommand] and #[AsController] register themselves.
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  MyVendor\MyExtension\:
+    resource: '../Classes/*'
+    # Extbase models are created by the persistence layer, not the container.
+    exclude: '../Classes/Domain/Model/*'

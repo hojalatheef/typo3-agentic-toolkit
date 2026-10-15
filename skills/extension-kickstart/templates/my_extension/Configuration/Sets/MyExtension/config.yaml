@@ -1,0 +1,9 @@
+# EXT:my_extension/Configuration/Sets/MyExtension/config.yaml
+# Site set, Feature-103437 (13.1). Integrators add it to a site with
+#   dependencies: [my-vendor/my-extension]
+# in config/sites/<site>/config.yaml. Name it like the Composer package.
+name: my-vendor/my-extension
+label: My Extension
+
+# Sets this one builds on, for example typo3/fluid-styled-content.
+dependencies: []

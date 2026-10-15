@@ -1,0 +1,8 @@
+# EXT:my_extension/Configuration/Sets/MyExtension/setup.typoscript
+# Loaded for every site that depends on this set. Site settings are
+# available as constants.
+plugin.tx_myextension {
+  settings {
+    itemsPerPage = {$myExtension.itemsPerPage}
+  }
+}

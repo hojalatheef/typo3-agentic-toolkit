@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    EXT:my_extension/Resources/Private/Language/messages.xlf
+    Translation domain: my_extension.messages (Feature-107436, TYPO3 14.0)
+    Fluid: <f:translate key="my_extension.messages:extension.title" />
+    Translations go next to it as de.messages.xlf, fr.messages.xlf, ...
+-->
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:my_extension/Resources/Private/Language/messages.xlf">
+        <body>
+            <trans-unit id="extension.title">
+                <source>My Extension</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
